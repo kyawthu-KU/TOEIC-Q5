@@ -1,0 +1,116 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center content horizontally */
+    position: relative;
+}
+
+/* One column on the top */
+.column-1-top {
+    width: 100%;
+    border: 2px solid #333;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    position: relative; /* Ensure relative positioning for child elements */
+    background-color: aquamarine;
+}
+
+.top-image {
+    position: absolute; /* Position the image relative to its closest positioned ancestor */
+    top: 70px; /* Adjust the top position */
+    right: 20px; /* Adjust the left position */
+    width: 150px;
+    height: auto;
+    transform: translateY(-50%); /* Center vertically */
+}
+
+/* Timer box style */
+.timer-float {
+    position: relative;
+    z-index: 9999; /* Ensure it appears on top of other content */
+    width: 100%;
+    border: 2px solid #999;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+
+/* Two columns in the middle */
+.quiz-column {
+    flex: 1; /* Let the column grow to fill available space */
+    max-width: calc(50% - 10px); /* Set maximum width to 50% minus margin */
+    border: 2px solid #666;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-bottom: 20px; /* Add margin bottom to create space between rows */
+    background-color: #f0f0f0;
+}
+
+.answers-column {
+    flex: 1; /* Let the column grow to fill available space */
+    max-width: calc(50% - 10px); /* Set maximum width to 50% minus margin */
+    border: 2px solid #999;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Add margin bottom to create space between rows */
+}
+
+/* Separate box for the Submit button */
+.submit-button-container {
+    width: 100%;
+    border: 2px solid #CCC;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* Style for the Submit button */
+.submit-button {
+    background-color: red;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.quiz-column,
+.answers-column,
+.submit-button-container {
+    display: none;
+}
+
+/* Responsive layout */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center; /* Center content vertically */
+    }
+
+    .quiz-column,
+    .answers-column {
+        flex-basis: calc(100% - 40px); /* Set flex basis to 100% minus total horizontal padding */
+        margin-right: 0;
+    }
+
+    .quiz-column {
+        margin-bottom: 20px; /* Add margin bottom to create space between rows */
+    }
+
+    .answers-column {
+        margin-bottom: 0; /* No margin bottom for the last column */
+    }
+}

@@ -1,0 +1,3592 @@
+[
+  {
+    "question": "She _________ to London last week.",
+    "choices": [
+      "go",
+      "goes",
+      "went",
+      "is going"
+    ],
+    "answer": "went"
+  },
+  {
+    "question": "In international trade, companies must __________ trade regulations.",
+    "choices": [
+      "comply with",
+      "abide by",
+      "follow",
+      "adhere to"
+    ],
+    "answer": "comply with"
+  },
+  {
+    "question": "The new employee _________ her job very well.",
+    "choices": [
+      "learn",
+      "learns",
+      "learned",
+      "is learning"
+    ],
+    "answer": "is learning"
+  },
+  {
+    "question": "In international finance, companies must __________ currency fluctuations.",
+    "choices": [
+      "hedge against",
+      "protect against",
+      "safeguard against",
+      "insure against"
+    ],
+    "answer": "hedge against"
+  },
+  {
+    "question": "He _________ to the store every morning.",
+    "choices": [
+      "go",
+      "goes",
+      "is going",
+      "going"
+    ],
+    "answer": "goes"
+  },
+  {
+    "question": "The manager decided to __________ the meeting until everyone arrived.",
+    "choices": [
+      "postpone",
+      "advance",
+      "cancel",
+      "delete"
+    ],
+    "answer": "postpone"
+  },
+  {
+    "question": "Our company will __________ a new marketing strategy next month.",
+    "choices": [
+      "implement",
+      "delete",
+      "ignore",
+      "postpone"
+    ],
+    "answer": "implement"
+  },
+  {
+    "question": "The report was __________ by the supervisor for accuracy.",
+    "choices": [
+      "examined",
+      "ignored",
+      "overlooked",
+      "misplaced"
+    ],
+    "answer": "examined"
+  },
+  {
+    "question": "Please __________ the necessary documents before the end of the day.",
+    "choices": [
+      "submit",
+      "delay",
+      "reject",
+      "retain"
+    ],
+    "answer": "submit"
+  },
+  {
+    "question": "The CEO will __________ the annual conference this year.",
+    "choices": [
+      "attend",
+      "ignore",
+      "refuse",
+      "decline"
+    ],
+    "answer": "attend"
+  },
+  {
+    "question": "The marketing team is working on a new campaign to __________ our products.",
+    "choices": [
+      "promote",
+      "demote",
+      "suppress",
+      "ignore"
+    ],
+    "answer": "promote"
+  },
+  {
+    "question": "She was __________ for her excellent performance during the project.",
+    "choices": [
+      "commended",
+      "criticized",
+      "ignored",
+      "blamed"
+    ],
+    "answer": "commended"
+  },
+  {
+    "question": "The contract was __________ by both parties after extensive negotiations.",
+    "choices": [
+      "signed",
+      "rejected",
+      "ignored",
+      "declined"
+    ],
+    "answer": "signed"
+  },
+  {
+    "question": "Our new policy will __________ next month.",
+    "choices": [
+      "commence",
+      "terminate",
+      "cease",
+      "conclude"
+    ],
+    "answer": "commence"
+  },
+  {
+    "question": "We need to __________ the budget for the upcoming quarter.",
+    "choices": [
+      "adjust",
+      "neglect",
+      "ignore",
+      "dismiss"
+    ],
+    "answer": "adjust"
+  },
+  {
+    "question": "The HR department will __________ the applications next week.",
+    "choices": [
+      "review",
+      "dismiss",
+      "neglect",
+      "ignore"
+    ],
+    "answer": "review"
+  },
+  {
+    "question": "We must __________ the delivery date to ensure customer satisfaction.",
+    "choices": [
+      "confirm",
+      "cancel",
+      "delay",
+      "postpone"
+    ],
+    "answer": "confirm"
+  },
+  {
+    "question": "The project manager will __________ the team meeting tomorrow.",
+    "choices": [
+      "facilitate",
+      "hinder",
+      "obstruct",
+      "impede"
+    ],
+    "answer": "facilitate"
+  },
+  {
+    "question": "The company plans to __________ its operations to Asia.",
+    "choices": [
+      "expand",
+      "contract",
+      "limit",
+      "reduce"
+    ],
+    "answer": "expand"
+  },
+  {
+    "question": "The IT department will __________ a new software update next week.",
+    "choices": [
+      "deploy",
+      "remove",
+      "discard",
+      "delete"
+    ],
+    "answer": "deploy"
+  },
+  {
+    "question": "We need to __________ the client's request as soon as possible.",
+    "choices": [
+      "address",
+      "ignore",
+      "reject",
+      "avoid"
+    ],
+    "answer": "address"
+  },
+  {
+    "question": "Our goal is to __________ customer satisfaction through better service.",
+    "choices": [
+      "improve",
+      "deteriorate",
+      "worsen",
+      "damage"
+    ],
+    "answer": "improve"
+  },
+  {
+    "question": "Please __________ all correspondence to the new address.",
+    "choices": [
+      "forward",
+      "return",
+      "discard",
+      "destroy"
+    ],
+    "answer": "forward"
+  },
+  {
+    "question": "We need to __________ our strategy to meet the new market demands.",
+    "choices": [
+      "adapt",
+      "resist",
+      "oppose",
+      "ignore"
+    ],
+    "answer": "adapt"
+  },
+  {
+    "question": "The financial report will __________ our revenue and expenses.",
+    "choices": [
+      "summarize",
+      "expand",
+      "confuse",
+      "complicate"
+    ],
+    "answer": "summarize"
+  },
+  {
+    "question": "We need to __________ a solution to this problem quickly.",
+    "choices": [
+      "find",
+      "avoid",
+      "overlook",
+      "ignore"
+    ],
+    "answer": "find"
+  },
+  {
+    "question": "The new regulations will __________ all financial institutions.",
+    "choices": [
+      "affect",
+      "ignore",
+      "bypass",
+      "exclude"
+    ],
+    "answer": "affect"
+  },
+  {
+    "question": "Please __________ the meeting agenda to all participants.",
+    "choices": [
+      "distribute",
+      "withhold",
+      "collect",
+      "retrieve"
+    ],
+    "answer": "distribute"
+  },
+  {
+    "question": "The marketing campaign will __________ a wide range of audiences.",
+    "choices": [
+      "target",
+      "miss",
+      "avoid",
+      "exclude"
+    ],
+    "answer": "target"
+  },
+  {
+    "question": "The company decided to __________ the new policy immediately.",
+    "choices": [
+      "implement",
+      "discard",
+      "neglect",
+      "postpone"
+    ],
+    "answer": "implement"
+  },
+  {
+    "question": "The team is expected to __________ the project by the end of the month.",
+    "choices": [
+      "complete",
+      "begin",
+      "delay",
+      "interrupt"
+    ],
+    "answer": "complete"
+  },
+  {
+    "question": "We should __________ the contract carefully before signing.",
+    "choices": [
+      "review",
+      "ignore",
+      "discard",
+      "overlook"
+    ],
+    "answer": "review"
+  },
+  {
+    "question": "The CEO will __________ the new strategic plan next week.",
+    "choices": [
+      "unveil",
+      "conceal",
+      "reject",
+      "hide"
+    ],
+    "answer": "unveil"
+  },
+  {
+    "question": "The company is looking to __________ new talent to join the team.",
+    "choices": [
+      "recruit",
+      "dismiss",
+      "fire",
+      "release"
+    ],
+    "answer": "recruit"
+  },
+  {
+    "question": "The financial advisor will __________ the investment options.",
+    "choices": [
+      "evaluate",
+      "ignore",
+      "neglect",
+      "dismiss"
+    ],
+    "answer": "evaluate"
+  },
+  {
+    "question": "We need to __________ our resources to meet the project deadline.",
+    "choices": [
+      "allocate",
+      "waste",
+      "squander",
+      "misuse"
+    ],
+    "answer": "allocate"
+  },
+  {
+    "question": "Please __________ any personal calls during work hours.",
+    "choices": [
+      "avoid",
+      "encourage",
+      "make",
+      "start"
+    ],
+    "answer": "avoid"
+  },
+  {
+    "question": "The marketing team is trying to __________ the new product effectively.",
+    "choices": [
+      "promote",
+      "demote",
+      "discourage",
+      "hide"
+    ],
+    "answer": "promote"
+  },
+  {
+    "question": "The company needs to __________ its production capacity to meet demand.",
+    "choices": [
+      "increase",
+      "decrease",
+      "limit",
+      "cut"
+    ],
+    "answer": "increase"
+  },
+  {
+    "question": "We need to __________ our strategy to remain competitive.",
+    "choices": [
+      "adapt",
+      "resist",
+      "reject",
+      "ignore"
+    ],
+    "answer": "adapt"
+  },
+  {
+    "question": "Our company will __________ a new training program next month.",
+    "choices": [
+      "launch",
+      "cancel",
+      "ignore",
+      "postpone"
+    ],
+    "answer": "launch"
+  },
+  {
+    "question": "We need to __________ our customers about the new policy.",
+    "choices": [
+      "inform",
+      "ignore",
+      "reject",
+      "avoid"
+    ],
+    "answer": "inform"
+  },
+  {
+    "question": "The new policy is designed to __________ employee productivity.",
+    "choices": [
+      "enhance",
+      "diminish",
+      "reduce",
+      "hamper"
+    ],
+    "answer": "enhance"
+  },
+  {
+    "question": "They _________ for the meeting since 10 AM.",
+    "choices": [
+      "wait",
+      "waits",
+      "waited",
+      "have been waiting"
+    ],
+    "answer": "have been waiting"
+  },
+  {
+    "question": "The company _________ its profit targets for the year.",
+    "choices": [
+      "meets",
+      "met",
+      "is meeting",
+      "will meet"
+    ],
+    "answer": "is meeting"
+  },
+  {
+    "question": "I _________ this book for two weeks.",
+    "choices": [
+      "have",
+      "had",
+      "have had",
+      "had had"
+    ],
+    "answer": "have had"
+  },
+  {
+    "question": "He _________ at the airport when his flight was cancelled.",
+    "choices": [
+      "waits",
+      "was waiting",
+      "waited",
+      "has waited"
+    ],
+    "answer": "was waiting"
+  },
+  {
+    "question": "She _________ lunch with her colleagues tomorrow.",
+    "choices": [
+      "has",
+      "have",
+      "is having",
+      "having"
+    ],
+    "answer": "is having"
+  },
+  {
+    "question": "The students _________ English for three years.",
+    "choices": [
+      "study",
+      "studies",
+      "studied",
+      "have studied"
+    ],
+    "answer": "have studied"
+  },
+  {
+    "question": "He _________ to the concert next weekend.",
+    "choices": [
+      "go",
+      "goes",
+      "is going",
+      "going"
+    ],
+    "answer": "is going"
+  },
+  {
+    "question": "She _________ to Paris twice this year.",
+    "choices": [
+      "go",
+      "goes",
+      "went",
+      "has gone"
+    ],
+    "answer": "has gone"
+  },
+  {
+    "question": "I _________ the same problem before.",
+    "choices": [
+      "had",
+      "have",
+      "has",
+      "having"
+    ],
+    "answer": "had"
+  },
+  {
+    "question": "The sun _________ in the east.",
+    "choices": [
+      "rises",
+      "rising",
+      "rise",
+      "risen"
+    ],
+    "answer": "rises"
+  },
+  {
+    "question": "We _________ a lot of money since we started this business.",
+    "choices": [
+      "made",
+      "make",
+      "have made",
+      "making"
+    ],
+    "answer": "have made"
+  },
+  {
+    "question": "She _________ piano lessons for three years.",
+    "choices": [
+      "took",
+      "take",
+      "takes",
+      "has taken"
+    ],
+    "answer": "has taken"
+  },
+  {
+    "question": "The company decided to __________ its operations in response to the economic downturn.",
+    "choices": [
+      "streamline",
+      "expand",
+      "neglect",
+      "procrastinate"
+    ],
+    "answer": "streamline"
+  },
+  {
+    "question": "It _________ rain tomorrow.",
+    "choices": [
+      "will",
+      "is going to",
+      "is",
+      "be"
+    ],
+    "answer": "is going to"
+  },
+  {
+    "question": "After the merger, the firm aims to __________ its market position and increase profitability.",
+    "choices": [
+      "consolidate",
+      "dilute",
+      "subvert",
+      "disperse"
+    ],
+    "answer": "consolidate"
+  },
+  {
+    "question": "They _________ to the movie theater twice this month.",
+    "choices": [
+      "went",
+      "have gone",
+      "goes",
+      "go"
+    ],
+    "answer": "have gone"
+  },
+  {
+    "question": "The CEO's resignation was a significant __________ for the corporation, leading to a temporary dip in stock prices.",
+    "choices": [
+      "setback",
+      "advantage",
+      "breakthrough",
+      "recovery"
+    ],
+    "answer": "setback"
+  },
+  {
+    "question": "She _________ at this company since she graduated.",
+    "choices": [
+      "works",
+      "worked",
+      "has worked",
+      "working"
+    ],
+    "answer": "has worked"
+  },
+  {
+    "question": "The government introduced new regulations to __________ financial transparency among multinational corporations.",
+    "choices": [
+      "enhance",
+      "obscure",
+      "hinder",
+      "confuse"
+    ],
+    "answer": "enhance"
+  },
+  {
+    "question": "The children _________ for the bus for over an hour.",
+    "choices": [
+      "waited",
+      "were waiting",
+      "have been waiting",
+      "wait"
+    ],
+    "answer": "have been waiting"
+  },
+  {
+    "question": "The start-up managed to __________ a substantial amount of capital during its latest funding round.",
+    "choices": [
+      "raise",
+      "dissipate",
+      "misuse",
+      "undermine"
+    ],
+    "answer": "raise"
+  },
+  {
+    "question": "He _________ the report by the time you get back.",
+    "choices": [
+      "finished",
+      "will finish",
+      "finishes",
+      "finishing"
+    ],
+    "answer": "will finish"
+  },
+  {
+    "question": "The board of directors decided to __________ the CEO's contract despite some shareholders' objections.",
+    "choices": [
+      "renew",
+      "terminate",
+      "postpone",
+      "disregard"
+    ],
+    "answer": "renew"
+  },
+  {
+    "question": "They _________ the meeting next Monday.",
+    "choices": [
+      "are having",
+      "have",
+      "have had",
+      "had"
+    ],
+    "answer": "are having"
+  },
+  {
+    "question": "The analyst's report was criticized for being overly __________, failing to account for recent market fluctuations.",
+    "choices": [
+      "optimistic",
+      "pessimistic",
+      "detailed",
+      "accurate"
+    ],
+    "answer": "optimistic"
+  },
+  {
+    "question": "The train _________ on time every day.",
+    "choices": [
+      "arrives",
+      "arrive",
+      "is arriving",
+      "arrived"
+    ],
+    "answer": "arrives"
+  },
+  {
+    "question": "The company's decision to enter the Asian market proved to be a __________ move, significantly boosting its revenue.",
+    "choices": [
+      "strategic",
+      "disastrous",
+      "redundant",
+      "negligible"
+    ],
+    "answer": "strategic"
+  },
+  {
+    "question": "He _________ his homework before dinner.",
+    "choices": [
+      "finished",
+      "finish",
+      "finishing",
+      "has finished"
+    ],
+    "answer": "finished"
+  },
+  {
+    "question": "The recent cybersecurity breach has highlighted the need for more __________ data protection measures.",
+    "choices": [
+      "robust",
+      "fragile",
+      "superficial",
+      "temporary"
+    ],
+    "answer": "robust"
+  },
+  {
+    "question": "She _________ English for five years.",
+    "choices": [
+      "studies",
+      "studied",
+      "is studying",
+      "has been studying"
+    ],
+    "answer": "has been studying"
+  },
+  {
+    "question": "In an effort to __________ its debt, the company announced a series of cost-cutting measures.",
+    "choices": [
+      "reduce",
+      "accumulate",
+      "inflate",
+      "prolong"
+    ],
+    "answer": "reduce"
+  },
+  {
+    "question": "They _________ dinner when the guests arrived.",
+    "choices": [
+      "were having",
+      "had",
+      "have had",
+      "had had"
+    ],
+    "answer": "were having"
+  },
+  {
+    "question": "The firm's __________ strategy involves leveraging technology to enhance customer experience.",
+    "choices": [
+      "innovative",
+      "conservative",
+      "regressive",
+      "obsolete"
+    ],
+    "answer": "innovative"
+  },
+  {
+    "question": "The company _________ a new product next month.",
+    "choices": [
+      "launch",
+      "is launching",
+      "launches",
+      "launched"
+    ],
+    "answer": "is launching"
+  },
+  {
+    "question": "Due to the pandemic, many companies had to __________ their supply chains to adapt to new challenges.",
+    "choices": [
+      "restructure",
+      "ignore",
+      "downplay",
+      "eradicate"
+    ],
+    "answer": "restructure"
+  },
+  {
+    "question": "She _________ a doctor's appointment for next Thursday.",
+    "choices": [
+      "has",
+      "has had",
+      "is having",
+      "having"
+    ],
+    "answer": "has"
+  },
+  {
+    "question": "The new legislation aims to __________ corporate tax evasion and ensure fair competition.",
+    "choices": [
+      "curb",
+      "promote",
+      "endorse",
+      "overlook"
+    ],
+    "answer": "curb"
+  },
+  {
+    "question": "We _________ to the beach every summer.",
+    "choices": [
+      "go",
+      "going",
+      "went",
+      "have gone"
+    ],
+    "answer": "go"
+  },
+  {
+    "question": "The quarterly report indicated a __________ rise in sales, attributed to the holiday season.",
+    "choices": [
+      "significant",
+      "negligible",
+      "moderate",
+      "trivial"
+    ],
+    "answer": "significant"
+  },
+  {
+    "question": "I _________ to him since he left the company.",
+    "choices": [
+      "haven't seen",
+      "didn't see",
+      "wasn't seeing",
+      "hadn't seen"
+    ],
+    "answer": "haven't seen"
+  },
+  {
+    "question": "Investors are advised to __________ caution when dealing with volatile markets.",
+    "choices": [
+      "exercise",
+      "ignore",
+      "disregard",
+      "abandon"
+    ],
+    "answer": "exercise"
+  },
+  {
+    "question": "The project _________ by the end of the month.",
+    "choices": [
+      "will complete",
+      "is completing",
+      "will be completed",
+      "completes"
+    ],
+    "answer": "will be completed"
+  },
+  {
+    "question": "The company’s efforts to go green have been met with both __________ and skepticism.",
+    "choices": [
+      "praise",
+      "criticism",
+      "indifference",
+      "neglect"
+    ],
+    "answer": "praise"
+  },
+  {
+    "question": "They _________ a new marketing campaign next quarter.",
+    "choices": [
+      "launch",
+      "are launching",
+      "will launch",
+      "launched"
+    ],
+    "answer": "will launch"
+  },
+  {
+    "question": "The economist's forecast was __________ by recent developments in global trade policies.",
+    "choices": [
+      "validated",
+      "disproved",
+      "ignored",
+      "neglected"
+    ],
+    "answer": "validated"
+  },
+  {
+    "question": "He _________ at the hotel for two days when he finally got a room.",
+    "choices": [
+      "waits",
+      "was waiting",
+      "waited",
+      "has waited"
+    ],
+    "answer": "was waiting"
+  },
+  {
+    "question": "The executive team plans to __________ the firm’s market share through strategic acquisitions.",
+    "choices": [
+      "augment",
+      "diminish",
+      "deplete",
+      "squander"
+    ],
+    "answer": "augment"
+  },
+  {
+    "question": "The company _________ its revenue targets for the fiscal year.",
+    "choices": [
+      "has exceeded",
+      "exceeds",
+      "will exceed",
+      "is exceeding"
+    ],
+    "answer": "has exceeded"
+  },
+  {
+    "question": "The report highlighted the need to __________ resources more efficiently to improve overall productivity.",
+    "choices": [
+      "allocate",
+      "squander",
+      "hoard",
+      "deplete"
+    ],
+    "answer": "allocate"
+  },
+  {
+    "question": "The correct answer is _________.",
+    "choices": [
+      "this",
+      "these",
+      "that",
+      "those"
+    ],
+    "answer": "this"
+  },
+  {
+    "question": "The company has decided to __________ its investment in renewable energy sources.",
+    "choices": [
+      "increase",
+      "divest",
+      "halt",
+      "reduce"
+    ],
+    "answer": "increase"
+  },
+  {
+    "question": "She _________ in Paris for five years before moving to London.",
+    "choices": [
+      "lives",
+      "is living",
+      "lived",
+      "has lived"
+    ],
+    "answer": "lived"
+  },
+  {
+    "question": "Due to the new trade agreement, there has been a __________ in cross-border economic activities.",
+    "choices": [
+      "surge",
+      "decline",
+      "stagnation",
+      "recession"
+    ],
+    "answer": "surge"
+  },
+  {
+    "question": "I _________ to the gym every day before work.",
+    "choices": [
+      "go",
+      "goes",
+      "going",
+      "have gone"
+    ],
+    "answer": "go"
+  },
+  {
+    "question": "The CFO's prudent financial management helped the company __________ the economic crisis.",
+    "choices": [
+      "weather",
+      "amplify",
+      "incite",
+      "disregard"
+    ],
+    "answer": "weather"
+  },
+  {
+    "question": "She _________ in this company since 2010.",
+    "choices": [
+      "works",
+      "is working",
+      "has worked",
+      "worked"
+    ],
+    "answer": "has worked"
+  },
+  {
+    "question": "The board is expected to __________ on the proposed merger next month.",
+    "choices": [
+      "deliberate",
+      "procrastinate",
+      "ignore",
+      "reject"
+    ],
+    "answer": "deliberate"
+  },
+  {
+    "question": "The meeting _________ until next week due to unforeseen circumstances.",
+    "choices": [
+      "postpone",
+      "postpones",
+      "is postponing",
+      "has been postponed"
+    ],
+    "answer": "has been postponed"
+  },
+  {
+    "question": "The audit revealed several __________ in the company's financial statements.",
+    "choices": [
+      "discrepancies",
+      "congruities",
+      "consistencies",
+      "alignments"
+    ],
+    "answer": "discrepancies"
+  },
+  {
+    "question": "You _________ start your assignment as soon as possible.",
+    "choices": [
+      "must",
+      "should",
+      "ought",
+      "have to"
+    ],
+    "answer": "should"
+  },
+  {
+    "question": "The company announced a new initiative to __________ workplace diversity and inclusion.",
+    "choices": [
+      "promote",
+      "hinder",
+      "neglect",
+      "diminish"
+    ],
+    "answer": "promote"
+  },
+  {
+    "question": "If I _________ more time, I would have completed the project.",
+    "choices": [
+      "have",
+      "had",
+      "would have",
+      "will have"
+    ],
+    "answer": "had"
+  },
+  {
+    "question": "The government is implementing policies to __________ economic recovery post-pandemic.",
+    "choices": [
+      "stimulate",
+      "impede",
+      "curtail",
+      "undermine"
+    ],
+    "answer": "stimulate"
+  },
+  {
+    "question": "I _________ for you since 9 AM.",
+    "choices": [
+      "wait",
+      "waits",
+      "am waiting",
+      "have been waiting"
+    ],
+    "answer": "have been waiting"
+  },
+  {
+    "question": "The legal team advised the company to __________ any statements until the investigation is complete.",
+    "choices": [
+      "withhold",
+      "release",
+      "announce",
+      "publish"
+    ],
+    "answer": "withhold"
+  },
+  {
+    "question": "He asked me _________ I could help him with his project.",
+    "choices": [
+      "if",
+      "that",
+      "whether",
+      "to"
+    ],
+    "answer": "if"
+  },
+  {
+    "question": "The innovation lab was established to __________ cutting-edge technology solutions.",
+    "choices": [
+      "incubate",
+      "discourage",
+      "suppress",
+      "invalidate"
+    ],
+    "answer": "incubate"
+  },
+  {
+    "question": "She _________ me she would be late for the meeting.",
+    "choices": [
+      "said",
+      "told",
+      "asked",
+      "spoke"
+    ],
+    "answer": "told"
+  },
+  {
+    "question": "The CEO's vision is to __________ the company's influence in the global market.",
+    "choices": [
+      "expand",
+      "contract",
+      "narrow",
+      "restrict"
+    ],
+    "answer": "expand"
+  },
+  {
+    "question": "Please let me know _________ you have any questions.",
+    "choices": [
+      "if",
+      "whether",
+      "that",
+      "to"
+    ],
+    "answer": "if"
+  },
+  {
+    "question": "The firm's aggressive marketing tactics have led to a __________ rise in brand recognition.",
+    "choices": [
+      "dramatic",
+      "slight",
+      "insignificant",
+      "moderate"
+    ],
+    "answer": "dramatic"
+  },
+  {
+    "question": "The new manager _________ a positive impact on the team morale.",
+    "choices": [
+      "has",
+      "have",
+      "is",
+      "had"
+    ],
+    "answer": "has"
+  },
+  {
+    "question": "The committee will __________ the benefits and drawbacks of the proposed changes.",
+    "choices": [
+      "evaluate",
+      "dismiss",
+      "assume",
+      "ignore"
+    ],
+    "answer": "evaluate"
+  },
+  {
+    "question": "I haven't seen him _________ we finished college.",
+    "choices": [
+      "since",
+      "for",
+      "from",
+      "while"
+    ],
+    "answer": "since"
+  },
+  {
+    "question": "The recent scandal has __________ the company's reputation, causing a loss of consumer trust.",
+    "choices": [
+      "tarnished",
+      "bolstered",
+      "enhanced",
+      "fortified"
+    ],
+    "answer": "tarnished"
+  },
+  {
+    "question": "This report is _________ important than the previous one.",
+    "choices": [
+      "less",
+      "fewer",
+      "more",
+      "most"
+    ],
+    "answer": "more"
+  },
+  {
+    "question": "The CFO presented a __________ analysis of the company’s financial performance.",
+    "choices": [
+      "comprehensive",
+      "superficial",
+      "partial",
+      "incomplete"
+    ],
+    "answer": "comprehensive"
+  },
+  {
+    "question": "The company's profits _________ significantly last quarter.",
+    "choices": [
+      "increased",
+      "decreased",
+      "risen",
+      "fallen"
+    ],
+    "answer": "increased"
+  },
+  {
+    "question": "The new marketing campaign aims to __________ awareness about the brand's sustainability efforts.",
+    "choices": [
+      "raise",
+      "lower",
+      "ignore",
+      "reduce"
+    ],
+    "answer": "raise"
+  },
+  {
+    "question": "He is the _________ candidate for the position.",
+    "choices": [
+      "good",
+      "better",
+      "best",
+      "well"
+    ],
+    "answer": "best"
+  },
+  {
+    "question": "The startup has the potential to __________ the industry with its innovative approach.",
+    "choices": [
+      "disrupt",
+      "conform",
+      "stagnate",
+      "ignore"
+    ],
+    "answer": "disrupt"
+  },
+  {
+    "question": "The project was completed _________ time and under budget.",
+    "choices": [
+      "at",
+      "on",
+      "in",
+      "with"
+    ],
+    "answer": "on"
+  },
+  {
+    "question": "The company’s robust supply chain allowed it to __________ disruptions caused by the global pandemic.",
+    "choices": [
+      "mitigate",
+      "exacerbate",
+      "ignore",
+      "amplify"
+    ],
+    "answer": "mitigate"
+  },
+  {
+    "question": "The conference will take place _________ two weeks.",
+    "choices": [
+      "since",
+      "for",
+      "from",
+      "in"
+    ],
+    "answer": "in"
+  },
+  {
+    "question": "The board is planning to __________ the corporate governance framework to enhance accountability.",
+    "choices": [
+      "overhaul",
+      "maintain",
+      "neglect",
+      "disregard"
+    ],
+    "answer": "overhaul"
+  },
+  {
+    "question": "We need to _________ our efforts to meet the deadline.",
+    "choices": [
+      "increase",
+      "decrease",
+      "expand",
+      "reduce"
+    ],
+    "answer": "increase"
+  },
+  {
+    "question": "The CEO’s strategic vision was praised for its ability to __________ long-term growth.",
+    "choices": [
+      "foster",
+      "impede",
+      "hinder",
+      "deter"
+    ],
+    "answer": "foster"
+  },
+  {
+    "question": "The CEO announced a _________ initiative to improve customer service.",
+    "choices": [
+      "new",
+      "old",
+      "fresh",
+      "latest"
+    ],
+    "answer": "new"
+  },
+  {
+    "question": "The company issued a __________ to clarify its stance on the recent controversy.",
+    "choices": [
+      "statement",
+      "silence",
+      "retraction",
+      "withdrawal"
+    ],
+    "answer": "statement"
+  },
+  {
+    "question": "The team _________ in the office until late last night.",
+    "choices": [
+      "works",
+      "worked",
+      "working",
+      "work"
+    ],
+    "answer": "worked"
+  },
+  {
+    "question": "The company's new policy is designed to __________ employee engagement and retention.",
+    "choices": [
+      "foster",
+      "diminish",
+      "impede",
+      "neglect"
+    ],
+    "answer": "foster"
+  },
+  {
+    "question": "Please make sure to _________ the report before submitting it.",
+    "choices": [
+      "proof",
+      "proofread",
+      "proofreading",
+      "proofreads"
+    ],
+    "answer": "proofread"
+  },
+  {
+    "question": "The investment portfolio was __________ to minimize risks while maximizing returns.",
+    "choices": [
+      "diversified",
+      "centralized",
+      "simplified",
+      "isolated"
+    ],
+    "answer": "diversified"
+  },
+  {
+    "question": "They _________ a new product line next month.",
+    "choices": [
+      "launching",
+      "launches",
+      "launched",
+      "will launch"
+    ],
+    "answer": "will launch"
+  },
+  {
+    "question": "The quarterly earnings report __________ the company's strong performance amid market volatility.",
+    "choices": [
+      "highlighted",
+      "obscured",
+      "diminished",
+      "ignored"
+    ],
+    "answer": "highlighted"
+  },
+  {
+    "question": "The company's stock price _________ steadily over the past year.",
+    "choices": [
+      "increased",
+      "decreased",
+      "risen",
+      "fallen"
+    ],
+    "answer": "has risen"
+  },
+  {
+    "question": "In his annual letter, Warren Buffett emphasized the importance of __________ in investment decisions.",
+    "choices": [
+      "prudence",
+      "haste",
+      "negligence",
+      "recklessness"
+    ],
+    "answer": "prudence"
+  },
+  {
+    "question": "He _________ for the job three times before he finally got it.",
+    "choices": [
+      "applied",
+      "applies",
+      "applying",
+      "apply"
+    ],
+    "answer": "applied"
+  },
+  {
+    "question": "The market has shown signs of __________ recovery following the latest economic data.",
+    "choices": [
+      "tentative",
+      "definite",
+      "immediate",
+      "instant"
+    ],
+    "answer": "tentative"
+  },
+  {
+    "question": "I will be away from the office _________ next Monday.",
+    "choices": [
+      "since",
+      "until",
+      "to",
+      "from"
+    ],
+    "answer": "until"
+  },
+  {
+    "question": "The financial advisor suggested rebalancing the portfolio to __________ the impact of market fluctuations.",
+    "choices": [
+      "mitigate",
+      "amplify",
+      "ignore",
+      "exacerbate"
+    ],
+    "answer": "mitigate"
+  },
+  {
+    "question": "The team _________ working on the project as soon as possible.",
+    "choices": [
+      "needs",
+      "need",
+      "needing",
+      "needed"
+    ],
+    "answer": "needs"
+  },
+  {
+    "question": "The company decided to __________ its workforce to better align with its strategic goals.",
+    "choices": [
+      "realign",
+      "dismiss",
+      "expand",
+      "ignore"
+    ],
+    "answer": "realign"
+  },
+  {
+    "question": "She _________ the manager for a raise, but he refused.",
+    "choices": [
+      "asked",
+      "told",
+      "spoke",
+      "said"
+    ],
+    "answer": "asked"
+  },
+  {
+    "question": "Charles Schwab’s latest report highlights the need to __________ investment strategies in response to changing market conditions.",
+    "choices": [
+      "adapt",
+      "maintain",
+      "discard",
+      "ignore"
+    ],
+    "answer": "adapt"
+  },
+  {
+    "question": "We will have to _________ the meeting until next week.",
+    "choices": [
+      "postpone",
+      "postpones",
+      "postponed",
+      "postponing"
+    ],
+    "answer": "postpone"
+  },
+  {
+    "question": "The CEO's presentation was well-received, as it __________ the company's vision and future prospects.",
+    "choices": [
+      "articulated",
+      "concealed",
+      "distorted",
+      "overlooked"
+    ],
+    "answer": "articulated"
+  },
+  {
+    "question": "Please make sure to _________ the door when you leave.",
+    "choices": [
+      "lock",
+      "locked",
+      "locks",
+      "locking"
+    ],
+    "answer": "lock"
+  },
+  {
+    "question": "The firm's expansion into new markets is expected to __________ significant growth opportunities.",
+    "choices": [
+      "generate",
+      "inhibit",
+      "reduce",
+      "deter"
+    ],
+    "answer": "generate"
+  },
+  {
+    "question": "We _________ the project on time if we work together.",
+    "choices": [
+      "can finish",
+      "finish",
+      "finishes",
+      "finished"
+    ],
+    "answer": "can finish"
+  },
+  {
+    "question": "The strategic alliance aims to __________ the competitive advantages of both companies.",
+    "choices": [
+      "leverage",
+      "diminish",
+      "oppose",
+      "isolate"
+    ],
+    "answer": "leverage"
+  },
+  {
+    "question": "The report _________ to the client by the end of the week.",
+    "choices": [
+      "will send",
+      "sends",
+      "sending",
+      "sent"
+    ],
+    "answer": "will send"
+  },
+  {
+    "question": "The recent data breach has prompted the company to __________ its cybersecurity measures.",
+    "choices": [
+      "enhance",
+      "weaken",
+      "neglect",
+      "ignore"
+    ],
+    "answer": "enhance"
+  },
+  {
+    "question": "The company _________ a new marketing campaign next month.",
+    "choices": [
+      "launching",
+      "launches",
+      "launched",
+      "will launch"
+    ],
+    "answer": "will launch"
+  },
+  {
+    "question": "The CFO's report provided a __________ analysis of the financial implications of the new project.",
+    "choices": [
+      "thorough",
+      "superficial",
+      "incomplete",
+      "fragmented"
+    ],
+    "answer": "thorough"
+  },
+  {
+    "question": "I have _________ many job interviews this month.",
+    "choices": [
+      "had",
+      "have",
+      "having",
+      "has"
+    ],
+    "answer": "had"
+  },
+  {
+    "question": "The market has been __________ by rumors of a potential merger between the two leading companies.",
+    "choices": [
+      "abuzz",
+      "silent",
+      "unaffected",
+      "calm"
+    ],
+    "answer": "abuzz"
+  },
+  {
+    "question": "The new employee was praised for his _____ to the team.",
+    "choices": [
+      "contribution",
+      "contributing",
+      "contributor",
+      "contributes"
+    ],
+    "answer": "contribution"
+  },
+  {
+    "question": "The company's efforts to __________ a culture of innovation have led to several groundbreaking products.",
+    "choices": [
+      "cultivate",
+      "suppress",
+      "neglect",
+      "abandon"
+    ],
+    "answer": "cultivate"
+  },
+  {
+    "question": "We need to _____ the project by the end of the month to stay on schedule.",
+    "choices": [
+      "complete",
+      "completion",
+      "completing",
+      "completes"
+    ],
+    "answer": "complete"
+  },
+  {
+    "question": "The economic forecast suggests a period of __________ growth for the next fiscal year.",
+    "choices": [
+      "moderate",
+      "rapid",
+      "stagnant",
+      "declining"
+    ],
+    "answer": "moderate"
+  },
+  {
+    "question": "The marketing department will release a _____ next week.",
+    "choices": [
+      "promotion",
+      "promotional",
+      "promote",
+      "promoting"
+    ],
+    "answer": "promotion"
+  },
+  {
+    "question": "The new tax incentives are expected to __________ business investment in renewable energy.",
+    "choices": [
+      "stimulate",
+      "suppress",
+      "reduce",
+      "ignore"
+    ],
+    "answer": "stimulate"
+  },
+  {
+    "question": "The CEO emphasized the importance of _____ customer satisfaction.",
+    "choices": [
+      "maintaining",
+      "maintain",
+      "maintained",
+      "maintains"
+    ],
+    "answer": "maintaining"
+  },
+  {
+    "question": "The company's decision to __________ the product line was met with mixed reactions from investors.",
+    "choices": [
+      "diversify",
+      "simplify",
+      "reduce",
+      "neglect"
+    ],
+    "answer": "diversify"
+  },
+  {
+    "question": "All employees are required to attend the safety _____ next Monday.",
+    "choices": [
+      "meeting",
+      "meet",
+      "meets",
+      "met"
+    ],
+    "answer": "meeting"
+  },
+  {
+    "question": "The CEO’s strategic vision is to __________ the firm’s presence in the international market.",
+    "choices": [
+      "expand",
+      "withdraw",
+      "limit",
+      "minimize"
+    ],
+    "answer": "expand"
+  },
+  {
+    "question": "Due to the storm, the flight has been _____ until tomorrow.",
+    "choices": [
+      "delayed",
+      "delay",
+      "delays",
+      "delaying"
+    ],
+    "answer": "delayed"
+  },
+  {
+    "question": "The board has approved a plan to __________ the company's debt over the next five years.",
+    "choices": [
+      "reduce",
+      "increase",
+      "accumulate",
+      "neglect"
+    ],
+    "answer": "reduce"
+  },
+  {
+    "question": "We are looking forward to _____ you at the conference next week.",
+    "choices": [
+      "seeing",
+      "see",
+      "seen",
+      "saw"
+    ],
+    "answer": "seeing"
+  },
+  {
+    "question": "The recent changes in policy are intended to __________ sustainable economic growth.",
+    "choices": [
+      "promote",
+      "hinder",
+      "delay",
+      "diminish"
+    ],
+    "answer": "promote"
+  },
+  {
+    "question": "The finance report must be _____ by the end of the quarter.",
+    "choices": [
+      "submitted",
+      "submit",
+      "submitting",
+      "submits"
+    ],
+    "answer": "submitted"
+  },
+  {
+    "question": "The company's quarterly results were __________ by unexpected supply chain disruptions.",
+    "choices": [
+      "impacted",
+      "ignored",
+      "enhanced",
+      "boosted"
+    ],
+    "answer": "impacted"
+  },
+  {
+    "question": "The hotel offers free breakfast for all _____ guests.",
+    "choices": [
+      "registered",
+      "register",
+      "registering",
+      "registration"
+    ],
+    "answer": "registered"
+  },
+  {
+    "question": "The new marketing strategy aims to __________ brand loyalty among millennials.",
+    "choices": [
+      "enhance",
+      "weaken",
+      "undermine",
+      "diminish"
+    ],
+    "answer": "enhance"
+  },
+  {
+    "question": "The manager asked if anyone had any _____ about the new policy.",
+    "choices": [
+      "questions",
+      "question",
+      "questioning",
+      "questioned"
+    ],
+    "answer": "questions"
+  },
+  {
+    "question": "The firm’s decision to __________ a portion of its profits to social initiatives was widely praised.",
+    "choices": [
+      "allocate",
+      "divert",
+      "withhold",
+      "squander"
+    ],
+    "answer": "allocate"
+  },
+  {
+    "question": "The board of directors will _____ on the new policy next week.",
+    "choices": [
+      "decide",
+      "decision",
+      "deciding",
+      "decides"
+    ],
+    "answer": "decide"
+  },
+  {
+    "question": "Please _____ the invoice by the end of the week.",
+    "choices": [
+      "pay",
+      "paid",
+      "paying",
+      "payment"
+    ],
+    "answer": "pay"
+  },
+  {
+    "question": "The CEO emphasized the need to __________ the company's core values in all business practices.",
+    "choices": [
+      "uphold",
+      "disregard",
+      "undermine",
+      "compromise"
+    ],
+    "answer": "uphold"
+  },
+  {
+    "question": "The company's profits have increased _____ over the past year.",
+    "choices": [
+      "significantly",
+      "significant",
+      "signify",
+      "significance"
+    ],
+    "answer": "significantly"
+  },
+  {
+    "question": "The strategic partnership is expected to __________ both companies’ market positions.",
+    "choices": [
+      "strengthen",
+      "weaken",
+      "obscure",
+      "dilute"
+    ],
+    "answer": "strengthen"
+  },
+  {
+    "question": "All staff members are encouraged to _____ in the training program.",
+    "choices": [
+      "participate",
+      "participating",
+      "participation",
+      "participates"
+    ],
+    "answer": "participate"
+  },
+  {
+    "question": "The merger will be finalized by the end of the _____.",
+    "choices": [
+      "month",
+      "monthly",
+      "months",
+      "month's"
+    ],
+    "answer": "month"
+  },
+  {
+    "question": "The company’s long-term success depends on its ability to __________ to changing market conditions.",
+    "choices": [
+      "adapt",
+      "resist",
+      "ignore",
+      "neglect"
+    ],
+    "answer": "adapt"
+  },
+  {
+    "question": "Our new product received excellent reviews from _____.",
+    "choices": [
+      "customers",
+      "customer",
+      "custom",
+      "customs"
+    ],
+    "answer": "customers"
+  },
+  {
+    "question": "The HR department is responsible for _____ new employees.",
+    "choices": [
+      "recruiting",
+      "recruit",
+      "recruited",
+      "recruitment"
+    ],
+    "answer": "recruiting"
+  },
+  {
+    "question": "The CFO presented a __________ outlook for the next quarter, citing strong revenue growth.",
+    "choices": [
+      "positive",
+      "negative",
+      "neutral",
+      "pessimistic"
+    ],
+    "answer": "positive"
+  },
+  {
+    "question": "Please _____ the form with your updated contact information.",
+    "choices": [
+      "complete",
+      "completing",
+      "completed",
+      "completion"
+    ],
+    "answer": "complete"
+  },
+  {
+    "question": "The company is planning to __________ a new line of eco-friendly products next year.",
+    "choices": [
+      "launch",
+      "discontinue",
+      "ignore",
+      "withdraw"
+    ],
+    "answer": "launch"
+  },
+  {
+    "question": "The _____ of the new software will take place next month.",
+    "choices": [
+      "launch",
+      "launched",
+      "launches",
+      "launching"
+    ],
+    "answer": "launch"
+  },
+  {
+    "question": "The recent economic reforms are expected to __________ foreign investment in the region.",
+    "choices": [
+      "attract",
+      "repel",
+      "discourage",
+      "reduce"
+    ],
+    "answer": "attract"
+  },
+  {
+    "question": "She was promoted to manager because of her excellent _____ skills.",
+    "choices": [
+      "leadership",
+      "leader",
+      "leading",
+      "leads"
+    ],
+    "answer": "leadership"
+  },
+  {
+    "question": "The CEO’s __________ leadership style has been credited with driving the company’s success.",
+    "choices": [
+      "transformational",
+      "autocratic",
+      "laissez-faire",
+      "negligent"
+    ],
+    "answer": "transformational"
+  },
+  {
+    "question": "Please ensure that all documents are _____ before the meeting.",
+    "choices": [
+      "prepared",
+      "prepare",
+      "preparing",
+      "prepares"
+    ],
+    "answer": "prepared"
+  },
+  {
+    "question": "The firm's robust financial health allowed it to __________ the challenges posed by the pandemic.",
+    "choices": [
+      "withstand",
+      "succumb to",
+      "amplify",
+      "exacerbate"
+    ],
+    "answer": "withstand"
+  },
+  {
+    "question": "The annual _____ will be held in the main conference room.",
+    "choices": [
+      "meeting",
+      "meet",
+      "meets",
+      "met"
+    ],
+    "answer": "meeting"
+  },
+  {
+    "question": "The new regulations are intended to __________ fair competition in the market.",
+    "choices": [
+      "ensure",
+      "hinder",
+      "compromise",
+      "deter"
+    ],
+    "answer": "ensure"
+  },
+  {
+    "question": "The company plans to _____ its operations to Asia.",
+    "choices": [
+      "expand",
+      "expansion",
+      "expanding",
+      "expanded"
+    ],
+    "answer": "expand"
+  },
+  {
+    "question": "The marketing team is working to __________ consumer interest ahead of the product launch.",
+    "choices": [
+      "generate",
+      "suppress",
+      "diminish",
+      "ignore"
+    ],
+    "answer": "generate"
+  },
+  {
+    "question": "He is responsible for managing the company's _____ relations.",
+    "choices": [
+      "public",
+      "publicly",
+      "publish",
+      "publishing"
+    ],
+    "answer": "public"
+  },
+  {
+    "question": "The company’s decision to __________ production capacity has led to higher efficiency.",
+    "choices": [
+      "optimize",
+      "reduce",
+      "neglect",
+      "expand"
+    ],
+    "answer": "optimize"
+  },
+  {
+    "question": "We need to _____ the budget for the upcoming project.",
+    "choices": [
+      "review",
+      "reviews",
+      "reviewed",
+      "reviewing"
+    ],
+    "answer": "review"
+  },
+  {
+    "question": "The board is expected to __________ the CEO’s proposal in the upcoming meeting.",
+    "choices": [
+      "approve",
+      "reject",
+      "ignore",
+      "dismiss"
+    ],
+    "answer": "approve"
+  },
+  {
+    "question": "The marketing campaign was very _____ in increasing sales.",
+    "choices": [
+      "effective",
+      "effect",
+      "effectiveness",
+      "effectively"
+    ],
+    "answer": "effective"
+  },
+  {
+    "question": "The investment strategy focuses on long-term gains rather than __________ profits.",
+    "choices": [
+      "short-term",
+      "guaranteed",
+      "immediate",
+      "certain"
+    ],
+    "answer": "short-term"
+  },
+  {
+    "question": "The _____ for the new office furniture have been approved.",
+    "choices": [
+      "orders",
+      "ordered",
+      "order",
+      "ordering"
+    ],
+    "answer": "orders"
+  },
+  {
+    "question": "The company’s reputation for quality has __________ it a competitive edge in the market.",
+    "choices": [
+      "afforded",
+      "cost",
+      "denied",
+      "negated"
+    ],
+    "answer": "afforded"
+  },
+  {
+    "question": "She is known for her _____ to detail.",
+    "choices": [
+      "attention",
+      "attentive",
+      "attending",
+      "attend"
+    ],
+    "answer": "attention"
+  },
+  {
+    "question": "The company's new policy aims to __________ employee productivity through flexible working hours.",
+    "choices": [
+      "enhance",
+      "inhibit",
+      "ignore",
+      "disrupt"
+    ],
+    "answer": "enhance"
+  },
+  {
+    "question": "The conference was postponed due to _____ issues.",
+    "choices": [
+      "logistical",
+      "logistics",
+      "logistically",
+      "logistic"
+    ],
+    "answer": "logistical"
+  },
+  {
+    "question": "After the merger, the company will __________ its resources to streamline operations.",
+    "choices": [
+      "consolidate",
+      "dissipate",
+      "neglect",
+      "scatter"
+    ],
+    "answer": "consolidate"
+  },
+  {
+    "question": "We will _____ the results of the survey next week.",
+    "choices": [
+      "announce",
+      "announcement",
+      "announced",
+      "announcing"
+    ],
+    "answer": "announce"
+  },
+  {
+    "question": "The CEO's announcement __________ a wave of excitement among the employees.",
+    "choices": [
+      "triggered",
+      "ignored",
+      "suppressed",
+      "delayed"
+    ],
+    "answer": "triggered"
+  },
+  {
+    "question": "She was _____ for her outstanding performance.",
+    "choices": [
+      "recognized",
+      "recognizing",
+      "recognize",
+      "recognition"
+    ],
+    "answer": "recognized"
+  },
+  {
+    "question": "The new system is designed to __________ customer service efficiency.",
+    "choices": [
+      "enhance",
+      "impede",
+      "ignore",
+      "reduce"
+    ],
+    "answer": "enhance"
+  },
+  {
+    "question": "The company has _____ a new CEO to lead the team.",
+    "choices": [
+      "appointed",
+      "appointment",
+      "appointing",
+      "appoint"
+    ],
+    "answer": "appointed"
+  },
+  {
+    "question": "We must _____ the project before the deadline.",
+    "choices": [
+      "finish",
+      "finishes",
+      "finished",
+      "finishing"
+    ],
+    "answer": "finish"
+  },
+  {
+    "question": "The marketing team aims to __________ the campaign to better target young professionals.",
+    "choices": [
+      "adjust",
+      "modify",
+      "tweak",
+      "refine"
+    ],
+    "answer": "refine"
+  },
+  {
+    "question": "The financial report will be presented at the _____ meeting.",
+    "choices": [
+      "annual",
+      "annually",
+      "annuity",
+      "announcing"
+    ],
+    "answer": "annual"
+  },
+  {
+    "question": "The team has made _____ progress on the new design.",
+    "choices": [
+      "significant",
+      "significantly",
+      "significance",
+      "signify"
+    ],
+    "answer": "significant"
+  },
+  {
+    "question": "The CEO asked the department heads to __________ the budget cuts across all divisions.",
+    "choices": [
+      "implement",
+      "execute",
+      "enforce",
+      "carry out"
+    ],
+    "answer": "implement"
+  },
+  {
+    "question": "We need to _____ a new strategy for the next quarter.",
+    "choices": [
+      "develop",
+      "develops",
+      "developed",
+      "developing"
+    ],
+    "answer": "develop"
+  },
+  {
+    "question": "The meeting has been _____ until further notice.",
+    "choices": [
+      "postponed",
+      "postpone",
+      "postponing",
+      "postpones"
+    ],
+    "answer": "postponed"
+  },
+  {
+    "question": "The company aims to __________ the customer service process to reduce wait times.",
+    "choices": [
+      "optimize",
+      "enhance",
+      "improve",
+      "streamline"
+    ],
+    "answer": "streamline"
+  },
+  {
+    "question": "The _____ of the report is scheduled for tomorrow.",
+    "choices": [
+      "release",
+      "releasing",
+      "released",
+      "releases"
+    ],
+    "answer": "release"
+  },
+  {
+    "question": "We need to __________ the potential risks before launching the new product.",
+    "choices": [
+      "assess",
+      "evaluate",
+      "appraise",
+      "examine"
+    ],
+    "answer": "assess"
+  },
+  {
+    "question": "The manager _____ all employees to attend the workshop.",
+    "choices": [
+      "encourages",
+      "encourage",
+      "encouraging",
+      "encouragement"
+    ],
+    "answer": "encourages"
+  },
+  {
+    "question": "Please make sure all data is _____ before the presentation.",
+    "choices": [
+      "accurate",
+      "accuracy",
+      "accurately",
+      "accurate"
+    ],
+    "answer": "accurate"
+  },
+  {
+    "question": "The finance team must __________ the expenses for the previous quarter.",
+    "choices": [
+      "analyze",
+      "review",
+      "audit",
+      "examine"
+    ],
+    "answer": "review"
+  },
+  {
+    "question": "The _____ for the new project have been approved.",
+    "choices": [
+      "funds",
+      "funding",
+      "funded",
+      "fund"
+    ],
+    "answer": "funds"
+  },
+  {
+    "question": "The new regulations require companies to __________ their data privacy policies.",
+    "choices": [
+      "update",
+      "revise",
+      "amend",
+      "modify"
+    ],
+    "answer": "update"
+  },
+  {
+    "question": "The new software will be _____ next month.",
+    "choices": [
+      "available",
+      "availability",
+      "avail",
+      "availably"
+    ],
+    "answer": "available"
+  },
+  {
+    "question": "The company aims to __________ its presence in the international market.",
+    "choices": [
+      "expand",
+      "broaden",
+      "extend",
+      "increase"
+    ],
+    "answer": "expand"
+  },
+  {
+    "question": "We must _____ all safety protocols during the inspection.",
+    "choices": [
+      "follow",
+      "follows",
+      "following",
+      "followed"
+    ],
+    "answer": "follow"
+  },
+  {
+    "question": "The sales team is working hard to meet their _____.",
+    "choices": [
+      "targets",
+      "target",
+      "targeted",
+      "targeting"
+    ],
+    "answer": "targets"
+  },
+  {
+    "question": "The legal team will __________ the contract before it is signed.",
+    "choices": [
+      "review",
+      "examine",
+      "scrutinize",
+      "inspect"
+    ],
+    "answer": "scrutinize"
+  },
+  {
+    "question": "The company offers a _____ benefits package to all employees.",
+    "choices": [
+      "comprehensive",
+      "comprehend",
+      "comprehensively",
+      "comprehension"
+    ],
+    "answer": "comprehensive"
+  },
+  {
+    "question": "We need to __________ the market conditions before making any investment decisions.",
+    "choices": [
+      "analyze",
+      "study",
+      "assess",
+      "review"
+    ],
+    "answer": "analyze"
+  },
+  {
+    "question": "We need to _____ a detailed analysis of the market trends.",
+    "choices": [
+      "conduct",
+      "conducts",
+      "conducted",
+      "conducting"
+    ],
+    "answer": "conduct"
+  },
+  {
+    "question": "The management decided to __________ the launch of the new product due to market conditions.",
+    "choices": [
+      "postpone",
+      "delay",
+      "defer",
+      "reschedule"
+    ],
+    "answer": "delay"
+  },
+  {
+    "question": "The new policy will _____ affect all employees.",
+    "choices": [
+      "directly",
+      "direct",
+      "direction",
+      "directing"
+    ],
+    "answer": "directly"
+  },
+  {
+    "question": "The CEO will _____ the keynote speech at the conference.",
+    "choices": [
+      "deliver",
+      "delivery",
+      "delivered",
+      "delivering"
+    ],
+    "answer": "deliver"
+  },
+  {
+    "question": "The new policy will __________ all employees to work from home twice a week.",
+    "choices": [
+      "allow",
+      "permit",
+      "enable",
+      "authorize"
+    ],
+    "answer": "permit"
+  },
+  {
+    "question": "The project was completed on time and within the _____ budget.",
+    "choices": [
+      "allocated",
+      "allocate",
+      "allocating",
+      "allocation"
+    ],
+    "answer": "allocated"
+  },
+  {
+    "question": "The IT department must __________ the security protocols to prevent data breaches.",
+    "choices": [
+      "enhance",
+      "strengthen",
+      "fortify",
+      "improve"
+    ],
+    "answer": "strengthen"
+  },
+  {
+    "question": "All employees must _____ the company’s code of conduct.",
+    "choices": [
+      "adhere to",
+      "adhere",
+      "adhering",
+      "adheres"
+    ],
+    "answer": "adhere to"
+  },
+  {
+    "question": "The new marketing campaign is expected to _____ sales.",
+    "choices": [
+      "boost",
+      "boosts",
+      "boosted",
+      "boosting"
+    ],
+    "answer": "boost"
+  },
+  {
+    "question": "The _____ team is responsible for developing new products.",
+    "choices": [
+      "research",
+      "researching",
+      "researched",
+      "researches"
+    ],
+    "answer": "research"
+  },
+  {
+    "question": "Please submit your expense reports by the _____ of the month.",
+    "choices": [
+      "end",
+      "ending",
+      "ended",
+      "ends"
+    ],
+    "answer": "end"
+  },
+  {
+    "question": "The team needs to __________ the data to identify any discrepancies.",
+    "choices": [
+      "examine",
+      "inspect",
+      "scrutinize",
+      "analyze"
+    ],
+    "answer": "inspect"
+  },
+  {
+    "question": "The company's new advertisement campaign was highly _____ .",
+    "choices": [
+      "successful",
+      "successfully",
+      "succeed",
+      "success"
+    ],
+    "answer": "successful"
+  },
+  {
+    "question": "The new office will be _____ next Monday.",
+    "choices": [
+      "open",
+      "opens",
+      "opening",
+      "opened"
+    ],
+    "answer": "open"
+  },
+  {
+    "question": "The new initiative aims to __________ employee engagement across the organization.",
+    "choices": [
+      "increase",
+      "boost",
+      "enhance",
+      "improve"
+    ],
+    "answer": "boost"
+  },
+  {
+    "question": "The committee will _____ the proposals next week.",
+    "choices": [
+      "evaluate",
+      "evaluation",
+      "evaluates",
+      "evaluated"
+    ],
+    "answer": "evaluate"
+  },
+  {
+    "question": "The project was delayed due to unforeseen _____.",
+    "choices": [
+      "circumstances",
+      "circumstantial",
+      "circumstance",
+      "circumstancing"
+    ],
+    "answer": "circumstances"
+  },
+  {
+    "question": "The report aims to __________ the key findings of the recent study.",
+    "choices": [
+      "highlight",
+      "summarize",
+      "outline",
+      "present"
+    ],
+    "answer": "summarize"
+  },
+  {
+    "question": "The company's _____ office is located in New York.",
+    "choices": [
+      "main",
+      "mainly",
+      "mains",
+      "mained"
+    ],
+    "answer": "main"
+  },
+  {
+    "question": "The team worked overtime to _____ the project deadline.",
+    "choices": [
+      "meet",
+      "meeting",
+      "meets",
+      "met"
+    ],
+    "answer": "meet"
+  },
+  {
+    "question": "The finance department will __________ the financial statements for any errors.",
+    "choices": [
+      "audit",
+      "review",
+      "inspect",
+      "examine"
+    ],
+    "answer": "audit"
+  },
+  {
+    "question": "The software update includes several new _____ .",
+    "choices": [
+      "features",
+      "feature",
+      "featured",
+      "featuring"
+    ],
+    "answer": "features"
+  },
+  {
+    "question": "The marketing campaign was designed to __________ brand awareness among consumers.",
+    "choices": [
+      "increase",
+      "boost",
+      "enhance",
+      "raise"
+    ],
+    "answer": "raise"
+  },
+  {
+    "question": "The finance team needs to _____ the quarterly budget report.",
+    "choices": [
+      "prepare",
+      "preparation",
+      "prepared",
+      "preparing"
+    ],
+    "answer": "prepare"
+  },
+  {
+    "question": "The new regulations will _____ on January 1st.",
+    "choices": [
+      "take effect",
+      "take affects",
+      "have effect",
+      "have affect"
+    ],
+    "answer": "take effect"
+  },
+  {
+    "question": "The _____ of the new software is scheduled for next week.",
+    "choices": [
+      "launch",
+      "launches",
+      "launched",
+      "launching"
+    ],
+    "answer": "launch"
+  },
+  {
+    "question": "The HR department will __________ the training programs to better meet employee needs.",
+    "choices": [
+      "revise",
+      "adjust",
+      "enhance",
+      "improve"
+    ],
+    "answer": "revise"
+  },
+  {
+    "question": "We need to _____ the contract before signing.",
+    "choices": [
+      "review",
+      "reviewed",
+      "reviewing",
+      "reviews"
+    ],
+    "answer": "review"
+  },
+  {
+    "question": "The manager decided to __________ additional resources to the project.",
+    "choices": [
+      "allocate",
+      "assign",
+      "distribute",
+      "provide"
+    ],
+    "answer": "allocate"
+  },
+  {
+    "question": "The CEO will _____ the annual meeting next month.",
+    "choices": [
+      "attend",
+      "attendance",
+      "attending",
+      "attends"
+    ],
+    "answer": "attend"
+  },
+  {
+    "question": "The company is planning to __________ its operations into new markets.",
+    "choices": [
+      "expand",
+      "extend",
+      "broaden",
+      "grow"
+    ],
+    "answer": "expand"
+  },
+  {
+    "question": "All employees must _____ the new security guidelines.",
+    "choices": [
+      "follow",
+      "following",
+      "follows",
+      "followed"
+    ],
+    "answer": "follow"
+  },
+  {
+    "question": "The marketing team is planning to _____ a new campaign.",
+    "choices": [
+      "launch",
+      "launches",
+      "launching",
+      "launched"
+    ],
+    "answer": "launch"
+  },
+  {
+    "question": "The team will __________ the report to ensure it is accurate and complete.",
+    "choices": [
+      "review",
+      "check",
+      "inspect",
+      "verify"
+    ],
+    "answer": "review"
+  },
+  {
+    "question": "The company is looking to _____ its operations overseas.",
+    "choices": [
+      "expand",
+      "expansion",
+      "expands",
+      "expanded"
+    ],
+    "answer": "expand"
+  },
+  {
+    "question": "The company's new initiative aims to __________ employee productivity.",
+    "choices": [
+      "boost",
+      "enhance",
+      "increase",
+      "improve"
+    ],
+    "answer": "boost"
+  },
+  {
+    "question": "The new policy will be _____ starting next month.",
+    "choices": [
+      "implemented",
+      "implement",
+      "implementing",
+      "implements"
+    ],
+    "answer": "implemented"
+  },
+  {
+    "question": "We need to _____ a meeting to discuss the new project.",
+    "choices": [
+      "schedule",
+      "scheduled",
+      "scheduling",
+      "schedules"
+    ],
+    "answer": "schedule"
+  },
+  {
+    "question": "The _____ for the new product has been very positive.",
+    "choices": [
+      "feedback",
+      "feed",
+      "feeds",
+      "fed"
+    ],
+    "answer": "feedback"
+  },
+  {
+    "question": "Please _____ the report to the team by Friday.",
+    "choices": [
+      "submit",
+      "submitted",
+      "submitting",
+      "submits"
+    ],
+    "answer": "submit"
+  },
+  {
+    "question": "The project team needs to _____ a detailed plan.",
+    "choices": [
+      "develop",
+      "development",
+      "developing",
+      "developed"
+    ],
+    "answer": "develop"
+  },
+  {
+    "question": "We need to _____ customer satisfaction to stay competitive.",
+    "choices": [
+      "maintain",
+      "maintenance",
+      "maintaining",
+      "maintained"
+    ],
+    "answer": "maintain"
+  },
+  {
+    "question": "The _____ of the financial report is next Monday.",
+    "choices": [
+      "deadline",
+      "deadlines",
+      "dead",
+      "lining"
+    ],
+    "answer": "deadline"
+  },
+  {
+    "question": "International teams often have to __________ their working hours to accommodate different time zones.",
+    "choices": [
+      "adjust",
+      "modify",
+      "revise",
+      "adapt"
+    ],
+    "answer": "adjust"
+  },
+  {
+    "question": "The manager will _____ the performance of each team member.",
+    "choices": [
+      "evaluate",
+      "evaluation",
+      "evaluated",
+      "evaluating"
+    ],
+    "answer": "evaluate"
+  },
+  {
+    "question": "The _____ for the new office furniture has been approved.",
+    "choices": [
+      "order",
+      "orders",
+      "ordered",
+      "ordering"
+    ],
+    "answer": "order"
+  },
+  {
+    "question": "All employees are required to _____ the safety regulations.",
+    "choices": [
+      "adhere to",
+      "adhere",
+      "adhering",
+      "adheres"
+    ],
+    "answer": "adhere to"
+  },
+  {
+    "question": "When expanding into new regions, companies often need to __________ their marketing strategies to suit local preferences.",
+    "choices": [
+      "tailor",
+      "customize",
+      "adapt",
+      "personalize"
+    ],
+    "answer": "tailor"
+  },
+  {
+    "question": "The company will _____ a new product line next year.",
+    "choices": [
+      "introduce",
+      "introduced",
+      "introducing",
+      "introduces"
+    ],
+    "answer": "introduce"
+  },
+  {
+    "question": "The HR department will _____ the new employees on company policies.",
+    "choices": [
+      "brief",
+      "briefs",
+      "briefed",
+      "briefing"
+    ],
+    "answer": "brief"
+  },
+  {
+    "question": "We need to _____ our strategy based on the latest market trends.",
+    "choices": [
+      "adjust",
+      "adjusting",
+      "adjusted",
+      "adjusts"
+    ],
+    "answer": "adjust"
+  },
+  {
+    "question": "In global business environments, it's common to __________ meetings to accommodate participants from different time zones.",
+    "choices": [
+      "schedule",
+      "arrange",
+      "plan",
+      "organize"
+    ],
+    "answer": "schedule"
+  },
+  {
+    "question": "The CEO announced plans to _____ the company's digital presence.",
+    "choices": [
+      "enhance",
+      "enhancement",
+      "enhances",
+      "enhancing"
+    ],
+    "answer": "enhance"
+  },
+  {
+    "question": "The team is working to _____ the issue as quickly as possible.",
+    "choices": [
+      "resolve",
+      "resolves",
+      "resolved",
+      "resolving"
+    ],
+    "answer": "resolve"
+  },
+  {
+    "question": "In international negotiations, it's essential to __________ compromises that benefit all parties involved.",
+    "choices": [
+      "reach",
+      "achieve",
+      "attain",
+      "establish"
+    ],
+    "answer": "reach"
+  },
+  {
+    "question": "We need to _____ the customer feedback to improve our services.",
+    "choices": [
+      "analyze",
+      "analysis",
+      "analyzed",
+      "analyzes"
+    ],
+    "answer": "analyze"
+  },
+  {
+    "question": "The company is planning to _____ its workforce next year.",
+    "choices": [
+      "expand",
+      "expansion",
+      "expands",
+      "expanded"
+    ],
+    "answer": "expand"
+  },
+  {
+    "question": "We must _____ the risks before making a decision.",
+    "choices": [
+      "assess",
+      "assessment",
+      "assessing",
+      "assesses"
+    ],
+    "answer": "assess"
+  },
+  {
+    "question": "The new policy will be _____ to all employees by email.",
+    "choices": [
+      "communicated",
+      "communicate",
+      "communicating",
+      "communicates"
+    ],
+    "answer": "communicated"
+  },
+  {
+    "question": "The IT department is responsible for _____ technical support.",
+    "choices": [
+      "providing",
+      "provide",
+      "provided",
+      "provides"
+    ],
+    "answer": "providing"
+  },
+  {
+    "question": "The project team will _____ on the next phase of development.",
+    "choices": [
+      "focus",
+      "focused",
+      "focusing",
+      "focuses"
+    ],
+    "answer": "focus"
+  },
+  {
+    "question": "Global leaders often __________ their cultural intelligence to navigate diverse business environments.",
+    "choices": [
+      "utilize",
+      "employ",
+      "harness",
+      "leverage"
+    ],
+    "answer": "leverage"
+  },
+  {
+    "question": "We need to _____ the new software before rolling it out company-wide.",
+    "choices": [
+      "test",
+      "tests",
+      "tested",
+      "testing"
+    ],
+    "answer": "test"
+  },
+  {
+    "question": "In international business, companies strive to __________ their brand's reputation to gain trust from global consumers.",
+    "choices": [
+      "maintain",
+      "uphold",
+      "preserve",
+      "sustain"
+    ],
+    "answer": "uphold"
+  },
+  {
+    "question": "Please _____ your expenses before submitting the report.",
+    "choices": [
+      "itemize",
+      "itemizes",
+      "itemized",
+      "itemizing"
+    ],
+    "answer": "itemize"
+  },
+  {
+    "question": "To foster cross-border cooperation, companies often need to __________ cultural barriers.",
+    "choices": [
+      "transcend",
+      "overcome",
+      "penetrate",
+      "break"
+    ],
+    "answer": "transcend"
+  },
+  {
+    "question": "The CEO will _____ the new policy at the meeting.",
+    "choices": [
+      "announce",
+      "announces",
+      "announced",
+      "announcing"
+    ],
+    "answer": "announce"
+  },
+  {
+    "question": "In global marketing campaigns, it's essential to __________ cultural nuances to resonate with diverse audiences.",
+    "choices": [
+      "embrace",
+      "grasp",
+      "comprehend",
+      "capture"
+    ],
+    "answer": "grasp"
+  },
+  {
+    "question": "The marketing team is working on a new _____ campaign.",
+    "choices": [
+      "advertising",
+      "advertised",
+      "advertise",
+      "advertisement"
+    ],
+    "answer": "advertising"
+  },
+  {
+    "question": "International negotiations require diplomats to __________ their diplomatic skills to achieve mutual agreements.",
+    "choices": [
+      "utilize",
+      "deploy",
+      "apply",
+      "employ"
+    ],
+    "answer": "deploy"
+  },
+  {
+    "question": "We need to _____ our products to meet the new standards.",
+    "choices": [
+      "modify",
+      "modifies",
+      "modified",
+      "modifying"
+    ],
+    "answer": "modify"
+  },
+  {
+    "question": "To expand their global footprint, companies often seek to __________ their market share in emerging economies.",
+    "choices": [
+      "dominate",
+      "capture",
+      "seize",
+      "gain"
+    ],
+    "answer": "capture"
+  },
+  {
+    "question": "The team will _____ the results of the survey next week.",
+    "choices": [
+      "analyze",
+      "analysis",
+      "analyzing",
+      "analyzes"
+    ],
+    "answer": "analyze"
+  },
+  {
+    "question": "When conducting international business, it's crucial to __________ global economic trends.",
+    "choices": [
+      "anticipate",
+      "predict",
+      "foresee",
+      "envision"
+    ],
+    "answer": "anticipate"
+  },
+  {
+    "question": "We need to _____ the final report by the end of the week.",
+    "choices": [
+      "submit",
+      "submitted",
+      "submitting",
+      "submits"
+    ],
+    "answer": "submit"
+  },
+  {
+    "question": "In cross-cultural interactions, it's important to __________ respect for diverse perspectives.",
+    "choices": [
+      "demonstrate",
+      "showcase",
+      "manifest",
+      "exhibit"
+    ],
+    "answer": "demonstrate"
+  },
+  {
+    "question": "The project was delayed due to _____ issues.",
+    "choices": [
+      "logistical",
+      "logistics",
+      "logistic",
+      "logistically"
+    ],
+    "answer": "logistical"
+  },
+  {
+    "question": "In international trade, companies often face challenges related to __________ currency fluctuations.",
+    "choices": [
+      "managing",
+      "handling",
+      "dealing with",
+      "coping with"
+    ],
+    "answer": "coping with"
+  },
+  {
+    "question": "The team is working hard to _____ the project on time.",
+    "choices": [
+      "complete",
+      "completing",
+      "completed",
+      "completes"
+    ],
+    "answer": "complete"
+  },
+  {
+    "question": "In global finance, it's crucial to __________ market volatility.",
+    "choices": [
+      "manage",
+      "control",
+      "regulate",
+      "govern"
+    ],
+    "answer": "manage"
+  },
+  {
+    "question": "The new office space will be _____ next week.",
+    "choices": [
+      "available",
+      "availability",
+      "avail",
+      "availably"
+    ],
+    "answer": "available"
+  },
+  {
+    "question": "When dealing with international clients, it's important to __________ cultural sensitivities.",
+    "choices": [
+      "acknowledging",
+      "recognizes",
+      "heeds",
+      "respect"
+    ],
+    "answer": "respect"
+  },
+  {
+    "question": "The sales team needs to _____ its quarterly targets.",
+    "choices": [
+      "achieve",
+      "achieved",
+      "achieves",
+      "achieving"
+    ],
+    "answer": "achieve"
+  },
+  {
+    "question": "To facilitate international collaboration, companies often need to __________ language barriers.",
+    "choices": [
+      "break down",
+      "overcame",
+      "dismantle of",
+      "surmount by"
+    ],
+    "answer": "break down"
+  },
+  {
+    "question": "The project deadline has been _____ due to unforeseen issues.",
+    "choices": [
+      "extended",
+      "extend",
+      "extending",
+      "extends"
+    ],
+    "answer": "extended"
+  },
+  {
+    "question": "International expansions require companies to __________ new markets.",
+    "choices": [
+      "tap",
+      "tap at",
+      "tap for",
+      "tap into"
+    ],
+    "answer": "tap into"
+  },
+  {
+    "question": "We need to _____ a more effective marketing strategy.",
+    "choices": [
+      "develop",
+      "developed",
+      "developing",
+      "development"
+    ],
+    "answer": "develop"
+  },
+  {
+    "question": "In international marketing, companies must __________ cultural sensitivities.",
+    "choices": [
+      "respectful",
+      "valued",
+      "appreciative of",
+      "acknowledge"
+    ],
+    "answer": "acknowledge"
+  },
+  {
+    "question": "The _____ of the new policy will start next month.",
+    "choices": [
+      "implementation",
+      "implement",
+      "implements",
+      "implemented"
+    ],
+    "answer": "implementation"
+  },
+  {
+    "question": "We must _____ all employees about the new company guidelines.",
+    "choices": [
+      "inform",
+      "informed",
+      "informing",
+      "informs"
+    ],
+    "answer": "inform"
+  },
+  {
+    "question": "The team is _____ to complete the project by the end of the month.",
+    "choices": [
+      "expected",
+      "expects",
+      "expect",
+      "expecting"
+    ],
+    "answer": "expected"
+  },
+  {
+    "question": "In international relations, countries must __________ diplomatic solutions.",
+    "choices": [
+      "pursue",
+      "seek",
+      "look for",
+      "search for"
+    ],
+    "answer": "pursue"
+  },
+  {
+    "question": "We need to _____ our customers' needs more effectively.",
+    "choices": [
+      "address",
+      "addresses",
+      "addressing",
+      "addressed"
+    ],
+    "answer": "address"
+  },
+  {
+    "question": "To foster innovation, companies must __________ a culture of creativity.",
+    "choices": [
+      "cultivate",
+      "nurtured",
+      "fosters",
+      "promoting"
+    ],
+    "answer": "cultivate"
+  },
+  {
+    "question": "The IT department will _____ a new system upgrade next week.",
+    "choices": [
+      "install",
+      "installed",
+      "installing",
+      "installation"
+    ],
+    "answer": "install"
+  },
+  {
+    "question": "In global marketing, companies must __________ brand awareness.",
+    "choices": [
+      "boosts",
+      "increased",
+      "raising",
+      "heighten"
+    ],
+    "answer": "heighten"
+  },
+  {
+    "question": "We need to _____ our production process to improve efficiency.",
+    "choices": [
+      "streamline",
+      "streamlines",
+      "streamlining",
+      "streamlined"
+    ],
+    "answer": "streamline"
+  },
+  {
+    "question": "In global negotiations, diplomats must __________ for diplomatic solutions.",
+    "choices": [
+      "seek",
+      "pursue",
+      "strive for",
+      "aim for"
+    ],
+    "answer": "strive"
+  },
+  {
+    "question": "Gerardo Lentini will build __________ second clinic in June.",
+    "choices": [
+      "he",
+      "his",
+      "him",
+      "himself"
+    ],
+    "answer": "his"
+  },
+  {
+    "question": "Analysts __________ significant growth in the robotics industry in the next decade",
+    "choices":[
+      "attend",
+      "refer",
+      "think",
+      "predict"
+    ],
+    "answer": "predict"
+  },
+  {
+    "question": "Please review the __________ schedule and e-mail me right away about any mistakes.",
+    "choices":[
+      "repeated",
+      "alarmed",
+      "attached",
+      "canceled"
+    ],
+    "answer": "attached"
+  },
+  {
+    "question": "The neighbourhood's newest clothing store will sepecialise in the sale of __________ wear.",
+    "choices":[
+      "formal",
+      "quick",
+      "strict",
+      "sudden"
+    ],
+    "answer": "formal"
+  },
+  {
+    "question": "Office morale __________ after we offered rewards for practical suggestions.",
+    "choices":[
+      "indicated",
+      "completed",
+      "improved",
+      "controlled"
+    ],
+    "answer": "improved"
+  },
+  {
+    "question": "Shipbuilders, Inc. anticipates profits for the second quarter to be __________ 4 and 6 percent.",
+    "choices": [
+      "by",
+      "for",
+      "upon",
+      "between"
+    ],
+    "answer": "between"
+  },
+  {
+    "question": "The new washing maching has a heavy-duty cycle that is effective in removing the __________ stains.",
+    "choices":[
+      "highest",
+      "toughest",
+      "uneven",
+      "broad"
+    ],
+    "answer": "toughest"
+  },
+  {
+    "question": "The months of April and May are __________ busy for the workers at Avedis Garden Supply.",
+    "choices":[
+      "readily",
+      "accurately",
+      "particularly",
+      "directly"
+    ],
+    "answer": "particularly"
+  },
+  {
+    "question": "Mr. Kamala will handle the marketing reports __________ Ms. Lewis is away on vacation.",
+    "choices":[
+      "concerning",
+      "while",
+      "during",
+      "just"
+    ],
+    "answer": "while"
+  },
+  {
+    "question": "Mr. Nguyen opposes adding a __________ of trail bikes because he thinks it will not be popular with customers.",
+    "choices":[
+      "line",
+      "surface",
+      "field",
+      "front"
+    ],
+    "answer": "line"
+  },
+  {
+    "question": "Ms. Nicholas was promoted __________ managing editor of the Irontown Daily Press.",
+    "choices": [
+      "of",
+      "at",
+      "to",
+      "on"
+    ],
+    "answer": "to"
+  },
+  {
+    "question": "Failure to pay bills on time __________ result in additional late fees.",
+    "choices": [
+      "when",
+      "may",
+      "part",
+      "itself"
+    ],
+    "answer": "may"
+  },
+  {
+    "question": "Financial conditions in the greater Perth region are __________ favourable for economic growth.",
+    "choices":[
+      "privately",
+      "centrally",
+      "neutrally",
+      "currently"
+    ],
+    "answer": "currently"
+  },
+  {
+    "question": "Sunworth Company's all-in-one shampoos restore natural shine at the same time __________ they condition hair.",
+    "choices":[
+      "even",
+      "as",
+      "either",
+      "like"
+    ],
+    "answer": "as"
+  },
+  {
+    "question": "The third box of the shipment, which should have contained the microphones, __________ arrived.",
+    "choices":[
+      "late",
+      "rather",
+      "never",
+      "not"
+    ],
+    "answer": "never"
+  },
+  {
+    "question": "The Murnau Company's pepper grinders are __________ durable that the company guarantees the for life.",
+    "choices":[
+      "too",
+      "so",
+      "such",
+      "very"
+    ],
+    "answer": "so"
+  },
+  {
+    "question": "The Asawa 4 is __________ any vehicle currently on the market.",
+    "choices":[
+      "unlike",
+      "expecting",
+      "against",
+      "above"
+    ],
+    "answer": "unlike"
+  },
+  {
+    "question": "By the time he signs the lease, Mr. Cooper __________ four months searching for a suitbale office space.",
+    "choices":[
+      "will have spent",
+      "had spent",
+      "to spend",
+      "spent"
+    ],
+    "answer": "will have spent"
+  },
+  {
+    "question": "__________ I have already been briefed by the product development team, I am fully prepared for my appointment with Mr. Warner.",
+    "choices":[
+      "Until",
+      "In spite of",
+      "Since",
+      "Even though"
+    ],
+    "answer": "Since"
+  }
+]

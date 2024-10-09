@@ -1,0 +1,159 @@
+
+[
+    {
+      "question": "I _________ to the gym every day before work.",
+      "choices": ["go", "goes", "going", "have gone"],
+      "answer": "go"
+    },
+    {
+      "question": "She _________ in this company since 2010.",
+      "choices": ["works", "is working", "has worked", "worked"],
+      "answer": "has worked"
+    },
+    {
+      "question": "The meeting _________ until next week due to unforeseen circumstances.",
+      "choices": ["postpone", "postpones", "is postponing", "has been postponed"],
+      "answer": "has been postponed"
+    },
+    {
+      "question": "You _________ start your assignment as soon as possible.",
+      "choices": ["must", "should", "ought", "have to"],
+      "answer": "should"
+    },
+    {
+      "question": "If I _________ more time, I would have completed the project.",
+      "choices": ["have", "had", "would have", "will have"],
+      "answer": "had"
+    },
+    {
+      "question": "He asked me _________ I could help him with his project.",
+      "choices": ["if", "that", "whether", "to"],
+      "answer": "if"
+    },
+    {
+      "question": "She _________ me she would be late for the meeting.",
+      "choices": ["said", "told", "asked", "spoke"],
+      "answer": "told"
+    },
+    {
+      "question": "Please let me know _________ you have any questions.",
+      "choices": ["if", "whether", "that", "to"],
+      "answer": "if"
+    },
+    {
+      "question": "The new manager _________ a positive impact on the team morale.",
+      "choices": ["has", "have", "is", "had"],
+      "answer": "has"
+    },
+    {
+      "question": "I haven't seen him _________ we finished college.",
+      "choices": ["since", "for", "from", "while"],
+      "answer": "since"
+    },
+    {
+      "question": "This report is _________ important than the previous one.",
+      "choices": ["less", "fewer", "more", "most"],
+      "answer": "more"
+    },
+    {
+      "question": "The company's profits _________ significantly last quarter.",
+      "choices": ["increased", "decreased", "risen", "fallen"],
+      "answer": "increased"
+    },
+    {
+      "question": "He is the _________ candidate for the position.",
+      "choices": ["good", "better", "best", "well"],
+      "answer": "best"
+    },
+    {
+      "question": "The project was completed _________ time and under budget.",
+      "choices": ["at", "on", "in", "with"],
+      "answer": "on"
+    },
+    {
+      "question": "The conference will take place _________ two weeks.",
+      "choices": ["since", "for", "from", "in"],
+      "answer": "in"
+    },
+    {
+      "question": "We need to _________ our efforts to meet the deadline.",
+      "choices": ["increase", "decrease", "expand", "reduce"],
+      "answer": "increase"
+    },
+    {
+      "question": "The CEO announced a _________ initiative to improve customer service.",
+      "choices": ["new", "old", "fresh", "latest"],
+      "answer": "new"
+    },
+    {
+      "question": "The team _________ in the office until late last night.",
+      "choices": ["works", "worked", "working", "work"],
+      "answer": "worked"
+    },
+    {
+      "question": "Please make sure to _________ the report before submitting it.",
+      "choices": ["proof", "proofread", "proofreading", "proofreads"],
+      "answer": "proofread"
+    },
+    {
+      "question": "They _________ a new product line next month.",
+      "choices": ["launching", "launches", "launched", "will launch"],
+      "answer": "will launch"
+    },
+    {
+      "question": "The company's stock price _________ steadily over the past year.",
+      "choices": ["increased", "decreased", "risen", "fallen"],
+      "answer": "has risen"
+    },
+    {
+      "question": "He _________ for the job three times before he finally got it.",
+      "choices": ["applied", "applies", "applying", "apply"],
+      "answer": "applied"
+    },
+    {
+      "question": "I will be away from the office _________ next Monday.",
+      "choices": ["since", "until", "to", "from"],
+      "answer": "until"
+    },
+    {
+      "question": "The team _________ working on the project as soon as possible.",
+      "choices": ["needs", "need", "needing", "needed"],
+      "answer": "needs"
+    },
+    {
+      "question": "She _________ the manager for a raise, but he refused.",
+      "choices": ["asked", "told", "spoke", "said"],
+      "answer": "asked"
+    },
+    {
+      "question": "We will have to _________ the meeting until next week.",
+      "choices": ["postpone", "postpones", "postponed", "postponing"],
+      "answer": "postpone"
+    },
+    {
+      "question": "Please make sure to _________ the door when you leave.",
+      "choices": ["lock", "locked", "locks", "locking"],
+      "answer": "lock"
+    },
+    {
+      "question": "We _________ the project on time if we work together.",
+      "choices": ["can finish", "finish", "finishes", "finished"],
+      "answer": "can finish"
+    },
+    {
+      "question": "The report _________ to the client by the end of the week.",
+      "choices": ["will send", "sends", "sending", "sent"],
+      "answer": "will send"
+    },
+    {
+      "question": "The company _________ a new marketing campaign next month.",
+      "choices": ["launching", "launches", "launched", "will launch"],
+      "answer": "will launch"
+    },
+    {
+      "question": "I have _________ many job interviews this month.",
+      "choices": ["had", "have", "having", "has"],
+      "answer": "had"
+    }
+  ]
+  

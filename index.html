@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOEIC Quiz</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="column-1-top">
+      <h1>TOEIC practice program for reading part V</h1>
+      <h2>Developed by Assoc. Prof. Kyaw Thu.</h2>
+      <p>Version history</p>
+      <ul>
+        <li>Coded on the 1<sup>st</sup> May 2024</li>
+      </ul>
+      <h3>Insturctions</h3>
+      <ul>
+        <li>Choose the time as instructed from the dropdown list.</li>
+        <li>Click the "Start Quiz" button.</li>
+        <li>Choose the correct answer for each question by clicking on it from the list.</li>
+        <li>Submission will be completed by two methods:</li>
+        <ul>
+          <li>By clicking the "Submit" button or</li>
+          <li>Automatic submission when the timer is up.</li>
+        </ul>
+        <li>You can see your score and the correct answers on the right column.</li>
+        <li>Questions that were answered incorrectly will be highlighted in <span style="color: red;">RED</span>, while correct answers will be in <span style="color: green;">GREEN</span> of the unanswered questions will be shown in <span style="color: orange;">ORANGE</span> color.</li>
+      </ul>
+      <p style="color: red; font-weight: bold;">DO NOT REFRESH OR CLOSE THE BROWSER BEFORE COMPLETING THE EXERCISE.</p>
+      <img src = "./images/CA+.png" alt = "CA+ image" class="top-image">
+    </div>
+
+
+    <div class="timer-float" id="timer"></div>
+
+    <div class="quiz-column" id="quiz"></div>
+
+    <div class="answers-column" id="answers"></div>
+
+    <!-- Move the submit button inside the .submit-button div -->
+    <div class="submit-button-container" id="submit"></div>
+
+  </div>
+
+  <script src="./js/quiz.js"></script>
+</body>
+
+</html>
