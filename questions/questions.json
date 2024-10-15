@@ -102,7 +102,7 @@
     },
     {
       "question": "The company's stock price _________ steadily over the past year.",
-      "choices": ["increased", "decreased", "risen", "fallen"],
+      "choices": ["increased", "decreased", "has risen", "fallen"],
       "answer": "has risen"
     },
     {
