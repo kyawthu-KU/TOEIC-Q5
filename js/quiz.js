@@ -369,11 +369,11 @@ class TOEICQuiz {
 
     // Define the options
     const options = [
-      { value: '300', text: '5 minute' },
-      { value: '600', text: '10 minute' },
-      { value: '720', text: '12 minute' },
-      { value: '900', text: '15 minute' },
-      { value: '1200', text: '20 minute' },
+      { value: '300', text: '5 minutes' },
+      { value: '600', text: '10 minutes' },
+      { value: '720', text: '12 minutes' },
+      { value: '900', text: '15 minutes' },
+      { value: '1200', text: '20 minutes' },
       { value: '1800', text: '30 minutes' },
       { value: '2400', text: '40 minutes' },
       { value: '3000', text: '50 minutes' }
