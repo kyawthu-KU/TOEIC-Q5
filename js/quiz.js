@@ -110,7 +110,7 @@ class TOEICQuiz {
   }
 
   async loadQuestions() {
-    const response = await fetch('./questions/questionsPart5Set100.json');
+    const response = await fetch('./questions/questionsPart5Sample.json');
     this.questions = await response.json();
     this.questions = this.shuffleArray(this.questions).slice(0, this.numQuestions);
   }
