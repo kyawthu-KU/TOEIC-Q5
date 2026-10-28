@@ -1,12 +1,58 @@
 // quiz.js
 
+const QUESTION_MIX = Object.freeze([
+  { difficulty: 'advanced', count: 20 },
+  { difficulty: 'intermediate', count: 10 }
+]);
+
+function normalizeQuestion(text) {
+  return text.normalize('NFKC').trim().replace(/_+/g, '_____').replace(/\s+/g, ' ').toLowerCase();
+}
+
+function selectQuestions(bank, shuffle) {
+  if (!Array.isArray(bank)) {
+    throw new Error('The question bank could not be read. Please contact your instructor.');
+  }
+
+  const valid = bank.every(question => question &&
+    typeof question.question === 'string' &&
+    (question.question.match(/_+/g) || []).length === 1 &&
+    Array.isArray(question.choices) && question.choices.length === 4 &&
+    question.choices.every(choice => typeof choice === 'string' && choice.trim().length > 0) &&
+    new Set(question.choices.map(choice => choice.trim().toLowerCase())).size === 4 &&
+    question.choices.includes(question.answer) &&
+    ['basic', 'intermediate', 'advanced'].includes(question.difficulty) &&
+    ['eligible', 'excluded'].includes(question.review) &&
+    (question.review !== 'excluded' ||
+      (typeof question.exclusionReason === 'string' && question.exclusionReason.trim().length > 0)));
+
+  if (!valid) {
+    throw new Error('The question bank needs review before this quiz can start. Please contact your instructor.');
+  }
+
+  const eligible = bank.filter(question => question.review === 'eligible');
+  if (new Set(eligible.map(question => normalizeQuestion(question.question))).size !== eligible.length) {
+    throw new Error('The question bank contains repeated questions. Please contact your instructor.');
+  }
+
+  const selected = QUESTION_MIX.flatMap(({ difficulty, count }) => {
+    const pool = eligible.filter(question => question.difficulty === difficulty);
+    if (pool.length < count) {
+      throw new Error(`This quiz needs ${count} ${difficulty} questions, but only ${pool.length} are available. Please contact your instructor.`);
+    }
+    return shuffle([...pool]).slice(0, count);
+  });
+
+  return shuffle(selected);
+}
+
 class TOEICQuiz {
   constructor() {
     this.questions = [];
     this.answers = new Map();
     this.correctAnswers = new Map();
     this.score = 0;
-    this.numQuestions = 30; // Number of questions to load
+    this.numQuestions = QUESTION_MIX.reduce((total, group) => total + group.count, 0);
 
     this.submitClicked = false; // Flag to track if submit button is clicked
     this.timeLimit = 1800; // Default time limit for the quiz (30 minutes in seconds)
@@ -47,7 +93,7 @@ class TOEICQuiz {
 
   // Method to handle selection of answer choices
   selectAnswer(event) {
-    if (this.submitClicked) {
+    if (this.submitClicked || this.quizSubmitted) {
       return; // Prevent selection after submit button is clicked
     }
 
@@ -92,7 +138,6 @@ class TOEICQuiz {
   async displayQuiz() {
     try {
       await this.loadQuestions();
-      this.loadCorrectAnswers();
       this.displayTimeDropdown();
       this.displayStartButton();
 
@@ -106,13 +151,27 @@ class TOEICQuiz {
 
     } catch (error) {
       console.error('Error loading quiz:', error);
+      const message = document.createElement('p');
+      message.setAttribute('role', 'alert');
+      message.textContent = error.message;
+      message.style.color = 'red';
+      this.timerFloat.replaceChildren(message);
     }
   }
 
   async loadQuestions() {
     const response = await fetch('./questions/questionsPart5Sample.json');
-    this.questions = await response.json();
-    this.questions = this.shuffleArray(this.questions).slice(0, this.numQuestions);
+    if (!response.ok) {
+      throw new Error('Questions could not be loaded. Please reload the page or contact your instructor.');
+    }
+    let bank;
+    try {
+      bank = await response.json();
+    } catch {
+      throw new Error('The question bank could not be read. Please contact your instructor.');
+    }
+    this.questions = selectQuestions(bank, questions => this.shuffleArray(questions));
+    this.loadCorrectAnswers();
   }
 
 
@@ -180,10 +239,14 @@ class TOEICQuiz {
     submitButton.style.color = 'white'; // Set text color to white
 
     submitButton.addEventListener('click', () => {
+      if (this.quizSubmitted || this.submitClicked) {
+        return;
+      }
       if (confirm('Are you sure you want to submit your answers?')) {
         // console.log('Submit button clicked');
         this.calculateScore();
         this.submitClicked = true; // Set flag to indicate submit button clicked
+        this.quizSubmitted = true;
         submitButton.disabled = true; // Disable button after submission
 
         // // Display correct answers
@@ -284,6 +347,7 @@ class TOEICQuiz {
 
   // Method to load correct answers
   loadCorrectAnswers() {
+    this.correctAnswers.clear();
     this.questions.forEach((question, index) => {
       const questionKey = `${index}`;
       this.correctAnswers.set(questionKey, question.answer);
@@ -401,6 +465,7 @@ class TOEICQuiz {
 
   displayStartButton() {
     const startButton = document.createElement('button');
+    this.startButton = startButton;
     startButton.textContent = 'Start Quiz';
     startButton.style.fontSize = '30px'
     startButton.style.width = '200px'; // Set width to 200 pixels
@@ -442,9 +507,12 @@ class TOEICQuiz {
   }
 
   startQuiz() {
+    if (this.quizStarted) {
+      return;
+    }
     // Hide time dropdown and start button
     document.getElementById('timeDropdown').style.display = 'none';
-    document.querySelector('button').style.display = 'none';
+    this.startButton.style.display = 'none';
 
     // Hide the dropdown container
     const dropdownContainer = document.querySelector('.timer-float');
@@ -465,8 +533,7 @@ class TOEICQuiz {
     // Set the flag to indicate that the quiz has started
     this.quizStarted = true;
 
-    // Load and display questions
-    this.loadQuestions();
+    // Display the questions selected before the start button was shown.
     this.displayQuestions();
 
   }
@@ -504,7 +571,7 @@ class TOEICQuiz {
   // Method to submit the quiz automatically when time is up
   submitQuiz() {
     // Prevent duplicate submission
-    if (this.quizSubmitted) {
+    if (this.quizSubmitted || this.submitClicked) {
       return;
     }
 
@@ -532,10 +599,196 @@ class TOEICQuiz {
 
     // Set the flag to indicate that the quiz has been submitted
     this.quizSubmitted = true;
+    this.submitClicked = true;
+    clearInterval(this.timerInterval);
   }
 
 }
 
-// Create instance of TOEICQuiz and display the quiz
-const quiz = new TOEICQuiz();
-quiz.displayQuiz();
+// Run with --verify to check the real selection, loading and scoring functions.
+async function verifyQuiz() {
+  const { readFile } = await import('node:fs/promises');
+  const { createHash } = await import('node:crypto');
+  const { pathToFileURL } = await import('node:url');
+  const { default: assert } = await import('node:assert/strict');
+  const bank = JSON.parse(await readFile(new URL('../questions/questionsPart5Sample.json', pathToFileURL(__filename)), 'utf8'));
+  const originalContent = bank.slice(0, 753).map(({ question, choices, answer }) => ({ question, choices, answer }));
+  console.log(`Original content SHA256: ${createHash('sha256').update(JSON.stringify(originalContent)).digest('hex')}`);
+  if (process.argv.includes('--baseline')) {
+    return;
+  }
+
+  assert.equal(bank.length, 903);
+  assert.equal(new Set(bank.map(question => normalizeQuestion(question.question))).size, bank.length);
+  const additions = bank.slice(753);
+  const expectedCategories = { grammar: 50, logic: 40, vocabulary: 40, distinction: 20 };
+  Object.entries(expectedCategories).forEach(([category, count]) => {
+    assert.equal(additions.filter(question => question.category === category).length, count, category);
+  });
+  assert.ok(additions.every(question => question.difficulty === 'advanced' && question.review === 'eligible'));
+  const snapshot = JSON.stringify(bank);
+  const shuffle = TOEICQuiz.prototype.shuffleArray;
+  const selections = Array.from({ length: 100 }, () => selectQuestions(bank, shuffle));
+  selections.forEach(questions => {
+    assert.equal(questions.length, 30);
+    assert.equal(new Set(questions).size, 30);
+    assert.equal(questions.filter(question => question.difficulty === 'advanced').length, 20);
+    assert.equal(questions.filter(question => question.difficulty === 'intermediate').length, 10);
+    assert.ok(questions.every(question => question.review === 'eligible'));
+    const scoreState = {
+      questions, correctAnswers: new Map(),
+      answers: new Map(questions.map((question, index) => [String(index), question.answer])),
+      displayScore() {}, displayCorrectAnswers() {}
+    };
+    TOEICQuiz.prototype.loadCorrectAnswers.call(scoreState);
+    TOEICQuiz.prototype.calculateScore.call(scoreState);
+    assert.equal(scoreState.score, 30);
+    scoreState.answers = new Map(questions.slice(0, 20).map((question, index) => [String(index),
+      index < 10 ? question.answer : question.choices.find(choice => choice !== question.answer)]));
+    TOEICQuiz.prototype.calculateScore.call(scoreState);
+    assert.equal(scoreState.score, 10);
+    ['correct', 'wrong', 'unanswered'].forEach(status => {
+      assert.equal(scoreState.answerCorrectness.filter(answer => answer.status === status).length, 10);
+    });
+    scoreState.answers = new Map();
+    TOEICQuiz.prototype.calculateScore.call(scoreState);
+    assert.equal(scoreState.score, 0);
+    assert.ok(scoreState.answerCorrectness.every(answer => answer.status === 'unanswered'));
+    questions.forEach(question => {
+      const choices = shuffle([...question.choices]);
+      assert.equal(choices.length, 4);
+      assert.ok(choices.includes(question.answer));
+    });
+  });
+  assert.ok(new Set(selections.map(questions => questions.map(question => question.question).join('|'))).size > 1);
+  assert.equal(JSON.stringify(bank), snapshot);
+  QUESTION_MIX.forEach(({ difficulty, count }) => {
+    const other = bank.filter(question => question.difficulty !== difficulty);
+    const pool = bank.filter(question => question.review === 'eligible' && question.difficulty === difficulty);
+    assert.throws(() => selectQuestions([...other, ...pool.slice(0, count - 1)], shuffle), /only .* are available/);
+    const exact = selectQuestions([...other, ...pool.slice(0, count)], shuffle);
+    assert.equal(exact.filter(question => question.difficulty === difficulty).length, count);
+  });
+  const invalid = { ...bank[0], difficulty: undefined };
+  assert.throws(() => selectQuestions([invalid, ...bank.slice(1)], shuffle), /needs review/);
+  assert.throws(() => selectQuestions([...bank, { ...additions[0] }], shuffle), /repeated questions/);
+
+  const savedFetch = globalThis.fetch;
+  let fetches = 0;
+  const state = {
+    questions: [], correctAnswers: new Map([['old', 'old']]), shuffleArray: shuffle,
+    loadCorrectAnswers: TOEICQuiz.prototype.loadCorrectAnswers
+  };
+  try {
+    globalThis.fetch = async () => {
+      fetches += 1;
+      return { ok: true, json: async () => bank };
+    };
+    await TOEICQuiz.prototype.loadQuestions.call(state);
+    assert.equal(fetches, 1);
+    assert.equal(state.correctAnswers.size, 30);
+    assert.ok(!state.correctAnswers.has('old'));
+    state.questions.forEach((question, index) => assert.equal(state.correctAnswers.get(String(index)), question.answer));
+
+    const savedDocument = globalThis.document;
+    const originalSelection = state.questions;
+    const controls = new Map();
+    const element = tag => ({
+      tag, style: {}, dataset: {}, textContent: '', children: [],
+      classList: { add() {}, remove() {} },
+      appendChild(child) { this.children.push(child); },
+      querySelectorAll(selector) { return this.children.filter(child => child.tag === selector); }
+    });
+    const control = selector => {
+      if (!controls.has(selector)) {
+        controls.set(selector, element(selector));
+      }
+      return controls.get(selector);
+    };
+    try {
+      globalThis.document = {
+        createElement: element,
+        getElementById: control,
+        querySelector: selector => selector === '.timer-float' ? {
+          querySelector: control
+        } : control(selector),
+        querySelectorAll: () => control('choices').querySelectorAll('button')
+      };
+      let questionDisplays = 0;
+      let timerDisplays = 0;
+      let submitDisplays = 0;
+      const startState = {
+        ...state, startButton: element('button'), quizStarted: false,
+        displayTimer() { timerDisplays += 1; },
+        displaySubmitButton() { submitDisplays += 1; },
+        displayQuestions() { questionDisplays += 1; }
+      };
+      TOEICQuiz.prototype.startQuiz.call(startState);
+      TOEICQuiz.prototype.startQuiz.call(startState);
+      assert.equal(questionDisplays, 1);
+      assert.equal(timerDisplays, 1);
+      assert.equal(submitDisplays, 1);
+      assert.equal(fetches, 1);
+      assert.equal(startState.questions, originalSelection);
+      startState.questions.forEach((question, index) =>
+        assert.equal(startState.correctAnswers.get(String(index)), question.answer));
+
+      const answerState = {
+        ...state, answers: new Map(), quizSubmitted: false, submitClicked: false,
+        getQuestionIndex: TOEICQuiz.prototype.getQuestionIndex,
+        calculateScore: TOEICQuiz.prototype.calculateScore,
+        displayScore() {}, displayCorrectAnswers() {}
+      };
+      const choices = control('choices');
+      TOEICQuiz.prototype.displayChoices.call(answerState, choices, state.questions[0].choices, 0);
+      const buttons = choices.querySelectorAll('button');
+      assert.equal(buttons.length, 4);
+      assert.ok(buttons.every(button => button.dataset.questionIndex === 0));
+      const correctButton = buttons.find(button => button.textContent.slice(4) === state.questions[0].answer);
+      assert.ok(correctButton);
+      correctButton.parentNode = choices;
+      TOEICQuiz.prototype.selectAnswer.call(answerState, { target: correctButton });
+      assert.equal(answerState.answers.get('0'), state.questions[0].answer);
+      TOEICQuiz.prototype.calculateScore.call(answerState);
+      assert.equal(answerState.score, 1);
+      TOEICQuiz.prototype.submitQuiz.call(answerState);
+      assert.equal(answerState.quizSubmitted, true);
+      assert.equal(answerState.submitClicked, true);
+      assert.ok(buttons.every(button => button.disabled));
+      const grades = answerState.answerCorrectness;
+      TOEICQuiz.prototype.submitQuiz.call(answerState);
+      assert.equal(answerState.answerCorrectness, grades);
+      const wrongButton = buttons.find(button => button !== correctButton);
+      TOEICQuiz.prototype.selectAnswer.call(answerState, { target: wrongButton });
+      assert.equal(answerState.answers.get('0'), state.questions[0].answer);
+    } finally {
+      if (savedDocument === undefined) {
+        delete globalThis.document;
+      } else {
+        globalThis.document = savedDocument;
+      }
+    }
+
+    globalThis.fetch = async () => ({ ok: false });
+    await assert.rejects(() => TOEICQuiz.prototype.loadQuestions.call(state), /could not be loaded/);
+    globalThis.fetch = async () => ({ ok: true, json: async () => { throw new SyntaxError(); } });
+    await assert.rejects(() => TOEICQuiz.prototype.loadQuestions.call(state), /could not be read/);
+  } finally {
+    globalThis.fetch = savedFetch;
+  }
+
+  const counts = ['basic', 'intermediate', 'advanced'].map(difficulty =>
+    `${difficulty}: ${bank.filter(question => question.review === 'eligible' && question.difficulty === difficulty).length}`);
+  console.log(`Questions: ${bank.length}. Eligible ${counts.join(', ')}. Excluded: ${bank.filter(question => question.review === 'excluded').length}.`);
+  console.log('Passed: 150 additions, category counts, unique questions, 100 selections, exact pool limits, exclusions, choice shuffling, scoring, answer keys, start, answer selection, automatic submission and load errors.');
+}
+
+if (typeof document !== 'undefined') {
+  const quiz = new TOEICQuiz();
+  quiz.displayQuiz();
+} else if (typeof process !== 'undefined' && process.argv.includes('--verify')) {
+  verifyQuiz().catch(error => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}
