@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOEIC Part 5 | Results preview</title>
+  <style>
+    :root {
+      font-family: Arial, sans-serif;
+      color: #172b3a;
+      background: #f4f7f8;
+      line-height: 1.6;
+      color-scheme: light;
+    }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    .page { max-width: 1440px; margin: 0 auto; padding: 28px; }
+    .preview-notice { margin: 0 0 18px; color: #526572; font-size: 14px; }
+    .preview-notice strong {
+      display: inline-block;
+      margin-right: 8px;
+      padding: 3px 10px;
+      border: 1px solid #c5d4d8;
+      border-radius: 5px;
+      background: white;
+      color: #29434c;
+    }
+
+    .page-header {
+      padding: 24px 28px;
+      border: 1px solid #b7d9ce;
+      border-radius: 10px;
+      background: #e7f6ef;
+    }
+
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { margin-bottom: 5px; font-size: clamp(25px, 3vw, 34px); line-height: 1.25; }
+    .page-header p { margin: 0; color: #365b4f; }
+    .completion {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 24px;
+      align-items: center;
+      margin: 20px 0 28px;
+      padding: 24px 28px;
+      border: 1px solid #c9d6dc;
+      border-radius: 10px;
+      background: white;
+    }
+
+    .score-label { margin-bottom: 2px; color: #526572; font-size: 15px; }
+    .score { margin: 0; font-size: 42px; line-height: 1.2; font-weight: 700; color: #123e50; }
+    .score span { font-size: 21px; font-weight: 400; color: #526572; }
+    .score-caption { margin: 8px 0 0; font-size: 14px; color: #526572; }
+    .completion-time { border-left: 2px solid #e2e9ed; padding-left: 26px; }
+    .completion-time p { margin: 0 0 4px; font-size: 14px; color: #526572; }
+    time { display: block; font-size: 19px; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .time-zone { display: block; color: #526572; font-size: 14px; }
+    .columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+    .panel-heading { margin: 0 0 4px; font-size: 23px; }
+    .panel-intro { margin-bottom: 18px; color: #526572; font-size: 14px; }
+    .question-card, .answer-card {
+      margin-bottom: 20px;
+      padding: 22px;
+      border: 1px solid #c9d6dc;
+      border-radius: 9px;
+      background: white;
+    }
+
+    .question-card { background: #fafcfd; }
+    .card-heading { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+    .card-heading h3 { margin: 0; font-size: 18px; }
+    .status { display: inline-block; padding: 3px 10px; border-radius: 5px; font-size: 13px; font-weight: 700; }
+    .status-wrong { color: #a32020; background: #fff0f0; }
+    .status-correct { color: #176138; background: #eaf7ee; }
+    .status-unanswered { color: #95420b; background: #fff3df; }
+    .question-text { margin-bottom: 18px; font-size: 17px; line-height: 1.65; }
+    fieldset { margin: 0; padding: 0; border: 0; min-width: 0; }
+    .choice {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin: 8px 0 0;
+      padding: 10px 12px;
+      border: 1px solid #d8e0e4;
+      border-radius: 5px;
+      background: white;
+    }
+
+    .choice input { margin: 0; flex-shrink: 0; }
+    .choice span { overflow-wrap: anywhere; }
+    .choice small { margin-left: auto; padding-left: 8px; text-align: right; font-size: 12px; font-weight: 700; }
+    .choice-wrong { border-color: #d99393; background: #fff5f5; color: #9f2424; }
+    .choice-correct { border-color: #8dbd9c; background: #eff9f2; color: #176138; }
+    .answer-card { border-top: 4px solid #c9d6dc; }
+    .answer-card.wrong { border-top-color: #c44949; }
+    .answer-card.correct { border-top-color: #328153; }
+    .answer-card.unanswered { border-top-color: #bd7726; }
+    .answer-lines { margin: 0; }
+    .answer-lines > div { display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 10px; margin: 6px 0; }
+    .answer-lines dt { color: #526572; }
+    .answer-lines dd { margin: 0; overflow-wrap: anywhere; }
+    .correct-answer { color: #176138; font-weight: 700; }
+    .wrong-answer { color: #a32020; }
+    details { margin-top: 18px; border-top: 1px solid #dce5e9; }
+    summary { padding: 14px 0 0; color: #174c65; font-weight: 700; cursor: pointer; }
+    summary:hover { color: #0c3144; }
+    summary:focus-visible { outline: 3px solid #237aa4; outline-offset: 5px; border-radius: 2px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+    .learning-notes { margin: 18px 0 0; }
+    .learning-notes > div { margin-top: 17px; }
+    .learning-notes dt { margin-bottom: 4px; color: #203d4b; font-size: 14px; font-weight: 700; }
+    .learning-notes dd { margin: 0; font-size: 16px; }
+    .example { padding: 12px 14px; border-left: 3px solid #85b6c4; background: #f0f7fa; border-radius: 0 4px 4px 0; }
+    .footer { margin: 4px 0 0; color: #526572; font-size: 14px; }
+
+    @media (max-width: 760px) {
+      .page { padding: 16px; }
+      .page-header, .completion { padding: 20px; }
+      .columns, .completion { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+      .completion-time { border-left: 0; border-top: 1px solid #e2e9ed; padding: 16px 0 0; }
+      .question-card, .answer-card { padding: 18px; }
+      .answer-lines > div { grid-template-columns: 115px minmax(0, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <p class="preview-notice"><strong>Results preview</strong> The score and completion time below are sample data.</p>
+
+    <header class="page-header">
+      <h1>TOEIC Part 5 practice</h1>
+      <p>Review your answers and learn from each question.</p>
+    </header>
+
+    <section class="completion" aria-label="Sample exercise results">
+      <div>
+        <p class="score-label">Your score</p>
+        <p class="score">28 <span>out of 30</span></p>
+        <p class="score-caption">This preview shows three results from a sample exercise.</p>
+      </div>
+      <div class="completion-time">
+        <p>Sample completion time</p>
+        <time datetime="2026-10-28T14:32:08+09:00">October 28, 2026 at 2:32:08 PM</time>
+        <span class="time-zone">Japan Standard Time (UTC+09:00)</span>
+      </div>
+    </section>
+
+    <div class="columns">
+      <section aria-labelledby="questions-heading">
+        <h2 class="panel-heading" id="questions-heading">Your questions</h2>
+        <p class="panel-intro">The choices below show the submitted answers.</p>
+
+        <article class="question-card" aria-labelledby="question-1">
+          <div class="card-heading">
+            <h3 id="question-1">Question 1</h3>
+            <span class="status status-wrong">Incorrect</span>
+          </div>
+          <p class="question-text">There is little justification for _________ customers to resubmit documents that the company already holds.</p>
+          <fieldset disabled="disabled" aria-label="Answer choices for Question 1">
+            <label class="choice choice-wrong"><input type="radio" name="question-1" checked="checked" /><span>(A) require</span><small>Your answer</small></label>
+            <label class="choice"><input type="radio" name="question-1" /><span>(B) be required</span></label>
+            <label class="choice choice-correct"><input type="radio" name="question-1" /><span>(C) requiring</span><small>Correct answer</small></label>
+            <label class="choice"><input type="radio" name="question-1" /><span>(D) have required</span></label>
+          </fieldset>
+        </article>
+
+        <article class="question-card" aria-labelledby="question-2">
+          <div class="card-heading">
+            <h3 id="question-2">Question 2</h3>
+            <span class="status status-correct">Correct</span>
+          </div>
+          <p class="question-text">Because the delay was caused by the bank, it agreed to _________ the late fee rather than collect it at a later date.</p>
+          <fieldset disabled="disabled" aria-label="Answer choices for Question 2">
+            <label class="choice choice-correct"><input type="radio" name="question-2" checked="checked" /><span>(A) waive</span><small>Your answer</small></label>
+            <label class="choice"><input type="radio" name="question-2" /><span>(B) defer</span></label>
+            <label class="choice"><input type="radio" name="question-2" /><span>(C) remit</span></label>
+            <label class="choice"><input type="radio" name="question-2" /><span>(D) reimburse</span></label>
+          </fieldset>
+        </article>
+
+        <article class="question-card" aria-labelledby="question-3">
+          <div class="card-heading">
+            <h3 id="question-3">Question 3</h3>
+            <span class="status status-unanswered">Unanswered</span>
+          </div>
+          <p class="question-text">The supplier agreed to _________ payment until August, but the buyer will still owe the full amount at that time.</p>
+          <fieldset disabled="disabled" aria-label="Answer choices for Question 3">
+            <label class="choice"><input type="radio" name="question-3" /><span>(A) waive</span></label>
+            <label class="choice choice-correct"><input type="radio" name="question-3" /><span>(B) defer</span><small>Correct answer</small></label>
+            <label class="choice"><input type="radio" name="question-3" /><span>(C) dispute</span></label>
+            <label class="choice"><input type="radio" name="question-3" /><span>(D) reimburse</span></label>
+          </fieldset>
+        </article>
+      </section>
+
+      <section aria-labelledby="answers-heading">
+        <h2 class="panel-heading" id="answers-heading">Answers and learning notes</h2>
+        <p class="panel-intro">Click Learning notes to open or close each explanation.</p>
+
+        <article class="answer-card wrong" aria-labelledby="answer-1">
+          <div class="card-heading">
+            <h3 id="answer-1">Question 1</h3>
+            <span class="status status-wrong">Incorrect</span>
+          </div>
+          <dl class="answer-lines">
+            <div><dt>Your answer</dt><dd class="wrong-answer">require</dd></div>
+            <div><dt>Correct answer</dt><dd class="correct-answer">requiring</dd></div>
+          </dl>
+          <details open="open">
+            <summary>Learning notes<span class="sr-only"> for Question 1</span></summary>
+            <dl class="learning-notes">
+              <div><dt>Vocabulary</dt><dd>A justification is a reason supporting a decision or action.</dd></div>
+              <div><dt>Grammar</dt><dd>'For' is a preposition, so the following verb takes the 'ing' form 'requiring'.</dd></div>
+              <div><dt>Usage</dt><dd>Use 'justification for' followed by a noun or an activity ending in 'ing'.</dd></div>
+              <div class="example"><dt>Example</dt><dd>There is no justification for charging customers twice.</dd></div>
+            </dl>
+          </details>
+        </article>
+
+        <article class="answer-card correct" aria-labelledby="answer-2">
+          <div class="card-heading">
+            <h3 id="answer-2">Question 2</h3>
+            <span class="status status-correct">Correct</span>
+          </div>
+          <dl class="answer-lines">
+            <div><dt>Your answer</dt><dd>waive</dd></div>
+            <div><dt>Correct answer</dt><dd class="correct-answer">waive</dd></div>
+          </dl>
+          <details>
+            <summary>Learning notes<span class="sr-only"> for Question 2</span></summary>
+            <dl class="learning-notes">
+              <div><dt>Vocabulary</dt><dd>To waive a fee means to give up the right to collect it.</dd></div>
+              <div><dt>Grammar</dt><dd>After 'agreed to' the base verb 'waive' fits the decision not to collect the fee.</dd></div>
+              <div><dt>Usage</dt><dd>Use 'waive' for removing an obligation. 'Defer' only postpones it.</dd></div>
+              <div class="example"><dt>Example</dt><dd>The bank waived the charge after confirming its mistake.</dd></div>
+            </dl>
+          </details>
+        </article>
+
+        <article class="answer-card unanswered" aria-labelledby="answer-3">
+          <div class="card-heading">
+            <h3 id="answer-3">Question 3</h3>
+            <span class="status status-unanswered">Unanswered</span>
+          </div>
+          <dl class="answer-lines">
+            <div><dt>Your answer</dt><dd>No answer selected</dd></div>
+            <div><dt>Correct answer</dt><dd class="correct-answer">defer</dd></div>
+          </dl>
+          <details>
+            <summary>Learning notes<span class="sr-only"> for Question 3</span></summary>
+            <dl class="learning-notes">
+              <div><dt>Vocabulary</dt><dd>To defer payment means to move it to a later date.</dd></div>
+              <div><dt>Grammar</dt><dd>'Defer' fits the fact that the full amount remains owed. 'Waive' would remove the payment requirement.</dd></div>
+              <div><dt>Usage</dt><dd>Use 'defer payment until' followed by the later date.</dd></div>
+              <div class="example"><dt>Example</dt><dd>The supplier agreed to defer payment until September.</dd></div>
+            </dl>
+          </details>
+        </article>
+      </section>
+    </div>
+    <p class="footer">The learning notes cover vocabulary, grammar, usage and a new example.</p>
+  </main>
+</body>
+</html>

@@ -46,6 +46,23 @@ function selectQuestions(bank, shuffle) {
   return shuffle(selected);
 }
 
+function formatCompletionTime(date) {
+  const options = {
+    year: 'numeric', month: 'long', day: 'numeric',
+    hour: 'numeric', minute: '2-digit', second: '2-digit'
+  };
+  const zone = new Intl.DateTimeFormat('en-US', { timeZoneName: 'long' })
+    .formatToParts(date).find(part => part.type === 'timeZoneName').value;
+  const offset = -date.getTimezoneOffset();
+  const hours = String(Math.floor(Math.abs(offset) / 60)).padStart(2, '0');
+  const minutes = String(Math.abs(offset) % 60).padStart(2, '0');
+  return {
+    dateTime: date.toISOString(),
+    label: new Intl.DateTimeFormat('en-US', options).format(date),
+    timeZone: `${zone} (UTC${offset < 0 ? '-' : '+'}${hours}:${minutes})`
+  };
+}
+
 class TOEICQuiz {
   constructor() {
     this.questions = [];
@@ -59,6 +76,7 @@ class TOEICQuiz {
     this.timerInterval = null; // Interval for the timer
     this.quizSubmitted = false; // Flag to track whether the quiz has been automatically submitted
     this.quizStarted = false; // Flag to track if the quiz has started
+    this.completedAt = null;
 
     // this.wrongAnswerIndices = []; // Array to store indices of wrong answers
     this.answerCorrectness = new Array(this.numQuestions).fill(false); // Array to store correctness of answers
@@ -105,17 +123,19 @@ class TOEICQuiz {
     const choicesList = selectedButton.parentNode;
     choicesList.querySelectorAll('button').forEach(button => {
       button.classList.remove('selected');
+      button.setAttribute('aria-pressed', 'false');
       button.style.backgroundColor = ''; // Reset background color
     });
 
     // Toggle 'selected' class for clicked answer choice
     selectedButton.classList.add('selected');
+    selectedButton.setAttribute('aria-pressed', 'true');
 
     // Highlight the clicked answer choice
     selectedButton.style.backgroundColor = 'lightblue';
 
     // Store the user's selection for later scoring
-    const selectedChoice = selectedButton.textContent.trim().substring(3).trim(); // Remove (A), (B), (C), (D) from the text
+    const selectedChoice = selectedButton.dataset.choice;
 
     // console.log("questionIndex in selectAnswer = ", questionIndex, selectedChoice);
     const answerKey = `${questionIndex}`;
@@ -179,16 +199,28 @@ class TOEICQuiz {
   displayQuestions() {
     const quizElement = document.getElementById('quiz'); // Get quiz element
 
-    const quizColumn = document.createElement('div');
-    quizColumn.classList.add('quiz-column'); // Add the CSS class to the quiz column
+    const heading = document.createElement('h2');
+    heading.classList.add('panel-heading');
+    heading.textContent = 'Your questions';
+    quizElement.replaceChildren(heading);
 
     // Loop through the displayed questions
     this.questions.forEach((question, index) => {
-      const questionDiv = document.createElement('div');
-      questionDiv.classList.add('question');
+      const questionDiv = document.createElement('article');
+      questionDiv.classList.add('question', 'question-card');
+      questionDiv.dataset.questionIndex = String(index);
 
       // Display question number and text
-      questionDiv.innerHTML = `<p>${index + 1}. ${question.question}</p>`;
+      const cardHeading = document.createElement('div');
+      cardHeading.classList.add('card-heading');
+      const title = document.createElement('h3');
+      title.textContent = `Question ${index + 1}`;
+      cardHeading.appendChild(title);
+      const questionText = document.createElement('p');
+      questionText.classList.add('question-text');
+      questionText.textContent = question.question;
+      questionDiv.appendChild(cardHeading);
+      questionDiv.appendChild(questionText);
 
       // Display answer choices as buttons
       const choicesList = document.createElement('div');
@@ -208,7 +240,10 @@ class TOEICQuiz {
     const shuffledChoices = this.shuffleArray([...choices]);
     shuffledChoices.forEach((choice, choiceIndex) => {
       const choiceButton = document.createElement('button');
+      choiceButton.type = 'button';
       choiceButton.textContent = `(${String.fromCharCode(65 + choiceIndex)}) ${choice}`;
+      choiceButton.dataset.choice = choice;
+      choiceButton.setAttribute('aria-pressed', 'false');
 
       // Add event listener to handle selection
       // choiceButton.addEventListener('click', this.selectAnswer.bind(this)); // Bind 'this' context to the class instance
@@ -244,18 +279,7 @@ class TOEICQuiz {
       }
       if (confirm('Are you sure you want to submit your answers?')) {
         // console.log('Submit button clicked');
-        this.calculateScore();
-        this.submitClicked = true; // Set flag to indicate submit button clicked
-        this.quizSubmitted = true;
-        submitButton.disabled = true; // Disable button after submission
-
-        // // Display correct answers
-        // this.displayCorrectAnswers();
-
-        // Set cursor style to default for all buttons
-        document.querySelectorAll('button').forEach(button => {
-          button.style.cursor = 'default';
-        });
+        this.submitQuiz();
 
         // Move to the top of the page
         window.scrollTo({
@@ -263,8 +287,6 @@ class TOEICQuiz {
           behavior: 'smooth' // Smooth scrolling
         });
 
-        // Stop the timer
-        clearInterval(this.timerInterval);
       }
     });
     // Add pointer cursor on hover
@@ -336,13 +358,42 @@ class TOEICQuiz {
 
   // Method to display score
   displayScore() {
+    const completion = document.querySelector('.completion') || document.createElement('section');
+    completion.classList.add('completion');
+    completion.setAttribute('aria-label', 'Exercise results');
     const scoreContainer = document.createElement('div');
-    scoreContainer.textContent = `Your score: ${this.score} out of ${this.numQuestions}`;
-    scoreContainer.style.color = 'red'; // Set text color to red
-    scoreContainer.style.fontSize = '30px'
-    const answersColumn = document.querySelector('.answers-column');
-    answersColumn.appendChild(scoreContainer);
-    // document.getElementById('quiz').appendChild(scoreContainer);
+    const label = document.createElement('p');
+    label.classList.add('score-label');
+    label.textContent = 'Your score';
+    const score = document.createElement('h2');
+    score.classList.add('score');
+    score.textContent = `${this.score} `;
+    const total = document.createElement('span');
+    total.textContent = `out of ${this.numQuestions}`;
+    score.appendChild(total);
+    scoreContainer.appendChild(label);
+    scoreContainer.appendChild(score);
+    completion.replaceChildren(scoreContainer);
+
+    if (this.completedAt) {
+      const completed = formatCompletionTime(this.completedAt);
+      const timeContainer = document.createElement('div');
+      timeContainer.classList.add('completion-time');
+      const timeLabel = document.createElement('p');
+      timeLabel.textContent = 'Completed';
+      const time = document.createElement('time');
+      time.setAttribute('datetime', completed.dateTime);
+      time.textContent = completed.label;
+      const zone = document.createElement('span');
+      zone.classList.add('time-zone');
+      zone.textContent = completed.timeZone;
+      timeContainer.appendChild(timeLabel);
+      timeContainer.appendChild(time);
+      timeContainer.appendChild(zone);
+      completion.appendChild(timeContainer);
+    }
+
+    document.querySelector('.container').insertBefore(completion, document.getElementById('quiz'));
   }
 
   // Method to load correct answers
@@ -360,52 +411,88 @@ class TOEICQuiz {
   displayCorrectAnswers() {
     const correctAnswersContainer = document.createElement('div');
     correctAnswersContainer.classList.add('correct-answers');
-
-    // this.correctAnswers.forEach((correctAnswerIndex, questionIndex) => {
-    //   const correctAnswer = this.correctAnswers.get(questionIndex);
-    //   if (correctAnswer) {
-    //     const answerText = document.createElement('p');
-    //     // if (this.wrongAnswerIndices.includes(questionIndex)) {
-    //     //     answerText.style.color = 'red'; // Highlight wrong answers in red
-    //     // }
-
-    //     if (!this.answerCorrectness[questionIndex]) {
-    //       answerText.style.color = 'red'; // Highlight wrong answers in red
-    //     }
-    //     if (!this.answers.has(questionIndex)) {
-    //       answerText.style.color = 'orange'; // Highlight unanswered questions in orange
-    //     }
-
-    //     answerText.textContent = `Question ${questionIndex + 1}: ${correctAnswer}`;
-    //     correctAnswersContainer.appendChild(answerText);
-    //   } else {
-    //     console.error(`Correct answer not found for question ${questionIndex}`);
-    //   }
-    // });
+    const statusLabels = { correct: 'Correct', wrong: 'Incorrect', unanswered: 'Unanswered' };
 
     this.answerCorrectness.forEach(({ key, status }) => {
       const correctAnswer = this.correctAnswers.get(key);
-      const answerText = document.createElement('p');
-      const [questionIndex] = key.split('.').map(Number);
+      const questionIndex = Number(key);
+      const question = this.questions[questionIndex];
+      const card = document.createElement('article');
+      card.classList.add('answer-card', status);
+      const titleId = `answer-${questionIndex + 1}`;
+      card.setAttribute('aria-labelledby', titleId);
+      const heading = document.createElement('div');
+      heading.classList.add('card-heading');
+      const title = document.createElement('h3');
+      title.id = titleId;
+      title.textContent = `Question ${questionIndex + 1}`;
+      const badge = document.createElement('span');
+      badge.classList.add('status', `status-${status}`);
+      badge.textContent = statusLabels[status];
+      heading.appendChild(title);
+      heading.appendChild(badge);
+      card.appendChild(heading);
 
-      const questionNumber = `${questionIndex + 1}`;
+      const answerLines = document.createElement('dl');
+      answerLines.classList.add('answer-lines');
+      [
+        ['Your answer', this.answers.get(key) ?? 'No answer selected', status === 'wrong' ? 'wrong-answer' : ''],
+        ['Correct answer', correctAnswer, 'correct-answer']
+      ].forEach(([label, value, className]) => {
+        const row = document.createElement('div');
+        const term = document.createElement('dt');
+        term.textContent = label;
+        const description = document.createElement('dd');
+        description.textContent = value;
+        if (className) description.classList.add(className);
+        row.appendChild(term);
+        row.appendChild(description);
+        answerLines.appendChild(row);
+      });
+      card.appendChild(answerLines);
 
-      if (status === 'correct') {
-        answerText.style.color = 'green'; // Correct answers in green
-      } else if (status === 'wrong') {
-        answerText.style.color = 'red'; // Wrong answers in red
+      const fields = ['vocabulary', 'grammar', 'usage', 'example'];
+      if (fields.every(field => typeof question.explanation?.[field] === 'string' && question.explanation[field].trim())) {
+        const details = document.createElement('details');
+        details.open = questionIndex === 0;
+        const summary = document.createElement('summary');
+        summary.textContent = 'Learning notes';
+        const summaryContext = document.createElement('span');
+        summaryContext.classList.add('sr-only');
+        summaryContext.textContent = ` for Question ${questionIndex + 1}`;
+        summary.appendChild(summaryContext);
+        details.appendChild(summary);
+        const notes = document.createElement('dl');
+        notes.classList.add('learning-notes');
+        fields.forEach(field => {
+          const row = document.createElement('div');
+          if (field === 'example') row.classList.add('example');
+          const term = document.createElement('dt');
+          term.textContent = field[0].toUpperCase() + field.slice(1);
+          const description = document.createElement('dd');
+          description.textContent = question.explanation[field];
+          row.appendChild(term);
+          row.appendChild(description);
+          notes.appendChild(row);
+        });
+        details.appendChild(notes);
+        card.appendChild(details);
       } else {
-        answerText.style.color = 'orange'; // Unanswered questions in orange
+        const message = document.createElement('p');
+        message.textContent = 'Learning notes are not available for this question.';
+        card.appendChild(message);
       }
-
-      answerText.textContent = `Question ${questionNumber}: ${correctAnswer}`;
-      correctAnswersContainer.appendChild(answerText);
+      correctAnswersContainer.appendChild(card);
     });
 
-    // document.getElementById('quiz').appendChild(correctAnswersContainer);
     const answersColumn = document.querySelector('.answers-column');
-    answersColumn.appendChild(correctAnswersContainer);
-
+    const heading = document.createElement('h2');
+    heading.classList.add('panel-heading');
+    heading.textContent = 'Answers and learning notes';
+    const instruction = document.createElement('p');
+    instruction.classList.add('panel-intro');
+    instruction.textContent = 'Click Learning notes to open or close each explanation.';
+    answersColumn.replaceChildren(heading, instruction, correctAnswersContainer);
   }
 
   displayTimeDropdown() {
@@ -570,39 +657,43 @@ class TOEICQuiz {
 
   // Method to submit the quiz automatically when time is up
   submitQuiz() {
-    // Prevent duplicate submission
     if (this.quizSubmitted || this.submitClicked) {
       return;
     }
 
-    // Disable answer choices
-    const choiceButtons = document.querySelectorAll('.choices button');
-    choiceButtons.forEach(button => {
-      button.disabled = true;
-    });
-
-    // Disable submit button
-    document.querySelector('.submit-button').disabled = true;
-
-    if (!this.submitClicked) {
-      choiceButtons.forEach(button => {
-        const questionIndex = this.getQuestionIndex(button); // Retrieve question index using getQuestionIndex method
-        if (this.answers.has(questionIndex)) {
-          const selectedChoice = this.answers.get(questionIndex);
-          this.answers.set(questionIndex, selectedChoice);
-        }
-      });
-    }
-
-    // Calculate and display scores
-    this.calculateScore();
-
-    // Set the flag to indicate that the quiz has been submitted
+    this.completedAt = new Date();
     this.quizSubmitted = true;
     this.submitClicked = true;
     clearInterval(this.timerInterval);
-  }
 
+    document.querySelectorAll('.choices button').forEach(button => {
+      button.disabled = true;
+      button.style.backgroundColor = '';
+      button.style.cursor = 'default';
+      const key = String(this.getQuestionIndex(button));
+      const isCorrect = button.dataset.choice === this.correctAnswers.get(key);
+      const isSelected = button.dataset.choice === this.answers.get(key);
+      if (isCorrect) button.classList.add('choice-correct');
+      if (isSelected && !isCorrect) button.classList.add('choice-wrong');
+      if (isCorrect || isSelected) {
+        const label = document.createElement('small');
+        label.textContent = isSelected ? 'Your answer' : 'Correct answer';
+        button.appendChild(label);
+      }
+    });
+    document.querySelector('.submit-button').disabled = true;
+    this.calculateScore();
+
+    const statusLabels = { correct: 'Correct', wrong: 'Incorrect', unanswered: 'Unanswered' };
+    document.querySelectorAll('.question').forEach(card => {
+      const status = this.answerCorrectness[Number(card.dataset.questionIndex)].status;
+      const badge = document.createElement('span');
+      badge.classList.add('status', `status-${status}`);
+      badge.textContent = statusLabels[status];
+      card.querySelector('.card-heading').appendChild(badge);
+    });
+    document.querySelector('.timer-float').style.display = 'none';
+  }
 }
 
 // Run with --verify to check the real selection, loading and scoring functions.
@@ -626,6 +717,35 @@ async function verifyQuiz() {
     assert.equal(additions.filter(question => question.category === category).length, count, category);
   });
   assert.ok(additions.every(question => question.difficulty === 'advanced' && question.review === 'eligible'));
+  const activeQuestions = bank.filter(question => question.review === 'eligible' &&
+    QUESTION_MIX.some(group => group.difficulty === question.difficulty));
+  assert.equal(activeQuestions.length, 679);
+  assert.ok(activeQuestions.every(question => ['vocabulary', 'grammar', 'usage', 'example']
+    .every(field => typeof question.explanation?.[field] === 'string' && question.explanation[field].trim())));
+
+  const savedTimeZone = process.env.TZ;
+  try {
+    [
+      ['UTC', '2026-10-28T05:32:08.000Z', 'UTC+00:00', 'October 28, 2026', '5:32:08'],
+      ['Asia/Tokyo', '2026-10-28T05:32:08.000Z', 'UTC+09:00', 'October 28, 2026', '2:32:08'],
+      ['Asia/Kathmandu', '2026-10-28T05:32:08.000Z', 'UTC+05:45', 'October 28, 2026', '11:17:08'],
+      ['America/New_York', '2026-01-01T12:00:00.000Z', 'UTC-05:00', 'January 1, 2026', '7:00:00'],
+      ['America/New_York', '2026-07-01T12:00:00.000Z', 'UTC-04:00', 'July 1, 2026', '8:00:00'],
+      ['Pacific/Kiritimati', '2026-10-28T15:32:08.000Z', 'UTC+14:00', 'October 29, 2026', '5:32:08']
+    ].forEach(([zone, instant, offset, day, clock]) => {
+      process.env.TZ = zone;
+      const date = new Date(instant);
+      const formatted = formatCompletionTime(date);
+      assert.equal(formatted.dateTime, instant);
+      assert.ok(formatted.timeZone.endsWith('(' + offset + ')'), zone);
+      assert.ok(formatted.label.includes(day), zone);
+      assert.ok(formatted.label.includes(clock), zone);
+      assert.equal(date.toISOString(), instant);
+    });
+  } finally {
+    if (savedTimeZone === undefined) delete process.env.TZ;
+    else process.env.TZ = savedTimeZone;
+  }
   const snapshot = JSON.stringify(bank);
   const shuffle = TOEICQuiz.prototype.shuffleArray;
   const selections = Array.from({ length: 100 }, () => selectQuestions(bank, shuffle));
@@ -691,82 +811,250 @@ async function verifyQuiz() {
     state.questions.forEach((question, index) => assert.equal(state.correctAnswers.get(String(index)), question.answer));
 
     const savedDocument = globalThis.document;
+    const savedWindow = globalThis.window;
+    const savedConfirm = globalThis.confirm;
+    const savedSetInterval = globalThis.setInterval;
+    const savedClearInterval = globalThis.clearInterval;
     const originalSelection = state.questions;
-    const controls = new Map();
-    const element = tag => ({
-      tag, style: {}, dataset: {}, textContent: '', children: [],
-      classList: { add() {}, remove() {} },
-      appendChild(child) { this.children.push(child); },
-      querySelectorAll(selector) { return this.children.filter(child => child.tag === selector); }
-    });
-    const control = selector => {
-      if (!controls.has(selector)) {
-        controls.set(selector, element(selector));
-      }
-      return controls.get(selector);
+    const element = tag => {
+      const classes = new Set();
+      const attributes = new Map();
+      const listeners = new Map();
+      return {
+        tag, style: {}, dataset: {}, textContent: '', children: [],
+        classList: {
+          add(...names) { names.forEach(name => classes.add(name)); },
+          remove(...names) { names.forEach(name => classes.delete(name)); },
+          contains(name) { return classes.has(name); }
+        },
+        setAttribute(name, value) { attributes.set(name, String(value)); },
+        getAttribute(name) { return attributes.get(name) ?? null; },
+        addEventListener(type, listener) { listeners.set(type, listener); },
+        click() { if (!this.disabled) listeners.get('click')?.({ target: this }); },
+        appendChild(child) {
+          if (child.parentNode) {
+            child.parentNode.children = child.parentNode.children.filter(node => node !== child);
+          }
+          this.children.push(child);
+          child.parentNode = this;
+          return child;
+        },
+        replaceChildren(...children) {
+          this.children.forEach(child => { child.parentNode = null; });
+          this.children = [];
+          children.forEach(child => this.appendChild(child));
+        },
+        insertBefore(child, reference) {
+          if (child.parentNode) {
+            child.parentNode.children = child.parentNode.children.filter(node => node !== child);
+          }
+          const index = this.children.indexOf(reference);
+          assert.ok(index >= 0, 'The reference element must exist.');
+          this.children.splice(index, 0, child);
+          child.parentNode = this;
+        },
+        querySelectorAll(selector) {
+          return this.children.flatMap(child => [
+            ...(selector.startsWith('.') ? child.classList.contains(selector.slice(1)) : child.tag === selector) ? [child] : [],
+            ...child.querySelectorAll(selector)
+          ]);
+        },
+        querySelector(selector) { return this.querySelectorAll(selector)[0] ?? null; }
+      };
     };
-    try {
+    const createPage = () => {
+      const root = element('div');
+      root.classList.add('container');
+      ['timer-float', 'quiz-column', 'answers-column', 'submit-button-container'].forEach((className, index) => {
+        const panel = element('div');
+        panel.classList.add(className);
+        panel.id = ['timer', 'quiz', 'answers', 'submit'][index];
+        root.appendChild(panel);
+      });
       globalThis.document = {
         createElement: element,
-        getElementById: control,
-        querySelector: selector => selector === '.timer-float' ? {
-          querySelector: control
-        } : control(selector),
-        querySelectorAll: () => control('choices').querySelectorAll('button')
+        getElementById: id => [root, ...root.querySelectorAll('div')].find(node => node.id === id) ??
+          root.querySelectorAll('select').find(node => node.getAttribute('id') === id) ?? null,
+        querySelector: selector => selector === '.container' ? root : root.querySelector(selector),
+        querySelectorAll: selector => selector === '.choices button'
+          ? root.querySelectorAll('.choices').flatMap(choices => choices.querySelectorAll('button'))
+          : root.querySelectorAll(selector)
       };
-      let questionDisplays = 0;
-      let timerDisplays = 0;
-      let submitDisplays = 0;
-      const startState = {
-        ...state, startButton: element('button'), quizStarted: false,
-        displayTimer() { timerDisplays += 1; },
-        displaySubmitButton() { submitDisplays += 1; },
-        displayQuestions() { questionDisplays += 1; }
+      return root;
+    };
+    const createQuizState = () => ({
+      ...Object.fromEntries(Object.getOwnPropertyNames(TOEICQuiz.prototype)
+        .filter(name => name !== 'constructor').map(name => [name, TOEICQuiz.prototype[name]])),
+      ...state, answers: new Map(), numQuestions: 30, score: 0, timeLimit: 300,
+      quizStarted: false, quizSubmitted: false, submitClicked: false, completedAt: null,
+      answerCorrectness: []
+    });
+    let intervalCallback;
+    let intervalCount = 0;
+    const clearedIntervals = new Set();
+    try {
+      globalThis.window = { scrollTo() {} };
+      globalThis.setInterval = callback => {
+        intervalCallback = callback;
+        intervalCount += 1;
+        return intervalCount;
       };
-      TOEICQuiz.prototype.startQuiz.call(startState);
-      TOEICQuiz.prototype.startQuiz.call(startState);
-      assert.equal(questionDisplays, 1);
-      assert.equal(timerDisplays, 1);
-      assert.equal(submitDisplays, 1);
+      globalThis.clearInterval = interval => clearedIntervals.add(interval);
+      createPage();
+      const startState = createQuizState();
+      startState.displayTimeDropdown();
+      startState.displayStartButton();
+      document.getElementById('timeDropdown').value = '300';
+      startState.startButton.click();
+      const questionCards = document.querySelectorAll('.question');
+      assert.equal(questionCards.length, 30);
+      assert.equal(intervalCount, 1);
+      startState.startQuiz();
+      assert.equal(document.querySelectorAll('.question').length, 30);
+      assert.equal(intervalCount, 1);
       assert.equal(fetches, 1);
       assert.equal(startState.questions, originalSelection);
-      startState.questions.forEach((question, index) =>
-        assert.equal(startState.correctAnswers.get(String(index)), question.answer));
+      assert.equal(document.querySelectorAll('details').length, 0);
+      assert.equal(document.querySelectorAll('time').length, 0);
+      assert.equal(document.querySelectorAll('.completion').length, 0);
+      assert.equal(document.querySelector('.answers-column').children.length, 0);
 
-      const answerState = {
-        ...state, answers: new Map(), quizSubmitted: false, submitClicked: false,
-        getQuestionIndex: TOEICQuiz.prototype.getQuestionIndex,
-        calculateScore: TOEICQuiz.prototype.calculateScore,
-        displayScore() {}, displayCorrectAnswers() {}
-      };
-      const choices = control('choices');
-      TOEICQuiz.prototype.displayChoices.call(answerState, choices, state.questions[0].choices, 0);
-      const buttons = choices.querySelectorAll('button');
-      assert.equal(buttons.length, 4);
-      assert.ok(buttons.every(button => button.dataset.questionIndex === 0));
-      const correctButton = buttons.find(button => button.textContent.slice(4) === state.questions[0].answer);
-      assert.ok(correctButton);
-      correctButton.parentNode = choices;
-      TOEICQuiz.prototype.selectAnswer.call(answerState, { target: correctButton });
-      assert.equal(answerState.answers.get('0'), state.questions[0].answer);
-      TOEICQuiz.prototype.calculateScore.call(answerState);
-      assert.equal(answerState.score, 1);
-      TOEICQuiz.prototype.submitQuiz.call(answerState);
-      assert.equal(answerState.quizSubmitted, true);
-      assert.equal(answerState.submitClicked, true);
-      assert.ok(buttons.every(button => button.disabled));
-      const grades = answerState.answerCorrectness;
-      TOEICQuiz.prototype.submitQuiz.call(answerState);
-      assert.equal(answerState.answerCorrectness, grades);
-      const wrongButton = buttons.find(button => button !== correctButton);
-      TOEICQuiz.prototype.selectAnswer.call(answerState, { target: wrongButton });
-      assert.equal(answerState.answers.get('0'), state.questions[0].answer);
+      questionCards.forEach((card, index) => {
+        assert.equal(card.querySelector('.question-text').textContent, startState.questions[index].question);
+        const buttons = card.querySelectorAll('button');
+        assert.equal(buttons.length, 4);
+        assert.ok(buttons.every(button => button.dataset.questionIndex === index));
+        assert.deepEqual(new Set(buttons.map(button => button.dataset.choice)), new Set(startState.questions[index].choices));
+        if (index < 20) {
+          const choice = buttons.find(button => index < 10
+            ? button.dataset.choice === startState.questions[index].answer
+            : button.dataset.choice !== startState.questions[index].answer);
+          choice.click();
+          assert.equal(startState.answers.get(String(index)), choice.dataset.choice);
+          assert.equal(choice.getAttribute('aria-pressed'), 'true');
+        }
+      });
+
+      const firstButtons = questionCards[0].querySelectorAll('button');
+      const correctButton = firstButtons.find(button => button.dataset.choice === startState.questions[0].answer);
+      const wrongButton = firstButtons.find(button => button !== correctButton);
+      wrongButton.click();
+      correctButton.click();
+      assert.equal(wrongButton.getAttribute('aria-pressed'), 'false');
+      assert.equal(correctButton.getAttribute('aria-pressed'), 'true');
+
+      const submitButton = document.querySelector('.submit-button');
+      globalThis.confirm = () => false;
+      submitButton.click();
+      assert.equal(startState.completedAt, null);
+      assert.equal(startState.quizSubmitted, false);
+      assert.equal(startState.answerCorrectness.length, 0);
+      assert.equal(document.querySelectorAll('details').length, 0);
+      assert.ok(!clearedIntervals.has(startState.timerInterval));
+
+      globalThis.confirm = () => true;
+      const beforeSubmission = Date.now();
+      submitButton.click();
+      assert.equal(startState.score, 10);
+      assert.equal(startState.quizSubmitted, true);
+      assert.equal(startState.submitClicked, true);
+      assert.ok(startState.completedAt.getTime() >= beforeSubmission);
+      assert.ok(startState.completedAt.getTime() <= Date.now());
+      assert.ok(clearedIntervals.has(startState.timerInterval));
+      assert.ok(document.querySelectorAll('.choices button').every(button => button.disabled));
+      assert.equal(submitButton.disabled, true);
+      assert.equal(document.querySelector('.timer-float').style.display, 'none');
+      assert.equal(document.querySelector('.score').textContent.trim(), '10');
+      assert.equal(document.querySelector('.score').querySelector('span').textContent, 'out of 30');
+      assert.equal(document.querySelector('time').getAttribute('datetime'), startState.completedAt.toISOString());
+      assert.equal(document.querySelector('time').textContent, formatCompletionTime(startState.completedAt).label);
+      assert.equal(document.querySelector('.time-zone').textContent, formatCompletionTime(startState.completedAt).timeZone);
+
+      const resultCards = document.querySelectorAll('.answer-card');
+      assert.equal(resultCards.length, 30);
+      ['correct', 'wrong', 'unanswered'].forEach(status => {
+        assert.equal(resultCards.filter(card => card.classList.contains(status)).length, 10);
+      });
+      resultCards.forEach((card, index) => {
+        const question = startState.questions[index];
+        const status = index < 10 ? 'correct' : index < 20 ? 'wrong' : 'unanswered';
+        const badge = card.querySelector('.status');
+        assert.ok(badge.classList.contains('status-' + status));
+        assert.ok(questionCards[index].querySelector('.status').classList.contains('status-' + status));
+        assert.equal(card.querySelector('h3').textContent, 'Question ' + (index + 1));
+        const values = card.querySelector('.answer-lines').querySelectorAll('dd');
+        assert.equal(values[0].textContent, startState.answers.get(String(index)) ?? 'No answer selected');
+        assert.equal(values[1].textContent, question.answer);
+        const details = card.querySelector('details');
+        assert.equal(details.open, index === 0);
+        assert.deepEqual(details.querySelectorAll('dd').map(description => description.textContent),
+          ['vocabulary', 'grammar', 'usage', 'example'].map(field => question.explanation[field]));
+        assert.equal(details.querySelectorAll('dt').map(term => term.textContent).join(','),
+          'Vocabulary,Grammar,Usage,Example');
+        const buttons = questionCards[index].querySelectorAll('button');
+        assert.ok(buttons.find(button => button.dataset.choice === question.answer).classList.contains('choice-correct'));
+        if (status === 'wrong') {
+          assert.ok(buttons.find(button => button.dataset.choice === startState.answers.get(String(index))).classList.contains('choice-wrong'));
+        }
+      });
+
+      const grades = startState.answerCorrectness;
+      const completedAt = startState.completedAt;
+      const timestamp = document.querySelector('time').getAttribute('datetime');
+      startState.submitQuiz();
+      submitButton.click();
+      startState.selectAnswer({ target: wrongButton });
+      assert.equal(startState.answers.get('0'), startState.questions[0].answer);
+      assert.equal(startState.answerCorrectness, grades);
+      assert.equal(startState.completedAt, completedAt);
+      assert.equal(document.querySelector('time').getAttribute('datetime'), timestamp);
+      assert.equal(document.querySelectorAll('.answer-card').length, 30);
+      startState.displayScore();
+      assert.equal(document.querySelectorAll('.completion').length, 1);
+      assert.equal(document.querySelectorAll('time').length, 1);
+      assert.equal(document.querySelector('time').getAttribute('datetime'), timestamp);
+
+      createPage();
+      const automaticState = createQuizState();
+      automaticState.timeLimit = 1;
+      automaticState.displayTimeDropdown();
+      automaticState.displayStartButton();
+      automaticState.startQuiz();
+      const automaticButtons = document.querySelectorAll('.choices button');
+      automaticButtons.find(button => button.dataset.questionIndex === 0 &&
+        button.dataset.choice === automaticState.questions[0].answer).click();
+      globalThis.confirm = () => { throw new Error('Automatic submission must not ask for confirmation.'); };
+      assert.equal(automaticState.completedAt, null);
+      const beforeTimeout = Date.now();
+      intervalCallback();
+      assert.equal(automaticState.score, 1);
+      assert.equal(automaticState.answerCorrectness.filter(answer => answer.status === 'unanswered').length, 29);
+      assert.equal(automaticState.quizSubmitted, true);
+      assert.ok(automaticState.completedAt.getTime() >= beforeTimeout);
+      assert.ok(clearedIntervals.has(automaticState.timerInterval));
+      assert.ok(automaticButtons.every(button => button.disabled));
+      assert.equal(document.querySelectorAll('details').length, 30);
+      assert.equal(document.querySelector('time').getAttribute('datetime'), automaticState.completedAt.toISOString());
+      const automaticTimestamp = automaticState.completedAt;
+      intervalCallback();
+      assert.equal(automaticState.completedAt, automaticTimestamp);
+      assert.equal(document.querySelectorAll('.answer-card').length, 30);
+
+      automaticState.questions = [{ ...automaticState.questions[0], explanation: undefined }, ...automaticState.questions.slice(1)];
+      automaticState.displayCorrectAnswers();
+      assert.equal(document.querySelectorAll('details').length, 29);
+      assert.equal(document.querySelectorAll('.answer-card')[0].querySelector('p').textContent,
+        'Learning notes are not available for this question.');
+      assert.equal(JSON.stringify(bank), snapshot);
     } finally {
-      if (savedDocument === undefined) {
-        delete globalThis.document;
-      } else {
-        globalThis.document = savedDocument;
-      }
+      if (savedDocument === undefined) delete globalThis.document;
+      else globalThis.document = savedDocument;
+      if (savedWindow === undefined) delete globalThis.window;
+      else globalThis.window = savedWindow;
+      if (savedConfirm === undefined) delete globalThis.confirm;
+      else globalThis.confirm = savedConfirm;
+      globalThis.setInterval = savedSetInterval;
+      globalThis.clearInterval = savedClearInterval;
     }
 
     globalThis.fetch = async () => ({ ok: false });
@@ -780,7 +1068,8 @@ async function verifyQuiz() {
   const counts = ['basic', 'intermediate', 'advanced'].map(difficulty =>
     `${difficulty}: ${bank.filter(question => question.review === 'eligible' && question.difficulty === difficulty).length}`);
   console.log(`Questions: ${bank.length}. Eligible ${counts.join(', ')}. Excluded: ${bank.filter(question => question.review === 'excluded').length}.`);
-  console.log('Passed: 150 additions, category counts, unique questions, 100 selections, exact pool limits, exclusions, choice shuffling, scoring, answer keys, start, answer selection, automatic submission and load errors.');
+  console.log('Passed: 150 additions, category counts, unique questions, 100 selections, exact pool limits, exclusions, choice shuffling, scoring, answer keys, start, answer selection and load errors.');
+  console.log('Passed: 679 learning notes, question and answer cards, note matching, no early results, manual submission, canceled submission, timeout submission, answer locking, fixed completion times, six time zone cases and missing notes.');
 }
 
 if (typeof document !== 'undefined') {
