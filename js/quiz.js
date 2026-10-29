@@ -96,6 +96,7 @@ class TOEICQuiz {
     // Add event listener for window resize
     window.addEventListener('resize', () => {
       this.adjustTimerFloatPosition();
+      this.positionSolutions();
     });
     window.addEventListener('scroll', this.adjustTimerFloatPosition);
   }
@@ -409,6 +410,7 @@ class TOEICQuiz {
 
   // Method to display correct answers
   displayCorrectAnswers() {
+    document.querySelectorAll('.answer-card').forEach(card => card.remove());
     const correctAnswersContainer = document.createElement('div');
     correctAnswersContainer.classList.add('correct-answers');
     const statusLabels = { correct: 'Correct', wrong: 'Incorrect', unanswered: 'Unanswered' };
@@ -419,6 +421,7 @@ class TOEICQuiz {
       const question = this.questions[questionIndex];
       const card = document.createElement('article');
       card.classList.add('answer-card', status);
+      card.dataset.questionIndex = key;
       const titleId = `answer-${questionIndex + 1}`;
       card.setAttribute('aria-labelledby', titleId);
       const heading = document.createElement('div');
@@ -491,8 +494,22 @@ class TOEICQuiz {
     heading.textContent = 'Answers and learning notes';
     const instruction = document.createElement('p');
     instruction.classList.add('panel-intro');
-    instruction.textContent = 'Click Learning notes to open or close each explanation.';
+    instruction.textContent = 'Open Learning notes for vocabulary, grammar, usage and an example.';
     answersColumn.replaceChildren(heading, instruction, correctAnswersContainer);
+    this.positionSolutions();
+  }
+
+  positionSolutions() {
+    if (!this.quizSubmitted) return;
+
+    const inline = window.matchMedia('(max-width: 768px)').matches;
+    const answersContainer = document.querySelector('.correct-answers');
+    const questionCards = document.querySelectorAll('.question');
+    document.querySelectorAll('.answer-card').forEach(card => {
+      const target = inline ? questionCards[Number(card.dataset.questionIndex)] : answersContainer;
+      if (target && card.parentNode !== target) target.appendChild(card);
+    });
+    document.querySelector('.answers-column').style.display = inline ? 'none' : 'block';
   }
 
   displayTimeDropdown() {
@@ -703,24 +720,65 @@ async function verifyQuiz() {
   const { pathToFileURL } = await import('node:url');
   const { default: assert } = await import('node:assert/strict');
   const bank = JSON.parse(await readFile(new URL('../questions/questionsPart5Sample.json', pathToFileURL(__filename)), 'utf8'));
-  const originalContent = bank.slice(0, 753).map(({ question, choices, answer }) => ({ question, choices, answer }));
-  console.log(`Original content SHA256: ${createHash('sha256').update(JSON.stringify(originalContent)).digest('hex')}`);
+  const revisedPositions = new Set([
+    2, 3, 19, 38, 88, 125, 167, 172, 196, 313, 351, 367, 394, 427, 446,
+    509, 519, 532, 558, 609, 630, 643, 679, 698, 709, 721, 729,
+    754, 771, 773, 794, 834, 840, 844, 895, 902, 1037, 1093
+  ]);
+  const unchangedBankDigest = createHash('sha256')
+    .update(JSON.stringify(bank.filter((question, index) => !revisedPositions.has(index + 1))))
+    .digest('hex');
+  console.log(`Unchanged questions SHA256: ${unchangedBankDigest}`);
   if (process.argv.includes('--baseline')) {
     return;
   }
 
-  assert.equal(bank.length, 903);
+  if (process.argv.includes('--review-new')) {
+    const ignored = new Set('a an and are as at be been being but by can could did do does for from had has have he her his if in into is it its may must not of on or our should so than that the their them there these they this those to until us was we were when where which while who will with would'.split(' '));
+    const words = bank.map(question => new Set((normalizeQuestion(question.question).match(/[a-z]+/g) || [])
+      .filter(word => !ignored.has(word))));
+    let matches = 0;
+    bank.slice(903).forEach((question, offset) => {
+      const index = offset + 903;
+      const closest = words.slice(0, index).map((other, otherIndex) => {
+        const common = [...words[index]].filter(word => other.has(word)).length;
+        return { index: otherIndex, overlap: common / (words[index].size + other.size - common) };
+      }).reduce((best, candidate) => candidate.overlap > best.overlap ? candidate : best, { index: 0, overlap: 0 });
+      if (closest.overlap >= 0.4) {
+        matches += 1;
+        console.log(`Review ${index + 1} against ${closest.index + 1}:\n${question.question}\n${bank[closest.index].question}`);
+      }
+    });
+    console.log(`Word overlap scan for ${bank.length - 903} recent additions. Pairs to inspect: ${matches}.`);
+    console.log('This scan does not assess meaning, answer correctness or repeated grammar patterns.');
+    return;
+  }
+
+  assert.equal(revisedPositions.size, 38);
+  assert.equal(unchangedBankDigest, 'b53f1b93f79d544d410271389e5947c4abce3cbb35e01ba953616fe58a8c2f10');
+  assert.equal(bank.length, 1103);
   assert.equal(new Set(bank.map(question => normalizeQuestion(question.question))).size, bank.length);
+  assert.equal(bank.filter(question => question.review === 'excluded').length, 0);
   const additions = bank.slice(753);
-  const expectedCategories = { grammar: 50, logic: 40, vocabulary: 40, distinction: 20 };
+  const expectedCategories = { grammar: 111, logic: 80, vocabulary: 100, distinction: 59 };
   Object.entries(expectedCategories).forEach(([category, count]) => {
     assert.equal(additions.filter(question => question.category === category).length, count, category);
   });
-  assert.ok(additions.every(question => question.difficulty === 'advanced' && question.review === 'eligible'));
+  assert.ok(additions.every((question, index) => question.review === 'eligible' &&
+    question.difficulty === (index + 754 === 1093 ? 'basic' : 'advanced')));
+  const newQuestions = bank.slice(903);
+  assert.equal(newQuestions.length, 200);
+  Object.entries({ grammar: 61, vocabulary: 60, logic: 40, distinction: 39 }).forEach(([category, count]) => {
+    assert.equal(newQuestions.filter(question => question.category === category).length, count, category);
+  });
+  const newVocabulary = newQuestions.filter(question => ['vocabulary', 'distinction'].includes(question.category));
+  assert.equal(newVocabulary.length, 99);
+  assert.equal(new Set(newVocabulary.map(question => question.answer.toLowerCase())).size, newVocabulary.length);
   const activeQuestions = bank.filter(question => question.review === 'eligible' &&
     QUESTION_MIX.some(group => group.difficulty === question.difficulty));
-  assert.equal(activeQuestions.length, 679);
-  assert.ok(activeQuestions.every(question => ['vocabulary', 'grammar', 'usage', 'example']
+  assert.equal(activeQuestions.length, 882);
+  const questionsWithNotes = bank.filter((question, index) => activeQuestions.includes(question) || revisedPositions.has(index + 1));
+  assert.ok(questionsWithNotes.every(question => ['vocabulary', 'grammar', 'usage', 'example']
     .every(field => typeof question.explanation?.[field] === 'string' && question.explanation[field].trim())));
 
   const savedTimeZone = process.env.TZ;
@@ -792,6 +850,9 @@ async function verifyQuiz() {
   const invalid = { ...bank[0], difficulty: undefined };
   assert.throws(() => selectQuestions([invalid, ...bank.slice(1)], shuffle), /needs review/);
   assert.throws(() => selectQuestions([...bank, { ...additions[0] }], shuffle), /repeated questions/);
+  const excluded = { ...additions[0], review: 'excluded', exclusionReason: 'This entry is excluded for the selection check.' };
+  const bankWithExclusion = [excluded, ...bank.filter(question => question !== additions[0])];
+  assert.ok(!selectQuestions(bankWithExclusion, questions => questions).includes(excluded));
 
   const savedFetch = globalThis.fetch;
   let fetches = 0;
@@ -844,6 +905,12 @@ async function verifyQuiz() {
           this.children = [];
           children.forEach(child => this.appendChild(child));
         },
+        remove() {
+          if (this.parentNode) {
+            this.parentNode.children = this.parentNode.children.filter(child => child !== this);
+            this.parentNode = null;
+          }
+        },
         insertBefore(child, reference) {
           if (child.parentNode) {
             child.parentNode.children = child.parentNode.children.filter(node => node !== child);
@@ -891,9 +958,13 @@ async function verifyQuiz() {
     });
     let intervalCallback;
     let intervalCount = 0;
+    let viewportWidth = 1024;
     const clearedIntervals = new Set();
     try {
-      globalThis.window = { scrollTo() {} };
+      globalThis.window = {
+        scrollTo() {},
+        matchMedia: () => ({ matches: viewportWidth <= 768 })
+      };
       globalThis.setInterval = callback => {
         intervalCallback = callback;
         intervalCount += 1;
@@ -918,6 +989,8 @@ async function verifyQuiz() {
       assert.equal(document.querySelectorAll('time').length, 0);
       assert.equal(document.querySelectorAll('.completion').length, 0);
       assert.equal(document.querySelector('.answers-column').children.length, 0);
+      startState.positionSolutions();
+      assert.equal(document.querySelectorAll('.answer-card').length, 0);
 
       questionCards.forEach((card, index) => {
         assert.equal(card.querySelector('.question-text').textContent, startState.questions[index].question);
@@ -977,6 +1050,8 @@ async function verifyQuiz() {
       });
       resultCards.forEach((card, index) => {
         const question = startState.questions[index];
+        assert.equal(card.dataset.questionIndex, String(index));
+        assert.equal(card.parentNode, document.querySelector('.correct-answers'));
         const status = index < 10 ? 'correct' : index < 20 ? 'wrong' : 'unanswered';
         const badge = card.querySelector('.status');
         assert.ok(badge.classList.contains('status-' + status));
@@ -996,6 +1071,21 @@ async function verifyQuiz() {
         if (status === 'wrong') {
           assert.ok(buttons.find(button => button.dataset.choice === startState.answers.get(String(index))).classList.contains('choice-wrong'));
         }
+      });
+
+      resultCards[1].querySelector('details').open = true;
+      [320, 390, 768, 769, 1024, 390].forEach(width => {
+        viewportWidth = width;
+        startState.positionSolutions();
+        assert.equal(document.querySelectorAll('.answer-card').length, 30);
+        assert.equal(document.querySelector('.answers-column').style.display, width <= 768 ? 'none' : 'block');
+        resultCards.forEach((card, index) => {
+          assert.equal(card.parentNode, width <= 768 ? questionCards[index] : document.querySelector('.correct-answers'));
+          if (width <= 768) assert.equal(questionCards[index].children.at(-1), card);
+          assert.equal(card.querySelector('details').open, index < 2);
+          assert.equal(card.querySelector('.answer-lines').querySelectorAll('dd')[1].textContent,
+            startState.questions[index].answer);
+        });
       });
 
       const grades = startState.answerCorrectness;
@@ -1020,6 +1110,8 @@ async function verifyQuiz() {
       automaticState.displayTimeDropdown();
       automaticState.displayStartButton();
       automaticState.startQuiz();
+      assert.equal(document.querySelectorAll('.answer-card').length, 0);
+      assert.equal(document.querySelectorAll('details').length, 0);
       const automaticButtons = document.querySelectorAll('.choices button');
       automaticButtons.find(button => button.dataset.questionIndex === 0 &&
         button.dataset.choice === automaticState.questions[0].answer).click();
@@ -1034,6 +1126,10 @@ async function verifyQuiz() {
       assert.ok(clearedIntervals.has(automaticState.timerInterval));
       assert.ok(automaticButtons.every(button => button.disabled));
       assert.equal(document.querySelectorAll('details').length, 30);
+      assert.equal(document.querySelector('.answers-column').style.display, 'none');
+      document.querySelectorAll('.answer-card').forEach((card, index) => {
+        assert.equal(card.parentNode, document.querySelectorAll('.question')[index]);
+      });
       assert.equal(document.querySelector('time').getAttribute('datetime'), automaticState.completedAt.toISOString());
       const automaticTimestamp = automaticState.completedAt;
       intervalCallback();
@@ -1042,7 +1138,11 @@ async function verifyQuiz() {
 
       automaticState.questions = [{ ...automaticState.questions[0], explanation: undefined }, ...automaticState.questions.slice(1)];
       automaticState.displayCorrectAnswers();
+      assert.equal(document.querySelectorAll('.answer-card').length, 30);
       assert.equal(document.querySelectorAll('details').length, 29);
+      document.querySelectorAll('.question').forEach(card => {
+        assert.equal(card.querySelectorAll('.answer-card').length, 1);
+      });
       assert.equal(document.querySelectorAll('.answer-card')[0].querySelector('p').textContent,
         'Learning notes are not available for this question.');
       assert.equal(JSON.stringify(bank), snapshot);
@@ -1068,8 +1168,9 @@ async function verifyQuiz() {
   const counts = ['basic', 'intermediate', 'advanced'].map(difficulty =>
     `${difficulty}: ${bank.filter(question => question.review === 'eligible' && question.difficulty === difficulty).length}`);
   console.log(`Questions: ${bank.length}. Eligible ${counts.join(', ')}. Excluded: ${bank.filter(question => question.review === 'excluded').length}.`);
-  console.log('Passed: 150 additions, category counts, unique questions, 100 selections, exact pool limits, exclusions, choice shuffling, scoring, answer keys, start, answer selection and load errors.');
-  console.log('Passed: 679 learning notes, question and answer cards, note matching, no early results, manual submission, canceled submission, timeout submission, answer locking, fixed completion times, six time zone cases and missing notes.');
+  console.log(`Passed: ${revisedPositions.size} revised entries, ${bank.length - revisedPositions.size} preserved entries, category counts, unique stems, ${newVocabulary.length} distinct vocabulary targets, 100 selections, exact pool limits, exclusions, choice shuffling, scoring, answer key matching, start, answer selection and load errors.`);
+  console.log(`Passed: ${activeQuestions.length} active learning notes, notes for every revised entry, question and answer cards, note matching, no early results, manual submission, canceled submission, timeout submission, answer locking, fixed completion times, six time zone cases and missing notes.`);
+  console.log('Passed: mobile solutions below matching questions, desktop solution column, resizing across 768 pixels, open notes preserved and no duplicate solutions.');
 }
 
 if (typeof document !== 'undefined') {

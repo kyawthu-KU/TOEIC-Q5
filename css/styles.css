@@ -411,6 +411,21 @@ summary:hover {
     }
 
     .answer-lines > div {
-        grid-template-columns: 115px minmax(0, 1fr);
+        grid-template-columns: minmax(0, 1fr);
+        gap: 2px;
+        margin: 12px 0;
+    }
+
+    .question-card > .answer-card {
+        margin: 20px 0 0;
+        padding: 18px 0 0;
+        border: 0;
+        border-top: 1px solid #dce5e9;
+        border-radius: 0;
+        background-color: transparent;
+    }
+
+    .question-card > .answer-card > .card-heading {
+        display: none;
     }
 }

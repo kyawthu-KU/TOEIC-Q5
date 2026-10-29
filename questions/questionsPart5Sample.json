@@ -15,17 +15,22 @@
     "question": "In international trade, companies must __________ trade regulations.",
     "choices": [
       "comply with",
-      "abide by",
-      "follow",
-      "adhere to"
+      "complying with",
+      "compliance with",
+      "complied with"
     ],
     "answer": "comply with",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "All four choices can correctly complete the sentence."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "Trade regulations are rules that govern the buying and selling of goods.",
+      "grammar": "After the modal verb 'must', use the base verb 'comply'. 'Compliance' is a noun.",
+      "usage": "Use 'comply with' when someone follows a rule or requirement.",
+      "example": "All exporters must comply with the new labeling rules."
+    }
   },
   {
-    "question": "The new employee _________ her job very well.",
+    "question": "The new employee _________ how to use the inventory software right now, so please do not interrupt her training.",
     "choices": [
       "learn",
       "learns",
@@ -34,8 +39,13 @@
     ],
     "answer": "is learning",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The sentence gives no time context to choose between learns, learned and is learning."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "Inventory software keeps records of the goods a business has in stock.",
+      "grammar": "'Is learning' describes an activity in progress right now. 'Learns' normally describes a habit or general fact.",
+      "usage": "Use the present continuous to describe training that is happening at the time of speaking.",
+      "example": "The new assistant is learning how to process returns right now."
+    }
   },
   {
     "question": "Please _________ your completed evaluation form on the table beside the door.",
@@ -248,7 +258,7 @@
     }
   },
   {
-    "question": " The Kopple Building was in very poor _________ the renovation.",
+    "question": "The Kopple Building was in very poor _________ before the renovation.",
     "choices": [
       "condition",
       "conditioned",
@@ -257,8 +267,13 @@
     ],
     "answer": "condition",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "A preposition is missing between condition and the renovation."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "The condition of a building is its physical state. A renovation repairs or improves it.",
+      "grammar": "The adjective 'poor' describes the noun 'condition'. 'Before the renovation' gives the time.",
+      "usage": "Use 'in poor condition' for something that needs repair.",
+      "example": "The roof was in poor condition before the repairs."
+    }
   },
   {
     "question": "_________ Mr. Khat has just been promoted to management, we now have an open sales-associate position.",
@@ -543,7 +558,7 @@
     "review": "eligible"
   },
   {
-    "question": "Stillman Canning creates stews and soups using а _________ family recipe.",
+    "question": "Stillman Canning creates stews and soups using a _________ family recipe.",
     "choices": [
       "trust",
       "trusted",
@@ -552,8 +567,13 @@
     ],
     "answer": "trusted",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The sentence contains a Cyrillic letter in place of the English article a."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "A trusted recipe is one that people believe will produce good results.",
+      "grammar": "The past participle 'trusted' works as an adjective describing 'family recipe'.",
+      "usage": "Use 'trusted' to describe something or someone considered reliable.",
+      "example": "The bakery still uses a trusted recipe developed by its founder."
+    }
   },
   {
     "question": "In its first week _________ operation, Sabon Hairstyling Salon had about 150 customers.",
@@ -1356,9 +1376,9 @@
   {
     "question": "Having participated in _________ interviews during her job search, Ms. McKray expects that she will be hired soon.",
     "choices": [
-      "sizable",
+      "counts",
       "countless",
-      "plentiful",
+      "counting",
       "much"
     ],
     "answer": "countless",
@@ -1366,7 +1386,7 @@
     "review": "eligible",
     "explanation": {
       "vocabulary": "A job search is the process of finding employment. Countless means very many.",
-      "grammar": "'Countless' describes the plural noun 'interviews'. 'Much' normally goes with an amount that is not counted as individual items.",
+      "grammar": "'Countless' is an adjective describing the plural noun 'interviews'. 'Much' normally describes an amount that is not counted as separate items.",
       "usage": "Use 'countless interviews' to emphasize a very large number of interviews.",
       "example": "The researcher conducted countless interviews before publishing the report."
     }
@@ -1972,7 +1992,7 @@
     "review": "eligible"
   },
   {
-    "question": "Work is underway to convert the vacant warehouse on Third Street _________ а restaurant.",
+    "question": "Work is underway to convert the vacant warehouse on Third Street _________ a restaurant.",
     "choices": [
       "than",
       "into",
@@ -1981,8 +2001,13 @@
     ],
     "answer": "into",
     "difficulty": "intermediate",
-    "review": "excluded",
-    "exclusionReason": "The sentence contains a Cyrillic letter in place of the English article a."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "To convert a building means to change it for a different use. Vacant means empty.",
+      "grammar": "The pattern is 'convert something into something'. 'Into' introduces the new use.",
+      "usage": "Use 'convert a warehouse into a restaurant' when describing a change in a building's purpose.",
+      "example": "The owners plan to convert the old station into a cafe."
+    }
   },
   {
     "question": "Hossco has just announced the _________ annual revenues in company history.",
@@ -2669,17 +2694,22 @@
     "review": "eligible"
   },
   {
-    "question": "Those seeking a budget increase must provide evidence that _________ supports the need for more funding.",
+    "question": "To justify a budget increase, applicants must provide evidence that _________ demonstrates why more funding is necessary.",
     "choices": [
-      "deeply",
-      "hardly",
-      "cordially",
-      "durably"
+      "clearly",
+      "clear",
+      "clarity",
+      "clearest"
     ],
-    "answer": "deeply",
+    "answer": "clearly",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The keyed phrase deeply supports is not natural for evidence. None of the choices clearly expresses strong support."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "To justify a request means to give good reasons for it. Evidence supports those reasons.",
+      "grammar": "The adverb 'clearly' describes the verb 'demonstrates'. 'Clear' and 'clearest' are adjectives. 'Clarity' is a noun.",
+      "usage": "Use 'clearly demonstrates' when evidence makes a point easy to understand.",
+      "example": "The report clearly demonstrates the need for additional staff."
+    }
   },
   {
     "question": "Merchandise ordered through our online store is usually delivered _________ two weeks.",
@@ -2754,7 +2784,7 @@
     }
   },
   {
-    "question": "_________ this week, Carson City will begin a massive project to resurface public roads in November.",
+    "question": "_________ this week, Carson City's road resurfacing project will begin in November.",
     "choices": [
       "Announce",
       "Announced",
@@ -2763,8 +2793,13 @@
     ],
     "answer": "Announced",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The opening modifier Announced this week incorrectly describes Carson City."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "Road resurfacing replaces the top layer of a road.",
+      "grammar": "'Announced this week' is a passive phrase describing the project. The project was announced by someone.",
+      "usage": "Place the thing described by an opening phrase immediately after that phrase.",
+      "example": "Announced on Monday, the library expansion will begin next spring."
+    }
   },
   {
     "question": "The delicate machinery must be carefully inspected _________ the cause of the problem to be determined.",
@@ -3175,7 +3210,7 @@
     }
   },
   {
-    "question": "Diana Green's test scores were high _________, for her to be eligible to receive the Newbury Scholarship.",
+    "question": "Diana Green's test scores were high _________ for her to be eligible to receive the Newbury Scholarship.",
     "choices": [
       "above",
       "even",
@@ -3184,8 +3219,13 @@
     ],
     "answer": "enough",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "A misplaced comma separates enough from the phrase it introduces."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "Eligible means meeting the conditions needed to receive something.",
+      "grammar": "'Enough' follows the adjective 'high'. The phrase 'for her to be eligible' explains the result.",
+      "usage": "Use an adjective followed by 'enough' to show that a required level has been reached.",
+      "example": "The room is large enough for us to hold the workshop there."
+    }
   },
   {
     "question": "Mr. Alavario, while generally content working by _________, is always happy to be included in team projects.",
@@ -5114,7 +5154,7 @@
     }
   },
   {
-    "question": "Once Mr. Braun had toured the conference _________ he paid the deposit fee.\n",
+    "question": "Once Mr. Braun had toured the conference _________, he paid the deposit fee.",
     "choices": [
       "location",
       "locate",
@@ -5123,8 +5163,13 @@
     ],
     "answer": "location",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "A comma is missing after the opening time clause."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "A conference location is the place where an event will be held. A deposit is an advance payment.",
+      "grammar": "'Location' is a noun after 'conference'. A comma separates the opening clause beginning with 'once' from the main clause.",
+      "usage": "Use 'once' to show that one action follows the completion of another.",
+      "example": "Once we had inspected the location, we confirmed the booking."
+    }
   },
   {
     "question": "Management has asked Ms. Leung to meet _________ the new office supply vendor tomorrow.\n",
@@ -5706,14 +5751,19 @@
     "question": "Two water-quality studies, which _________ last week, reflect the hard work of the Water Resource Council to keep local water clean.\n",
     "choices": [
       "were released",
-      "were being released",
+      "was released",
       "had released",
       "had been releasing"
     ],
     "answer": "were released",
     "difficulty": "intermediate",
-    "review": "excluded",
-    "exclusionReason": "Both were released and were being released can describe the studies last week."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "To release a study means to make its findings available to the public.",
+      "grammar": "The plural subject 'studies' takes 'were'. 'Were released' is passive because someone published the studies.",
+      "usage": "Use the simple past with a finished time such as 'last week'.",
+      "example": "The survey results were released last Friday."
+    }
   },
   {
     "question": "_________ the efforts of cycling enthusiasts, the proposal to resurface bicycle paths in County Kildare was defeated yesterday.\n",
@@ -5968,7 +6018,7 @@
     "review": "eligible"
   },
   {
-    "question": "Willington Hair Salon will be open _________ in weekend starting May.\n",
+    "question": "Willington Hair Salon will be open _________ weekend starting in May.",
     "choices": [
       "every",
       "from",
@@ -5977,8 +6027,13 @@
     ],
     "answer": "every",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The phrase every in weekend is not grammatical."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "A weekend is Saturday and Sunday.",
+      "grammar": "'Every' comes before the singular countable noun 'weekend'. 'In' introduces the month 'May'.",
+      "usage": "Use 'open every weekend' when a business will open on all weekends.",
+      "example": "The shop will be open every Sunday starting in June."
+    }
   },
   {
     "question": "When accessing _________ billing statement online, be sure to look for new discount offers.\n",
@@ -6419,7 +6474,7 @@
     }
   },
   {
-    "question": "Makiro Furniture customers can easily _________ helving units using only simple tools.\n",
+    "question": "Makiro Furniture customers can easily _________ shelving units using only simple tools.",
     "choices": [
       "assemble",
       "assembled",
@@ -6428,8 +6483,13 @@
     ],
     "answer": "assemble",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The word shelving is damaged as helving."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "To assemble furniture means to put its parts together. Shelving units provide storage space.",
+      "grammar": "After the modal verb 'can', use the base verb 'assemble'. The adverb 'easily' does not change the verb form.",
+      "usage": "Use 'assemble a shelving unit' when describing how separate parts become a complete item.",
+      "example": "Customers can assemble the desk with the tools provided."
+    }
   },
   {
     "question": "Mr. Zhao will _________ work on international accounts while Ms. Gutierrez is on leave.\n",
@@ -6942,7 +7002,7 @@
     }
   },
   {
-    "question": "TA new market will be located _________ Mason's Automobile Dealership and the Grace Theater.\n",
+    "question": "The new market will be located _________ Mason's Automobile Dealership and the Grace Theater.",
     "choices": [
       "down",
       "along",
@@ -6951,8 +7011,13 @@
     ],
     "answer": "between",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The sentence begins with the damaged text TA new market."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "A dealership is a business that sells a particular company's products.",
+      "grammar": "'Between' introduces the two locations joined by 'and'.",
+      "usage": "Use 'between A and B' to describe a place with one location on each side.",
+      "example": "The pharmacy is between the bank and the library."
+    }
   },
   {
     "question": "Marketing has not yet decided _________ sandals to feature during Folberg Shoes' spring sale.\n",
@@ -7249,7 +7314,7 @@
     }
   },
   {
-    "question": "Anberg Telecommunications sends customers monthly _________ Anberg Telecommunications sends customers monthly.\n",
+    "question": "Anberg Telecommunications sends customers monthly _________ about unpaid bills.",
     "choices": [
       "reminded",
       "reminds",
@@ -7258,8 +7323,13 @@
     ],
     "answer": "reminders",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The sentence repeats a clause after the blank and is not grammatical."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "A reminder is a message that helps someone remember an action or obligation.",
+      "grammar": "'Reminders' is a plural noun naming what the company sends. 'Monthly' describes how often the messages are sent.",
+      "usage": "Use 'send a reminder about' a payment or appointment.",
+      "example": "The library sends monthly reminders about overdue books."
+    }
   },
   {
     "question": "The city has _________ increased the budget to better support community programs.\n",
@@ -8264,7 +8334,7 @@
     }
   },
   {
-    "question": "Any mechanir ai maunction of exercise _________ should be reported to the gym manager without delay.\n",
+    "question": "Any mechanical malfunction of exercise _________ should be reported to the gym manager without delay.",
     "choices": [
       "features",
       "equipment",
@@ -8273,8 +8343,13 @@
     ],
     "answer": "equipment",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The opening phrase Any mechanir ai maunction is damaged."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "A mechanical malfunction is a failure of a machine to work properly. Equipment means the tools or machines used for an activity.",
+      "grammar": "'Exercise equipment' is a noun phrase. 'Equipment' is normally uncountable.",
+      "usage": "Use 'report a malfunction' when telling someone about a machine that is not working correctly.",
+      "example": "Please report any damage to the exercise equipment immediately."
+    }
   },
   {
     "question": "Leroy-Bontemps researched consumer _________ around the nation as part of the development of its low-calorie beverage products.\n",
@@ -8439,7 +8514,7 @@
     }
   },
   {
-    "question": "Articles submitted for punitation in the Sinchon Review should be no more than ten pages _________ length.\n",
+    "question": "Articles submitted for publication in the Sinchon Review should be no more than ten pages _________ length.",
     "choices": [
       "under",
       "in",
@@ -8448,8 +8523,13 @@
     ],
     "answer": "in",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The word publication is damaged as punitation."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "Publication is the process of making writing available to readers. 'No more than ten' means ten or fewer.",
+      "grammar": "The expression is 'in length'. The preposition 'in' introduces the measurement.",
+      "usage": "Use 'pages in length' when stating how long a document is.",
+      "example": "The final report must be no more than five pages in length."
+    }
   },
   {
     "question": "The position of shipping clerk requires _________ lifting of packages weighing over twenty kilograms.\n",
@@ -8662,7 +8742,7 @@
     }
   },
   {
-    "question": "With three decades of university administration experience, Professor Wallis Is a _________ choice to be the leader of the campus planning committee.\n",
+    "question": "With three decades of university administration experience, Professor Wallis is a _________ choice to be the leader of the campus planning committee.",
     "choices": [
       "total",
       "precise",
@@ -8671,8 +8751,13 @@
     ],
     "answer": "logical",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The verb is is incorrectly capitalized in the middle of the sentence."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "A decade is ten years. A logical choice is one supported by good reasons.",
+      "grammar": "The adjective 'logical' describes the noun 'choice'. The opening phrase explains why the choice makes sense.",
+      "usage": "Use 'a logical choice' when someone's experience fits a role.",
+      "example": "Her experience in project planning makes her a logical choice to lead the team."
+    }
   },
   {
     "question": "_________ delays in obtaining the proper construction permits, renovation of the civic center will not resume until Monday.\n",
@@ -9082,12 +9167,17 @@
       "behind",
       "without",
       "except",
-      "before"
+      "beside"
     ],
     "answer": "without",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "Both without and before can express the restriction involving written consent."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "Written consent is permission given in writing. To reproduce content means to copy it.",
+      "grammar": "'Without' introduces the permission that must be obtained before copying is allowed.",
+      "usage": "Use 'may not be reproduced without written consent' to state a restriction on copying.",
+      "example": "The photographs may not be reproduced without the owner's written consent."
+    }
   },
   {
     "question": "Dr. Hemana and Dr. Wareham, the joint recipients of the Cobalt Research Prize, have known _________ since they were university students in Auckland.\n",
@@ -9942,7 +10032,7 @@
     }
   },
   {
-    "question": "Management believes that stagnant sales of the Pondhooper luggage line is result of the _________ advertising campaign that was launched last quarter.\n",
+    "question": "Management believes that stagnant sales of the Pondhooper luggage line are the result of an _________ advertising campaign that reached too few potential customers.",
     "choices": [
       "inadequate",
       "rare",
@@ -9951,8 +10041,13 @@
     ],
     "answer": "inadequate",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The sentence has incorrect subject agreement and is missing an article before result."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "Stagnant sales are sales that are not growing. Inadequate means not sufficient for the purpose.",
+      "grammar": "The plural subject 'sales' takes 'are'. The phrase 'the result of' introduces the cause. 'Inadequate' describes the campaign.",
+      "usage": "Use 'an inadequate advertising campaign' for promotion that does not do enough to reach customers.",
+      "example": "Inadequate publicity left many potential customers unaware of the product."
+    }
   },
   {
     "question": "The number of visitors to the Hannaford Museum of History has _________ to exceed the goal set for this year.\n",
@@ -10261,17 +10356,22 @@
     }
   },
   {
-    "question": "Artrox Photogranhy carries just-released products, along with _________ used equipment.\n",
+    "question": "Artrox Photography carries newly released products, along with _________ used equipment.",
     "choices": [
       "lighten",
       "lightly",
-      "light",
-      "lightened"
+      "lightness",
+      "lightens"
     ],
     "answer": "lightly",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The business name contains the apparent transcription error Photogranhy."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "Lightly used equipment has had little use and usually shows little wear.",
+      "grammar": "The adverb 'lightly' describes the participle 'used'. 'Lightness' is a noun. 'Lighten' and 'lightens' are verb forms.",
+      "usage": "Use 'lightly used' when describing an item that is not new but has seen little use.",
+      "example": "The shop offers lightly used camera lenses at reduced prices."
+    }
   },
   {
     "question": "Rechargeable batteries today _________ almost twice as long as those produced ten years ago.\n",
@@ -10484,7 +10584,7 @@
     }
   },
   {
-    "question": "The Soseu Soan Cornoration lunched an advertisina campaian to _________ interest in its new line of cleanina products.\n",
+    "question": "The Soseu Soap Corporation launched an advertising campaign to _________ interest in its new line of cleaning products.",
     "choices": [
       "consume",
       "generate",
@@ -10493,8 +10593,13 @@
     ],
     "answer": "generate",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "Several words in the sentence are damaged or misspelled."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "To generate interest means to make people interested. A product line is a group of related products.",
+      "grammar": "The base verb 'generate' follows 'to' in a phrase expressing the campaign's purpose.",
+      "usage": "Use 'launch a campaign to generate interest' when describing a promotional effort.",
+      "example": "The museum launched a campaign to generate interest in its new exhibition."
+    }
   },
   {
     "question": "As the grant application for additional funding cannot exceed five pages, all research must be presented thoroughly yet _________.\n",
@@ -11019,7 +11124,7 @@
     "review": "eligible"
   },
   {
-    "question": "Berne Tech has recommended that its clients _________ the invoices from tho last quarter for pricing irregularities.\n",
+    "question": "Berne Tech has recommended that its clients _________ the invoices from the last quarter for pricing irregularities.",
     "choices": [
       "to review",
       "reviewed",
@@ -11028,8 +11133,13 @@
     ],
     "answer": "review",
     "difficulty": "intermediate",
-    "review": "excluded",
-    "exclusionReason": "The article the is damaged as tho."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "An invoice lists the amount a customer owes. A pricing irregularity is an unusual charge that may be an error.",
+      "grammar": "In formal English, 'recommend that' can be followed by a subject and a base verb. Here the form is 'review'.",
+      "usage": "Use 'review invoices for errors' when checking whether charges are correct.",
+      "example": "We recommend that each client review the invoice before paying."
+    }
   },
   {
     "question": "User response to Sandling's online publishing service has been largely _________, with only a handful of unsatisfactory ratings.\n",
@@ -11338,17 +11448,22 @@
     "review": "eligible"
   },
   {
-    "question": "Please review the _________ schedule and e-mail me right away about any mistakes.\n",
+    "question": "Please review the schedule that has been _________ to this email and report any errors.",
     "choices": [
-      "repeated",
-      "alarmed",
+      "attach",
+      "attachment",
       "attached",
-      "canceled"
+      "attaches"
     ],
     "answer": "attached",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "Both an attached schedule and a canceled schedule can be reviewed for mistakes. The context does not decide between them."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "An attachment is a file sent with an email. To attach a file means to include it with the message.",
+      "grammar": "'Has been attached' is a passive verb phrase. It requires the past participle 'attached'.",
+      "usage": "Use 'attached to this email' when referring to an included file.",
+      "example": "The registration form has been attached to this email."
+    }
   },
   {
     "question": "Niceties Cake Shop added ten more exotic flavors _________ after opening.\n",
@@ -11505,13 +11620,18 @@
     "choices": [
       "minimal",
       "minimally",
-      "minimum",
+      "minimization",
       "minimize"
     ],
     "answer": "minimal",
     "difficulty": "intermediate",
-    "review": "excluded",
-    "exclusionReason": "Both minimal traffic problems and minimum traffic problems are possible noun phrases."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "Minimal means very small in amount or extent.",
+      "grammar": "The adjective 'minimal' describes 'traffic problems'. 'Minimally' is an adverb. 'Minimization' is a noun. 'Minimize' is a verb.",
+      "usage": "Use 'cause minimal disruption' when work is expected to have very little effect on normal activities.",
+      "example": "The overnight repairs should cause minimal disruption to traffic."
+    }
   },
   {
     "question": "The months of April and May are _________ busy for the workers at Avedis Garden Supply.\n",
@@ -11706,7 +11826,7 @@
     }
   },
   {
-    "question": "The Asawa 4 is _________ any vehicle currently on the is market.\n",
+    "question": "With its unusual design, the Asawa 4 is _________ any other vehicle currently on the market.",
     "choices": [
       "unlike",
       "excepting",
@@ -11715,8 +11835,13 @@
     ],
     "answer": "unlike",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The phrase on the is market contains an extra word."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "Unlike means different from. 'On the market' means available for sale.",
+      "grammar": "The preposition 'unlike' introduces the vehicles used for comparison.",
+      "usage": "Use 'unlike any other' to emphasize that something is unusual or distinctive.",
+      "example": "The new display is unlike any other model in the showroom."
+    }
   },
   {
     "question": "By the time he signs the lease, Mr. Cooper _________ four months searching for a suitable office space.\n",
@@ -11827,7 +11952,7 @@
     }
   },  
   {
-    "question": "The repair estimate _________ all costs for labor parts.\n",
+    "question": "The repair estimate _________ all costs for labor and parts.",
     "choices": [
       "prefers",
       "accepts",
@@ -11836,8 +11961,13 @@
     ],
     "answer": "includes",
     "difficulty": "basic",
-    "review": "excluded",
-    "exclusionReason": "The conjunction and is missing between labor and parts."
+    "review": "eligible",
+    "explanation": {
+      "vocabulary": "A repair estimate states the expected cost of fixing something. Labor is the work done by the repair staff.",
+      "grammar": "The singular subject 'estimate' takes 'includes'. 'And' joins the two cost categories 'labor' and 'parts'.",
+      "usage": "Use 'the estimate includes' to state which charges are covered.",
+      "example": "The estimate includes the replacement parts and installation costs."
+    }
   },
   {
     "question": "The Destven Institute contact is a key _________ of information on energy-related matters.\n",
@@ -12236,17 +12366,22 @@
     }
   },
   {
-    "question": "By the time the new distribution center opens next June, the logistics team _________ all regional delivery routes.",
-    "choices": ["will have revised", "had revised", "has been revising", "would have revised"],
-    "answer": "will have revised",
+    "question": "If the distributor had renewed its contract last December, it _________ less for each delivery now, but it missed the deadline.",
+    "choices": [
+      "would be paying",
+      "will be paying",
+      "had been paying",
+      "has been paying"
+    ],
+    "answer": "would be paying",
     "difficulty": "advanced",
     "review": "eligible",
     "category": "grammar",
     "explanation": {
-      "vocabulary": "Logistics is the organization of storing and transporting goods.",
-      "grammar": "'Will have revised' describes work completed before the future opening. The clause after 'by the time' uses 'opens'.",
-      "usage": "Use the future perfect, 'will have' plus a past participle, for completion before a future point.",
-      "example": "By the time training begins, we will have updated every manual."
+      "vocabulary": "A distributor supplies goods to stores or customers. Renewing a contract extends it for another period.",
+      "grammar": "This mixed conditional links an unreal past decision to a present result. The past perfect follows 'if'. 'Would be paying' describes the present consequence.",
+      "usage": "Use a mixed conditional when a past choice affects the current situation.",
+      "example": "If we had installed solar panels last year, we would be paying less for electricity now."
     }
   },
   {
@@ -12474,17 +12609,22 @@
     }
   },
   {
-    "question": "The supplier has proposed a six-month trial period, during _________ either party may end the agreement without a penalty.",
-    "choices": ["which", "that", "when", "what"],
-    "answer": "which",
+    "question": "Despite _________ twice by the sender that the specimens were fragile, the courier placed heavy boxes on top of them.",
+    "choices": [
+      "having been warned",
+      "having warned",
+      "to have warned",
+      "to be warning"
+    ],
+    "answer": "having been warned",
     "difficulty": "advanced",
     "review": "eligible",
     "category": "grammar",
     "explanation": {
-      "vocabulary": "A trial period allows an arrangement to be tested before a longer commitment.",
-      "grammar": "'Which' refers to the six-month period and follows the preposition 'during'.",
-      "usage": "Use 'during which' to describe what happens within a stated period.",
-      "example": "The trial lasts a month, during which users may cancel."
+      "vocabulary": "A specimen is an item collected for study. Fragile items break easily.",
+      "grammar": "'Despite' can take a gerund phrase. 'Having been warned' is passive because the courier received the warnings from the sender.",
+      "usage": "Use 'despite having been warned' when someone acts against an earlier warning.",
+      "example": "Despite having been warned by the supervisor, the driver used the closed entrance."
     }
   },
   {
@@ -12502,17 +12642,22 @@
     }
   },
   {
-    "question": "The contract will be awarded to _________ submits the most technically sound proposal within the stated budget.",
-    "choices": ["whomever", "whoever", "whom", "whose"],
-    "answer": "whoever",
+    "question": "The proposal was rejected not so much because of its price _________ because it duplicated services already available.",
+    "choices": [
+      "than",
+      "so",
+      "as",
+      "nor"
+    ],
+    "answer": "as",
     "difficulty": "advanced",
     "review": "eligible",
     "category": "grammar",
     "explanation": {
-      "vocabulary": "Technically sound means reliable and appropriate in technical details.",
-      "grammar": "'Whoever' is the subject of 'submits'. The whole clause is the object of 'to'.",
-      "usage": "Choose the pronoun by its role inside its own clause. Here it performs the action.",
-      "example": "The award will go to whoever earns the highest score."
+      "vocabulary": "To duplicate a service means to provide something already offered elsewhere.",
+      "grammar": "The construction 'not so much ... as ...' gives greater importance to the second reason. 'As' links the two explanations.",
+      "usage": "Use 'not so much ... as ...' to show that one explanation matters more than another.",
+      "example": "The delay resulted not so much from staff shortages as from incomplete instructions."
     }
   },
   {
@@ -12796,17 +12941,22 @@
     }
   },
   {
-    "question": "The figures in this year's report are no less encouraging than _________ published last year.",
-    "choices": ["that", "what", "which", "those"],
-    "answer": "those",
+    "question": "The gallery director wishes she _________ the measurements before ordering a frame that proved too small.",
+    "choices": [
+      "checks",
+      "has checked",
+      "had checked",
+      "will check"
+    ],
+    "answer": "had checked",
     "difficulty": "advanced",
     "review": "eligible",
     "category": "grammar",
     "explanation": {
-      "vocabulary": "Encouraging means giving confidence or hope.",
-      "grammar": "'Those' replaces the plural noun 'figures'. It is followed by the description 'published last year'.",
-      "usage": "Use 'those' to avoid repeating a plural noun in comparisons.",
-      "example": "The current results are more encouraging than those reported in May."
+      "vocabulary": "Measurements record the size of an object. A frame surrounds and supports a picture.",
+      "grammar": "'Wishes' followed by the past perfect expresses regret about a completed past action. The frame has already proved too small.",
+      "usage": "Use 'wish' with 'had' and a past participle when you want a past event to have been different.",
+      "example": "The buyer wishes he had compared the dimensions before placing the order."
     }
   },
   {
@@ -13356,17 +13506,22 @@
     }
   },
   {
-    "question": "The revised plan would shorten delivery times and reduce late arrivals, _________ improving the reliability of the entire distribution network.",
-    "choices": ["otherwise", "nevertheless", "thereby", "conversely"],
-    "answer": "thereby",
+    "question": "We should not reject an applicant solely for lacking a degree. _________, we should not accept one solely for having a degree.",
+    "choices": [
+      "By the same token",
+      "In the meantime",
+      "For example",
+      "As a result"
+    ],
+    "answer": "By the same token",
     "difficulty": "advanced",
     "review": "eligible",
     "category": "logic",
     "explanation": {
-      "vocabulary": "Reliability is the ability to perform consistently as expected.",
-      "grammar": "'Thereby' connects shorter delivery times and fewer late arrivals with their resulting improvement.",
-      "usage": "Use 'thereby' before an 'ing' phrase describing a consequence.",
-      "example": "The firm added delivery vehicles, thereby improving service reliability."
+      "vocabulary": "Solely means only. A degree is a qualification awarded by a college or university.",
+      "grammar": "'By the same token' introduces a second judgment based on the same reasoning as the first.",
+      "usage": "Use 'by the same token' when applying one principle to a related situation.",
+      "example": "Low price alone does not make a product a good choice. By the same token, high price alone does not guarantee quality."
     }
   },
   {
@@ -13440,17 +13595,22 @@
     }
   },
   {
-    "question": "The company retained a local consultant _________ ensure that its new procedures complied with regional requirements.",
-    "choices": ["in order to", "so that", "with a view to", "for the purpose of"],
-    "answer": "in order to",
+    "question": "The restoration preserved every original feature _________ the cracked marble steps, which had to be removed and replaced.",
+    "choices": [
+      "save for",
+      "alongside",
+      "pursuant to",
+      "in aid of"
+    ],
+    "answer": "save for",
     "difficulty": "advanced",
     "review": "eligible",
     "category": "logic",
     "explanation": {
-      "vocabulary": "To retain a consultant means to hire them for professional advice.",
-      "grammar": "'In order to' introduces a purpose and takes the base verb 'ensure'.",
-      "usage": "Use 'in order to' plus a base verb when explaining why someone takes action.",
-      "example": "We hired an adviser in order to check local requirements."
+      "vocabulary": "A restoration repairs something while keeping its original character. Marble is a stone used in buildings.",
+      "grammar": "'Save for' means 'except for'. It excludes the replaced steps from the features that were preserved.",
+      "usage": "Use 'save for' as a formal way to introduce an exception.",
+      "example": "The building remained unchanged save for the new entrance doors."
     }
   },
   {
@@ -13496,17 +13656,22 @@
     }
   },
   {
-    "question": "Because the delay was caused by the bank, it agreed to _________ the late fee rather than collect it at a later date.",
-    "choices": ["waive", "defer", "remit", "reimburse"],
+    "question": "The bank has not collected the late fee and has decided to _________ it permanently, so the customer will owe nothing.",
+    "choices": [
+      "waive",
+      "defer",
+      "impose",
+      "reimburse"
+    ],
     "answer": "waive",
     "difficulty": "advanced",
     "review": "eligible",
     "category": "vocabulary",
     "explanation": {
-      "vocabulary": "To waive a fee means to give up the right to collect it.",
-      "grammar": "After 'agreed to' the base verb 'waive' fits the decision not to collect the fee.",
-      "usage": "Use 'waive' for removing an obligation. 'Defer' only postpones it.",
-      "example": "The bank waived the charge after confirming its mistake."
+      "vocabulary": "To waive a fee means to give up the right to collect it. To reimburse money means to repay an expense already paid.",
+      "grammar": "After 'decided to', use a base verb. 'Permanently' and 'owe nothing' show that the fee is being removed rather than delayed.",
+      "usage": "Use 'waive' when an unpaid fee is canceled. Use 'reimburse' when money already paid is returned.",
+      "example": "The bank waived the unpaid charge. It reimbursed a different charge that the customer had already paid."
     }
   },
   {
@@ -14210,17 +14375,22 @@
     }
   },
   {
-    "question": "Only employees who have completed six months of service are _________ for the tuition reimbursement program.",
-    "choices": ["illegible", "entitled", "legible", "eligible"],
-    "answer": "eligible",
+    "question": "The proposed merger cannot proceed until both boards give their formal _________ to the revised terms.",
+    "choices": [
+      "ascent",
+      "assent",
+      "ascend",
+      "assented"
+    ],
+    "answer": "assent",
     "difficulty": "advanced",
     "review": "eligible",
     "category": "distinction",
     "explanation": {
-      "vocabulary": "Eligible means meeting the conditions needed to receive something.",
-      "grammar": "After 'are' the adjective 'eligible' fits the six-month service requirement and takes 'for'.",
-      "usage": "Use 'eligible for' a benefit. Use 'entitled to' when someone has a right to it.",
-      "example": "Employees become eligible for tuition support after six months."
+      "vocabulary": "Assent means agreement or approval. Ascent means movement upward.",
+      "grammar": "'Their formal' introduces a noun. Only 'assent' names the approval needed for the merger.",
+      "usage": "Use 'give assent to' when someone formally agrees to a proposal.",
+      "example": "The trustees gave their assent to the revised plan."
     }
   },
   {
@@ -14308,17 +14478,22 @@
     }
   },
   {
-    "question": "The hotel describes its shuttle service as _________ because guests are not charged a fare.",
-    "choices": ["complementary", "complimented", "complimentary", "complemented"],
-    "answer": "complimentary",
+    "question": "The nature reserve's rules _________ the use of motorized vehicles on the nesting islands, so all fieldwork teams must travel on foot.",
+    "choices": [
+      "prescribe",
+      "describe",
+      "proscribe",
+      "ascribe"
+    ],
+    "answer": "proscribe",
     "difficulty": "advanced",
     "review": "eligible",
     "category": "distinction",
     "explanation": {
-      "vocabulary": "Complimentary means supplied without charge. Complementary means working well together.",
-      "grammar": "After 'as' the adjective 'complimentary' describes the shuttle service's free price.",
-      "usage": "Use 'complimentary service' when a customer pays no separate charge.",
-      "example": "The hotel offers complimentary airport transportation."
+      "vocabulary": "To proscribe an activity means to forbid it. To prescribe something means to require or recommend it.",
+      "grammar": "The plural subject 'rules' takes the base form 'proscribe'. The requirement to travel on foot shows that vehicles are prohibited.",
+      "usage": "Use 'proscribe' in formal writing for a rule that bans an activity.",
+      "example": "The conservation policy proscribes camping near the nesting sites."
     }
   },
   {
@@ -14333,6 +14508,2816 @@
       "grammar": "After 'additional' the noun 'personnel' names the extra workers needed.",
       "usage": "Use 'personnel' for staff. 'Personal' describes something belonging to an individual.",
       "example": "Additional personnel will help process the applications."
+    }
+  },
+  {
+    "question": "Next April, the coastal observatory _________ continuously for forty years, and it plans to remain open for many more.",
+    "choices": ["will have been operating", "had been operating", "has been operating", "was operating"],
+    "answer": "will have been operating",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "An observatory is a place equipped for studying the sky or other natural conditions.",
+      "grammar": "The future point 'next April' requires 'will have been operating' to measure an activity continuing up to that time.",
+      "usage": "Use 'will have been' plus a verb ending in 'ing' for the duration of an activity at a future point.",
+      "example": "By September, the monitoring station will have been collecting data for a decade."
+    }
+  },
+  {
+    "question": "When fire damaged the archive last Tuesday, the fragile manuscripts _________ the previous winter, so their digital images were safe.",
+    "choices": ["have been digitized", "had been digitized", "will be digitized", "are being digitized"],
+    "answer": "had been digitized",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "To digitize a manuscript means to turn it into a digital record.",
+      "grammar": "The digitization was completed before the past fire. 'Had been digitized' places that earlier action before the damage.",
+      "usage": "Use 'had been' plus a completed verb form for an action received before another past event.",
+      "example": "The original recordings had been copied before the storage room flooded."
+    }
+  },
+  {
+    "question": "The apprenticeship program _________ since January, and new workshops are still being added every week.",
+    "choices": ["was expanding", "will be expanding", "has been expanding", "had expanded"],
+    "answer": "has been expanding",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "An apprenticeship combines practical work with training for a skilled occupation.",
+      "grammar": "'Since January' and 'still' connect ongoing development with the present. 'Has been expanding' expresses that continuing activity.",
+      "usage": "Use 'has been' plus a verb ending in 'ing' for an activity that started earlier and continues now.",
+      "example": "The research network has been expanding since its launch."
+    }
+  },
+  {
+    "question": "The recording shows that the conservator _________ the painting's frame at the moment the lights went out.",
+    "choices": ["examines", "has examined", "will examine", "was examining"],
+    "answer": "was examining",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A conservator repairs and protects objects of historical or artistic value.",
+      "grammar": "'At the moment the lights went out' identifies an action in progress in the past. 'Was examining' supplies that form.",
+      "usage": "Use 'was' plus a verb ending in 'ing' for an activity underway at a particular past moment.",
+      "example": "The technician was checking the microphone when the recording stopped."
+    }
+  },
+  {
+    "question": "After reviewing last night's footage, the guard concluded that the cleaners _________ before midnight because the building was already empty then.",
+    "choices": ["must have left", "must leave", "must be leaving", "must have leave"],
+    "answer": "must have left",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "Footage is recorded video material.",
+      "grammar": "'Must have left' expresses a strong conclusion about a past event. 'Must leave' would state a present or future requirement.",
+      "usage": "Use 'must have' plus a completed verb form when evidence supports a deduction about the past.",
+      "example": "The visitors must have departed before the gate was locked."
+    }
+  },
+  {
+    "question": "We purchased extra field meters but later learned that the grant included them, so we _________ any ourselves.",
+    "choices": ["could not have bought", "need not have bought", "must not have bought", "would never buy"],
+    "answer": "need not have bought",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A grant is money or support provided for a specific purpose.",
+      "grammar": "The meters were actually purchased but were unnecessary. 'Need not have bought' expresses that unnecessary past action.",
+      "usage": "Use 'need not have' plus a completed verb form for something done without necessity.",
+      "example": "We need not have printed tickets because digital copies were accepted."
+    }
+  },
+  {
+    "question": "The transmitter fails during every storm, and it is time the community radio station _________ it.",
+    "choices": ["will replace", "has replaced", "replaced", "replacing"],
+    "answer": "replaced",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A transmitter sends radio signals.",
+      "grammar": "After 'it is time' a past tense can express that action is needed now. 'Replaced' has that form.",
+      "usage": "Use 'it is time someone did something' to say that action is due or overdue.",
+      "example": "It is time the museum updated its emergency plan."
+    }
+  },
+  {
+    "question": "The curator would rather the donors _________ their names until the exhibition agreement is signed.",
+    "choices": ["have withheld", "will withhold", "withholding", "withheld"],
+    "answer": "withheld",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "To withhold information means to deliberately keep it from being disclosed.",
+      "grammar": "When 'would rather' is followed by a different subject, a past tense expresses a present preference. 'Withheld' fits.",
+      "usage": "Use 'would rather someone did something' for a preferred action by another person.",
+      "example": "The organizer would rather the speakers waited until the introduction ended."
+    }
+  },
+  {
+    "question": "Because the adhesive is unfamiliar, it needs _________ on a spare tile before the mosaic is repaired.",
+    "choices": ["to be tested", "to test", "testing it", "tested"],
+    "answer": "to be tested",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "An adhesive is a substance used to join surfaces.",
+      "grammar": "The adhesive receives the test, so 'needs to be tested' requires the form expressing an action done to it.",
+      "usage": "Use 'needs to be' plus a completed verb form when something requires work by another person.",
+      "example": "The sample needs to be checked before it enters the collection."
+    }
+  },
+  {
+    "question": "The conservation proposal is worth _________ after you strengthen the section explaining how the wetlands will be monitored.",
+    "choices": ["to resubmit", "resubmitting", "resubmitted", "resubmit"],
+    "answer": "resubmitting",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "Wetlands are areas where water covers the ground or keeps it very wet.",
+      "grammar": "After 'worth' the following verb takes the 'ing' form. 'To resubmit' does not fit this pattern.",
+      "usage": "Use 'be worth doing' to say that an activity deserves the effort.",
+      "example": "The application is worth revising before the next funding round."
+    }
+  },
+  {
+    "question": "The publisher acknowledged _________ the illustrations without the artist's permission and agreed to withdraw the edition.",
+    "choices": ["to have reproduced", "having reproduces", "having reproduced", "to reproducing"],
+    "answer": "having reproduced",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "To reproduce an illustration means to make or publish a copy of it.",
+      "grammar": "'Acknowledged' can take an activity ending in 'ing'. 'Having reproduced' places the admitted copying before the acknowledgment.",
+      "usage": "Use 'acknowledge having done something' when admitting an earlier action.",
+      "example": "The editor acknowledged having omitted an important reference."
+    }
+  },
+  {
+    "question": "The coordinator regrets _________ volunteers conflicting arrival times yesterday because the mistake left the entrance unattended.",
+    "choices": ["to give", "give", "has given", "giving"],
+    "answer": "giving",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "Conflicting instructions disagree with one another.",
+      "grammar": "'Regrets giving' refers to an earlier action the coordinator wishes had been different. 'Regrets to give' would introduce unwelcome information now.",
+      "usage": "Use 'regret doing' for a past action and 'regret to say' when announcing bad news.",
+      "example": "She regrets sending the invitation before the venue was confirmed."
+    }
+  },
+  {
+    "question": "Before placing a new specimen in storage, remember _________ it with the collection date.",
+    "choices": ["to label", "labeling", "label", "labeled"],
+    "answer": "to label",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A specimen is a sample kept for examination or study.",
+      "grammar": "'Remember to label' gives a reminder about an action still to be done. 'Remember labeling' describes a memory of a past action.",
+      "usage": "Use 'remember to do' for a required future action.",
+      "example": "Remember to record the location before sealing the sample bag."
+    }
+  },
+  {
+    "question": "A visitor approached while the archaeologist was sorting pottery, so she stopped _________ his question.",
+    "choices": ["answering", "to answer", "answered", "answers"],
+    "answer": "to answer",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "Pottery consists of objects made from clay and hardened by heat.",
+      "grammar": "'Stopped to answer' means she interrupted sorting in order to answer. 'Stopped answering' would mean she ended the answering itself.",
+      "usage": "Use 'stop to do' for a purpose and 'stop doing' for ending an activity.",
+      "example": "The guide stopped to explain the inscription."
+    }
+  },
+  {
+    "question": "The sealed sleeves prevent the film negatives from _________ to moisture during transport.",
+    "choices": ["exposing", "have exposed", "being exposed", "be exposed"],
+    "answer": "being exposed",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "Moisture is a small amount of water in the air or on a surface.",
+      "grammar": "After 'from' use an 'ing' form. The negatives receive the exposure, so the complete phrase is 'being exposed'.",
+      "usage": "Use 'prevent something from being' plus a completed verb form for protection against an action received.",
+      "example": "The casing prevents the sensor from being damaged."
+    }
+  },
+  {
+    "question": "The judging panel cannot help _________ whether the unusually similar entries were written by the same person.",
+    "choices": ["to wonder", "wondered", "having wonder", "wondering"],
+    "answer": "wondering",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "An entry is a work submitted to a competition.",
+      "grammar": "'Cannot help' takes an activity ending in 'ing' when it means being unable to avoid a thought or reaction.",
+      "usage": "Use 'cannot help wondering whether' to express a persistent question.",
+      "example": "We cannot help wondering whether the figures were copied."
+    }
+  },
+  {
+    "question": "The illustrator would prefer _________ by the publisher before any design is altered rather than discover the change in the printed edition.",
+    "choices": ["to be consulted", "to consult", "having consult", "be consulting"],
+    "answer": "to be consulted",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A printed edition is a particular published version of a work.",
+      "grammar": "The illustrator receives the consultation. After 'would prefer' the phrase 'to be consulted' expresses that preferred action received.",
+      "usage": "Use 'prefer to be' plus a completed verb form when stating how someone wants to be treated.",
+      "example": "The author would prefer to be contacted before any cuts are made."
+    }
+  },
+  {
+    "question": "The night editors are accustomed to _________ with little supervision when the chief editor is away.",
+    "choices": ["work", "working", "has worked", "had worked"],
+    "answer": "working",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "Supervision is the direction or monitoring of someone's work.",
+      "grammar": "In 'accustomed to' the word 'to' is a preposition. The following activity therefore takes the form 'working'.",
+      "usage": "Use 'be accustomed to doing' for an activity that feels familiar.",
+      "example": "The survey team is accustomed to working in remote areas."
+    }
+  },
+  {
+    "question": "Before the fruit left the orchard, the manager had the apprentices _________ each crate on the same scale.",
+    "choices": ["to weigh", "have weighed", "weigh", "are weighing"],
+    "answer": "weigh",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "An apprentice is someone learning a trade through practical work.",
+      "grammar": "'Had the apprentices weigh' means the manager directed them to perform the action. The verb after the people is the base form.",
+      "usage": "Use 'have someone do something' when arranging or directing their work.",
+      "example": "The supervisor had the trainees sort the samples by collection date."
+    }
+  },
+  {
+    "question": "The stage manager made the understudies _________ the entrance until their timing matched the recording.",
+    "choices": ["to repeat", "repeated", "had repeated", "repeat"],
+    "answer": "repeat",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "An understudy learns a performer's role so they can act as a replacement.",
+      "grammar": "After active 'made' and its object, use the base verb 'repeat' without 'to'.",
+      "usage": "Use 'make someone do something' when requiring an action.",
+      "example": "The instructor made the group rehearse the sequence again."
+    }
+  },
+  {
+    "question": "After the practice recording revealed several unclear announcements, the trainee guides were made _________ the pronunciation exercise.",
+    "choices": ["to retake", "retake", "retaken", "retaking"],
+    "answer": "to retake",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "An announcement is information spoken publicly to a group.",
+      "grammar": "When 'make' becomes 'were made', the following action takes 'to'. This differs from active 'made someone retake'.",
+      "usage": "Use 'be made to do' when someone is required to perform an action.",
+      "example": "The contractors were made to repeat the inspection."
+    }
+  },
+  {
+    "question": "Having missed the last ferry, _________ near the harbor.",
+    "choices": ["a room was booked for the researchers", "the researchers booked a room", "booking a room became necessary", "the harbor hotel had a vacancy"],
+    "answer": "the researchers booked a room",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A ferry carries passengers or vehicles across water.",
+      "grammar": "The subject after the opening phrase must be the people who missed the ferry. Only 'the researchers' provides that subject.",
+      "usage": "Keep the person performing an opening action as the subject of the main statement.",
+      "example": "Having lost her boarding pass, the passenger returned to the desk."
+    }
+  },
+  {
+    "question": "The choir's rehearsal _________, the caretaker locked the hall and switched off the outside lights.",
+    "choices": ["has ended", "had ended", "having ended", "was ending"],
+    "answer": "having ended",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A caretaker maintains and looks after a building.",
+      "grammar": "'The rehearsal having ended' supplies background with its own subject. A separate complete statement would need a joining word or a full stop.",
+      "usage": "Use a noun followed by 'having' and a completed verb form to set an earlier background event.",
+      "example": "The interviews having finished, the panel compared its notes."
+    }
+  },
+  {
+    "question": "More than one evaluator _________ reservations about the small sample used in the environmental study.",
+    "choices": ["have expressed", "express", "are expressing", "has expressed"],
+    "answer": "has expressed",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A reservation is a doubt or concern about a proposal or finding.",
+      "grammar": "Despite referring to several people in meaning, 'more than one evaluator' takes a singular verb. 'Has expressed' agrees with it.",
+      "usage": "Use a singular verb after 'more than one' and a singular countable noun.",
+      "example": "More than one visitor has questioned the accuracy of the map."
+    }
+  },
+  {
+    "question": "A series of interviews with retired harbor pilots _________ provided evidence of how the coastline has changed.",
+    "choices": ["has", "have", "are", "were"],
+    "answer": "has",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A harbor pilot guides ships through a harbor's waters.",
+      "grammar": "The main subject is the singular 'series'. The plural noun 'interviews' inside the following phrase does not control the verb.",
+      "usage": "Match the verb to 'series' in 'a series of' followed by a plural noun.",
+      "example": "A series of workshops has helped residents understand the plans."
+    }
+  },
+  {
+    "question": "A great deal of care _________ required when separating the brittle pages of the expedition journal.",
+    "choices": ["are", "is", "have been", "were"],
+    "answer": "is",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "Brittle material breaks easily rather than bending.",
+      "grammar": "'Care' refers to an amount and is not counted as separate items here. 'A great deal of care' therefore takes 'is'.",
+      "usage": "Use 'a great deal of' with an uncountable noun and a singular verb.",
+      "example": "A great deal of patience is needed for this restoration."
+    }
+  },
+  {
+    "question": "A number of remote monitoring stations _________ stopped transmitting since the storm crossed the island.",
+    "choices": ["has", "was", "have", "is"],
+    "answer": "have",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "To transmit data means to send it electronically.",
+      "grammar": "'A number of stations' means several stations and takes the plural 'have'. This differs from singular 'the number of stations'.",
+      "usage": "Use 'a number of' with a plural verb when it means several.",
+      "example": "A number of sensors have reported unusually low temperatures."
+    }
+  },
+  {
+    "question": "How the charcoal samples reached the sealed chamber _________ established by the investigators.",
+    "choices": ["have not been", "were not being", "are not being", "has not been"],
+    "answer": "has not been",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A chamber is an enclosed space or room.",
+      "grammar": "The entire clause beginning 'how' is one subject. It takes singular 'has', even though 'samples' inside it is plural.",
+      "usage": "Treat a clause naming one question or issue as a singular subject.",
+      "example": "How the records disappeared has not been explained."
+    }
+  },
+  {
+    "question": "Not the cost but the repeated outages _________ why the field station is changing its power supplier.",
+    "choices": ["explain", "explains", "has explained", "is explaining"],
+    "answer": "explain",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "An outage is a period when a service stops working.",
+      "grammar": "The contrast identifies plural 'outages' as the actual subject. The plural verb 'explain' agrees with it.",
+      "usage": "In 'not A but B', make the verb agree with the subject identified as B.",
+      "example": "Not the equipment but the procedures explain the inconsistent results."
+    }
+  },
+  {
+    "question": "The material used to line the display cases, rather than the cases themselves, _________ replaced after the humidity test.",
+    "choices": ["were", "was", "have been", "are"],
+    "answer": "was",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "To line a case means to cover its inside surface.",
+      "grammar": "The subject is singular 'material'. The phrase 'rather than the cases themselves' identifies what was not replaced.",
+      "usage": "An intervening contrast does not change the number of the main subject.",
+      "example": "The insulation, rather than the pipes, was replaced."
+    }
+  },
+  {
+    "question": "Even after all the calibration adjustments, there _________ two unexplained gaps in the rainfall record.",
+    "choices": ["remains", "has remained", "remain", "is remaining"],
+    "answer": "remain",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "Calibration adjusts an instrument so that its readings are accurate.",
+      "grammar": "In this structure the subject follows 'there'. The plural 'two gaps' requires the plural verb 'remain'.",
+      "usage": "Use 'there remain' when introducing more than one thing that is still present.",
+      "example": "There remain several unanswered questions about the survey."
+    }
+  },
+  {
+    "question": "The apprentices trained under two restorers, both of _________ had worked on the cathedral ceiling.",
+    "choices": ["who", "whose", "which", "whom"],
+    "answer": "whom",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A restorer repairs old or damaged objects or buildings.",
+      "grammar": "After 'both of' the pronoun refers to people and takes the object form 'whom'.",
+      "usage": "Use 'both of whom' to add information about two people already mentioned.",
+      "example": "We consulted two historians, both of whom recognized the handwriting."
+    }
+  },
+  {
+    "question": "The new community portal creates a space _________ residents can report crossings that wheelchair users cannot access.",
+    "choices": ["where", "which", "whose", "whom"],
+    "answer": "where",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A portal is a website providing access to related information or services.",
+      "grammar": "'Where' introduces what residents can do in the space. It supplies the meaning 'in which'.",
+      "usage": "Use 'where' after a place or a setting when the following clause describes activity there.",
+      "example": "The library provides a room where students can record interviews."
+    }
+  },
+  {
+    "question": "The research consortium established a system _________ each member contributes data without disclosing individual clients' names.",
+    "choices": ["whereas", "whereby", "whereupon", "wherever"],
+    "answer": "whereby",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A consortium is a group of organizations working together.",
+      "grammar": "'Whereby' links a system to the method through which it operates. It means 'by which' here.",
+      "usage": "Use 'a system whereby' to explain the mechanism of an arrangement.",
+      "example": "They devised a process whereby requests reach the appropriate specialist."
+    }
+  },
+  {
+    "question": "Without reliable measurements, the panel cannot assess _________ has not yet been quantified.",
+    "choices": ["that", "whose", "what", "whom"],
+    "answer": "what",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "To quantify something means to measure or express its amount.",
+      "grammar": "'What has not yet been quantified' names the thing the panel cannot assess. No separate noun before 'what' is needed.",
+      "usage": "Use 'what' to mean the thing that in a clause acting as a noun.",
+      "example": "We cannot compare what has not been measured consistently."
+    }
+  },
+  {
+    "question": "It was the visiting botanist, not the nursery staff, _________ first noticed the unusual markings on the leaves.",
+    "choices": ["what", "whose", "whom", "that"],
+    "answer": "that",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A botanist studies plants.",
+      "grammar": "'It was ... that' emphasizes who performed the action. 'That' introduces the clause identifying what the botanist did.",
+      "usage": "Use 'it was A that' to emphasize one person or thing over another.",
+      "example": "It was the assistant that first identified the missing reference."
+    }
+  },
+  {
+    "question": "The genealogist asked _________ before requesting a certified copy.",
+    "choices": ["where the census record was kept", "where was the census record kept", "where kept was the census record", "where the census record kept was"],
+    "answer": "where the census record was kept",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A genealogist researches family history. A census is an official population count.",
+      "grammar": "Inside a reported question, the subject comes before the verb. 'The census record was kept' has statement order.",
+      "usage": "Use statement order after 'asked where', rather than direct question order.",
+      "example": "She asked where the original register was stored."
+    }
+  },
+  {
+    "question": "The policy leaves it to the reference librarians to decide _________.",
+    "choices": ["which requests prioritizing", "which requests to prioritize", "which requests prioritize", "which requests prioritized"],
+    "answer": "which requests to prioritize",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A reference librarian helps people find and use information.",
+      "grammar": "'Which requests to prioritize' combines a question phrase with 'to' and the base verb.",
+      "usage": "Use 'decide which items to' followed by the action to be taken.",
+      "example": "The team must decide which documents to translate first."
+    }
+  },
+  {
+    "question": "_________ carefully the book is handled, its fragile spine will eventually require repair.",
+    "choices": ["Despite", "Although", "However", "Because"],
+    "answer": "However",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A book's spine is the part that joins its pages and covers.",
+      "grammar": "'However' before the adverb 'carefully' means no matter how carefully. The other choices do not fit before this adverb and clause.",
+      "usage": "Use 'however' plus an adjective or adverb to concede any degree of a quality.",
+      "example": "However cautiously we proceed, some uncertainty will remain."
+    }
+  },
+  {
+    "question": "_________ the final design may be, all components must remain replaceable without dismantling the entire exhibit.",
+    "choices": ["Even", "Despite", "Which", "Whatever"],
+    "answer": "Whatever",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "To dismantle an exhibit means to take its parts apart.",
+      "grammar": "'Whatever the design may be' means no matter what design is chosen. It introduces a condition that does not change the requirement.",
+      "usage": "Use 'whatever something may be' when a rule applies regardless of its identity.",
+      "example": "Whatever the outcome may be, the full report will be published."
+    }
+  },
+  {
+    "question": "The second appraisal is nowhere near _________ the first, even though both were prepared from the same inspection notes.",
+    "choices": ["as detailed as", "so detailed than", "as detailed than", "more detailed as"],
+    "answer": "as detailed as",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "An appraisal is an assessment of an object's value or condition.",
+      "grammar": "'Nowhere near' can strengthen a comparison using 'as ... as'. Both occurrences of 'as' are required around the adjective.",
+      "usage": "Use 'nowhere near as ... as' when a quality falls far below a comparison point.",
+      "example": "The reproduction is nowhere near as sharp as the original."
+    }
+  },
+  {
+    "question": "Of the three methods tested, acoustic monitoring was by far _________ way to study the nesting birds without disturbing them.",
+    "choices": ["the less intrusive", "the least intrusive", "less intrusively", "least intrusively"],
+    "answer": "the least intrusive",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "Intrusive activity disturbs or interferes with something.",
+      "grammar": "Comparison across three methods requires the highest or lowest degree. 'The least intrusive' identifies the method causing the least disturbance.",
+      "usage": "Use 'by far the least' to emphasize a large difference at the bottom of a scale.",
+      "example": "This route is by far the least disruptive option."
+    }
+  },
+  {
+    "question": "No other workshop in the region offers _________ instruction as the conservation institute's full-year program.",
+    "choices": ["so comprehensively", "as comprehensively", "as comprehensive", "more comprehensively"],
+    "answer": "as comprehensive",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "Comprehensive instruction covers the relevant subject thoroughly.",
+      "grammar": "The adjective 'comprehensive' describes 'instruction'. The later 'as' requires the comparison 'as comprehensive ... as'.",
+      "usage": "Use 'as' plus an adjective before a noun and a second 'as' to compare qualities.",
+      "example": "No competing course provides as detailed feedback as this one."
+    }
+  },
+  {
+    "question": "The original labels were printed too faintly _________ visitors with limited vision to read comfortably.",
+    "choices": ["of", "by", "with", "for"],
+    "answer": "for",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "Faint printing is difficult to see because it is pale or weak.",
+      "grammar": "'For' introduces the people who would perform the action in 'to read'. It fits the pattern 'too ... for someone to do'.",
+      "usage": "Use 'too' plus an adjective or adverb and 'for someone to' to describe a practical limit.",
+      "example": "The labels were positioned too high for younger visitors to read."
+    }
+  },
+  {
+    "question": "Two-thirds of the floor area _________ reserved for temporary exhibits, leaving the rest for demonstrations.",
+    "choices": ["has been", "have been", "have", "are"],
+    "answer": "has been",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "Floor area is the amount of space measured across a floor.",
+      "grammar": "With a fraction, the noun after 'of' controls the verb here. 'Area' is singular, so 'has been' fits.",
+      "usage": "Match a fraction's verb to the noun whose amount is being described.",
+      "example": "Half of the storage space has been allocated to costumes."
+    }
+  },
+  {
+    "question": "Please obtain the contributor's permission before editing _________, even if the proposed change seems minor.",
+    "choices": ["anyone's elses submission", "anyone else's submission", "anyones' else submission", "anyone elses' submission"],
+    "answer": "anyone else's submission",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A contributor supplies work or material for a shared publication.",
+      "grammar": "The possessive ending belongs at the end of 'anyone else'. The correct phrase is 'anyone else's submission'.",
+      "usage": "Attach the possessive ending after 'else' in expressions such as 'someone else's work'.",
+      "example": "Do not rename someone else's files without asking."
+    }
+  },
+  {
+    "question": "The review board based its decision on _________ the evaluation had been conducted rather than on the identity of the sponsor.",
+    "choices": ["how objective", "what objectively", "how objectively", "what objective"],
+    "answer": "how objectively",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A sponsor provides money or other support for an activity.",
+      "grammar": "'Conducted' needs an adverb describing the way the evaluation was performed. 'How objectively' introduces that degree within a clause.",
+      "usage": "Use 'how' plus an adverb to discuss the manner or degree of an action.",
+      "example": "The panel examined how consistently the rules had been applied."
+    }
+  },
+  {
+    "question": "The replacement lenses have already been ordered, _________?",
+    "choices": ["didn't they", "aren't they", "don't they", "haven't they"],
+    "answer": "haven't they",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A replacement lens takes the place of a damaged or unsuitable lens.",
+      "grammar": "The main statement uses 'have' and is positive. Its short checking question therefore uses negative 'haven't' and plural 'they'.",
+      "usage": "Match a checking question to the helping verb and subject of the main statement.",
+      "example": "The invitations have been sent, haven't they?"
+    }
+  },
+  {
+    "question": "The revised projection leaves us with twice _________ a margin as the original budget did.",
+    "choices": ["as large", "larger", "largest", "so large"],
+    "answer": "as large",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A margin is the amount separating a result from a limit or cost.",
+      "grammar": "The structure is 'twice as large a margin as'. The adjective precedes 'a margin' inside this comparison.",
+      "usage": "Use 'as' plus an adjective before 'a' and a singular noun in this comparison pattern.",
+      "example": "The new plan provides twice as wide a safety margin as the old one."
+    }
+  },
+  {
+    "question": "The restoration is progressing faster than _________ at the planning stage because several damaged sections proved repairable.",
+    "choices": ["anticipating", "anticipated", "anticipates", "anticipation"],
+    "answer": "anticipated",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "Repairable means able to be repaired.",
+      "grammar": "'Than anticipated' means 'than was anticipated'. The expected progress receives the anticipating action.",
+      "usage": "Use 'than anticipated' or 'than expected' when comparing results with earlier expectations.",
+      "example": "The repairs cost less than anticipated."
+    }
+  },
+  {
+    "question": "Once _________ with a location code, each audio file can be linked to the field map automatically.",
+    "choices": ["tagging", "tags", "tagged", "have tagged"],
+    "answer": "tagged",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "To tag a file means to attach identifying information to it.",
+      "grammar": "'Once tagged' means 'once it has been tagged'. The file receives the tag, so the completed form is needed.",
+      "usage": "Use 'once' followed by a completed verb form when the following subject receives the action.",
+      "example": "Once labeled, each sample is ready for storage."
+    }
+  },
+  {
+    "question": "Unless otherwise _________ in the catalog, all dimensions refer to the object before its frame is added.",
+    "choices": ["specifying", "specify", "specifies", "specified"],
+    "answer": "specified",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A dimension is a measurement such as width or height.",
+      "grammar": "'Unless otherwise specified' means unless something different is stated. The information receives the specifying action.",
+      "usage": "Use 'unless otherwise specified' when giving a default interpretation.",
+      "example": "Delivery is included unless otherwise specified on the invoice."
+    }
+  },
+  {
+    "question": "With visitors _________ in the lobby, the ushers opened an additional entrance to relieve the crowding.",
+    "choices": ["waiting", "waited", "were waiting", "to waiting"],
+    "answer": "waiting",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "An usher guides visitors or audience members to their places.",
+      "grammar": "After 'with visitors' the 'ing' form 'waiting' describes an ongoing background situation without starting a separate complete statement.",
+      "usage": "Use 'with someone doing something' to describe circumstances surrounding an action.",
+      "example": "With delegates arriving early, the registration team opened a second desk."
+    }
+  },
+  {
+    "question": "Once the reviewers had accepted every correction, there was nothing left _________ but authorize publication.",
+    "choices": ["doing", "to do", "done", "did"],
+    "answer": "to do",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "To authorize publication means to give permission for a work to be released.",
+      "grammar": "'Nothing left to do but' introduces the only remaining action. 'To do' completes that expression.",
+      "usage": "Use 'nothing left to do but' followed by a base verb for the final available action.",
+      "example": "There was nothing left to do but wait for the results."
+    }
+  },
+  {
+    "question": "Far from _________ the paperwork, the new reimbursement procedure added two forms and another approval stage.",
+    "choices": ["reduce", "to reduce", "reducing", "reduced"],
+    "answer": "reducing",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "Reimbursement is repayment of money someone has spent.",
+      "grammar": "In 'far from' the word 'from' is a preposition and takes the activity 'reducing'. The phrase introduces a strong contrast.",
+      "usage": "Use 'far from doing' when the result is opposite to the stated action or expectation.",
+      "example": "Far from simplifying registration, the change made it more complicated."
+    }
+  },
+  {
+    "question": "The research team found it impossible _________ every difference in the specimens without examining their storage history.",
+    "choices": ["accounting for", "account for", "accounted for", "to account for"],
+    "answer": "to account for",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "To account for a difference means to explain its cause.",
+      "grammar": "'It' holds the place of the action described later. After 'found it impossible' that action takes 'to' and a base verb.",
+      "usage": "Use 'find it difficult or impossible to do' when evaluating an action.",
+      "example": "The archivists found it difficult to identify the unsigned drawings."
+    }
+  },
+  {
+    "question": "The astronomy club installed new viewing screens last summer, and so _________ the neighboring school.",
+    "choices": ["did", "does", "was", "had"],
+    "answer": "did",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A viewing screen displays an image for a group to see.",
+      "grammar": "'Installed' is a simple past verb. 'So did the school' adds another subject that performed the same past action.",
+      "usage": "Use 'so' followed by the appropriate helping verb and subject to add a parallel positive statement.",
+      "example": "The library extended its opening hours, and so did the museum."
+    }
+  },
+  {
+    "question": "The missing consent forms ought _________ with the registration packets last week, but the printer omitted them.",
+    "choices": ["to have enclosing", "to have been enclosed", "have been enclosed", "to enclosing"],
+    "answer": "to have been enclosed",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A consent form records someone's permission.",
+      "grammar": "'Ought to have been enclosed' describes an expected past action that the forms did not receive.",
+      "usage": "Use 'ought to have been' plus a completed verb form for an unmet past expectation about work on something.",
+      "example": "The access instructions ought to have been included."
+    }
+  },
+  {
+    "question": "Not knowing _________ to contact about the unidentified parcel, the receptionist asked the building manager for advice.",
+    "choices": ["whoever", "whose", "whom", "which"],
+    "answer": "whom",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "An unidentified parcel is a package whose sender, recipient or contents are not known.",
+      "grammar": "The missing word is the person receiving the action 'contact'. 'Whom' supplies that object form in formal writing.",
+      "usage": "Use 'whom to contact' in formal instructions about identifying the right person.",
+      "example": "The notice explains whom to contact for replacement badges."
+    }
+  },
+  {
+    "question": "The fact _________ the coastal path had remained accessible throughout the winter surprised the park rangers.",
+    "choices": ["what", "which", "whose", "that"],
+    "answer": "that",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "A park ranger looks after a protected natural area.",
+      "grammar": "'That' introduces the statement explaining the fact. The following clause already has its own subject and verb.",
+      "usage": "Use 'the fact that' before a complete statement treated as a fact.",
+      "example": "The fact that every sample survived transport reassured the researchers."
+    }
+  },
+  {
+    "question": "The independent tide records _________ the captain's account, providing a second source of evidence for the unusually high water level.",
+    "choices": ["corroborate", "supersede", "conceal", "retract"],
+    "answer": "corroborate",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To corroborate an account means to support it with additional evidence.",
+      "grammar": "The plural subject 'records' takes a base present verb. 'Corroborate' fits evidence supporting the captain's statement.",
+      "usage": "Use 'corroborate an account' or 'corroborate a claim' for independent supporting evidence.",
+      "example": "The timestamped photographs corroborated the witness's account."
+    }
+  },
+  {
+    "question": "Before accepting the translation, the specialist will _________ every line for inconsistencies in technical terminology.",
+    "choices": ["circulate", "scrutinize", "summarize", "translate"],
+    "answer": "scrutinize",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To scrutinize something means to examine it very carefully.",
+      "grammar": "After 'will' use a base verb. Checking every line for inconsistencies requires 'scrutinize', not merely summarizing the document.",
+      "usage": "Use 'scrutinize something for' the errors or problems being sought.",
+      "example": "The editor scrutinized the tables for missing units."
+    }
+  },
+  {
+    "question": "The public health office will _________ the safety bulletin through schools, radio stations and community centers to reach as many residents as possible.",
+    "choices": ["authenticate", "dispute", "disseminate", "withhold"],
+    "answer": "disseminate",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To disseminate information means to distribute it widely.",
+      "grammar": "The different communication channels and broad audience identify distribution as the intended action.",
+      "usage": "Use 'disseminate information through' the channels used to reach an audience.",
+      "example": "The association disseminated the findings through its regional offices."
+    }
+  },
+  {
+    "question": "The donation agreement requires the charity to _________ the funds for library access improvements rather than general operating expenses.",
+    "choices": ["forfeit", "liquidate", "recover", "earmark"],
+    "answer": "earmark",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To earmark money means to reserve it for a specified purpose.",
+      "grammar": "The phrase 'for library access improvements' identifies the restricted use of the funds. 'Earmark' fits that restriction.",
+      "usage": "Use 'earmark funds for' a named purpose.",
+      "example": "The council earmarked the grant for accessible bus stops."
+    }
+  },
+  {
+    "question": "Rather than select a mural design internally, the arts office will _________ proposals from neighborhood artists.",
+    "choices": ["solicit", "issue", "assign", "decline"],
+    "answer": "solicit",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To solicit proposals means to ask people to submit them.",
+      "grammar": "The office seeks proposals from artists. 'Solicit' takes the requested material as its object and the source after 'from'.",
+      "usage": "Use 'solicit proposals from' people or organizations invited to contribute.",
+      "example": "The museum solicited ideas from local schools."
+    }
+  },
+  {
+    "question": "The partnership document should _________ each laboratory's responsibilities precisely enough to prevent tasks from being duplicated.",
+    "choices": ["obscure", "delineate", "withdraw", "dissolve"],
+    "answer": "delineate",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To delineate responsibilities means to describe their boundaries clearly.",
+      "grammar": "Precise task boundaries require a verb meaning define or outline. 'Delineate' provides that meaning.",
+      "usage": "Use 'delineate responsibilities' when clarifying who does what.",
+      "example": "The agreement delineates the duties of each partner."
+    }
+  },
+  {
+    "question": "To identify which sensor failed, technicians must _________ the source of the interruption through direct testing.",
+    "choices": ["announce", "overlook", "ascertain", "approximate"],
+    "answer": "ascertain",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To ascertain something means to find it out with certainty.",
+      "grammar": "Direct testing is used to determine a fact. 'Approximate' would provide only an estimate.",
+      "usage": "Use 'ascertain the cause or source' when establishing a fact through investigation.",
+      "example": "The team inspected the wiring to ascertain the cause of the fault."
+    }
+  },
+  {
+    "question": "To cover the additional evening sessions, the training center will _________ its permanent staff with three visiting instructors.",
+    "choices": ["contain", "forfeit", "suspend", "augment"],
+    "answer": "augment",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To augment a team means to increase its size or resources.",
+      "grammar": "Adding visiting instructors increases staffing rather than replacing the permanent team. 'Augment' fits this relationship.",
+      "usage": "Use 'augment A with B' when adding support to an existing resource.",
+      "example": "The expedition augmented its supplies with locally purchased equipment."
+    }
+  },
+  {
+    "question": "During the drought, the nursery agreed to _________ outdoor watering and reserve its limited supply for newly planted trees.",
+    "choices": ["curtail", "prolong", "facilitate", "consolidate"],
+    "answer": "curtail",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To curtail an activity means to reduce or limit it.",
+      "grammar": "A limited water supply requires reduced watering. 'Prolong' would extend the activity instead.",
+      "usage": "Use 'curtail an activity' when restricting its duration or extent.",
+      "example": "The organizers curtailed outdoor activities during the heat wave."
+    }
+  },
+  {
+    "question": "The additional trials should _________ the researchers' case by showing that the result can be reproduced under different conditions.",
+    "choices": ["distort", "bolster", "dilute", "withdraw"],
+    "answer": "bolster",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To bolster a case means to strengthen its supporting evidence.",
+      "grammar": "Repeated results add support to the claim. 'Dilute' would mean weaken that support.",
+      "usage": "Use 'bolster a case with' additional evidence.",
+      "example": "The survey results bolstered the case for improving the footbridge."
+    }
+  },
+  {
+    "question": "The crew installed temporary supports to _________ a collapse while engineers designed a permanent repair.",
+    "choices": ["trigger", "document", "avert", "inherit"],
+    "answer": "avert",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To avert a dangerous event means to prevent it from happening.",
+      "grammar": "Supports are installed before a possible collapse to prevent it. 'Document' would only record the event.",
+      "usage": "Use 'avert a collapse or crisis' for successful preventive action.",
+      "example": "Prompt repairs averted a lengthy closure."
+    }
+  },
+  {
+    "question": "Although she will continue advising the project, the founder has agreed to _________ all decision-making authority, which will pass to the elected board.",
+    "choices": ["retain", "assume", "duplicate", "relinquish"],
+    "answer": "relinquish",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To relinquish authority means to give it up.",
+      "grammar": "The authority is passing to the board, so the founder gives it up. 'Retain' and 'assume' express the opposite direction.",
+      "usage": "Use 'relinquish authority or control' when transferring power to someone else.",
+      "example": "The retiring director relinquished control of the foundation."
+    }
+  },
+  {
+    "question": "The booking site is difficult to navigate, so the theater plans to _________ its layout and rebuild the entire payment process.",
+    "choices": ["revamp", "preserve", "certify", "withhold"],
+    "answer": "revamp",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To revamp something means to make substantial changes to improve it.",
+      "grammar": "Rebuilding the layout and payment process requires a major revision. 'Preserve' would mean keep the existing design.",
+      "usage": "Use 'revamp a system or layout' for a substantial improvement.",
+      "example": "The library revamped its online reservation system."
+    }
+  },
+  {
+    "question": "The loan agreement will _________ that the sculpture must remain in a climate-controlled room throughout the exhibition.",
+    "choices": ["suggest", "stipulate", "predict", "infer"],
+    "answer": "stipulate",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To stipulate a condition means to state it as a requirement.",
+      "grammar": "The clause beginning 'that' states a binding requirement in the agreement, not a prediction or suggestion.",
+      "usage": "Use 'stipulate that' before a complete statement of a required condition.",
+      "example": "The contract stipulates that all work must be inspected."
+    }
+  },
+  {
+    "question": "The revised museum pass will _________ admission to the gardens and the observatory as well as the main galleries.",
+    "choices": ["separate", "postpone", "encompass", "forfeit"],
+    "answer": "encompass",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To encompass something means to include it within a wider range.",
+      "grammar": "The sentence adds several attractions within one pass. 'Encompass' expresses that inclusive coverage.",
+      "usage": "Use 'encompass' directly before the items or activities included.",
+      "example": "The course encompasses both practical work and historical research."
+    }
+  },
+  {
+    "question": "The updated equipment manual will _________ the earlier edition, which users should remove from their workstations.",
+    "choices": ["supplement", "endorse", "duplicate", "supersede"],
+    "answer": "supersede",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To supersede an edition means to replace it with a newer authoritative version.",
+      "grammar": "Removing the earlier manual shows replacement, not an additional supplement.",
+      "usage": "Use 'supersede an earlier version' when the newer version takes its place.",
+      "example": "The revised schedule supersedes all previous notices."
+    }
+  },
+  {
+    "question": "The authority ordered all excavation to stop and decided to _________ the permit after discovering a protected habitat on the site.",
+    "choices": ["rescind", "ratify", "renew", "endorse"],
+    "answer": "rescind",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To rescind a permit means to officially cancel it.",
+      "grammar": "The permit already exists, but the new finding causes its cancellation. 'Ratify' would confirm approval.",
+      "usage": "Use 'rescind a permit, order or decision' when formally withdrawing it.",
+      "example": "The agency rescinded its earlier authorization."
+    }
+  },
+  {
+    "question": "The professional association voted to _________ the proposed training standard and publicly urged members to support it.",
+    "choices": ["conceal", "endorse", "contest", "repeal"],
+    "answer": "endorse",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To endorse a proposal means to publicly support or approve it.",
+      "grammar": "The public appeal for support identifies endorsement. 'Contest' would mean challenge the proposal.",
+      "usage": "Use 'endorse a proposal' for an official statement of support.",
+      "example": "The committee endorsed the new accessibility guidelines."
+    }
+  },
+  {
+    "question": "Because the original recording was destroyed, the lack of usable audio will _________ a reliable comparison of the two performances.",
+    "choices": ["facilitate", "permit", "preclude", "warrant"],
+    "answer": "preclude",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To preclude something means to make it impossible or prevent it.",
+      "grammar": "The missing evidence prevents a reliable comparison. 'Warrant' would mean provide a reason for it.",
+      "usage": "Use 'preclude a comparison or possibility' when a condition makes it unavailable.",
+      "example": "The missing measurements precluded a firm conclusion."
+    }
+  },
+  {
+    "question": "Prominent notices about regular patrols are intended to _________ unauthorized parking rather than simply help staff identify vehicles.",
+    "choices": ["authorize", "reward", "encourage", "deter"],
+    "answer": "deter",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To deter an action means to discourage people from doing it.",
+      "grammar": "The notices warn of enforcement to discourage parking. The other verbs would permit or encourage it.",
+      "usage": "Use 'deter someone from doing' or 'deter an activity'.",
+      "example": "Visible security checks helped deter unauthorized entry."
+    }
+  },
+  {
+    "question": "The workshop reduced its workforce through _________, leaving positions unfilled as employees retired or moved to other jobs.",
+    "choices": ["attrition", "absenteeism", "inflation", "relocation"],
+    "answer": "attrition",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Attrition is a gradual reduction in staff as people leave and are not replaced.",
+      "grammar": "The explanation after the comma describes staff departures without replacement, which identifies attrition rather than temporary absence.",
+      "usage": "Use 'reduce staff through attrition' when reducing numbers without directly dismissing workers.",
+      "example": "The department reduced its headcount through natural attrition."
+    }
+  },
+  {
+    "question": "Because every specimen must pass through a single scanner, that scanner has become a _________ that limits the laboratory's daily output.",
+    "choices": ["surplus", "bottleneck", "benchmark", "reserve"],
+    "answer": "bottleneck",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "A bottleneck is a stage that limits the speed or capacity of an entire process.",
+      "grammar": "One scanner restricts all later work, so the sentence needs the noun for a limiting stage.",
+      "usage": "Use 'a bottleneck in the process' when one stage prevents work from moving faster.",
+      "example": "The inspection desk became a bottleneck in the registration process."
+    }
+  },
+  {
+    "question": "Although the studio has no projects this month, it must still cover its _________, including rent, insurance and basic utilities.",
+    "choices": ["capital", "revenue", "overhead", "collateral"],
+    "answer": "overhead",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Overhead consists of ongoing business expenses not directly tied to a particular project.",
+      "grammar": "Rent and insurance remain payable without current projects. They are overhead rather than revenue, which is money coming in.",
+      "usage": "Use 'cover overhead' when meeting routine operating expenses.",
+      "example": "The cooperative shares office space to reduce overhead."
+    }
+  },
+  {
+    "question": "Installing the kiln requires a substantial initial _________, but the purchase is separate from its later fuel and maintenance expenses.",
+    "choices": ["rebate", "proceeds", "yield", "outlay"],
+    "answer": "outlay",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "An outlay is an amount of money spent for a purpose.",
+      "grammar": "'Initial' and the distinction from later expenses identify the upfront expenditure.",
+      "usage": "Use 'an initial outlay for' a purchase or setup cost.",
+      "example": "The conversion required a large initial outlay for equipment."
+    }
+  },
+  {
+    "question": "The first survey will serve as a _________ against which changes in visitor satisfaction can be measured.",
+    "choices": ["benchmark", "forecast", "waiver", "disruption"],
+    "answer": "benchmark",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "A benchmark is a reference point used for comparison.",
+      "grammar": "The phrase 'against which changes can be measured' describes a comparison standard.",
+      "usage": "Use 'a benchmark against which' later results are compared.",
+      "example": "The pilot study established a benchmark for future evaluations."
+    }
+  },
+  {
+    "question": "The alarm activates only when the particle count exceeds a preset _________, not whenever a single particle is detected.",
+    "choices": ["interval", "threshold", "estimate", "allowance"],
+    "answer": "threshold",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "A threshold is the level at which a specified action or change begins.",
+      "grammar": "The sentence identifies a numerical boundary that triggers the alarm. That boundary is a threshold.",
+      "usage": "Use 'exceed a threshold' when a measurement rises above a set limit.",
+      "example": "The fan starts when the temperature exceeds the threshold."
+    }
+  },
+  {
+    "question": "After the flood interrupted processing for a week, the registry hired temporary staff to clear the _________ of unanswered requests.",
+    "choices": ["forecast", "turnover", "backlog", "outlook"],
+    "answer": "backlog",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "A backlog is work that has accumulated because it has not yet been completed.",
+      "grammar": "Unanswered requests accumulated during a closure. 'Backlog' names that pending work.",
+      "usage": "Use 'clear a backlog of' requests, orders or other unfinished tasks.",
+      "example": "The extra shift helped clear the backlog of applications."
+    }
+  },
+  {
+    "question": "Before accepting the painting, the gallery researched its _________ by tracing previous owners and checking historic sale records.",
+    "choices": ["condition", "valuation", "popularity", "provenance"],
+    "answer": "provenance",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Provenance is the recorded origin and ownership history of an object.",
+      "grammar": "Tracing owners and sales establishes the painting's history rather than its current physical condition or price.",
+      "usage": "Use 'establish the provenance of' an artwork or historical object.",
+      "example": "The museum requested documents establishing the vase's provenance."
+    }
+  },
+  {
+    "question": "Under the society's rules, at least five members must be present to form a _________ and conduct official business.",
+    "choices": ["quorum", "delegation", "consensus", "vacancy"],
+    "answer": "quorum",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "A quorum is the minimum number of members required for a meeting to conduct business.",
+      "grammar": "The stated minimum attendance identifies a quorum. Consensus concerns agreement rather than the number present.",
+      "usage": "Use 'form a quorum' or 'a quorum is present' when attendance meets the required minimum.",
+      "example": "The meeting was postponed because a quorum was not present."
+    }
+  },
+  {
+    "question": "The report recommends the new coating with one important _________: it has not yet been tested in saltwater.",
+    "choices": ["guarantee", "caveat", "endorsement", "incentive"],
+    "answer": "caveat",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "A caveat is a warning or qualification that limits a statement.",
+      "grammar": "The untested condition qualifies the recommendation rather than guaranteeing the coating's performance.",
+      "usage": "Use 'with the caveat that' when stating a limitation on a recommendation.",
+      "example": "The team approved the trial with the caveat that costs be monitored."
+    }
+  },
+  {
+    "question": "The research authority announced a six-month _________ on collecting reef samples while it assessed the effects of earlier expeditions.",
+    "choices": ["quota", "incentive", "moratorium", "subscription"],
+    "answer": "moratorium",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "A moratorium is an official temporary suspension of an activity.",
+      "grammar": "The fixed six-month stop identifies a moratorium. A quota would limit the amount rather than suspend collection.",
+      "usage": "Use 'a moratorium on' the activity being temporarily stopped.",
+      "example": "The council imposed a moratorium on new construction near the marsh."
+    }
+  },
+  {
+    "question": "To resolve the negotiation, the landlord offered a _________ by agreeing to repair the loading area at her own expense.",
+    "choices": ["penalty", "liability", "restriction", "concession"],
+    "answer": "concession",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "A concession is something one side agrees to give up or provide to reach an agreement.",
+      "grammar": "The landlord's added commitment helps settle the negotiation, so it is a concession.",
+      "usage": "Use 'make a concession' or 'offer a concession' during negotiations.",
+      "example": "The supplier made a concession on delivery charges."
+    }
+  },
+  {
+    "question": "Despite widespread publicity, _________ of the voluntary mentoring scheme remained low, with only twelve employees enrolling.",
+    "choices": ["uptake", "output", "oversight", "retention"],
+    "answer": "uptake",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Uptake is the rate or extent to which people begin using an offer or service.",
+      "grammar": "The enrollment count measures how many people accepted the scheme, not the amount it produced.",
+      "usage": "Use 'uptake of a program' when discussing initial participation.",
+      "example": "Uptake of the new bicycle scheme exceeded expectations."
+    }
+  },
+  {
+    "question": "During her four-year _________ as festival director, Ms. Alvarez expanded the program from one venue to six.",
+    "choices": ["succession", "tenure", "nomination", "vacancy"],
+    "answer": "tenure",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Tenure is the period during which someone holds a position.",
+      "grammar": "The four-year period in the director's role is her tenure. A nomination is only the act of proposing someone.",
+      "usage": "Use 'during someone's tenure as' followed by the position held.",
+      "example": "During his tenure as chair, the archive opened a second reading room."
+    }
+  },
+  {
+    "question": "The ferry proposal is financially _________ only if ticket revenue can cover crew wages, fuel and maintenance over the full year.",
+    "choices": ["intermittent", "obsolete", "viable", "incidental"],
+    "answer": "viable",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Viable means capable of working successfully over time.",
+      "grammar": "The stated condition tests whether the service can sustain its costs, which determines financial viability.",
+      "usage": "Use 'financially viable' for a plan capable of supporting its operating costs.",
+      "example": "The cooperative needs a financially viable distribution plan."
+    }
+  },
+  {
+    "question": "The restorer is known for her _________ recordkeeping, noting every treatment, material and measurement before proceeding.",
+    "choices": ["casual", "sporadic", "approximate", "meticulous"],
+    "answer": "meticulous",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Meticulous means extremely careful and attentive to details.",
+      "grammar": "Recording every treatment and measurement demonstrates detailed care rather than occasional or approximate work.",
+      "usage": "Use 'meticulous recordkeeping' for carefully maintained records.",
+      "example": "Meticulous notes allowed the next team to repeat the procedure."
+    }
+  },
+  {
+    "question": "Quiet rooms and reliable lighting create conditions _________ to sustained study during the examination period.",
+    "choices": ["conducive", "contrary", "incidental", "indifferent"],
+    "answer": "conducive",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Conducive means helping a particular activity or result to occur.",
+      "grammar": "The rooms and lighting support study. 'Conducive' fits the following preposition 'to'.",
+      "usage": "Use 'conducive to' followed by a noun or an activity ending in 'ing'.",
+      "example": "The workspace is conducive to careful reading."
+    }
+  },
+  {
+    "question": "To obtain an _________ assessment, the contest organizers chose judges with no financial or personal connection to any entrant.",
+    "choices": ["arbitrary", "impartial", "incomplete", "intermittent"],
+    "answer": "impartial",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Impartial means fair and not favoring one side.",
+      "grammar": "Judges without connections to entrants can assess work without a competing interest, supporting an impartial assessment.",
+      "usage": "Use 'an impartial assessment' when independence and fairness are required.",
+      "example": "An impartial reviewer examined each submission."
+    }
+  },
+  {
+    "question": "The findings appear _________ because the same pattern emerged across several independent samples and different testing conditions.",
+    "choices": ["tentative", "fragile", "robust", "incidental"],
+    "answer": "robust",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Robust findings remain reliable across reasonable changes in data or methods.",
+      "grammar": "Consistent results in different samples and conditions indicate strength rather than fragility.",
+      "usage": "Use 'robust findings' for results supported across varied conditions.",
+      "example": "The association remained robust when the analysis used a different sample."
+    }
+  },
+  {
+    "question": "Staff described the claims process as _________ because it required repeated entry of identical details on several separate forms.",
+    "choices": ["concise", "intuitive", "automatic", "cumbersome"],
+    "answer": "cumbersome",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Cumbersome means awkward, complicated or difficult to use efficiently.",
+      "grammar": "Repeated data entry across many forms makes the process difficult to manage rather than simple or automatic.",
+      "usage": "Use 'a cumbersome process' when unnecessary complexity slows work.",
+      "example": "The old booking procedure was cumbersome and difficult to follow."
+    }
+  },
+  {
+    "question": "Because untreated iron corrodes readily in salt air, the exposed fittings are particularly _________ to damage at the coastal station.",
+    "choices": ["susceptible", "impervious", "resistant", "exempt"],
+    "answer": "susceptible",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Susceptible means easily affected or harmed by something.",
+      "grammar": "The corrosion risk makes the fittings vulnerable to damage. 'Resistant' and 'impervious' would indicate protection instead.",
+      "usage": "Use 'susceptible to' followed by the problem that may affect something.",
+      "example": "The old documents are susceptible to moisture damage."
+    }
+  },
+  {
+    "question": "The revised balance changed the measured weight by only 0.02 grams, a _________ difference within the study's accepted tolerance of 0.10 grams.",
+    "choices": ["consequential", "negligible", "excessive", "preliminary"],
+    "answer": "negligible",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Negligible means too small to have an important effect.",
+      "grammar": "The stated change is small relative to the accepted tolerance. 'Negligible' expresses its limited practical importance.",
+      "usage": "Use 'a negligible difference' when a difference has little practical effect.",
+      "example": "The additional page produced a negligible increase in printing costs."
+    }
+  },
+  {
+    "question": "Reception was _________ in the mountain valley, with clear signals at some points and no connection at others.",
+    "choices": ["steady", "uninterrupted", "sporadic", "uniform"],
+    "answer": "sporadic",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Sporadic means occurring irregularly rather than continuously.",
+      "grammar": "The alternating availability of signals requires a word for irregular occurrence.",
+      "usage": "Use 'sporadic reception' or 'sporadic interruptions' when a pattern is irregular.",
+      "example": "Sporadic radio contact made coordination difficult."
+    }
+  },
+  {
+    "question": "Given the uncertain delivery date, the production manager considered it _________ to keep a second source of materials available.",
+    "choices": ["reckless", "superfluous", "premature", "prudent"],
+    "answer": "prudent",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Prudent means sensible and careful about possible risks.",
+      "grammar": "Maintaining a backup source is a cautious response to uncertainty. 'Reckless' would describe ignoring that risk.",
+      "usage": "Use 'prudent to do' for a sensible precaution.",
+      "example": "It would be prudent to retain a backup copy."
+    }
+  },
+  {
+    "question": "Some uncertainty is _________ in forecasting animal migration because weather and food availability cannot be predicted perfectly.",
+    "choices": ["inherent", "optional", "accidental", "extraneous"],
+    "answer": "inherent",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Inherent means naturally belonging to something rather than being added from outside.",
+      "grammar": "The imperfect predictability is part of forecasting itself, so the uncertainty is inherent in the activity.",
+      "usage": "Use 'inherent in' for a quality or limitation that belongs to a process.",
+      "example": "Variation is inherent in measurements taken under field conditions."
+    }
+  },
+  {
+    "question": "The delegates met _________ to discuss transport, but their private notes show that securing sponsorship was their real aim.",
+    "choices": ["exclusively", "ostensibly", "randomly", "permanently"],
+    "answer": "ostensibly",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Ostensibly means apparently or according to the stated explanation, which may differ from reality.",
+      "grammar": "The contrast between the announced purpose and the real aim calls for 'ostensibly'.",
+      "usage": "Use 'ostensibly to do' when the stated purpose may not be the actual one.",
+      "example": "The visit was ostensibly to inspect the venue."
+    }
+  },
+  {
+    "question": "The director rejected the suggestion _________, stating that it would not be considered under any circumstances.",
+    "choices": ["conditionally", "tentatively", "unequivocally", "ambiguously"],
+    "answer": "unequivocally",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Unequivocally means clearly and without leaving room for doubt.",
+      "grammar": "The absolute statement removes uncertainty or conditions, so the rejection is unequivocal.",
+      "usage": "Use 'reject unequivocally' for a clear and unqualified refusal.",
+      "example": "The committee unequivocally rejected the proposed restrictions."
+    }
+  },
+  {
+    "question": "The village hall has been reserved _________, with final confirmation depending on completion of the roof inspection.",
+    "choices": ["permanently", "unconditionally", "irrevocably", "provisionally"],
+    "answer": "provisionally",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Provisionally means temporarily or subject to later confirmation.",
+      "grammar": "A reservation awaiting a further condition is provisional rather than permanent or unconditional.",
+      "usage": "Use 'provisionally reserved' or 'provisionally approved' for an arrangement awaiting confirmation.",
+      "example": "The dates were provisionally agreed before the venue was inspected."
+    }
+  },
+  {
+    "question": "Although the allowance was approved on May 1, it applies _________ to eligible expenses incurred since April 1.",
+    "choices": ["retroactively", "prospectively", "simultaneously", "intermittently"],
+    "answer": "retroactively",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Retroactively means taking effect from a date before the decision was made.",
+      "grammar": "The allowance covers April expenses despite May approval, so its effect reaches backward in time.",
+      "usage": "Use 'apply retroactively to' something occurring before a new decision.",
+      "example": "The revised discount applied retroactively to earlier registrations."
+    }
+  },
+  {
+    "question": "The two operating modes are _________ exclusive, so activating one automatically disables the other.",
+    "choices": ["respectively", "mutually", "tentatively", "separately"],
+    "answer": "mutually",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "Mutually means in relation to one another. Mutually exclusive options cannot apply together.",
+      "grammar": "Each mode excludes the other, so 'mutually exclusive' describes their relationship.",
+      "usage": "Use 'mutually exclusive' when two possibilities cannot occur at the same time.",
+      "example": "The two registration options are mutually exclusive."
+    }
+  },
+  {
+    "question": "The cafeteria will _________ disposable foam trays over eighteen months as reusable trays gradually replace them.",
+    "choices": ["stock up", "take in", "phase out", "look into"],
+    "answer": "phase out",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To phase out an item means to stop using it gradually.",
+      "grammar": "The gradual replacement over eighteen months identifies a planned withdrawal rather than immediate disposal or investigation.",
+      "usage": "Use 'phase out' for a gradual end and 'phase in' for gradual introduction.",
+      "example": "The company will phase out paper access passes."
+    }
+  },
+  {
+    "question": "The partners asked a mediator to _________ a written agreement setting out their shared duties and payment schedule.",
+    "choices": ["put off", "take up", "look out", "draw up"],
+    "answer": "draw up",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To draw up a document means to prepare and write it.",
+      "grammar": "A written agreement needs to be prepared. 'Draw up' has that meaning and takes the document as its object.",
+      "usage": "Use 'draw up an agreement, plan or list' when preparing a formal document.",
+      "example": "The administrator drew up a timetable for the interviews."
+    }
+  },
+  {
+    "question": "Tracking records show that the crate never entered the cold room, so investigators can _________ a refrigeration failure as the cause of its damage.",
+    "choices": ["rule out", "bring about", "call for", "take over"],
+    "answer": "rule out",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To rule out a possibility means to exclude it from consideration.",
+      "grammar": "The records show no exposure to the cold room, excluding its refrigeration system as the cause.",
+      "usage": "Use 'rule out A as the cause' when evidence eliminates an explanation.",
+      "example": "The inspection ruled out moisture as the cause of the staining."
+    }
+  },
+  {
+    "question": "Season-pass holders _________ nearly two-thirds of the garden's annual visits, even though they represent a much smaller share of individual visitors.",
+    "choices": ["give away", "account for", "turn down", "look after"],
+    "answer": "account for",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To account for an amount means to constitute that proportion of a total.",
+      "grammar": "The sentence measures a share of visits, so 'account for' expresses the proportion represented.",
+      "usage": "Use 'account for' before a percentage or fraction of a total.",
+      "example": "Weekend visits account for half of the museum's attendance."
+    }
+  },
+  {
+    "question": "The editorial assistant will _________ the unanswered permission request by contacting the photographer again tomorrow.",
+    "choices": ["break away from", "come down with", "follow up on", "get away with"],
+    "answer": "follow up on",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To follow up on a request means to take further action after the initial contact.",
+      "grammar": "Contacting the photographer again continues the earlier request rather than beginning an unrelated activity.",
+      "usage": "Use 'follow up on' a request, inquiry or discussion.",
+      "example": "Please follow up on the invitation if no reply arrives."
+    }
+  },
+  {
+    "question": "After losing part of its funding, the expedition had to _________ its fieldwork from six islands to two.",
+    "choices": ["set aside", "take after", "bring forward", "scale back"],
+    "answer": "scale back",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To scale back an activity means to reduce its size or scope.",
+      "grammar": "Reducing the expedition from six islands to two is a reduction in scope, not just a change of date.",
+      "usage": "Use 'scale back' a program, plan or activity when fewer resources are available.",
+      "example": "The organizers scaled back the exhibition to fit the smaller venue."
+    }
+  },
+  {
+    "question": "The exchange program allows participants to _________ unused meal credits into the next week instead of losing them each Friday.",
+    "choices": ["carry over", "write off", "break down", "give in"],
+    "answer": "carry over",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To carry over credits means to transfer their availability to a later period.",
+      "grammar": "The credits remain usable in the following week, so they are carried over rather than canceled.",
+      "usage": "Use 'carry over' a balance or entitlement into another period.",
+      "example": "Unused booking credits can be carried over to the following month."
+    }
+  },
+  {
+    "question": "At the planning meeting, the residents' group will _________ a proposal for converting the unused depot into a community workshop.",
+    "choices": ["put off", "put forward", "put away", "put through"],
+    "answer": "put forward",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To put forward a proposal means to present it for consideration.",
+      "grammar": "The meeting is an opportunity to present the group's plan, not postpone or store it.",
+      "usage": "Use 'put forward a proposal or suggestion' during discussion.",
+      "example": "The committee put forward a plan for a shared archive."
+    }
+  },
+  {
+    "question": "Having completed her fixed term, the federation president will _________ at the end of the season so that a successor can be elected.",
+    "choices": ["hold on", "catch up", "step down", "turn out"],
+    "answer": "step down",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To step down means to leave an official position voluntarily.",
+      "grammar": "Ending a term and making way for a successor identifies departure from office.",
+      "usage": "Use 'step down as' followed by a role or 'step down from' a position.",
+      "example": "The chair will step down after the annual meeting."
+    }
+  },
+  {
+    "question": "When the external caterer's contract expires, a permanent campus kitchen team will _________ responsibility for student meals.",
+    "choices": ["check out", "put aside", "stand by", "take over"],
+    "answer": "take over",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "vocabulary",
+    "explanation": {
+      "vocabulary": "To take over responsibility means to assume a duty previously held by someone else.",
+      "grammar": "The campus team replaces the external caterer, so responsibility passes to that team.",
+      "usage": "Use 'take over responsibility for' a service or activity.",
+      "example": "The local office will take over responsibility for maintenance."
+    }
+  },
+  {
+    "question": "The conservators were worried about scratches and kept the case indoors _________ windblown sand might damage the glass.",
+    "choices": ["for fear that", "so that", "even though", "except that"],
+    "answer": "for fear that",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Windblown sand is sand carried through the air by wind.",
+      "grammar": "'For fear that' explains a precaution taken because of a possible unwanted event. The concern about scratches establishes that relationship.",
+      "usage": "Use 'for fear that' before a clause naming an outcome someone wants to avoid.",
+      "example": "The team covered the specimens for fear that spray might contaminate them."
+    }
+  },
+  {
+    "question": "Because no surviving map shows the original boundary, historians must rely on landscape features _________ documentary proof.",
+    "choices": ["in conjunction with", "in the absence of", "in exchange for", "in recognition of"],
+    "answer": "in the absence of",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Documentary proof is evidence recorded in documents.",
+      "grammar": "No map survives, so the proof is missing. 'In the absence of' describes that lack.",
+      "usage": "Use 'in the absence of' before something unavailable or missing.",
+      "example": "In the absence of written instructions, the team consulted earlier records."
+    }
+  },
+  {
+    "question": "An electronic signature is accepted _________ a handwritten one, allowing the form to be completed without printing it.",
+    "choices": ["in anticipation of", "in recognition of", "in lieu of", "in compliance with"],
+    "answer": "in lieu of",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "In lieu of means instead of or as a replacement for.",
+      "grammar": "The electronic signature replaces handwriting on paper. 'In compliance with' would introduce a rule rather than the replaced item.",
+      "usage": "Use 'in lieu of' before the item or action being replaced.",
+      "example": "The organizer offered a credit in lieu of a cash refund."
+    }
+  },
+  {
+    "question": "Authorized by all six partner institutions, the spokesperson presented a joint statement _________ the entire consortium.",
+    "choices": ["in excess of", "at variance with", "in exchange for", "on behalf of"],
+    "answer": "on behalf of",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "A spokesperson speaks for an organization or group.",
+      "grammar": "The authorization and joint statement show that the speaker represents the consortium.",
+      "usage": "Use 'on behalf of' when acting or speaking as someone's representative.",
+      "example": "The secretary accepted the award on behalf of the research team."
+    }
+  },
+  {
+    "question": "The wider trail increased visitor capacity _________ nesting habitat, removing vegetation that several bird species depended on.",
+    "choices": ["at the expense of", "for the benefit of", "with the consent of", "as a reward for"],
+    "answer": "at the expense of",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Habitat is the natural area in which a species lives.",
+      "grammar": "Visitor capacity improved while habitat was harmed. 'At the expense of' expresses that trade-off.",
+      "usage": "Use 'at the expense of' when a gain for one thing harms another.",
+      "example": "The redesign improved speed at the expense of readability."
+    }
+  },
+  {
+    "question": "To maintain uniform records across sites, each sample must be numbered _________ the shared classification scheme.",
+    "choices": ["in place of", "in accordance with", "in spite of", "in exchange for"],
+    "answer": "in accordance with",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "A classification scheme organizes items into defined groups.",
+      "grammar": "Uniform records require staff to follow the shared scheme. 'In accordance with' expresses following a rule or system.",
+      "usage": "Use 'in accordance with' a procedure, standard or agreement.",
+      "example": "The files were arranged in accordance with the cataloging rules."
+    }
+  },
+  {
+    "question": "As one coordinated project, the traffic survey will run _________ the air-quality study so both teams can share observations from the same intersections.",
+    "choices": ["in lieu of", "apart from", "in conjunction with", "in excess of"],
+    "answer": "in conjunction with",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "An intersection is a place where roads cross or join.",
+      "grammar": "One coordinated project requires the studies to operate together. 'Apart from' would separate them.",
+      "usage": "Use 'in conjunction with' for activities organized or carried out together.",
+      "example": "The exhibition runs in conjunction with a public lecture series."
+    }
+  },
+  {
+    "question": "The handbook is detailed _________ planting methods but says little about selecting suitable species.",
+    "choices": ["in place of", "in exchange for", "on behalf of", "with respect to"],
+    "answer": "with respect to",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "A species is a group of organisms sharing defining characteristics.",
+      "grammar": "The sentence limits the topic on which the handbook is detailed. 'With respect to' means regarding.",
+      "usage": "Use 'with respect to' when identifying the subject of a statement.",
+      "example": "The guidance is clear with respect to storage temperatures."
+    }
+  },
+  {
+    "question": "Under an agreement requiring a service from each side, the studio will provide rehearsal space _________ the performers' help with its annual open day.",
+    "choices": ["in exchange for", "in excess of", "out of reach of", "without regard to"],
+    "answer": "in exchange for",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "An exchange involves one thing being provided in return for another.",
+      "grammar": "Each side owes a service, so the space is provided in return for assistance.",
+      "usage": "Use 'in exchange for' when naming what is received for something given.",
+      "example": "The club offered publicity in exchange for use of the hall."
+    }
+  },
+  {
+    "question": "The exhibition director sits on the advisory panel _________ her office, so no separate appointment is necessary.",
+    "choices": ["in spite of", "by virtue of", "in search of", "in place of"],
+    "answer": "by virtue of",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "By virtue of means because of a position, quality or entitlement.",
+      "grammar": "Holding the office itself gives the director a seat on the panel. The role is the source of that entitlement.",
+      "usage": "Use 'by virtue of' when a role or status confers an advantage or responsibility.",
+      "example": "The chair serves on the committee by virtue of her position."
+    }
+  },
+  {
+    "question": "The study is restricted to annual trends, _________ daily fluctuations, because it compares one yearly average with another.",
+    "choices": ["regardless of", "along with", "as opposed to", "on behalf of"],
+    "answer": "as opposed to",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "A fluctuation is a short-term rise or fall.",
+      "grammar": "The restriction and yearly averages exclude daily changes. 'As opposed to' contrasts the chosen focus with what is excluded.",
+      "usage": "Use 'as opposed to' to contrast alternatives or different kinds of information.",
+      "example": "The course emphasizes practical skills as opposed to theoretical debate."
+    }
+  },
+  {
+    "question": "The harbor museum received a surge of inquiries _________ a documentary broadcast, with most callers mentioning scenes they had just watched.",
+    "choices": ["ahead of", "on behalf of", "in preparation for", "in the wake of"],
+    "answer": "in the wake of",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "A surge is a sudden large increase.",
+      "grammar": "The callers have already watched the broadcast. 'In the wake of' places the increase after the event and suggests a resulting effect.",
+      "usage": "Use 'in the wake of' for developments following an important event.",
+      "example": "Visitor numbers rose in the wake of the televised exhibition."
+    }
+  },
+  {
+    "question": "Because the riverbank will remain unstable until the work ends, access to the footpath is suspended _________ the restoration project.",
+    "choices": ["for the duration of", "in anticipation of", "at the expense of", "in exchange for"],
+    "answer": "for the duration of",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "The duration of a project is the time from its beginning to its end.",
+      "grammar": "The closure lasts throughout the work. 'In anticipation of' would describe action before the project.",
+      "usage": "Use 'for the duration of' when a condition lasts for an entire activity.",
+      "example": "The side entrance will remain open for the duration of the repairs."
+    }
+  },
+  {
+    "question": "The research team can share individual records only _________ participants have authorized disclosure, and it must withhold everything beyond that permission.",
+    "choices": [
+      "as though",
+      "to the extent that",
+      "even though",
+      "in order that"
+    ],
+    "answer": "to the extent that",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Disclosure is the act of making information available to others.",
+      "grammar": "'To the extent that' expresses the permitted limit on sharing. The final clause requires all information outside that limit to be withheld.",
+      "usage": "Use 'to the extent that' to limit a statement by the degree to which a condition holds.",
+      "example": "The findings are useful to the extent that the sample represents the population."
+    }
+  },
+  {
+    "question": "The route is unsuitable for deliveries _________ its narrowest bridge cannot support the loaded truck.",
+    "choices": ["even if", "as though", "inasmuch as", "unless"],
+    "answer": "inasmuch as",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "A loaded truck is carrying goods rather than traveling empty.",
+      "grammar": "The bridge's capacity is the stated reason for the route being unsuitable. 'Inasmuch as' means because in this formal use.",
+      "usage": "Use 'inasmuch as' to introduce an established reason for a statement.",
+      "example": "The proposal is incomplete inasmuch as it omits maintenance costs."
+    }
+  },
+  {
+    "question": "_________ the field team knows, no earlier survey has covered the caves beyond the northern ridge.",
+    "choices": ["As long as", "As well as", "As much as", "As far as"],
+    "answer": "As far as",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "A ridge is a long narrow raised section of land.",
+      "grammar": "'As far as someone knows' limits the statement to the information available to that person.",
+      "usage": "Use 'as far as we know' when knowledge is limited and the statement may need revision.",
+      "example": "As far as we know, the original drawings have not survived."
+    }
+  },
+  {
+    "question": "Rain is only a possibility, but the lecture will go ahead _________ it forces the outdoor walk to be canceled, since an indoor venue is available.",
+    "choices": ["even if", "now that", "only after", "given that"],
+    "answer": "even if",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "To proceed means to go ahead as planned.",
+      "grammar": "The lecture continues whether or not the possible rain occurs. 'Even if' expresses that unchanged result under an unfavorable condition.",
+      "usage": "Use 'even if' when a possible condition will not alter the main outcome.",
+      "example": "The workshop will continue even if the demonstration must be postponed."
+    }
+  },
+  {
+    "question": "Visitors may photograph the collection _________ they use no flash and keep camera equipment behind the marked line.",
+    "choices": ["as though", "so long as", "even though", "in order that"],
+    "answer": "so long as",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Flash is a brief bright light produced when taking a photograph.",
+      "grammar": "Permission depends on meeting both restrictions. 'So long as' introduces those conditions.",
+      "usage": "Use 'so long as' to mean provided that a requirement is met.",
+      "example": "You may use the room so long as it is left clean."
+    }
+  },
+  {
+    "question": "The catering estimate was calculated _________ all forty invited delegates would attend, although the final number has not been confirmed.",
+    "choices": ["even though", "except that", "assuming that", "only after"],
+    "answer": "assuming that",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "An estimate is an approximate calculation based on available information.",
+      "grammar": "The attendance figure is an unconfirmed basis for calculation. 'Assuming that' identifies that working assumption.",
+      "usage": "Use 'assuming that' before a condition treated as true for planning.",
+      "example": "The budget was prepared assuming that two sessions would be needed."
+    }
+  },
+  {
+    "question": "_________ the damaged cable has been replaced, the village information desk can receive calls again for the first time in a week.",
+    "choices": ["Unless", "As if", "Even though", "Now that"],
+    "answer": "Now that",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "An information desk answers questions and provides practical guidance.",
+      "grammar": "The completed repair creates the new situation that makes calls possible. 'Now that' introduces that changed circumstance.",
+      "usage": "Use 'now that' when an established change makes another action possible.",
+      "example": "Now that the recordings have been restored, researchers can study them."
+    }
+  },
+  {
+    "question": "The sponsor withdrew a week before printing, _________ the blank space where its logo would have appeared.",
+    "choices": ["hence", "nevertheless", "moreover", "instead"],
+    "answer": "hence",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Hence means for this reason or as a result.",
+      "grammar": "'Hence' can introduce a noun phrase naming the consequence. The sponsor's withdrawal explains the blank space.",
+      "usage": "Use 'hence' before a resulting fact or noun phrase in concise formal writing.",
+      "example": "The courier was delayed, hence the late delivery."
+    }
+  },
+  {
+    "question": "The review identified no errors in arithmetic. _________, the interpretation of the findings remained open to criticism.",
+    "choices": ["Consequently", "Nevertheless", "Therefore", "Accordingly"],
+    "answer": "Nevertheless",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Arithmetic concerns calculations using numbers.",
+      "grammar": "Correct calculations do not guarantee a sound interpretation. 'Nevertheless' introduces that remaining contrast.",
+      "usage": "Use 'nevertheless' when something remains true despite the preceding fact.",
+      "example": "The data were incomplete. Nevertheless, the pattern was clear."
+    }
+  },
+  {
+    "question": "Long exposure improved image detail when the subject was still. _________, it increased blurring when the subject moved.",
+    "choices": ["Likewise", "Similarly", "Conversely", "In the same way"],
+    "answer": "Conversely",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Exposure is the period during which a camera records light.",
+      "grammar": "The effect changes from improved clarity to increased blur. 'Conversely' introduces the opposite effect.",
+      "usage": "Use 'conversely' when the next relationship or effect reverses the previous one.",
+      "example": "Larger samples reduce uncertainty. Conversely, smaller samples increase it."
+    }
+  },
+  {
+    "question": "The pasture is fenced everywhere except at the gates, so the gates must be closed at dusk. _________, livestock could wander onto the road.",
+    "choices": ["Meanwhile", "Instead", "Similarly", "Otherwise"],
+    "answer": "Otherwise",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Livestock are farm animals kept for use or production.",
+      "grammar": "'Otherwise' means if the required gate closure does not happen. It introduces the consequence of failing to act.",
+      "usage": "Use 'otherwise' before the unwanted result of not following an instruction.",
+      "example": "Keep the cabinet locked. Otherwise, unauthorized visitors could reach the records."
+    }
+  },
+  {
+    "question": "The curator will catalog the shells throughout the morning. _________, during those same hours, a separate team will photograph the coral samples.",
+    "choices": ["Meanwhile", "Afterward", "Subsequently", "Eventually"],
+    "answer": "Meanwhile",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "To catalog objects means to record and organize information about them.",
+      "grammar": "'During those same hours' makes the activities simultaneous. 'Meanwhile' links work occurring in parallel.",
+      "usage": "Use 'meanwhile' for another activity happening during the same period.",
+      "example": "The builders repaired the roof. Meanwhile, staff packed the collection."
+    }
+  },
+  {
+    "question": "Because the floor cannot support a live machinery demonstration, no machinery will be brought into the gallery. A recorded demonstration will be shown _________.",
+    "choices": ["too", "instead", "likewise", "as well"],
+    "answer": "instead",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "A demonstration shows how something works.",
+      "grammar": "The recording replaces the live activity rather than adding another demonstration alongside it.",
+      "usage": "Use 'instead' for the action or item chosen as a replacement.",
+      "example": "The field visit was canceled, so the group watched a documentary instead."
+    }
+  },
+  {
+    "question": "The soil tests showed that the proposed site could not support the structure. _________, the design team moved the building to firmer ground.",
+    "choices": ["Nevertheless", "Otherwise", "Accordingly", "Conversely"],
+    "answer": "Accordingly",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Accordingly means in a way that follows from the available facts.",
+      "grammar": "The move responds logically to the unsuitable ground, so 'accordingly' expresses the resulting action.",
+      "usage": "Use 'accordingly' when a decision or action follows from a finding.",
+      "example": "The forecast changed, and the organizers adjusted the program accordingly."
+    }
+  },
+  {
+    "question": "The committee approved only one cleaning method, _________ washing the surface with a low-pressure stream of water.",
+    "choices": ["otherwise", "instead", "however", "namely"],
+    "answer": "namely",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Namely introduces the exact identity of something already mentioned.",
+      "grammar": "The phrase after the blank specifies the one approved method rather than contrasting with it.",
+      "usage": "Use 'namely' before an exact specification or list.",
+      "example": "Only one document was missing, namely the original consent form."
+    }
+  },
+  {
+    "question": "Small changes can improve access for many visitors. _________, placing labels at a lower height helps both children and wheelchair users.",
+    "choices": ["For instance", "On the contrary", "By contrast", "In opposition"],
+    "answer": "For instance",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "For instance introduces an example.",
+      "grammar": "Lower labels illustrate the general claim about small improvements. They do not contradict that claim.",
+      "usage": "Use 'for instance' when adding a concrete example of a general statement.",
+      "example": "Some materials are fragile. For instance, old film can deteriorate quickly."
+    }
+  },
+  {
+    "question": "All collections need careful storage, but photographic negatives, _________, must be kept away from strong light at all times.",
+    "choices": ["in return", "in particular", "on occasion", "in advance"],
+    "answer": "in particular",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "In particular means especially or specifically among the things discussed.",
+      "grammar": "The negatives are singled out from the wider group. 'On occasion' conflicts with the constant requirement stated later.",
+      "usage": "Use 'in particular' to focus on one member of a wider group.",
+      "example": "Several rooms need attention, the archive in particular."
+    }
+  },
+  {
+    "question": "It would be wrong to assume that the public feedback was ignored. _________, every suggestion was documented and reviewed before the plan was finalized.",
+    "choices": ["For that reason", "Similarly", "On the contrary", "In consequence"],
+    "answer": "On the contrary",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "On the contrary introduces a fact opposite to a claim or assumption.",
+      "grammar": "Documenting and reviewing every suggestion disproves the idea that feedback was ignored.",
+      "usage": "Use 'on the contrary' to directly correct a preceding claim.",
+      "example": "The process did not become simpler. On the contrary, it required more steps."
+    }
+  },
+  {
+    "question": "Access is restricted to researchers with prior authorization. _________, everyone else must obtain permission before entering.",
+    "choices": ["On the contrary", "By comparison", "Meanwhile", "In other words"],
+    "answer": "In other words",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Prior authorization is permission obtained in advance.",
+      "grammar": "The second sentence restates the same access rule from another perspective. 'In other words' signals that restatement.",
+      "usage": "Use 'in other words' to explain the same idea in a different form.",
+      "example": "The permit is nontransferable. In other words, only its named holder may use it."
+    }
+  },
+  {
+    "question": "The standard battery powers the recorder for six hours. The extended battery, _________, provides nearly twenty hours under the same conditions.",
+    "choices": ["by comparison", "as a consequence", "accordingly", "in exchange"],
+    "answer": "by comparison",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "By comparison introduces information judged against a stated reference.",
+      "grammar": "The sentence compares two independent battery capacities. One capacity does not cause the other.",
+      "usage": "Use 'by comparison' when presenting a second item against an earlier reference.",
+      "example": "The first route takes an hour. The second, by comparison, takes only forty minutes."
+    }
+  },
+  {
+    "question": "The revised schedule gives the installation crew two extra days. _________, the supervisor believes more time may be needed for testing.",
+    "choices": ["Therefore", "Even so", "Hence", "Accordingly"],
+    "answer": "Even so",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Even so means despite the fact just stated.",
+      "grammar": "The extra days might suggest sufficient time, but the supervisor still has concerns. 'Even so' expresses that concession.",
+      "usage": "Use 'even so' before a result or judgment that remains despite an advantage.",
+      "example": "The model is expensive. Even so, several teams have ordered it."
+    }
+  },
+  {
+    "question": "The panel has considered several dates but has announced no decision _________, so applicants are still waiting.",
+    "choices": ["in hindsight", "in retrospect", "as yet", "thereafter"],
+    "answer": "as yet",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "As yet means up to the present time.",
+      "grammar": "The continuing wait and the absence of an announcement identify an unfinished situation now.",
+      "usage": "Use 'as yet' with a negative statement about something not completed so far.",
+      "example": "No replacement has been appointed as yet."
+    }
+  },
+  {
+    "question": "Dispatches will leave from the old depot until May 31. _________, the new warehouse will handle them.",
+    "choices": ["Beforehand", "Previously", "Hitherto", "Thereafter"],
+    "answer": "Thereafter",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Thereafter means after the time or event just mentioned.",
+      "grammar": "The old arrangement ends on May 31. 'Thereafter' introduces the arrangement following that date.",
+      "usage": "Use 'thereafter' for what happens after a stated transition point.",
+      "example": "The trial lasts a month. Thereafter, normal charges apply."
+    }
+  },
+  {
+    "question": "The rooftop viewing session will proceed as scheduled, _________ severe winds that would make the platform unsafe.",
+    "choices": ["barring", "given", "including", "welcoming"],
+    "answer": "barring",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "Barring means except in the event of a specified obstacle.",
+      "grammar": "Severe winds would prevent safe rooftop access, so they are the exception to proceeding.",
+      "usage": "Use 'barring' before the event that could prevent an expected result.",
+      "example": "Barring further delays, the gallery will reopen on Monday."
+    }
+  },
+  {
+    "question": "The volunteer briefing must be finished _________ the first visitor's arrival so no one begins duty without training.",
+    "choices": ["in reply to", "in advance of", "as a result of", "in exchange for"],
+    "answer": "in advance of",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "A briefing is a short meeting providing necessary information.",
+      "grammar": "Training must come before visitors arrive. 'In advance of' states that earlier timing.",
+      "usage": "Use 'in advance of' an event when something must happen beforehand.",
+      "example": "The equipment was delivered in advance of the workshop."
+    }
+  },
+  {
+    "question": "If the greenhouse remains warm, the first orchids may flower _________ March, several weeks ahead of the usual April display.",
+    "choices": ["as far as", "as long as", "as early as", "as well as"],
+    "answer": "as early as",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "To flower means to produce blossoms.",
+      "grammar": "March is an unusually early possibility compared with April. 'As early as' emphasizes that earlier timing.",
+      "usage": "Use 'as early as' before a date earlier than normally expected.",
+      "example": "The first results may be available as early as Friday."
+    }
+  },
+  {
+    "question": "Eight thirty is the last safe departure time before the tide falls, so the survey boat must leave _________ 8:30 A.M.",
+    "choices": ["no earlier than", "well after", "not before", "no later than"],
+    "answer": "no later than",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "logic",
+    "explanation": {
+      "vocabulary": "A tide is the regular rise and fall in the level of coastal water.",
+      "grammar": "The stated time is the latest permitted departure, so 'no later than' sets the correct upper limit.",
+      "usage": "Use 'no later than' to specify a deadline that must not be exceeded.",
+      "example": "Please return the keys no later than six o'clock."
+    }
+  },
+  {
+    "question": "The volunteer's detailed field notes were _________ to the researchers because they contained the only surviving record of the storm's arrival.",
+    "choices": ["invaluable", "valueless", "unvalued", "devalued"],
+    "answer": "invaluable",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Invaluable means extremely useful or valuable. Valueless means having no value.",
+      "grammar": "Being the only surviving record makes the notes highly valuable, despite the negative-looking beginning of 'invaluable'.",
+      "usage": "Use 'invaluable to' for something providing essential help.",
+      "example": "Her local knowledge was invaluable to the survey team."
+    }
+  },
+  {
+    "question": "Changes in humidity can _________ the tension of the canvas, so the gallery monitors conditions continuously.",
+    "choices": ["effect", "affect", "affection", "effective"],
+    "answer": "affect",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "To affect something means to influence it. To effect something means to bring it into existence.",
+      "grammar": "Humidity influences the canvas's tension rather than creating the abstract change as an intended result.",
+      "usage": "Use 'affect' for an influence and 'effect a change' for bringing a change about.",
+      "example": "Temperature fluctuations can affect the accuracy of the instrument."
+    }
+  },
+  {
+    "question": "The team postponed the balloon launch because _________ weather conditions included strong winds and poor visibility.",
+    "choices": ["averse", "adversity", "adverse", "adversely"],
+    "answer": "adverse",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Adverse means unfavorable or harmful. Averse describes someone unwilling to do something.",
+      "grammar": "The sentence needs an adjective describing conditions. 'Adverse weather' is the natural phrase for unfavorable conditions.",
+      "usage": "Use 'adverse conditions' but 'be averse to' an activity.",
+      "example": "Adverse conditions prevented the vessel from leaving port."
+    }
+  },
+  {
+    "question": "An _________ marine biologist whose work has shaped the field for decades will deliver the opening lecture.",
+    "choices": ["imminent", "emergent", "immanent", "eminent"],
+    "answer": "eminent",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Eminent means distinguished and respected. Imminent means about to happen.",
+      "grammar": "The scientist's long-established influence calls for a word describing reputation rather than the timing of an event.",
+      "usage": "Use 'an eminent specialist' for a widely respected expert.",
+      "example": "The award was presented by an eminent historian."
+    }
+  },
+  {
+    "question": "Despite several years without an accident, the supervisor warned the crew not to become _________ about safety checks.",
+    "choices": ["complacent", "complaisant", "compliant", "complementary"],
+    "answer": "complacent",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Complacent means too satisfied to notice risks. Complaisant means willing to please others.",
+      "grammar": "The warning concerns reduced attention after past success, so complacency is the risk.",
+      "usage": "Use 'complacent about' something that still requires attention.",
+      "example": "The team must not become complacent about data protection."
+    }
+  },
+  {
+    "question": "The equipment inventory is intended to be _________, listing every item rather than merely a representative sample.",
+    "choices": ["exhausted", "exhaustive", "exhausting", "exhaustion"],
+    "answer": "exhaustive",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Exhaustive means covering everything relevant. Exhausting means causing tiredness.",
+      "grammar": "Listing every item describes complete coverage, not fatigue. 'Exhaustive' modifies 'inventory'.",
+      "usage": "Use 'an exhaustive list or inventory' when nothing relevant is omitted.",
+      "example": "The report includes an exhaustive list of the sources consulted."
+    }
+  },
+  {
+    "question": "The analyst compared current ferry fares with _________ data from nineteenth-century ticket ledgers.",
+    "choices": ["hysterical", "historian", "historical", "historically"],
+    "answer": "historical",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Historical means relating to the past. A ledger is a written record of transactions.",
+      "grammar": "The data comes from old records and needs an adjective. 'Historian' names a person, while 'historically' is an adverb.",
+      "usage": "Use 'historical data' when comparing present conditions with earlier records.",
+      "example": "Historical data showed how the harbor's traffic had changed."
+    }
+  },
+  {
+    "question": "The supervisor praised the _________ assistants who kept sorting the collection carefully even during the busiest week.",
+    "choices": ["industrial", "industriously", "industry", "industrious"],
+    "answer": "industrious",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Industrious means hardworking. Industrial means relating to industry or factories.",
+      "grammar": "The praise concerns the assistants' effort, not their connection to manufacturing.",
+      "usage": "Use 'industrious' for a hardworking person or group.",
+      "example": "The industrious volunteers completed the catalog ahead of schedule."
+    }
+  },
+  {
+    "question": "After several successful practice runs, the coordinator felt _________ that the evacuation could be completed within the allotted time.",
+    "choices": ["confident", "confidential", "confidence", "confidentially"],
+    "answer": "confident",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Confident means sure of an outcome. Confidential means private or restricted.",
+      "grammar": "'Felt' needs an adjective describing the coordinator's belief, and the following 'that' clause states the expected outcome.",
+      "usage": "Use 'confident that' before a statement someone believes will be true.",
+      "example": "The team is confident that the new route will reduce delays."
+    }
+  },
+  {
+    "question": "The instructions contain every required step, but they must also be _________ to readers who have never operated the equipment.",
+    "choices": ["comprehensive", "comprehensible", "comprehension", "comprehensively"],
+    "answer": "comprehensible",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Comprehensible means understandable. Comprehensive means covering everything relevant.",
+      "grammar": "Completeness is already established. The remaining requirement is that inexperienced readers can understand the instructions.",
+      "usage": "Use 'comprehensible to' to identify the people who can understand something.",
+      "example": "The explanation should be comprehensible to visitors without specialist knowledge."
+    }
+  },
+  {
+    "question": "The lender considered the cooperative _________ after reviewing its record of repaying earlier loans on time.",
+    "choices": ["creditable", "credulous", "creditworthy", "credibly"],
+    "answer": "creditworthy",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Creditworthy means considered able and likely to repay borrowed money.",
+      "grammar": "The decision concerns repayment ability, not simply whether a statement is believable or an achievement deserves praise.",
+      "usage": "Use 'creditworthy' to describe a borrower judged capable of repayment.",
+      "example": "The report described the organization as a creditworthy borrower."
+    }
+  },
+  {
+    "question": "The building _________ housed a customs office, but it now serves as a maritime education center.",
+    "choices": ["formally", "former", "formal", "formerly"],
+    "answer": "formerly",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Formerly means in the past. Formally means officially or according to established procedure.",
+      "grammar": "The contrast between the old use and the present use requires a time adverb.",
+      "usage": "Use 'formerly housed' or 'formerly known as' for a previous use or name.",
+      "example": "The theater formerly served as the town's assembly hall."
+    }
+  },
+  {
+    "question": "The proposal offers two alternatives: extending weekend hours or adding a weekday session. The _________ would give school groups another opportunity to visit.",
+    "choices": ["latter", "later", "latest", "lately"],
+    "answer": "latter",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "The latter means the second of two things mentioned. Later means at a subsequent time.",
+      "grammar": "The weekday session is the second alternative, so 'latter' identifies it.",
+      "usage": "Use 'the former' for the first and 'the latter' for the second of two named items.",
+      "example": "We compared rail and bus travel and chose the latter."
+    }
+  },
+  {
+    "question": "The first-aid kit must hang _________ the exit door, immediately next to it and within easy reach.",
+    "choices": ["besides", "beside", "besides of", "beside of"],
+    "answer": "beside",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Beside means next to. Besides means in addition to.",
+      "grammar": "'Immediately next to it' specifies physical position, so the preposition is 'beside'.",
+      "usage": "Use 'beside' before a nearby object or person without adding 'of'.",
+      "example": "The fire blanket is stored beside the kitchen entrance."
+    }
+  },
+  {
+    "question": "The observatory's continued operation is _________ on an annual grant because ticket revenue alone cannot cover its costs.",
+    "choices": ["dependable", "dependence", "dependent", "dependably"],
+    "answer": "dependent",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Dependent means relying on something else. Dependable means reliable.",
+      "grammar": "The following 'on' introduces the resource required for continued operation. 'Dependent on' is the correct relationship.",
+      "usage": "Use 'dependent on' to state what a person or activity relies upon.",
+      "example": "The expedition is dependent on reliable weather forecasts."
+    }
+  },
+  {
+    "question": "Before buying the damaged manuscript, the curator asked a specialist to _________ the extent of the repairs it would require.",
+    "choices": ["access", "excess", "accession", "assess"],
+    "answer": "assess",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "To assess something means to evaluate it. To access something means to reach or use it.",
+      "grammar": "The specialist must evaluate the necessary repairs rather than gain entry to them.",
+      "usage": "Use 'assess the extent of' damage, work or a problem.",
+      "example": "The conservator assessed the extent of the staining."
+    }
+  },
+  {
+    "question": "The title contains an _________ to a well-known voyage, which readers familiar with the original account will recognize.",
+    "choices": ["allusion", "illusion", "elusion", "allurement"],
+    "answer": "allusion",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "An allusion is an indirect reference. An illusion is a misleading appearance or belief.",
+      "grammar": "Readers recognize a reference to another account, so 'allusion' names the relationship.",
+      "usage": "Use 'an allusion to' the work, event or person indirectly referenced.",
+      "example": "The opening paragraph includes an allusion to an earlier expedition."
+    }
+  },
+  {
+    "question": "The committee treated its decision as a _________ that future panels could follow when considering similar requests.",
+    "choices": ["president", "precedent", "precedence", "presidency"],
+    "answer": "precedent",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "A precedent is an earlier decision used as a guide. Precedence means priority.",
+      "grammar": "Future panels can follow the decision as an example, making it a precedent rather than a position of leadership.",
+      "usage": "Use 'set a precedent' when a decision provides an example for future cases.",
+      "example": "The award set a precedent for recognizing team contributions."
+    }
+  },
+  {
+    "question": "The interviewer used open questions to _________ detailed accounts of how residents had experienced the flood.",
+    "choices": ["illicit", "imply", "elicit", "emit"],
+    "answer": "elicit",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "To elicit an account means to draw it out through questions. Illicit means forbidden.",
+      "grammar": "The questions seek responses from residents. 'Elicit' names the act of obtaining those responses.",
+      "usage": "Use 'elicit a response or account from' the person providing it.",
+      "example": "The questionnaire elicited useful comments from participants."
+    }
+  },
+  {
+    "question": "The theory gained _________ support when repeated field measurements produced the pattern it predicted.",
+    "choices": ["imperial", "empirically", "emblematic", "empirical"],
+    "answer": "empirical",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Empirical means based on observation or experiment. Imperial means relating to an empire.",
+      "grammar": "Repeated measurements provide observed evidence, so the support is empirical.",
+      "usage": "Use 'empirical evidence or support' for findings based on observation.",
+      "example": "The researchers sought empirical evidence for the proposed explanation."
+    }
+  },
+  {
+    "question": "The submission guidelines are _________ about file size, stating that no attachment may exceed ten megabytes.",
+    "choices": ["explicit", "implicit", "complicit", "explicitly"],
+    "answer": "explicit",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Explicit means directly and clearly stated. Implicit means suggested without being stated.",
+      "grammar": "The exact limit is written out, so the guidelines are explicit rather than merely implying a restriction.",
+      "usage": "Use 'explicit about' to identify a matter explained directly.",
+      "example": "The instructions are explicit about the documents required."
+    }
+  },
+  {
+    "question": "The supervisor described the technician as _________ because she checked every measurement carefully even when no one was watching.",
+    "choices": ["conscious", "conscientious", "consciousness", "consciously"],
+    "answer": "conscientious",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Conscientious means careful about doing work properly. Conscious means awake or aware.",
+      "grammar": "Careful work without supervision demonstrates diligence, not simply awareness.",
+      "usage": "Use 'a conscientious worker' for someone who takes care to meet their responsibilities.",
+      "example": "A conscientious researcher records unexpected results as well as expected ones."
+    }
+  },
+  {
+    "question": "Removing the background noise made the recorded speech _________ enough for listeners to identify every word.",
+    "choices": ["intelligent", "intelligence", "intelligible", "intelligibly"],
+    "answer": "intelligible",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Intelligible means understandable. Intelligent means showing mental ability.",
+      "grammar": "The improvement concerns whether words can be understood, not how clever the speaker sounds.",
+      "usage": "Use 'intelligible speech' for words that can be heard and understood.",
+      "example": "The restored recording was finally intelligible."
+    }
+  },
+  {
+    "question": "The exhibition designer won praise for an _________ use of mirrors that turned a small room into an engaging display.",
+    "choices": ["imaginary", "imagined", "imagination", "imaginative"],
+    "answer": "imaginative",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Imaginative means creative. Imaginary means existing only in the mind.",
+      "grammar": "The use of real mirrors is creative rather than unreal. The noun 'use' needs the adjective 'imaginative'.",
+      "usage": "Use 'an imaginative use of' a material or idea when describing creativity.",
+      "example": "The display makes imaginative use of recycled materials."
+    }
+  },
+  {
+    "question": "The engineer devised an _________ solution that allowed the damaged hinge to be repaired without removing the heavy door.",
+    "choices": ["ingenious", "ingenuous", "ingenuity", "ingeniously"],
+    "answer": "ingenious",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Ingenious means cleverly designed. Ingenuous means innocent or unusually frank.",
+      "grammar": "The solution's effective design calls for 'ingenious'. 'Ingenuity' names the quality rather than describing the solution.",
+      "usage": "Use 'an ingenious solution to' a practical problem.",
+      "example": "An ingenious adjustment eliminated the need for a larger motor."
+    }
+  },
+  {
+    "question": "After mediation, the two organizations reached an _________ settlement and agreed to continue collaborating.",
+    "choices": ["amiable", "amicable", "amity", "amicably"],
+    "answer": "amicable",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Amicable describes friendly agreements or relations. Amiable usually describes a person's friendly character.",
+      "grammar": "The noun 'settlement' calls for the established phrase 'an amicable settlement'.",
+      "usage": "Use 'amicable settlement' for an agreement reached without continuing hostility.",
+      "example": "The dispute ended with an amicable agreement."
+    }
+  },
+  {
+    "question": "The adjustment produced a barely _________ change in the recording, although sensitive equipment could detect it.",
+    "choices": ["perceptive", "perception", "perceptible", "perceptively"],
+    "answer": "perceptible",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Perceptible means able to be noticed. Perceptive describes someone good at noticing things.",
+      "grammar": "The change is difficult to detect, so it is barely perceptible. It is not a person doing the noticing.",
+      "usage": "Use 'barely perceptible' for an effect close to the limit of detection.",
+      "example": "The new coating caused a barely perceptible change in color."
+    }
+  },
+  {
+    "question": "The receiving country's _________ figures count people arriving to settle there and exclude people departing to live abroad.",
+    "choices": ["emigration", "immigrate", "immigrated", "immigration"],
+    "answer": "immigration",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Immigration is movement into a country to live there. Emigration is movement out of a country.",
+      "grammar": "The figures concern arrivals into the receiving country, so 'immigration' supplies the correct noun.",
+      "usage": "Use 'immigration into' a country and 'emigration from' a country.",
+      "example": "The historical study compared immigration into the region with departures."
+    }
+  },
+  {
+    "question": "Before agreeing to the loan conditions, the museum sought legal _________ from an independent lawyer.",
+    "choices": ["counsel", "council", "console", "councilor"],
+    "answer": "counsel",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Counsel means advice. A council is a group that makes decisions or gives advice.",
+      "grammar": "The museum seeks advice from a lawyer. 'Counsel' names that advice, not a governing group.",
+      "usage": "Use 'seek counsel from' someone whose advice is needed.",
+      "example": "The association sought independent counsel before signing."
+    }
+  },
+  {
+    "question": "The planning team will _________ residents' opinions through interviews before choosing a location for the new community garden.",
+    "choices": [
+      "collect",
+      "collects",
+      "collecting",
+      "collected"
+    ],
+    "answer": "collect",
+    "difficulty": "basic",
+    "review": "eligible",
+    "category": "grammar",
+    "explanation": {
+      "vocabulary": "To collect opinions means to gather people's views before making a decision.",
+      "grammar": "After the modal verb 'will', use the base verb 'collect'. Do not add 's', 'ing' or 'ed'.",
+      "usage": "Use 'collect feedback' or 'collect opinions' when asking people what they think.",
+      "example": "The school will collect parents' opinions before changing its schedule."
+    }
+  },
+  {
+    "question": "The adjustable screen serves a _________ purpose: it shades the seedlings and prevents birds from reaching them.",
+    "choices": ["duel", "dually", "dual", "dueling"],
+    "answer": "dual",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Dual means having two parts or functions. A duel is a contest between two opponents.",
+      "grammar": "The two stated functions call for the adjective 'dual'.",
+      "usage": "Use 'a dual purpose' when one item performs two functions.",
+      "example": "The building has a dual purpose as a classroom and an exhibition space."
+    }
+  },
+  {
+    "question": "The new catalog will completely _________ the card index, which will be retired rather than maintained alongside it.",
+    "choices": ["supplement", "complement", "reinforce", "supplant"],
+    "answer": "supplant",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "To supplant something means to replace it. To supplement it means to add to it.",
+      "grammar": "Retiring the card index shows complete replacement, so the new catalog supplants it rather than supporting or adding to it.",
+      "usage": "Use 'supplant an older system' when a new system takes its place.",
+      "example": "The shared database supplanted the separate paper registers."
+    }
+  },
+  {
+    "question": "The botanical garden must obtain a separate _________ for each shipment of restricted seeds before the shipment can enter the country.",
+    "choices": ["permit", "permission", "permissive", "permitting"],
+    "answer": "permit",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "A permit is a countable official document. Permission is generally an uncountable concept.",
+      "grammar": "'A separate' requires a singular countable noun. 'Permit' names one required document for each shipment.",
+      "usage": "Use 'obtain a permit' but 'obtain permission' without an indefinite article.",
+      "example": "The organizers obtained a permit for the outdoor event."
+    }
+  },
+  {
+    "question": "The sealed crate has _________ untouched in the storeroom since the former curator retired.",
+    "choices": ["laid", "lain", "lay", "laying"],
+    "answer": "lain",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "To lie can mean to remain in a place. Its forms include 'lay' and 'lain'. To lay means to put something down.",
+      "grammar": "After 'has' the completed form of intransitive 'lie' is 'lain'. 'Laid' belongs to 'lay' and normally needs an object.",
+      "usage": "Use 'has lain' for remaining in place and 'has laid something' for putting it down.",
+      "example": "The original ledger has lain unopened for years."
+    }
+  },
+  {
+    "question": "Under the announced schedule, the registration fee will _________ from twelve dollars to fifteen dollars next month.",
+    "choices": ["raise", "rouse", "rise", "arise"],
+    "answer": "rise",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "To rise means to increase without taking an object. To raise something means to increase it.",
+      "grammar": "The fee itself increases, and no object follows the verb. 'Rise' is the required form.",
+      "usage": "Use 'prices rise' but 'a business raises prices'.",
+      "example": "The cost of replacement parts may rise next year."
+    }
+  },
+  {
+    "question": "The rattling stopped after the mechanic tightened a _________ bolt behind the access panel.",
+    "choices": ["lose", "losing", "loss", "loose"],
+    "answer": "loose",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "Loose means not firmly fastened. Lose means to stop having something.",
+      "grammar": "The noun 'bolt' needs an adjective describing its fastening. 'Loose' has that meaning and form.",
+      "usage": "Use 'a loose bolt' and 'tighten a loose fitting'.",
+      "example": "A loose connection caused the intermittent signal."
+    }
+  },
+  {
+    "question": "The curator signed a letter to _________ the donor's offer and confirm that the gift would enter the permanent collection.",
+    "choices": ["accept", "except", "acceptable", "acceptance"],
+    "answer": "accept",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "To accept an offer means to agree to receive it. Except means exclude in its verb use.",
+      "grammar": "The letter confirms the gift will join the collection, so the offer is accepted rather than excluded.",
+      "usage": "Use 'accept an offer or gift' when agreeing to receive it.",
+      "example": "The board agreed to accept the donated equipment."
+    }
+  },
+  {
+    "question": "The reference librarian's patient _________ helped her remain calm while answering the same questions throughout the busy afternoon.",
+    "choices": ["disposal", "disposition", "dispatch", "displacement"],
+    "answer": "disposition",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "A disposition is a person's usual character or tendency. Disposal concerns getting rid of something.",
+      "grammar": "The sentence describes a personal trait supporting patient behavior, so 'disposition' fits.",
+      "usage": "Use 'a calm or patient disposition' for a person's usual temperament.",
+      "example": "Her cheerful disposition made visitors feel welcome."
+    }
+  },
+  {
+    "question": "The deputy has been appointed to _________ the current director when he retires and to assume all of his duties.",
+    "choices": ["secede", "proceed", "succeed", "exceed"],
+    "answer": "succeed",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "To succeed a person means to take their position afterward. To secede means to withdraw from a political body.",
+      "grammar": "The deputy is taking the director's role after retirement, not moving ahead of him or surpassing his performance.",
+      "usage": "Use 'succeed someone as' followed by the role taken over.",
+      "example": "She will succeed the retiring chair as head of the committee."
+    }
+  },
+  {
+    "question": "As the sole _________ of the bequest, the rural library will receive the entire sum left by the former teacher.",
+    "choices": ["benefactor", "benevolence", "benefaction", "beneficiary"],
+    "answer": "beneficiary",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "distinction",
+    "explanation": {
+      "vocabulary": "A beneficiary receives a benefit or gift. A benefactor provides it. A bequest is property or money left by a will.",
+      "grammar": "The library receives the money, so it is the beneficiary rather than the person giving it.",
+      "usage": "Use 'the beneficiary of' to identify the recipient of a benefit.",
+      "example": "The community center was the main beneficiary of the fundraising event."
     }
   }
 ]
