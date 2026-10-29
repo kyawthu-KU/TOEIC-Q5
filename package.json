@@ -1,0 +1,14 @@
+{
+  "name": "toeic-q5",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "tsc --project tsconfig.json --noEmit",
+    "build": "tsc --project tsconfig.json",
+    "verify": "npm run build && node js/quiz.js --verify"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "7.0.2"
+  }
+}
