@@ -94,9 +94,7 @@ class TOEICQuiz {
     completedAt;
     answerCorrectness;
     timerFloat;
-    column1Top;
     startButton;
-    originalTimerFloatWidth;
     constructor() {
         this.questions = [];
         this.answers = new Map();
@@ -113,19 +111,9 @@ class TOEICQuiz {
         this.answerCorrectness = [];
         // Get references to the elements
         this.timerFloat = pageElement('.timer-float');
-        this.column1Top = pageElement('.column-1-top');
         this.startButton = document.querySelector('.start-button');
-        // Store the original width of the .timer-float element
-        this.originalTimerFloatWidth = this.timerFloat.offsetWidth;
         // Bind event listeners
-        this.adjustTimerFloatPosition = this.adjustTimerFloatPosition.bind(this);
         this.startQuiz = this.startQuiz.bind(this);
-        this.adjustTimerFloatPosition();
-        // Add event listener for window resize
-        window.addEventListener('resize', () => {
-            this.adjustTimerFloatPosition();
-        });
-        window.addEventListener('scroll', this.adjustTimerFloatPosition);
     }
     // Method to shuffle an array
     shuffleArray(array) {
@@ -556,25 +544,6 @@ class TOEICQuiz {
         newBox.appendChild(startButton);
         // pageElement('#quiz').appendChild(startButton);
     }
-    adjustTimerFloatPosition() {
-        const rect = this.column1Top.getBoundingClientRect();
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        if (scrollTop >= rect.bottom) {
-            const originalWidth = this.timerFloat.offsetWidth; // Store the original width
-            // Apply fixed positioning and set the original width
-            this.timerFloat.style.position = 'fixed';
-            this.timerFloat.style.top = '0';
-            // this.timerFloat.style.left = '0';
-            this.timerFloat.style.width = `${originalWidth}px`; // Explicitly set the width
-        }
-        else {
-            // Revert to relative positioning and remove the width property
-            this.timerFloat.style.position = 'relative';
-            this.timerFloat.style.top = '';
-            this.timerFloat.style.left = '';
-            this.timerFloat.style.width = '';
-        }
-    }
     startQuiz() {
         if (this.quizStarted) {
             return;
@@ -884,7 +853,7 @@ async function verifyQuiz() {
                 },
                 querySelector(selector) { return this.querySelectorAll(selector)[0] ?? null; },
                 requireSelector(selector) { return required(this.querySelector(selector)); },
-                getBoundingClientRect() { return { bottom: 0 }; }
+                getBoundingClientRect() { return { bottom: 1000 - testWindow.pageYOffset }; }
             };
         };
         const createPage = () => {
@@ -927,9 +896,20 @@ async function verifyQuiz() {
         let intervalCallback;
         let intervalCount = 0;
         const clearedIntervals = new Set();
+        const windowListeners = new Map();
+        let scrollCalls = 0;
+        const testWindow = {
+            pageYOffset: 0,
+            scrollTo() { scrollCalls += 1; },
+            addEventListener(type, listener) {
+                const listeners = windowListeners.get(type) ?? [];
+                listeners.push(listener);
+                windowListeners.set(type, listeners);
+            }
+        };
         try {
             Object.defineProperty(globalThis, 'window', { configurable: true, writable: true,
-                value: { scrollTo() { }, addEventListener() { }, pageYOffset: 0 } });
+                value: testWindow });
             Object.defineProperty(globalThis, 'setInterval', { configurable: true, writable: true, value: (callback) => {
                     intervalCallback = callback;
                     intervalCount += 1;
@@ -941,8 +921,32 @@ async function verifyQuiz() {
             const startState = createQuizState();
             startState.displayTimeDropdown();
             startState.displayStartButton();
+            const timeControls = testDocument.requireSelector('.timer-float');
+            const timeDropdown = testDocument.getElementById('timeDropdown');
+            const startButton = required(startState.startButton);
+            timeDropdown.value = '600';
+            [0, 450, 700, 1400, 350, 1600, 0].forEach(offset => {
+                testWindow.pageYOffset = offset;
+                ['scroll', 'resize'].forEach(type => {
+                    windowListeners.get(type)?.forEach(listener => listener());
+                    assert.notEqual(timeControls.style.position, 'fixed', 'Scrolling must keep the time controls in the page layout.');
+                    assert.notEqual(timeControls.style.position, 'absolute', 'The time controls must keep their space in the page.');
+                    assert.equal(timeDropdown.parentNode?.parentNode, timeControls);
+                    assert.equal(testDocument.getElementById('timeDropdown'), timeDropdown);
+                    assert.equal(timeDropdown.value, '600');
+                    assert.equal(startButton.parentNode, timeControls);
+                    assert.notEqual(timeControls.style.display, 'none');
+                    assert.notEqual(startButton.style.display, 'none');
+                    assert.equal(startButton.disabled, false);
+                    assert.equal(startState.quizStarted, false);
+                    assert.equal(intervalCount, 0);
+                    assert.equal(scrollCalls, 0);
+                });
+            });
             testDocument.getElementById('timeDropdown').value = '300';
             required(startState.startButton).click();
+            assert.equal(startState.timeLimit, 300);
+            assert.equal(startState.quizStarted, true);
             const questionCards = testDocument.querySelectorAll('.question');
             assert.equal(questionCards.length, 30);
             assert.equal(intervalCount, 1);
@@ -1127,6 +1131,7 @@ async function verifyQuiz() {
     console.log(`Passed: ${revisedPositions.size} revised entries, ${bank.length - revisedPositions.size} preserved entries, category counts, unique stems, ${newVocabulary.length} distinct vocabulary targets, 100 selections, exact pool limits, exclusions, choice shuffling, scoring, answer key matching, start, answer selection and load errors.`);
     console.log(`Passed: ${activeQuestions.length} active learning notes, notes for every revised entry, question and answer cards, note matching, no early results, manual submission, canceled submission, timeout submission, answer locking, fixed completion times, six time zone cases and missing notes.`);
     console.log('Passed: solutions below matching questions without a screen width check, open notes preserved and no duplicate solutions.');
+    console.log('Passed: scrolling and resizing keep the time controls in the page layout before the quiz starts.');
 }
 if (typeof document !== 'undefined') {
     const quiz = new TOEICQuiz();

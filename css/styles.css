@@ -46,7 +46,9 @@ body {
 }
 
 .timer-float {
-    position: relative;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
     z-index: 9999;
     width: 100%;
     border: 1px solid #c9d6dc;
