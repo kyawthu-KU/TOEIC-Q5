@@ -478,6 +478,17 @@ class TOEICQuiz {
     completion.replaceChildren(scoreContainer);
 
     if (this.completedAt) {
+      const tryAgain = document.createElement('button');
+      tryAgain.type = 'button';
+      tryAgain.classList.add('try-again');
+      tryAgain.textContent = 'Try again';
+      tryAgain.addEventListener('click', () => {
+        tryAgain.disabled = true;
+        window.scrollTo({ top: 0, behavior: 'instant' });
+        window.location.reload();
+      });
+      completion.appendChild(tryAgain);
+
       const completed = formatCompletionTime(this.completedAt);
       const timeContainer = document.createElement('div');
       timeContainer.classList.add('completion-time');
@@ -1141,6 +1152,8 @@ async function verifyQuiz() {
     const clearedIntervals = new Set<unknown>();
     const windowListeners = new Map<string, (() => void)[]>();
     let scrollCalls = 0;
+    const scrollOptions: unknown[] = [];
+    let reloadCalls = 0;
     const storedHistory = new Map<string, string>();
     const historyWrites: string[] = [];
     const historyStorage = {
@@ -1153,7 +1166,11 @@ async function verifyQuiz() {
     const testWindow = {
       pageYOffset: 0,
       localStorage: historyStorage,
-      scrollTo() { scrollCalls += 1; },
+      location: { reload() { reloadCalls += 1; } },
+      scrollTo(options: unknown) {
+        scrollCalls += 1;
+        scrollOptions.push(options);
+      },
       addEventListener(type: string, listener: () => void) {
         const listeners = windowListeners.get(type) ?? [];
         listeners.push(listener);
@@ -1216,6 +1233,7 @@ async function verifyQuiz() {
       assert.equal(testDocument.querySelectorAll('details').length, 0);
       assert.equal(testDocument.querySelectorAll('time').length, 0);
       assert.equal(testDocument.querySelectorAll('.completion').length, 0);
+      assert.equal(testDocument.querySelectorAll('.try-again').length, 0);
       assert.equal(testDocument.requireSelector('.answers-column').children.length, 0);
       startState.positionSolutions();
       assert.equal(testDocument.querySelectorAll('.answer-card').length, 0);
@@ -1273,6 +1291,11 @@ async function verifyQuiz() {
       assert.equal(testDocument.requireSelector('time').getAttribute('datetime'), submittedAt.toISOString());
       assert.equal(testDocument.requireSelector('time').textContent, formatCompletionTime(submittedAt).label);
       assert.equal(testDocument.requireSelector('.time-zone').textContent, formatCompletionTime(submittedAt).timeZone);
+      const completion = testDocument.requireSelector('.completion');
+      assert.equal(completion.children.length, 3);
+      assert.equal(required(completion.children[0]).requireSelector('.score').textContent.trim(), '10');
+      assert.equal(completion.children[1], testDocument.requireSelector('.try-again'));
+      assert.equal(completion.children[2], testDocument.requireSelector('.completion-time'));
 
       const resultCards = testDocument.querySelectorAll('.answer-card');
       assert.equal(resultCards.length, 30);
@@ -1336,6 +1359,18 @@ async function verifyQuiz() {
       assert.equal(testDocument.querySelectorAll('.completion').length, 1);
       assert.equal(testDocument.querySelectorAll('time').length, 1);
       assert.equal(testDocument.requireSelector('time').getAttribute('datetime'), timestamp);
+      assert.equal(testDocument.querySelectorAll('.try-again').length, 1);
+      const historyBeforeRetry = readRecentQuizzes();
+      const writesBeforeRetry = historyWrites.length;
+      const tryAgain = testDocument.requireSelector('.try-again');
+      assert.equal(tryAgain.textContent, 'Try again');
+      tryAgain.click();
+      tryAgain.click();
+      assert.equal(reloadCalls, 1);
+      assert.equal(tryAgain.disabled, true);
+      assert.deepEqual(scrollOptions.at(-1), { top: 0, behavior: 'instant' });
+      assert.deepEqual(readRecentQuizzes(), historyBeforeRetry);
+      assert.equal(historyWrites.length, writesBeforeRetry);
 
       testDocument = createPage();
       const automaticState = createQuizState();
@@ -1355,6 +1390,7 @@ async function verifyQuiz() {
       assert.equal(automaticState.score, 1);
       assert.equal(automaticState.answerCorrectness.filter(answer => answer.status === 'unanswered').length, 29);
       assert.equal(automaticState.quizSubmitted, true);
+      assert.equal(testDocument.querySelectorAll('.try-again').length, 1);
       const timedOutAt = required<Date>(automaticState.completedAt);
       assert.ok(timedOutAt.getTime() >= beforeTimeout);
       assert.ok(clearedIntervals.has(automaticState.timerInterval));
@@ -1470,6 +1506,7 @@ async function verifyQuiz() {
   console.log('Passed: solutions below matching questions without a screen width check, open notes preserved and no duplicate solutions.');
   console.log('Passed: scrolling and resizing keep the time controls in the page layout before the quiz starts.');
   console.log('Passed: three-question repeat target, bounded redraws, best fallback, distinct repeat counts, expired history, stable question keys, history saved on Start, refreshes, three-quiz history, invalid history and unavailable storage.');
+  console.log('Passed: Try again appears between the score and completion time after submission, stays unique, reloads once, returns to the top and preserves recent question history.');
 }
 
 type RandomizationReport = {

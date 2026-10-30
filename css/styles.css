@@ -75,10 +75,10 @@ body {
     font-size: 14px;
 }
 
-/* Score and completion time */
+/* Score, retry button and completion time */
 .completion {
     display: grid;
-    grid-template-columns: 1fr 1.2fr;
+    grid-template-columns: minmax(0, 0.8fr) auto minmax(0, 1.3fr);
     gap: 24px;
     align-items: center;
     width: 100%;
@@ -105,6 +105,29 @@ body {
     font-size: 21px;
     font-weight: 400;
     color: #526572;
+}
+
+.try-again {
+    justify-self: start;
+    min-height: 44px;
+    padding: 12px 20px;
+    border: 1px solid #174c65;
+    border-radius: 6px;
+    background-color: #174c65;
+    color: white;
+    font: inherit;
+    font-weight: 700;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.try-again:hover {
+    background-color: #123e50;
+}
+
+.try-again:disabled {
+    opacity: 0.6;
+    cursor: wait;
 }
 
 .completion-time {
@@ -211,6 +234,7 @@ body {
 }
 
 .choices button:focus-visible,
+.try-again:focus-visible,
 summary:focus-visible {
     outline: 3px solid #237aa4;
     outline-offset: 4px;
