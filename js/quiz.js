@@ -46,23 +46,79 @@ const QUESTION_MIX = Object.freeze([
     { difficulty: 'advanced', count: 20 },
     { difficulty: 'intermediate', count: 10 }
 ]);
+const RECENT_QUIZ_COUNT = 3;
+const MAX_RECENT_REPEATS = 3;
+const MAX_SELECTION_ATTEMPTS = 20;
+const RECENT_QUIZZES_KEY = 'toeic-q5.recent-quizzes.v1';
 function normalizeQuestion(text) {
     return text.normalize('NFKC').trim().replace(/_+/g, '_____').replace(/\s+/g, ' ').toLowerCase();
 }
-function selectQuestions(value, shuffle) {
+function questionKeys(questions) {
+    return questions.map(question => normalizeQuestion(question.question));
+}
+function rememberQuiz(history, questions) {
+    return [...history.slice(-(RECENT_QUIZ_COUNT - 1)), questionKeys(questions)];
+}
+function readRecentQuizzes() {
+    if (typeof window === 'undefined')
+        return [];
+    try {
+        const stored = window.localStorage.getItem(RECENT_QUIZZES_KEY);
+        if (stored === null)
+            return [];
+        const value = JSON.parse(stored);
+        if (!Array.isArray(value) || value.length > RECENT_QUIZ_COUNT)
+            return [];
+        const quizzes = value;
+        const questionsPerQuiz = QUESTION_MIX.reduce((total, group) => total + group.count, 0);
+        if (!quizzes.every((quiz) => {
+            if (!Array.isArray(quiz) || quiz.length !== questionsPerQuiz)
+                return false;
+            const keys = quiz;
+            return keys.every((key) => typeof key === 'string' && key.length > 0 &&
+                key === normalizeQuestion(key)) && new Set(keys).size === keys.length;
+        }))
+            return [];
+        return quizzes;
+    }
+    catch {
+        return [];
+    }
+}
+function saveRecentQuiz(questions) {
+    if (typeof window === 'undefined')
+        return;
+    try {
+        const history = rememberQuiz(readRecentQuizzes(), questions);
+        window.localStorage.setItem(RECENT_QUIZZES_KEY, JSON.stringify(history));
+    }
+    catch {
+        // Practice can continue when the browser cannot save history.
+    }
+}
+function selectQuestions(value, shuffle, history = []) {
     const bank = readQuestionBank(value);
     const eligible = bank.filter(question => question.review === 'eligible');
     if (new Set(eligible.map(question => normalizeQuestion(question.question))).size !== eligible.length) {
         throw new Error('The question bank contains repeated questions. Please contact your instructor.');
     }
-    const selected = QUESTION_MIX.flatMap(({ difficulty, count }) => {
+    const pools = QUESTION_MIX.map(({ difficulty, count }) => {
         const pool = eligible.filter(question => question.difficulty === difficulty);
         if (pool.length < count) {
             throw new Error(`This quiz needs ${count} ${difficulty} questions, but only ${pool.length} are available. Please contact your instructor.`);
         }
-        return shuffle([...pool]).slice(0, count);
+        return { pool, count };
     });
-    return shuffle(selected);
+    const recentQuestions = new Set(history.slice(-RECENT_QUIZ_COUNT).flat());
+    const draw = (attemptsLeft, best) => {
+        const questions = shuffle(pools.flatMap(({ pool, count }) => shuffle([...pool]).slice(0, count)));
+        const repeats = questionKeys(questions).filter(key => recentQuestions.has(key)).length;
+        const candidate = best !== null && best.repeats <= repeats ? best : { questions, repeats };
+        return repeats <= MAX_RECENT_REPEATS || attemptsLeft === 1
+            ? candidate.questions
+            : draw(attemptsLeft - 1, candidate);
+    };
+    return draw(MAX_SELECTION_ATTEMPTS, null);
 }
 function formatCompletionTime(date) {
     const options = {
@@ -193,7 +249,7 @@ class TOEICQuiz {
         catch {
             throw new Error('The question bank could not be read. Please contact your instructor.');
         }
-        this.questions = selectQuestions(bank, questions => this.shuffleArray(questions));
+        this.questions = selectQuestions(bank, questions => this.shuffleArray(questions), readRecentQuizzes());
         this.loadCorrectAnswers();
     }
     // Method to display questions
@@ -566,6 +622,7 @@ class TOEICQuiz {
         this.quizStarted = true;
         // Display the questions selected before the start button was shown.
         this.displayQuestions();
+        saveRecentQuiz(this.questions);
     }
     displayTimer() {
         const timerElement = document.createElement('div');
@@ -775,6 +832,51 @@ async function verifyQuiz() {
     const excluded = { ...required(additions[0]), review: 'excluded', exclusionReason: 'This entry is excluded for the selection check.' };
     const bankWithExclusion = [excluded, ...bank.filter(question => question !== additions[0])];
     assert.ok(!selectQuestions(bankWithExclusion, questions => questions).includes(excluded));
+    const disjointQuizzes = Array.from({ length: 4 }, (_, index) => QUESTION_MIX.flatMap(({ difficulty, count }) => bank.filter(question => question.review === 'eligible' && question.difficulty === difficulty)
+        .slice(index * count, (index + 1) * count)));
+    const recentHistory = disjointQuizzes.slice(0, RECENT_QUIZ_COUNT).map(questionKeys);
+    const withRepeats = (count) => [
+        ...required(disjointQuizzes[0]).slice(0, count), ...required(disjointQuizzes[3]).slice(count)
+    ];
+    const scriptedDraws = (candidates) => {
+        let attempts = 0;
+        const shuffle = (array) => {
+            if (array.length === 30) {
+                attempts += 1;
+                return array;
+            }
+            const preferred = new Set(required(candidates[Math.min(attempts, candidates.length - 1)]));
+            return [...array.filter(value => preferred.has(value)), ...array.filter(value => !preferred.has(value))];
+        };
+        return { shuffle, get attempts() { return attempts; } };
+    };
+    const redraw = scriptedDraws([withRepeats(4), withRepeats(3)]);
+    assert.deepEqual(new Set(selectQuestions(bank, redraw.shuffle, recentHistory)), new Set(withRepeats(3)));
+    assert.equal(redraw.attempts, 2);
+    const fallback = scriptedDraws([withRepeats(6), withRepeats(4), withRepeats(5)]);
+    assert.deepEqual(new Set(selectQuestions(bank, fallback.shuffle, recentHistory)), new Set(withRepeats(4)));
+    assert.equal(fallback.attempts, MAX_SELECTION_ATTEMPTS);
+    const firstDraw = scriptedDraws([withRepeats(6)]);
+    assert.equal(selectQuestions(bank, firstDraw.shuffle).length, 30);
+    assert.equal(firstDraw.attempts, 1);
+    const sharedHistory = Array.from({ length: RECENT_QUIZ_COUNT }, () => required(recentHistory[0]));
+    const sharedRepeats = scriptedDraws([withRepeats(3)]);
+    assert.deepEqual(new Set(selectQuestions(bank, sharedRepeats.shuffle, sharedHistory)), new Set(withRepeats(3)));
+    assert.equal(sharedRepeats.attempts, 1, 'A question in several recent quizzes must count once.');
+    const oldHistory = [required(recentHistory[0]), ...Array.from({ length: RECENT_QUIZ_COUNT }, () => questionKeys(required(disjointQuizzes[3])))];
+    const expiredRepeats = scriptedDraws([required(disjointQuizzes[0])]);
+    assert.deepEqual(new Set(selectQuestions(bank, expiredRepeats.shuffle, oldHistory)), new Set(disjointQuizzes[0]));
+    assert.equal(expiredRepeats.attempts, 1);
+    assert.deepEqual(rememberQuiz(recentHistory, required(disjointQuizzes[3])), disjointQuizzes.slice(1).map(questionKeys));
+    assert.deepEqual(recentHistory, disjointQuizzes.slice(0, RECENT_QUIZ_COUNT).map(questionKeys));
+    const clonedBank = bank.map(question => ({ ...question })).reverse();
+    const clonedCandidate = withRepeats(3).map(question => required(clonedBank.find(clone => clone.question === question.question)));
+    const clonedOverTarget = withRepeats(4).map(question => required(clonedBank.find(clone => clone.question === question.question)));
+    const clonedDraw = scriptedDraws([clonedOverTarget, clonedCandidate]);
+    assert.deepEqual(new Set(questionKeys(selectQuestions(clonedBank, clonedDraw.shuffle, recentHistory))), new Set(questionKeys(clonedCandidate)));
+    assert.equal(clonedDraw.attempts, 2);
+    const limitedBank = required(disjointQuizzes[0]);
+    assert.equal(selectQuestions(limitedBank, shuffle, [questionKeys(limitedBank)]).length, 30);
     const savedFetch = globalThis.fetch;
     let fetches = 0;
     const state = {
@@ -898,8 +1000,18 @@ async function verifyQuiz() {
         const clearedIntervals = new Set();
         const windowListeners = new Map();
         let scrollCalls = 0;
+        const storedHistory = new Map();
+        const historyWrites = [];
+        const historyStorage = {
+            getItem: (key) => storedHistory.get(key) ?? null,
+            setItem(key, value) {
+                storedHistory.set(key, value);
+                historyWrites.push(value);
+            }
+        };
         const testWindow = {
             pageYOffset: 0,
+            localStorage: historyStorage,
             scrollTo() { scrollCalls += 1; },
             addEventListener(type, listener) {
                 const listeners = windowListeners.get(type) ?? [];
@@ -921,6 +1033,8 @@ async function verifyQuiz() {
             const startState = createQuizState();
             startState.displayTimeDropdown();
             startState.displayStartButton();
+            assert.equal(historyWrites.length, 0);
+            assert.deepEqual(readRecentQuizzes(), []);
             const timeControls = testDocument.requireSelector('.timer-float');
             const timeDropdown = testDocument.getElementById('timeDropdown');
             const startButton = required(startState.startButton);
@@ -947,10 +1061,13 @@ async function verifyQuiz() {
             required(startState.startButton).click();
             assert.equal(startState.timeLimit, 300);
             assert.equal(startState.quizStarted, true);
+            assert.equal(historyWrites.length, 1);
+            assert.deepEqual(readRecentQuizzes(), [questionKeys(startState.questions)]);
             const questionCards = testDocument.querySelectorAll('.question');
             assert.equal(questionCards.length, 30);
             assert.equal(intervalCount, 1);
             startState.startQuiz();
+            assert.equal(historyWrites.length, 1, 'Starting the same quiz twice must save history once.');
             assert.equal(testDocument.querySelectorAll('.question').length, 30);
             assert.equal(intervalCount, 1);
             assert.equal(fetches, 1);
@@ -1108,6 +1225,68 @@ async function verifyQuiz() {
                 assert.equal(card.querySelectorAll('.answer-card').length, 1);
             });
             assert.equal(required(testDocument.querySelectorAll('.answer-card')[0]).requireSelector('p').textContent, 'Learning notes are not available for this question.');
+            const beforeReload = readRecentQuizzes();
+            const writesBeforeReload = historyWrites.length;
+            testDocument = createPage();
+            const refreshedState = new TOEICQuiz();
+            const recentKeys = new Set(beforeReload.flat());
+            const nextQuestions = QUESTION_MIX.flatMap(({ difficulty, count }) => bank.filter(question => question.review === 'eligible' && question.difficulty === difficulty &&
+                !recentKeys.has(normalizeQuestion(question.question))).slice(0, count));
+            const repeatedAdvanced = bank.filter(question => question.review === 'eligible' && question.difficulty === 'advanced' &&
+                recentKeys.has(normalizeQuestion(question.question))).slice(0, 4);
+            assert.equal(repeatedAdvanced.length, 4);
+            const refreshedDraws = scriptedDraws([[...repeatedAdvanced, ...nextQuestions.slice(4)], nextQuestions]);
+            refreshedState.shuffleArray = refreshedDraws.shuffle;
+            await refreshedState.loadQuestions();
+            await refreshedState.loadQuestions();
+            assert.equal(refreshedDraws.attempts, 3, 'Loading must apply the saved history before accepting a selection.');
+            assert.equal(historyWrites.length, writesBeforeReload, 'Loading questions must not save history.');
+            assert.deepEqual(readRecentQuizzes(), beforeReload);
+            assert.deepEqual(new Set(refreshedState.questions), new Set(nextQuestions));
+            assert.equal(refreshedState.correctAnswers.size, 30);
+            refreshedState.questions.forEach((question, index) => assert.equal(refreshedState.correctAnswers.get(String(index)), question.answer));
+            refreshedState.displayTimeDropdown();
+            refreshedState.displayStartButton();
+            testDocument.getElementById('timeDropdown').value = '300';
+            required(refreshedState.startButton).click();
+            assert.equal(historyWrites.length, writesBeforeReload + 1);
+            assert.deepEqual(readRecentQuizzes(), rememberQuiz(beforeReload, refreshedState.questions));
+            assert.equal(readRecentQuizzes().length, RECENT_QUIZ_COUNT);
+            assert.equal(testDocument.querySelectorAll('.question').length, 30);
+            [
+                'invalid JSON', 'null', '{}', '[[]]',
+                JSON.stringify([Array.from({ length: 30 }, () => 'repeated')]),
+                JSON.stringify([Array.from({ length: 30 }, (_, index) => index)]),
+                JSON.stringify(Array.from({ length: 4 }, () => questionKeys(nextQuestions)))
+            ].forEach(value => {
+                storedHistory.set(RECENT_QUIZZES_KEY, value);
+                assert.deepEqual(readRecentQuizzes(), []);
+            });
+            storedHistory.set(RECENT_QUIZZES_KEY, JSON.stringify(recentHistory));
+            saveRecentQuiz(required(disjointQuizzes[3]));
+            assert.deepEqual(readRecentQuizzes(), disjointQuizzes.slice(1).map(questionKeys));
+            const unavailableStorage = () => { throw new Error('Storage is unavailable.'); };
+            Object.defineProperty(testWindow, 'localStorage', { configurable: true, get: unavailableStorage });
+            assert.deepEqual(readRecentQuizzes(), []);
+            assert.doesNotThrow(() => saveRecentQuiz(nextQuestions));
+            Object.defineProperty(testWindow, 'localStorage', { configurable: true, value: {
+                    getItem: unavailableStorage, setItem: unavailableStorage
+                } });
+            assert.deepEqual(readRecentQuizzes(), []);
+            assert.doesNotThrow(() => saveRecentQuiz(nextQuestions));
+            Object.defineProperty(testWindow, 'localStorage', { configurable: true, value: {
+                    getItem: historyStorage.getItem, setItem: unavailableStorage
+                } });
+            testDocument = createPage();
+            const blockedStorageState = new TOEICQuiz();
+            await blockedStorageState.loadQuestions();
+            blockedStorageState.displayTimeDropdown();
+            blockedStorageState.displayStartButton();
+            testDocument.getElementById('timeDropdown').value = '300';
+            required(blockedStorageState.startButton).click();
+            assert.equal(blockedStorageState.quizStarted, true);
+            assert.equal(testDocument.querySelectorAll('.question').length, 30);
+            assert.equal(blockedStorageState.correctAnswers.size, 30);
             assert.equal(JSON.stringify(bank), snapshot);
         }
         finally {
@@ -1132,13 +1311,143 @@ async function verifyQuiz() {
     console.log(`Passed: ${activeQuestions.length} active learning notes, notes for every revised entry, question and answer cards, note matching, no early results, manual submission, canceled submission, timeout submission, answer locking, fixed completion times, six time zone cases and missing notes.`);
     console.log('Passed: solutions below matching questions without a screen width check, open notes preserved and no duplicate solutions.');
     console.log('Passed: scrolling and resizing keep the time controls in the page layout before the quiz starts.');
+    console.log('Passed: three-question repeat target, bounded redraws, best fallback, distinct repeat counts, expired history, stable question keys, history saved on Start, refreshes, three-quiz history, invalid history and unavailable storage.');
+}
+function analyzeRandomization(bank, quizzes) {
+    const questionsPerQuiz = QUESTION_MIX.reduce((total, group) => total + group.count, 0);
+    const previousQuizzes = RECENT_QUIZ_COUNT;
+    const appearances = quizzes.flat().reduce((counts, question) => counts.set(question, (counts.get(question) ?? 0) + 1), new Map());
+    const groups = QUESTION_MIX.map(({ difficulty, count }) => {
+        const frequencies = bank.flatMap((question, index) => {
+            if (question.review !== 'eligible' || question.difficulty !== difficulty)
+                return [];
+            const selected = appearances.get(question) ?? 0;
+            return [{
+                    questionNumber: index + 1,
+                    question: question.question,
+                    appearances: selected,
+                    quizPercentage: quizzes.length === 0 ? 0 : selected / quizzes.length * 100
+                }];
+        });
+        if (frequencies.length < count)
+            throw new Error('The diagnostic needs a complete question pool.');
+        return {
+            difficulty,
+            poolSize: frequencies.length,
+            selectedPerQuiz: count,
+            expectedAppearancesPerQuestion: quizzes.length * count / frequencies.length,
+            minimumAppearances: Math.min(...frequencies.map(question => question.appearances)),
+            maximumAppearances: Math.max(...frequencies.map(question => question.appearances)),
+            frequencies
+        };
+    });
+    const repeatedCounts = quizzes.slice(previousQuizzes).map((questions, index) => {
+        const recentQuestions = new Set(quizzes.slice(index, index + previousQuizzes).flat());
+        return questions.filter(question => recentQuestions.has(question)).length;
+    });
+    const meanRepeatedQuestions = repeatedCounts.length === 0 ? null :
+        repeatedCounts.reduce((total, count) => total + count, 0) / repeatedCounts.length;
+    return {
+        quizzes: quizzes.length,
+        questionsPerQuiz,
+        bankQuestions: bank.length,
+        groups,
+        recentRepetition: {
+            previousQuizzes,
+            comparisons: repeatedCounts.length,
+            expectedMeanRepeatedQuestions: groups.reduce((total, group) => total +
+                group.selectedPerQuiz * (1 - (1 - group.selectedPerQuiz / group.poolSize) ** previousQuizzes), 0),
+            meanRepeatedQuestions,
+            meanRepeatPercentage: meanRepeatedQuestions === null ? null : meanRepeatedQuestions / questionsPerQuiz * 100,
+            maximumRepeatedQuestions: repeatedCounts.length === 0 ? null : Math.max(...repeatedCounts),
+            histogram: Array.from({ length: questionsPerQuiz + 1 }, (_, count) => ({
+                repeatedQuestions: count,
+                repeatPercentage: count / questionsPerQuiz * 100,
+                quizzes: repeatedCounts.filter(repeated => repeated === count).length
+            }))
+        }
+    };
+}
+async function verifyRandomization() {
+    const { readFile } = await import('node:fs/promises');
+    const { pathToFileURL } = await import('node:url');
+    const assert = (await import('node:assert/strict')).default;
+    const rawBank = JSON.parse(await readFile(new URL('../questions/questionsPart5Sample.json', pathToFileURL(__filename)), 'utf8'));
+    const bank = readQuestionBank(rawBank);
+    const snapshot = JSON.stringify(bank);
+    // Known selections check the counting before measuring the real shuffle.
+    const firstQuiz = selectQuestions(bank, questions => questions);
+    const identical = analyzeRandomization(bank, Array.from({ length: 4 }, () => firstQuiz));
+    assert.equal(identical.recentRepetition.comparisons, 1);
+    assert.equal(identical.recentRepetition.meanRepeatedQuestions, firstQuiz.length);
+    assert.equal(identical.recentRepetition.meanRepeatPercentage, 100);
+    assert.equal(required(identical.recentRepetition.histogram.at(-1)).quizzes, 1);
+    identical.groups.forEach(group => {
+        assert.equal(group.minimumAppearances, 0);
+        assert.equal(group.maximumAppearances, 4);
+        assert.equal(group.frequencies.reduce((total, question) => total + question.appearances, 0), 4 * group.selectedPerQuiz);
+    });
+    const shortHistory = analyzeRandomization(bank, [firstQuiz, firstQuiz, firstQuiz]);
+    assert.equal(shortHistory.recentRepetition.comparisons, 0);
+    assert.equal(shortHistory.recentRepetition.meanRepeatPercentage, null);
+    assert.ok(shortHistory.recentRepetition.histogram.every(row => row.quizzes === 0));
+    const distinctQuizzes = Array.from({ length: 4 }, (_, index) => QUESTION_MIX.flatMap(({ difficulty, count }) => bank.filter(question => question.review === 'eligible' && question.difficulty === difficulty)
+        .slice(index * count, (index + 1) * count)));
+    assert.equal(new Set(distinctQuizzes.flat()).size, 4 * firstQuiz.length);
+    const distinct = analyzeRandomization(bank, distinctQuizzes);
+    assert.equal(distinct.recentRepetition.meanRepeatedQuestions, 0);
+    assert.equal(distinct.recentRepetition.meanRepeatPercentage, 0);
+    assert.equal(required(distinct.recentRepetition.histogram[0]).quizzes, 1);
+    const partial = analyzeRandomization(bank, [
+        ...distinctQuizzes.slice(0, 3),
+        [...required(distinctQuizzes[0]).slice(0, 3), ...required(distinctQuizzes[3]).slice(3)]
+    ]);
+    assert.equal(partial.recentRepetition.meanRepeatedQuestions, 3);
+    assert.equal(partial.recentRepetition.meanRepeatPercentage, 10);
+    assert.equal(required(partial.recentRepetition.histogram[3]).quizzes, 1);
+    const shuffle = TOEICQuiz.prototype.shuffleArray;
+    const { quizzes } = Array.from({ length: 10000 }).reduce(sample => {
+        const questions = selectQuestions(bank, shuffle, sample.history);
+        sample.quizzes.push(questions);
+        return { quizzes: sample.quizzes, history: rememberQuiz(sample.history, questions) };
+    }, { quizzes: [], history: [] });
+    quizzes.forEach(questions => {
+        assert.equal(questions.length, firstQuiz.length);
+        assert.equal(new Set(questions).size, firstQuiz.length);
+        QUESTION_MIX.forEach(({ difficulty, count }) => {
+            assert.equal(questions.filter(question => question.difficulty === difficulty).length, count);
+        });
+        assert.ok(questions.every(question => question.review === 'eligible'));
+    });
+    const report = analyzeRandomization(bank, quizzes);
+    report.groups.forEach(group => {
+        assert.equal(group.frequencies.reduce((total, question) => total + question.appearances, 0), quizzes.length * group.selectedPerQuiz);
+    });
+    assert.equal(report.recentRepetition.comparisons, quizzes.length - report.recentRepetition.previousQuizzes);
+    assert.equal(report.recentRepetition.histogram.reduce((total, row) => total + row.quizzes, 0), report.recentRepetition.comparisons);
+    assert.equal(JSON.stringify(bank), snapshot);
+    console.log(JSON.stringify({
+        runtime: { node: process.version, v8: process.versions.v8, randomSource: 'Math.random' },
+        repeatControl: {
+            previousQuizzes: RECENT_QUIZ_COUNT,
+            targetMaximumRepeats: MAX_RECENT_REPEATS,
+            maximumAttempts: MAX_SELECTION_ATTEMPTS
+        },
+        questionNumbers: 'One-based positions in the question bank.',
+        comparison: 'Each question counts once if it appeared in any of the previous three quizzes. The first three quizzes are excluded.',
+        expectation: 'Expected values describe independent uniform selection before repeat control.',
+        limitation: 'This sample measures the actual selector in Node. It does not prove that every browser behaves the same way.',
+        report
+    }, null, 2));
 }
 if (typeof document !== 'undefined') {
     const quiz = new TOEICQuiz();
     quiz.displayQuiz();
 }
-else if (typeof process !== 'undefined' && process.argv.includes('--verify')) {
-    verifyQuiz().catch(error => {
+else if (typeof process !== 'undefined' &&
+    (process.argv.includes('--verify') || process.argv.includes('--verify-randomization'))) {
+    const runVerification = process.argv.includes('--verify-randomization') ? verifyRandomization : verifyQuiz;
+    runVerification().catch(error => {
         console.error(error);
         process.exitCode = 1;
     });
