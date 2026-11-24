@@ -144,6 +144,7 @@ class TOEICQuiz {
     numQuestions;
     submitClicked;
     timeLimit;
+    selectedTimeLimit;
     timerInterval;
     quizSubmitted;
     quizStarted;
@@ -159,6 +160,7 @@ class TOEICQuiz {
         this.numQuestions = QUESTION_MIX.reduce((total, group) => total + group.count, 0);
         this.submitClicked = false; // Flag to track if submit button is clicked
         this.timeLimit = 1800; // Default time limit for the quiz (30 minutes in seconds)
+        this.selectedTimeLimit = null;
         this.timerInterval = null; // Interval for the timer
         this.quizSubmitted = false; // Flag to track whether the quiz has been automatically submitted
         this.quizStarted = false; // Flag to track if the quiz has started
@@ -403,6 +405,12 @@ class TOEICQuiz {
         score.appendChild(total);
         scoreContainer.appendChild(label);
         scoreContainer.appendChild(score);
+        if (this.selectedTimeLimit !== null) {
+            const selectedTime = document.createElement('p');
+            selectedTime.classList.add('score-label');
+            selectedTime.textContent = `Time selected: ${this.selectedTimeLimit / 60} minutes`;
+            scoreContainer.appendChild(selectedTime);
+        }
         completion.replaceChildren(scoreContainer);
         if (this.completedAt) {
             const tryAgain = document.createElement('button');
@@ -614,6 +622,7 @@ class TOEICQuiz {
         if (this.quizStarted) {
             return;
         }
+        this.selectedTimeLimit = this.timeLimit;
         // Hide time dropdown and start button
         pageElement('#timeDropdown').style.display = 'none';
         required(this.startButton).style.display = 'none';
