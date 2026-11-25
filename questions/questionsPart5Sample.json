@@ -15925,7 +15925,7 @@
     }
   },
   {
-    "question": "The revised balance changed the measured weight by only 0.02 grams, a _________ difference within the study's accepted tolerance of 0.10 grams.",
+    "question": "The revised balance changed the measured mass by only 0.02 grams, a _________ difference within the study's accepted tolerance of 0.10 grams.",
     "choices": ["consequential", "negligible", "excessive", "preliminary"],
     "answer": "negligible",
     "difficulty": "advanced",
@@ -17318,6 +17318,3046 @@
       "grammar": "The library receives the money, so it is the beneficiary rather than the person giving it.",
       "usage": "Use 'the beneficiary of' to identify the recipient of a benefit.",
       "example": "The community center was the main beneficiary of the fundraising event."
+    }
+  },
+  {
+    "question": "The report asks readers to _________ a clear distinction between recorded observations and the conclusions drawn from them.",
+    "choices": ["do", "place", "draw", "bring"],
+    "answer": "draw",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "collocations",
+    "explanation": {
+      "vocabulary": "An observation records what was noticed. A conclusion is an interpretation of that information.",
+      "grammar": "After 'to', all four base verbs fit the position. The fixed expression determines the answer.",
+      "usage": "Use 'draw a distinction between' to separate two concepts. 'Do', 'place' and 'bring' do not form this expression.",
+      "example": "The handbook draws a distinction between a complaint and a request for information."
+    }
+  },
+  {
+    "question": "The training program helps apprentices _________ practical experience before they work without supervision.",
+    "choices": ["gain", "win", "catch", "reach"],
+    "answer": "gain",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "collocations",
+    "explanation": {
+      "vocabulary": "An apprentice learns a skilled job through training. Practical experience comes from doing actual work.",
+      "grammar": "'Helps apprentices' can be followed by a base verb. The choice therefore depends on the noun 'experience'.",
+      "usage": "Use 'gain practical experience'. People win prizes, catch objects and reach goals, but these verbs do not fit this expression.",
+      "example": "Students gain practical experience by helping to organize the annual exhibition."
+    }
+  },
+  {
+    "question": "A sudden rise in orders has put considerable _________ on the workshop's limited production capacity.",
+    "choices": ["strength", "weight", "force", "pressure"],
+    "answer": "pressure",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "collocations",
+    "explanation": {
+      "vocabulary": "Production capacity is the amount a workshop can produce. Pressure here means a demand that is difficult to meet.",
+      "grammar": "'Put' takes the noun 'pressure', followed by 'on' to identify what is affected.",
+      "usage": "Use 'put pressure on a system or service'. 'Strength', 'weight' and 'force' do not express increased demand in this construction.",
+      "example": "The festival put pressure on the town's transport services."
+    }
+  },
+  {
+    "question": "The tenants have asked the owner to _________ responsibility for repairing the shared staircase.",
+    "choices": ["make", "take", "put", "set"],
+    "answer": "take",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "collocations",
+    "explanation": {
+      "vocabulary": "Tenants rent a property. A shared staircase is used by people from more than one home or office.",
+      "grammar": "The base verb follows 'to'. 'Responsibility for' is followed by the activity 'repairing'.",
+      "usage": "Use 'take responsibility for doing something' when accepting a duty. 'Make', 'put' and 'set' do not fit this expression.",
+      "example": "The organizer took responsibility for checking every registration."
+    }
+  },
+  {
+    "question": "The unusually low response rate _________ doubt on the claim that the survey represents all residents.",
+    "choices": ["sheds", "casts", "lends", "pays"],
+    "answer": "casts",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "collocations",
+    "explanation": {
+      "vocabulary": "A response rate is the proportion of people who reply. Doubt is uncertainty about whether a claim is reliable.",
+      "grammar": "The singular subject 'rate' agrees with each verb. The noun and preposition determine the correct combination.",
+      "usage": "Use 'cast doubt on'. Compare 'shed light on', 'lend support to' and 'pay attention to'. These expressions use different nouns.",
+      "example": "The missing records cast doubt on the accuracy of the published total."
+    }
+  },
+  {
+    "question": "Before endorsing the proposal, the panel decided to _________ stock of the evidence gathered so far and identify what was still missing.",
+    "choices": ["hold", "make", "keep", "take"],
+    "answer": "take",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "collocations",
+    "explanation": {
+      "vocabulary": "To endorse a proposal is to support it. To take stock means to review a situation carefully.",
+      "grammar": "The expression 'take stock of' is followed by the subject being reviewed, here 'the evidence'.",
+      "usage": "'Take stock of' means assess what is available. 'Keep' and 'hold stock' concern supplies for sale. 'Make stock' has a different meaning.",
+      "example": "Before planning another expedition, the team took stock of its equipment and funds."
+    }
+  },
+  {
+    "question": "The reviewer _________ exception to the claim that the team had ignored contrary evidence and demanded a correction.",
+    "choices": ["took", "made", "gave", "held"],
+    "answer": "took",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "collocations",
+    "explanation": {
+      "vocabulary": "Contrary evidence conflicts with a claim. To take exception to something is to object to it.",
+      "grammar": "The past form 'took' fits the completed actions. The following preposition 'to' belongs to the fixed expression.",
+      "usage": "'Take exception to a claim' means object to it. 'Make an exception' allows a special case. 'Give' and 'hold' do not fit here.",
+      "example": "The author took exception to the suggestion that her sources had not been checked."
+    }
+  },
+  {
+    "question": "The subsidy was intended to _________ the financial burden on households without changing the price paid to suppliers.",
+    "choices": ["aggregate", "aggravate", "alleviate", "allocate"],
+    "answer": "alleviate",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "collocations",
+    "explanation": {
+      "vocabulary": "A subsidy provides financial support. A financial burden is a cost that is difficult to bear.",
+      "grammar": "Each choice is a base verb after 'to'. The intended reduction in difficulty selects 'alleviate'.",
+      "usage": "'Alleviate a burden' means make it less severe. 'Aggravate' means worsen. 'Aggregate' means combine. 'Allocate' means assign resources.",
+      "example": "The travel allowance helped alleviate the cost of attending the training course."
+    }
+  },
+  {
+    "question": "The court's ruling established a _________: later judges could refer to this earlier decision when considering similar cases.",
+    "choices": ["prerequisite", "presumption", "prescription", "precedent"],
+    "answer": "precedent",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "collocations",
+    "explanation": {
+      "vocabulary": "A ruling is an official court decision. A precedent is an earlier decision used to guide later decisions.",
+      "grammar": "All four choices are singular nouns after 'a'. The explanation after the colon identifies the required meaning.",
+      "usage": "Use 'establish a precedent'. A prerequisite is a prior requirement. A presumption is an assumption. A prescription gives instructions or a remedy.",
+      "example": "The agreement established a precedent for handling similar requests."
+    }
+  },
+  {
+    "question": "The minister's explanation failed to _________ the concerns raised by residents about the proposed flight path.",
+    "choices": ["allay", "allege", "allot", "allude"],
+    "answer": "allay",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "collocations",
+    "explanation": {
+      "vocabulary": "A flight path is the route an aircraft follows. To allay concerns is to reduce people's worries.",
+      "grammar": "'Allay' takes the direct object 'concerns'. 'Allude' would need 'to' and would mean refer indirectly.",
+      "usage": "Use 'allay concerns or fears'. 'Allege' means claim without proof. 'Allot' means assign a share. Neither expresses reassurance.",
+      "example": "The detailed safety demonstration helped allay visitors' concerns."
+    }
+  },
+  {
+    "question": "The researchers denied _________ the survey results to favor the sponsor.",
+    "choices": ["to have changed", "having changed", "have changed", "having been changed"],
+    "answer": "having changed",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "verb patterns",
+    "explanation": {
+      "vocabulary": "A sponsor supports a project. To favor someone here means to give them an unfair advantage.",
+      "grammar": "'Deny' takes a noun or an 'ing' form. 'Having changed' refers to an earlier action performed by the researchers.",
+      "usage": "'To have changed' and 'have changed' do not fit after 'denied'. 'Having been changed' is passive and cannot take 'the survey results' as its object.",
+      "example": "The manager denied having approved the payment."
+    }
+  },
+  {
+    "question": "The residents objected to _________ the public garden into a private parking area.",
+    "choices": ["turn", "have turned", "be turned", "turning"],
+    "answer": "turning",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "verb patterns",
+    "explanation": {
+      "vocabulary": "Residents live in an area. To turn something into something else is to change its use or form.",
+      "grammar": "In 'object to', 'to' is a preposition. An activity following it uses an 'ing' form.",
+      "usage": "Use 'object to doing something'. 'Turn', 'have turned' and 'be turned' are not the required forms after this preposition.",
+      "example": "Parents objected to closing the playground during the school holiday."
+    }
+  },
+  {
+    "question": "The internship enabled students _________ classroom theory to actual design problems.",
+    "choices": ["to apply", "applying", "applied", "apply"],
+    "answer": "to apply",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "verb patterns",
+    "explanation": {
+      "vocabulary": "An internship provides supervised work experience. To apply a theory is to use it in practice.",
+      "grammar": "The pattern is 'enable someone to do something'. The object 'students' is followed by a 'to' infinitive.",
+      "usage": "Use 'enable students to apply knowledge'. The bare form 'apply', the 'ing' form and 'applied' do not fit this pattern.",
+      "example": "The grant enabled the school to replace its outdated equipment."
+    }
+  },
+  {
+    "question": "The museum credited the volunteers _________ saving hundreds of photographs after the flood.",
+    "choices": ["of", "from", "with", "on"],
+    "answer": "with",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "verb patterns",
+    "explanation": {
+      "vocabulary": "To credit someone with an achievement is to recognize their contribution to it.",
+      "grammar": "The pattern is 'credit someone with doing something'. 'With' introduces the activity 'saving'.",
+      "usage": "Use 'credit the team with the discovery'. 'Of', 'from' and 'on' do not connect the people to their achievement in this construction.",
+      "example": "The director credited the assistants with finding the missing documents."
+    }
+  },
+  {
+    "question": "The organizer regrets _________ the event so early, since many people could have attended on a later date.",
+    "choices": ["to schedule", "be scheduled", "scheduling", "have schedule"],
+    "answer": "scheduling",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "verb patterns",
+    "explanation": {
+      "vocabulary": "To regret a decision is to feel sorry about it. Scheduling sets the date or time of an event.",
+      "grammar": "'Regret doing' refers to an action already taken. The reference to people who could have attended establishes this past meaning.",
+      "usage": "'Regret to' commonly introduces unwelcome news. 'Be scheduled' does not fit after 'regrets', and 'have schedule' is not a valid perfect form.",
+      "example": "She regretted declining the invitation after learning who would be speaking."
+    }
+  },
+  {
+    "question": "To avoid interrupting filming again, the director reminded the crew to stop _________ their phones until the scene was finished.",
+    "choices": ["checking", "to check", "checked", "check"],
+    "answer": "checking",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "verb patterns",
+    "explanation": {
+      "vocabulary": "A film crew works on a production. To interrupt an activity is to stop its progress temporarily.",
+      "grammar": "'Stop checking' means end the activity of checking. The instruction is to avoid further interruptions.",
+      "usage": "'Stop to check' means pause another activity in order to check, which conflicts with the instruction. 'Checked' and bare 'check' do not fit here.",
+      "example": "The speaker asked the audience to stop talking while the recording played."
+    }
+  },
+  {
+    "question": "The gallery had the damaged frames _________ by a local craftsperson before the exhibition reopened.",
+    "choices": ["repairing", "to repair", "repair", "repaired"],
+    "answer": "repaired",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "verb patterns",
+    "explanation": {
+      "vocabulary": "A frame surrounds a picture. A craftsperson makes or repairs objects using skilled manual work.",
+      "grammar": "'Have something done' describes arranging work. The frames receive the repair, and the phrase with 'by' names the worker.",
+      "usage": "Use 'have the frames repaired'. 'Repair' and 'repairing' would make the frames perform an action. 'To repair' does not fit this causative pattern.",
+      "example": "The school had the concert piano tuned before the recital."
+    }
+  },
+  {
+    "question": "The director would rather the figures _________ independently before any conclusions are published.",
+    "choices": ["have checked", "were checked", "are checking", "would check"],
+    "answer": "were checked",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "verb patterns",
+    "explanation": {
+      "vocabulary": "Figures are numerical information. An independent check is performed without relying on the original calculation.",
+      "grammar": "After 'would rather' with a different subject, a past form can express a present or future preference. The figures require passive voice.",
+      "usage": "'Were checked' expresses the preferred check. 'Have checked', 'are checking' and 'would check' are active forms that make the figures perform the checking.",
+      "example": "The editor would rather the quotations were verified before the article goes online."
+    }
+  },
+  {
+    "question": "The laboratory director insisted on the samples _________ in sealed containers during tomorrow's journey.",
+    "choices": ["being kept", "to be kept", "having kept", "keep"],
+    "answer": "being kept",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "verb patterns",
+    "explanation": {
+      "vocabulary": "A sealed container is securely closed. The samples are the materials being transported for examination.",
+      "grammar": "'On' takes an 'ing' construction. The samples receive the action, so the passive form 'being kept' is needed.",
+      "usage": "'To be kept' and 'keep' do not fit after 'on'. 'Having kept' is active and refers to an earlier action, not tomorrow's handling of the samples.",
+      "example": "The owner insisted on the paintings being covered while the room was decorated."
+    }
+  },
+  {
+    "question": "The missing scholarship application is believed _________ in the wrong folder during the office move last spring.",
+    "choices": ["to file", "having been filed", "to have been filed", "to have filed"],
+    "answer": "to have been filed",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "verb patterns",
+    "explanation": {
+      "vocabulary": "A scholarship application requests support for study. To file a document is to place it in an organized record system.",
+      "grammar": "'Is believed' takes a 'to' infinitive. The filing happened earlier, and the application received the action, requiring a perfect passive infinitive.",
+      "usage": "Use 'is believed to have been filed'. 'Having been filed' lacks the required infinitive. 'To file' and 'to have filed' wrongly make the application the agent.",
+      "example": "The original receipt is believed to have been sent to the former address."
+    }
+  },
+  {
+    "question": "The panel questioned the _________ of the findings because the researchers had not repeated the experiment.",
+    "choices": ["reliably", "reliable", "reliance", "reliability"],
+    "answer": "reliability",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "word formation",
+    "explanation": {
+      "vocabulary": "Findings are the results of an investigation. Reliability concerns whether results can be trusted to remain consistent.",
+      "grammar": "The article 'the' and following 'of' phrase call for a noun. 'Reliability' names the quality being questioned.",
+      "usage": "Use 'the reliability of findings'. 'Reliance' means dependence and usually takes 'on'. 'Reliable' is an adjective, and 'reliably' is an adverb.",
+      "example": "Repeating the measurements helped establish the reliability of the results."
+    }
+  },
+  {
+    "question": "Candidates must show that they can work _________, without needing instructions for every small decision.",
+    "choices": ["independent", "independently", "independence", "dependence"],
+    "answer": "independently",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "word formation",
+    "explanation": {
+      "vocabulary": "To work independently is to complete tasks without constant direction from someone else.",
+      "grammar": "The blank describes how candidates work, so it needs an adverb rather than an adjective or noun.",
+      "usage": "Use 'work independently'. 'Independent' describes a person or organization. 'Independence' and 'dependence' are nouns naming different relationships.",
+      "example": "After the initial training, volunteers can complete the catalog entries independently."
+    }
+  },
+  {
+    "question": "The field guide gives a clear _________ of how to distinguish the two closely related bird species.",
+    "choices": ["explain", "explained", "explanation", "explanatory"],
+    "answer": "explanation",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "word formation",
+    "explanation": {
+      "vocabulary": "A field guide helps people identify things outdoors. To distinguish two species is to recognize the differences between them.",
+      "grammar": "'A clear' requires a singular countable noun. 'Explanation' names the information provided by the guide.",
+      "usage": "Use 'an explanation of how something works'. 'Explain' is a verb, 'explained' is a verb form, and 'explanatory' is an adjective.",
+      "example": "The manual includes an explanation of how the locking mechanism works."
+    }
+  },
+  {
+    "question": "The regulator rejected the company's claim that the missing records were _________, noting that they were essential to the investigation.",
+    "choices": ["irrelevant", "relevance", "relevantly", "relevant"],
+    "answer": "irrelevant",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "word formation",
+    "explanation": {
+      "vocabulary": "A regulator checks whether organizations follow rules. Relevant records have a direct connection to the matter being investigated.",
+      "grammar": "The blank needs an adjective after 'were'. The company claimed the records did not matter, and the regulator rejected that claim.",
+      "usage": "'Irrelevant' carries the rejected negative meaning. 'Relevant' would contradict the stated disagreement. 'Relevance' is a noun, and 'relevantly' is an adverb.",
+      "example": "The editor rejected the claim that the disputed dates were irrelevant to the story."
+    }
+  },
+  {
+    "question": "Far from being a reliable guide to future demand, the model proved _________ because it excluded every customer who had canceled an order.",
+    "choices": ["mislead", "misleadingly", "misled", "misleading"],
+    "answer": "misleading",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "word formation",
+    "explanation": {
+      "vocabulary": "A misleading model creates a false impression. Excluding certain customers can limit the information available for a prediction.",
+      "grammar": "'Proved' links the subject to a describing word. The model causes a mistaken impression, so the 'ing' adjective is appropriate.",
+      "usage": "'Misled' describes someone who receives a false impression. 'Mislead' is a base verb. 'Misleadingly' is an adverb and cannot complete this linking construction alone.",
+      "example": "The map proved misleading because the main entrance had moved."
+    }
+  },
+  {
+    "question": "The charity requires assessors to declare personal relationships that could compromise their _________ when judging grant applications.",
+    "choices": ["partiality", "impartiality", "impartially", "impartial"],
+    "answer": "impartiality",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "word formation",
+    "explanation": {
+      "vocabulary": "An assessor evaluates an application. Impartiality means judging fairly without favoring someone because of a personal connection.",
+      "grammar": "The possessive 'their' needs a noun. The required quality is the fairness that personal ties could undermine, rather than bias itself.",
+      "usage": "Use 'compromise someone's impartiality'. 'Partiality' means bias in favor of one side. 'Impartial' is an adjective, and 'impartially' is an adverb.",
+      "example": "The judge disclosed the connection to protect the impartiality of the process."
+    }
+  },
+  {
+    "question": "The agency's refusal to release the raw figures prevented independent _________, the process of repeating its calculations to check whether they were correct.",
+    "choices": ["verifiable", "verify", "verification", "verifiability"],
+    "answer": "verification",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "word formation",
+    "explanation": {
+      "vocabulary": "Raw figures are the original numerical records. Verification is the process of checking whether information is correct.",
+      "grammar": "The adjective 'independent' needs a following noun. The definition after the comma names a process rather than the ability to perform it.",
+      "usage": "'Verification' is the checking process. 'Verifiability' is the ability to be checked. 'Verifiable' is an adjective, and 'verify' is a verb.",
+      "example": "The missing receipts made independent verification of the expenses difficult."
+    }
+  },
+  {
+    "question": "The manufacturer accepted liability after an investigation found that the breakdown had been _________ rather than unavoidable.",
+    "choices": ["preventable", "prevented", "preventing", "prevention"],
+    "answer": "preventable",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "word formation",
+    "explanation": {
+      "vocabulary": "Liability is legal responsibility for a loss or problem. Preventable means that action could have stopped something from happening.",
+      "grammar": "The contrast with 'unavoidable' requires an adjective about possibility. The breakdown occurred, so 'prevented' cannot describe it as successfully stopped.",
+      "usage": "'Preventable' describes a problem that could have been avoided. 'Preventing' expresses an active process. 'Prevention' is the noun for stopping problems.",
+      "example": "The review identified several preventable delays in the approval process."
+    }
+  },
+  {
+    "question": "Although it followed sales for only one week, the report claimed to prove a permanent change in customer behavior, an _________ of what its evidence could support.",
+    "choices": ["understated", "overstated", "understatement", "overstatement"],
+    "answer": "overstatement",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "word formation",
+    "explanation": {
+      "vocabulary": "An overstatement makes a claim stronger than the evidence supports. A permanent change is expected to last.",
+      "grammar": "The article 'an' needs a noun. Limited observations are being used to make an excessively strong claim, requiring the prefix 'over'.",
+      "usage": "'Understatement' makes something seem less significant. 'Overstated' and 'understated' are describing or verb forms, not the noun required here.",
+      "example": "Calling the trial a complete success was an overstatement of the mixed results."
+    }
+  },
+  {
+    "question": "Repeatedly concealing extra charges made the company's promises less _________, even though its products were well made.",
+    "choices": ["credulity", "credibly", "credible", "credulous"],
+    "answer": "credible",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "word formation",
+    "explanation": {
+      "vocabulary": "To conceal a charge is to hide it. Credible promises are believable. Product quality and trust in a company's claims are separate matters.",
+      "grammar": "'Made the promises less credible' uses an adjective to describe the object. The promises are being judged for believability.",
+      "usage": "'Credulous' describes a person who believes too readily. 'Credibly' is an adverb. 'Credulity' is the noun for that tendency to believe.",
+      "example": "The absence of supporting documents made the explanation less credible."
+    }
+  },
+  {
+    "question": "The coordinator asked whether _________ before the doors opened.",
+    "choices": ["had the alarm been tested", "the alarm had been tested", "the alarm been had tested", "had been the alarm tested"],
+    "answer": "the alarm had been tested",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "clauses",
+    "explanation": {
+      "vocabulary": "A coordinator organizes activities. Testing an alarm checks whether it works before a building is used.",
+      "grammar": "An indirect question after 'whether' uses statement order: subject, auxiliary verbs and main verb. The earlier test uses past perfect passive.",
+      "usage": "'Had the alarm been tested?' is direct question order. The other two choices place the auxiliary verbs or subject incorrectly.",
+      "example": "The manager asked whether the room had been cleaned before the visitors arrived."
+    }
+  },
+  {
+    "question": "Under the current system, the list of courses available to exchange students _________ updated automatically whenever a course is added.",
+    "choices": ["are", "have", "being", "is"],
+    "answer": "is",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "clauses",
+    "explanation": {
+      "vocabulary": "An exchange student studies temporarily at another institution. An automatic update happens without someone editing the list by hand.",
+      "grammar": "The subject is the singular noun 'list', not the plural nouns 'courses' or 'students'. 'Is updated' is present passive.",
+      "usage": "'Are' would need a plural subject. 'Have updated' is active and does not agree with 'list'. 'Being updated' still needs a helping verb to complete the sentence.",
+      "example": "The schedule of activities is updated whenever a booking changes."
+    }
+  },
+  {
+    "question": "The candidate _________ portfolio included several community projects was invited to explain her design process.",
+    "choices": ["whose", "whom", "which", "who"],
+    "answer": "whose",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "clauses",
+    "explanation": {
+      "vocabulary": "A portfolio is a collection showing someone's work. A design process explains how an idea develops into a finished plan.",
+      "grammar": "The relative clause needs a possessive form before 'portfolio'. 'Whose' links the candidate to her work.",
+      "usage": "'Who' and 'whom' stand for a person rather than showing possession before a noun. 'Which' cannot express this ownership relationship.",
+      "example": "The student whose proposal won the competition will present it at the conference."
+    }
+  },
+  {
+    "question": "Had the revised specifications reached the factory a day earlier, the faulty components _________ before shipment.",
+    "choices": ["would replace", "will have been replaced", "would have been replaced", "had been replacing"],
+    "answer": "would have been replaced",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "clauses",
+    "explanation": {
+      "vocabulary": "Specifications describe requirements for a product. Faulty components are parts that do not work correctly.",
+      "grammar": "'Had the specifications reached' means 'if the specifications had reached'. The unreal past result needs 'would have' and passive voice.",
+      "usage": "The components receive replacement. 'Would replace' and 'had been replacing' are active. 'Will have been replaced' predicts a future completion instead of an unreal past result.",
+      "example": "Had the mistake been noticed sooner, the incorrect labels would have been removed before dispatch."
+    }
+  },
+  {
+    "question": "Not until the second set of measurements was available _________ how far the shoreline had moved.",
+    "choices": ["the team realized", "the team had realized", "had realized the team", "did the team realize"],
+    "answer": "did the team realize",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "clauses",
+    "explanation": {
+      "vocabulary": "A shoreline is the boundary between land and water. Comparing measurements can reveal a change in its position.",
+      "grammar": "A fronted 'not until' phrase requires auxiliary and subject inversion in the main clause. 'Did' is followed by the base verb 'realize'.",
+      "usage": "The two choices beginning 'the team' retain statement order. 'Had realized the team' places the subject after the main verb rather than after the auxiliary.",
+      "example": "Not until the archive reopened did historians gain access to the original letters."
+    }
+  },
+  {
+    "question": "The three applications, none of _________ included the required consent form, were returned without review.",
+    "choices": ["them", "which", "whose", "that"],
+    "answer": "which",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "clauses",
+    "explanation": {
+      "vocabulary": "A consent form records permission. Returning an application without review means it was not assessed.",
+      "grammar": "The inserted relative clause needs 'none of which' to refer back to the applications while keeping the main sentence intact.",
+      "usage": "'Them' would make a separate clause that cannot interrupt the main sentence this way. 'Whose' needs a following noun. 'That' does not fit after 'of' here.",
+      "example": "The proposals, none of which included a budget, were sent back for revision."
+    }
+  },
+  {
+    "question": "The fieldwork _________ by a local survey team, the researchers were able to analyze the samples before winter.",
+    "choices": ["having completed", "has completed", "having been completed", "was completing"],
+    "answer": "having been completed",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "clauses",
+    "explanation": {
+      "vocabulary": "Fieldwork gathers information outside an office or laboratory. The survey team collected the material that the researchers later analyzed.",
+      "grammar": "The opening construction has its own subject, 'the fieldwork'. Perfect passive 'having been completed' shows that this work was finished first.",
+      "usage": "'Having completed' makes the fieldwork perform an action. 'Has completed' and 'was completing' would leave two complete statements joined only by a comma.",
+      "example": "The repairs having been completed by Friday, the hall reopened for the weekend."
+    }
+  },
+  {
+    "question": "The more carefully the figures were checked before publication, _________ errors appeared in the final report.",
+    "choices": ["the fewer", "the less", "fewer than", "less than"],
+    "answer": "the fewer",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "clauses",
+    "explanation": {
+      "vocabulary": "Publication makes a report available to readers. Checking figures before publication can prevent mistakes in the final version.",
+      "grammar": "The paired comparative pattern is 'the more ... the fewer ...'. 'Errors' is a plural countable noun, so formal English uses 'fewer'.",
+      "usage": "'The less' fits quantities described by uncountable nouns. 'Fewer than' and 'less than' introduce comparisons and do not complete this paired construction.",
+      "example": "The more thoroughly the route was planned, the fewer delays the drivers encountered."
+    }
+  },
+  {
+    "question": "The report recommends that every change to the sampling method _________ in the final appendix.",
+    "choices": ["records", "is recording", "has recorded", "be recorded"],
+    "answer": "be recorded",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "clauses",
+    "explanation": {
+      "vocabulary": "A sampling method determines how cases are selected. An appendix gives supporting information at the end of a document.",
+      "grammar": "A recommendation can use 'that' followed by the base form 'be'. The changes receive the recording, requiring the passive 'be recorded'.",
+      "usage": "'Records', 'is recording' and 'has recorded' are active forms. They wrongly make each change perform the act of recording.",
+      "example": "The policy recommends that every exception be explained in writing."
+    }
+  },
+  {
+    "question": "So extensive _________ that the entire collection had to be moved to temporary storage.",
+    "choices": ["the damage was", "was the damage", "damage to be", "being the damage"],
+    "answer": "was the damage",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "clauses",
+    "explanation": {
+      "vocabulary": "Extensive damage affects a large area or many objects. Temporary storage holds items until their usual location becomes available again.",
+      "grammar": "Fronting 'so' plus an adjective creates inversion: 'So extensive was the damage that ...'. The result follows in the 'that' clause.",
+      "usage": "'The damage was' fits the ordinary order 'The damage was so extensive'. The other choices lack a finite main verb in the required position.",
+      "example": "So strong was the demand that the organizers added an extra performance."
+    }
+  },
+  {
+    "question": "_________ the warning had been issued several days earlier, the contractors continued to use the damaged ladder.",
+    "choices": ["Despite", "Because of", "Although", "In spite of"],
+    "answer": "Although",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "linking words",
+    "explanation": {
+      "vocabulary": "A contractor performs agreed work for a customer. To issue a warning is to formally tell people about a problem or danger.",
+      "grammar": "The blank introduces a complete clause with the subject 'the warning' and verb phrase 'had been issued'. 'Although' can introduce that clause.",
+      "usage": "'Although' signals an unexpected contrast. 'Despite', 'because of' and 'in spite of' require a noun phrase or an 'ing' construction, not this full clause.",
+      "example": "Although the opening date had been announced, several rooms were still unfinished."
+    }
+  },
+  {
+    "question": "The coach postponed the outdoor session _________ the forecast of lightning near the training ground.",
+    "choices": ["because of", "although", "unless", "whereas"],
+    "answer": "because of",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "linking words",
+    "explanation": {
+      "vocabulary": "To postpone a session is to move it to a later time. A forecast predicts conditions that may occur.",
+      "grammar": "'The forecast of lightning' is a noun phrase. 'Because of' introduces this phrase as the reason for the postponement.",
+      "usage": "'Although', 'unless' and 'whereas' normally introduce clauses with a subject and verb. They cannot introduce this reason as written.",
+      "example": "The outdoor concert was postponed because of the heavy rain."
+    }
+  },
+  {
+    "question": "The seed bank stores copies at two separate sites _________ reduce the risk of losing the entire collection in one accident.",
+    "choices": ["so that", "in case", "even though", "in order to"],
+    "answer": "in order to",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "linking words",
+    "explanation": {
+      "vocabulary": "A seed bank preserves seeds. Keeping copies at separate sites is intended to protect the collection.",
+      "grammar": "'In order to' is followed by the base verb 'reduce' to express purpose.",
+      "usage": "'So that', 'in case' and 'even though' require a clause rather than the bare verb phrase that follows the blank.",
+      "example": "The archive keeps a second copy off site in order to protect against loss."
+    }
+  },
+  {
+    "question": "The first trial focused solely on safety, _________ the second focused solely on effectiveness.",
+    "choices": ["unless", "whereas", "so that", "provided that"],
+    "answer": "whereas",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "linking words",
+    "explanation": {
+      "vocabulary": "Solely means only. Safety and effectiveness are different questions that a trial may investigate.",
+      "grammar": "Both sides of the comma are complete clauses. 'Whereas' connects them to contrast their different purposes.",
+      "usage": "'Unless' and 'provided that' set conditions. 'So that' expresses purpose or result. The sentence compares two actual aims rather than setting a condition or goal.",
+      "example": "The first survey examined commuting time, whereas the second examined commuting costs."
+    }
+  },
+  {
+    "question": "The town's flood plan includes a temporary shelter _________ residents should need to leave their homes at short notice.",
+    "choices": ["in case of", "on account of", "in case", "with a view to"],
+    "answer": "in case",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "linking words",
+    "explanation": {
+      "vocabulary": "A shelter provides a place to stay safely. At short notice means with little time to prepare.",
+      "grammar": "'In case' introduces the complete clause 'residents should need ...'. Here 'should' expresses a possible future situation.",
+      "usage": "'In case of' and 'on account of' take noun phrases. 'With a view to' takes a noun or an 'ing' form. None fits the full clause here.",
+      "example": "A spare room is available in case any visitor should need to stay overnight."
+    }
+  },
+  {
+    "question": "The editor accepted the essay _________ the author removed the passages that disclosed private information.",
+    "choices": ["in spite of", "on condition that", "in order to", "regardless of"],
+    "answer": "on condition that",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "linking words",
+    "explanation": {
+      "vocabulary": "A passage is a section of writing. To disclose private information is to make it known to other people.",
+      "grammar": "The phrase 'on condition that' introduces a full clause naming a requirement attached to the acceptance.",
+      "usage": "'In spite of' and 'regardless of' take noun phrases. 'In order to' requires a base verb. The following subject and past verb need a clause connector.",
+      "example": "The owner agreed to lend the painting on condition that it was insured."
+    }
+  },
+  {
+    "question": "The initial estimate did not include storage fees. _________, the final invoice was higher even though the basic service price had not changed.",
+    "choices": ["Alternatively", "Conversely", "Nevertheless", "Consequently"],
+    "answer": "Consequently",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "linking words",
+    "explanation": {
+      "vocabulary": "An estimate predicts a cost. An invoice requests payment for the actual goods or services provided.",
+      "grammar": "Each choice can introduce a sentence with a following comma. The relationship between the two statements determines the answer.",
+      "usage": "'Consequently' introduces the result of the omitted fees. 'Nevertheless' signals contrast, 'conversely' reverses a relationship, and 'alternatively' introduces another option.",
+      "example": "The shipment required extra packaging. Consequently, the delivery charge exceeded the estimate."
+    }
+  },
+  {
+    "question": "_________ you agree with its recommendations or not, the report provides a useful summary of the available evidence.",
+    "choices": ["Whether", "Unless", "Provided", "Although"],
+    "answer": "Whether",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "linking words",
+    "explanation": {
+      "vocabulary": "A recommendation proposes an action. A summary presents the main points of a larger body of information.",
+      "grammar": "'Whether ... or not' includes both possibilities. The main statement remains true in either case.",
+      "usage": "Use 'whether you agree or not' for a concession covering both outcomes. 'Unless', 'provided' and 'although' do not form this paired expression.",
+      "example": "Whether the proposal is accepted or not, the survey results will be published."
+    }
+  },
+  {
+    "question": "_________ only a small fraction of the records had been examined, the committee considered a final verdict premature.",
+    "choices": ["Owing to", "In addition to", "Given that", "Regardless of"],
+    "answer": "Given that",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "linking words",
+    "explanation": {
+      "vocabulary": "A fraction is a part of a whole. A premature verdict is a judgment made before enough information is available.",
+      "grammar": "'Given that' introduces a full clause as a reason for the judgment in the main clause.",
+      "usage": "'Owing to', 'in addition to' and 'regardless of' require noun phrases or 'ing' constructions. They cannot directly introduce the complete clause as written.",
+      "example": "Given that several witnesses had not been interviewed, the inquiry remained open."
+    }
+  },
+  {
+    "question": "Under a policy that allows public access only after all participants have consented, the records must remain private _________ the final signature has been collected.",
+    "choices": ["once", "until", "whenever", "because"],
+    "answer": "until",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "linking words",
+    "explanation": {
+      "vocabulary": "Consent is permission. The final signature completes the set of permissions required for public access.",
+      "grammar": "'Until' marks the point up to which the records must remain private. The present perfect describes the completion that permits a later change.",
+      "usage": "'Once' and 'whenever' would start the privacy requirement after signatures were collected. 'Because' would make completed consent the reason for withholding access.",
+      "example": "The recordings must remain confidential until every speaker has approved their release."
+    }
+  },
+  {
+    "question": "The bakery installed a more _________ oven to reduce its electricity bill without lowering daily output.",
+    "choices": ["economic", "economy", "economically", "economical"],
+    "answer": "economical",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "word choice",
+    "explanation": {
+      "vocabulary": "An economical appliance uses resources efficiently. Output is the amount produced in a period.",
+      "grammar": "The noun 'oven' needs an adjective. The reference to electricity costs selects the meaning of saving resources.",
+      "usage": "'Economic' usually concerns the economy. 'Economy' is a noun, and 'economically' is an adverb. Use 'an economical oven' for one that costs less to run.",
+      "example": "The new heating system is more economical because it uses less fuel."
+    }
+  },
+  {
+    "question": "The exhibition pairs maps with recorded interviews because the two sources _________ each other, offering different kinds of evidence about the same journeys.",
+    "choices": ["compliment", "complement", "compensate", "compel"],
+    "answer": "complement",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "word choice",
+    "explanation": {
+      "vocabulary": "To complement something is to add features that make it more useful or complete. Maps and interviews can provide different information.",
+      "grammar": "The plural subject 'sources' takes a base verb. The intended meaning is that the sources support one another's usefulness.",
+      "usage": "'Compliment' means praise. 'Compensate' concerns repayment or making up for a loss. 'Compel' means force. None describes these sources working together.",
+      "example": "The photographs complement the written accounts by showing details that the text cannot convey."
+    }
+  },
+  {
+    "question": "The campus library will _________ students a tablet free of charge for up to two weeks, after which it must be returned.",
+    "choices": ["lend", "borrow", "owe", "donate"],
+    "answer": "lend",
+    "difficulty": "intermediate",
+    "review": "eligible",
+    "category": "word choice",
+    "explanation": {
+      "vocabulary": "To lend an item is to let someone use it temporarily. Free of charge means without payment.",
+      "grammar": "The library provides the tablet, and 'students' names the recipients. 'Lend someone something' fits these roles.",
+      "usage": "Students borrow from the library. 'Owe' describes a debt. 'Donate' transfers ownership, which conflicts with the requirement to return the tablet.",
+      "example": "The department lends visiting researchers a key while they are working on campus."
+    }
+  },
+  {
+    "question": "The supervisor's task is to _________ the agreed changes, putting the new procedure into operation rather than merely influencing how others design it.",
+    "choices": ["affect", "reflect", "effect", "deflect"],
+    "answer": "effect",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "word choice",
+    "explanation": {
+      "vocabulary": "As a verb, 'effect' means bring about or put into practice. A procedure is an agreed way of carrying out work.",
+      "grammar": "The blank needs a base verb after 'to'. The explanation that follows specifies implementation rather than influence.",
+      "usage": "'Effect changes' means bring them about. 'Affect' means influence, 'reflect' means represent, and 'deflect' means turn aside or divert.",
+      "example": "The new team was given authority to effect the necessary changes."
+    }
+  },
+  {
+    "question": "The panel accepted that the bridge could be built, so the design was technically _________, even though the cost made it a poor investment.",
+    "choices": ["profitable", "valuable", "preferable", "feasible"],
+    "answer": "feasible",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "word choice",
+    "explanation": {
+      "vocabulary": "Feasible means possible to carry out. Technical possibility and financial benefit are different considerations.",
+      "grammar": "All four choices are adjectives. The clause 'could be built' defines the relevant quality, while the final clause excludes a financial endorsement.",
+      "usage": "'Profitable' concerns financial gain. 'Valuable' concerns worth. 'Preferable' compares alternatives. Only 'feasible' directly describes whether construction is possible.",
+      "example": "The conversion was technically feasible, but the owners decided it was too expensive."
+    }
+  },
+  {
+    "question": "The report does not state that the older samples were contaminated. That is the reader's _________ from the unexpectedly high readings, not an explicit claim by the authors.",
+    "choices": ["inference", "implication", "indication", "intention"],
+    "answer": "inference",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "word choice",
+    "explanation": {
+      "vocabulary": "An inference is a conclusion reached from evidence. An explicit claim is stated directly rather than left for a reader to work out.",
+      "grammar": "The possessive 'reader's' identifies the person drawing the conclusion. 'From the readings' names the evidence used.",
+      "usage": "A reader makes an inference. An implication is a suggested meaning, an indication is a sign, and an intention is a purpose or plan.",
+      "example": "Her inference from the empty shelves was that the delivery had not arrived."
+    }
+  },
+  {
+    "question": "Several researchers were _________ to sharing the incomplete dataset because the missing entries could lead to misleading comparisons.",
+    "choices": ["diverse", "averse", "adverse", "reverse"],
+    "answer": "averse",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "word choice",
+    "explanation": {
+      "vocabulary": "A dataset is a collection of records. Averse means unwilling or strongly opposed to an activity.",
+      "grammar": "'Averse to' describes the researchers' reluctance. The preposition 'to' is followed by the activity 'sharing'.",
+      "usage": "'Adverse' describes unfavorable effects or conditions. 'Diverse' means varied. 'Reverse' means opposite in direction or order. These do not describe the stated reluctance.",
+      "example": "The team was averse to releasing an estimate before the costs had been checked."
+    }
+  },
+  {
+    "question": "The mediator treated both sides fairly and listened closely to each argument. Her approach was _________ rather than indifferent.",
+    "choices": ["partisan", "inattentive", "impartial", "partial"],
+    "answer": "impartial",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "word choice",
+    "explanation": {
+      "vocabulary": "A mediator helps people resolve a disagreement. Impartial means fair to all sides. Indifferent means not interested or concerned.",
+      "grammar": "The adjective describes the approach established in the first sentence. Fairness and careful listening distinguish neutrality from a lack of interest.",
+      "usage": "'Partial' and 'partisan' suggest favoring one side. 'Inattentive' means not paying attention. Each conflicts with the behavior described.",
+      "example": "The chair remained impartial while giving both groups a full opportunity to speak."
+    }
+  },
+  {
+    "question": "The survey detected an _________ between commute length and reported stress, but it did not show that longer journeys caused the stress.",
+    "choices": ["assumption", "intention", "intervention", "association"],
+    "answer": "association",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "word choice",
+    "explanation": {
+      "vocabulary": "A commute is a regular journey to work or study. An association is an observed connection that does not by itself establish a cause.",
+      "grammar": "'Between' links the two measured features. The second clause limits what can be concluded about their relationship.",
+      "usage": "An assumption is accepted without proof, an intention is a plan, and an intervention is an action intended to change a situation. None names the observed connection.",
+      "example": "The researchers found an association between the two measures but did not establish causation."
+    }
+  },
+  {
+    "question": "The flaws were not _________ in the method itself. They resulted from an avoidable error in the way the sample was selected.",
+    "choices": ["inherent", "coherent", "adherent", "inheriting"],
+    "answer": "inherent",
+    "difficulty": "advanced",
+    "review": "eligible",
+    "category": "word choice",
+    "explanation": {
+      "vocabulary": "A flaw is a weakness or error. Inherent means existing as a basic part of something rather than arising from a separate mistake.",
+      "grammar": "'Inherent in' describes a quality belonging to the method itself. The negative and the second clause reject that interpretation.",
+      "usage": "'Coherent' means logically connected. 'Adherent' means sticking to something. 'Inheriting' describes receiving something from a predecessor and is not the adjective needed here.",
+      "example": "The delay was not inherent in the process. It resulted from an incorrect address."
+    }
+  },
+  {
+    "question": "The student used a _________ to make the tiny cells appear larger.",
+    "choices": ["microscope", "calendar", "keyboard", "compass"],
+    "answer": "microscope", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A microscope makes very small objects appear larger.",
+      "grammar": "Use a singular noun after 'a'.",
+      "usage": "Use a microscope to examine cells.",
+      "example": "We examined the leaf under a microscope."
+    }
+  },
+  {
+    "question": "The marked cylinder shows the _________ of liquid in milliliters.",
+    "choices": ["speed", "volume", "distance", "frequency"],
+    "answer": "volume", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "Volume is the amount of space something occupies.",
+      "grammar": "'Of liquid' describes the quantity being measured.",
+      "usage": "Milliliters express liquid volume.",
+      "example": "Record the volume before adding water."
+    }
+  },
+  {
+    "question": "To find the mass of the powder, place it on the laboratory _________.",
+    "choices": ["clock", "screen", "balance", "lens"],
+    "answer": "balance", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A laboratory balance measures mass.",
+      "grammar": "The noun follows the adjective 'laboratory'.",
+      "usage": "Place a sample on a balance.",
+      "example": "The balance displayed the mass in grams."
+    }
+  },
+  {
+    "question": "The water became cloudy. Write this _________ in your laboratory notebook.",
+    "choices": ["invitation", "password", "appointment", "observation"],
+    "answer": "observation", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "An observation records something noticed or measured.",
+      "grammar": "'This' refers to the change just described.",
+      "usage": "Record observations during an experiment.",
+      "example": "Her observation described a change in color."
+    }
+  },
+  {
+    "question": "The test tube _________ a small amount of blue liquid.",
+    "choices": ["contains", "contain", "containing", "to contain"],
+    "answer": "contains", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Contain' means to hold something inside.",
+      "grammar": "The singular subject 'tube' takes 'contains'.",
+      "usage": "Describe the contents of a container with 'contain'.",
+      "example": "The bottle contains clean water."
+    }
+  },
+  {
+    "question": "There _________ three labeled specimens on the examination tray.",
+    "choices": ["is", "are", "was", "be"],
+    "answer": "are", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A specimen is an example collected for examination.",
+      "grammar": "The plural noun 'specimens' requires 'are'.",
+      "usage": "Use 'there are' to introduce several objects.",
+      "example": "There are four rock specimens in the box."
+    }
+  },
+  {
+    "question": "A thermometer is used to _________ temperature.",
+    "choices": ["measured", "measuring", "measure", "measurement"],
+    "answer": "measure", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A thermometer is an instrument for measuring temperature.",
+      "grammar": "Use the base verb after 'used to' when describing purpose.",
+      "usage": "'Is used to' explains an instrument's function.",
+      "example": "A ruler is used to measure length."
+    }
+  },
+  {
+    "question": "Under this laboratory's rules, students must _________ gloves during the practical class.",
+    "choices": ["wears", "wearing", "wore", "wear"],
+    "answer": "wear", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "Gloves cover the hands.",
+      "grammar": "The modal verb 'must' takes a base verb.",
+      "usage": "'Must' expresses a requirement.",
+      "example": "Visitors must wear the required protective clothing."
+    }
+  },
+  {
+    "question": "When ice changes from a solid into a liquid, it _________.",
+    "choices": ["melts", "prints", "folds", "blinks"],
+    "answer": "melts", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Melt' means to change from solid to liquid.",
+      "grammar": "The singular subject 'it' takes 'melts'.",
+      "usage": "Describe this change of state with 'melt'.",
+      "example": "The ice melted into a pool of water."
+    }
+  },
+  {
+    "question": "The water in the sample tray _________ overnight and was solid by morning.",
+    "choices": ["freeze", "froze", "freezing", "frozen"],
+    "answer": "froze", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Freeze' means to become solid through cooling.",
+      "grammar": "'Froze' is the simple past form of 'freeze'.",
+      "usage": "Use the past tense for a completed event.",
+      "example": "The shallow pond froze last night."
+    }
+  },
+  {
+    "question": "Write each sample number _________ so that everyone can read it.",
+    "choices": ["clear", "clearness", "clearly", "clearing"],
+    "answer": "clearly", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A sample number identifies a particular sample.",
+      "grammar": "The adverb 'clearly' describes how to write.",
+      "usage": "Clear labels help readers identify samples.",
+      "example": "Label each diagram clearly."
+    }
+  },
+  {
+    "question": "With the stronger lens, the insect appears _________ than it did before.",
+    "choices": ["large", "largest", "largely", "larger"],
+    "answer": "larger", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A lens can change how large an object appears.",
+      "grammar": "Use the comparative 'larger' before 'than'.",
+      "usage": "Comparatives describe a difference between two views.",
+      "example": "The image looks larger through this lens."
+    }
+  },
+  {
+    "question": "The temperature was _________ in the table after each reading.",
+    "choices": ["recorded", "record", "recording", "records"],
+    "answer": "recorded", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A reading is a value shown by an instrument.",
+      "grammar": "The passive form uses 'was' and a past participle.",
+      "usage": "Record measurements in a table.",
+      "example": "Each reading was recorded in the notebook."
+    }
+  },
+  {
+    "question": "Yesterday, the class _________ the growth of a bean plant.",
+    "choices": ["observe", "observed", "observing", "observes"],
+    "answer": "observed", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Observe' means to watch something carefully.",
+      "grammar": "'Yesterday' places the action in the past.",
+      "usage": "Scientists observe changes over time.",
+      "example": "We observed the roots through the clear container."
+    }
+  },
+  {
+    "question": "A possible explanation that the students plan to test is called a _________.",
+    "choices": ["receipt", "schedule", "hypothesis", "keyboard"],
+    "answer": "hypothesis", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A hypothesis is a proposed explanation that can be tested.",
+      "grammar": "A singular noun follows 'a'.",
+      "usage": "An experiment can test a hypothesis.",
+      "example": "The class developed a hypothesis about plant growth."
+    }
+  },
+  {
+    "question": "Keep the amount of water _________ while changing the amount of light.",
+    "choices": ["noisy", "hollow", "portable", "constant"],
+    "answer": "constant", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Constant' means remaining at the same level.",
+      "grammar": "An adjective follows the object in 'keep something constant'.",
+      "usage": "Keep a condition constant during a comparison.",
+      "example": "The room temperature remained constant during the test."
+    }
+  },
+  {
+    "question": "The tray holds sand and small stones together. It contains a _________ of materials.",
+    "choices": ["mixture", "message", "minute", "mirror"],
+    "answer": "mixture", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A mixture contains different substances or materials together.",
+      "grammar": "'Of materials' describes the mixture.",
+      "usage": "Use 'mixture of' to identify combined materials.",
+      "example": "The jar contains a mixture of sand and gravel."
+    }
+  },
+  {
+    "question": "We can see the liquid through the container because its walls are _________.",
+    "choices": ["opaque", "transparent", "magnetic", "rough"],
+    "answer": "transparent", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "Transparent material allows objects behind it to be seen.",
+      "grammar": "The adjective follows 'are'.",
+      "usage": "'Opaque' describes material that blocks the view.",
+      "example": "The transparent lid lets us inspect the samples."
+    }
+  },
+  {
+    "question": "The graph shows time _________ the horizontal axis.",
+    "choices": ["at", "into", "on", "by"],
+    "answer": "on", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "An axis is a reference line on a graph.",
+      "grammar": "Use 'on' when describing values displayed on an axis.",
+      "usage": "Name the quantity shown on each axis.",
+      "example": "Temperature is shown on the vertical axis."
+    }
+  },
+  {
+    "question": "The researcher collected one soil sample yesterday and three more _________ today.",
+    "choices": ["sampling", "sampled", "sampler", "samples"],
+    "answer": "samples", "difficulty": "basic", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A soil sample is a small amount collected for examination.",
+      "grammar": "Use the plural noun after 'three'.",
+      "usage": "Count separate specimens as samples.",
+      "example": "The team collected five samples from the field."
+    }
+  },
+  {
+    "question": "The technician used a _________ to turn the hexagonal nut.",
+    "choices": ["wrench", "telescope", "thermometer", "paintbrush"],
+    "answer": "wrench", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A wrench grips and turns nuts or bolts.",
+      "grammar": "'To turn' explains the tool's purpose.",
+      "usage": "Use a wrench that fits the nut.",
+      "example": "She adjusted the nut with a wrench."
+    }
+  },
+  {
+    "question": "The circuit has a break in its path. The diagram labels it as an _________ circuit.",
+    "choices": ["closed", "open", "empty", "external"],
+    "answer": "open", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "An open circuit has an interrupted conducting path.",
+      "grammar": "'Open' is an adjective describing the circuit.",
+      "usage": "'Open circuit' names this electrical condition.",
+      "example": "The drawing marks the disconnected path as open."
+    }
+  },
+  {
+    "question": "In this model, an electric _________ turns the fan blades.",
+    "choices": ["label", "ruler", "motor", "hinge"],
+    "answer": "motor", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A motor produces mechanical motion.",
+      "grammar": "The singular noun is the subject of 'turns'.",
+      "usage": "A motor can drive a fan.",
+      "example": "A small motor rotates the platform."
+    }
+  },
+  {
+    "question": "The distance across the circular opening through its center is its _________.",
+    "choices": ["weight", "angle", "depth", "diameter"],
+    "answer": "diameter", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A diameter passes across a circle through its center.",
+      "grammar": "'Its' refers to the circular opening.",
+      "usage": "Specify a circular opening by its diameter.",
+      "example": "The hole has a diameter of ten millimeters."
+    }
+  },
+  {
+    "question": "Please _________ the cover with the four supplied screws.",
+    "choices": ["fasten", "fastens", "fastened", "fastening"],
+    "answer": "fasten", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Fasten' means to attach something securely.",
+      "grammar": "An instruction beginning with 'please' uses a base verb.",
+      "usage": "Fasten a cover with screws.",
+      "example": "Please fasten the bracket to the frame."
+    }
+  },
+  {
+    "question": "The parts list specifies six _________ for the mounting plate.",
+    "choices": ["screw", "screws", "screwing", "screwed"],
+    "answer": "screws", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A mounting plate supports an attached component.",
+      "grammar": "Use the plural noun after 'six'.",
+      "usage": "A parts list states the quantity required.",
+      "example": "The package includes eight screws."
+    }
+  },
+  {
+    "question": "The engineering drawing gives the length and width as two separate _________.",
+    "choices": ["opinions", "passwords", "dimensions", "directions"],
+    "answer": "dimensions", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Dimensions describe measurable size such as length and width.",
+      "grammar": "'Two' requires a plural noun.",
+      "usage": "A drawing provides component dimensions.",
+      "example": "Check the dimensions before ordering the panel."
+    }
+  },
+  {
+    "question": "The operator read the fluid pressure from the _________.",
+    "choices": ["hinge", "brush", "clamp", "gauge"],
+    "answer": "gauge", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A pressure gauge displays pressure.",
+      "grammar": "The noun follows 'the'.",
+      "usage": "Read a pressure value from a gauge.",
+      "example": "The gauge showed a steady pressure."
+    }
+  },
+  {
+    "question": "The display cable is connected _________ the socket marked VIDEO.",
+    "choices": ["to", "among", "during", "over"],
+    "answer": "to", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A socket is a connection point for a plug.",
+      "grammar": "Use the phrase 'connected to'.",
+      "usage": "Identify the socket to which a cable connects.",
+      "example": "The sensor is connected to the recorder."
+    }
+  },
+  {
+    "question": "In the classroom demonstration, the copper wire _________ electric current.",
+    "choices": ["conduct", "conducts", "conducting", "conduction"],
+    "answer": "conducts", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Conduct' means to allow electricity or heat to pass.",
+      "grammar": "The singular subject 'wire' takes 'conducts'.",
+      "usage": "Copper wire conducts electric current.",
+      "example": "This metal strip conducts heat."
+    }
+  },
+  {
+    "question": "The polished surface feels _________ rather than rough.",
+    "choices": ["smoothly", "smoothness", "smooth", "smoothing"],
+    "answer": "smooth", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A smooth surface has few bumps or irregularities.",
+      "grammar": "The linking verb 'feels' takes an adjective here.",
+      "usage": "Describe surface texture with 'smooth' or 'rough'.",
+      "example": "The finished edge feels smooth."
+    }
+  },
+  {
+    "question": "This drawing is a reduced view, so the printed part is _________ than the actual part.",
+    "choices": ["small", "smallest", "smallness", "smaller"],
+    "answer": "smaller", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A reduced view shows something at a smaller size.",
+      "grammar": "Use the comparative form before 'than'.",
+      "usage": "A scale drawing can be smaller than the object.",
+      "example": "The model is smaller than the bridge."
+    }
+  },
+  {
+    "question": "The small gear has twenty _________ around its outer edge.",
+    "choices": ["teeth", "tooth", "toothing", "toothed"],
+    "answer": "teeth", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Gear teeth engage with another gear.",
+      "grammar": "'Teeth' is the irregular plural of 'tooth'.",
+      "usage": "Count the teeth on a gear.",
+      "example": "The replacement gear has thirty teeth."
+    }
+  },
+  {
+    "question": "During the demonstration, water leaked _________ from the damaged joint.",
+    "choices": ["slowed", "slowly", "slowness", "slowdown"],
+    "answer": "slowly", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A joint is a place where parts connect.",
+      "grammar": "The adverb 'slowly' modifies 'leaked'.",
+      "usage": "Describe the rate of a leak with an adverb.",
+      "example": "Liquid dripped slowly into the tray."
+    }
+  },
+  {
+    "question": "This filter is designed to _________ dust from the incoming air.",
+    "choices": ["removal", "removing", "remove", "removed"],
+    "answer": "remove", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A filter separates unwanted material from a fluid.",
+      "grammar": "Use a base verb after 'designed to'.",
+      "usage": "'Remove something from' identifies what is taken out.",
+      "example": "The filter removes particles from the air."
+    }
+  },
+  {
+    "question": "Read the operating instructions before _________ the demonstration machine.",
+    "choices": ["start", "started", "starts", "starting"],
+    "answer": "starting", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Operating instructions explain how equipment is used.",
+      "grammar": "Use an ing form after the preposition 'before'.",
+      "usage": "'Before starting' places one action ahead of another.",
+      "example": "Check the diagram before assembling the model."
+    }
+  },
+  {
+    "question": "The arrow shows a _________ direction, the same direction as the hands of a clock.",
+    "choices": ["clockwise", "vertical", "linear", "random"],
+    "answer": "clockwise", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Clockwise follows the usual direction of clock hands.",
+      "grammar": "The adjective describes 'direction'.",
+      "usage": "Use 'clockwise' to describe rotation.",
+      "example": "The animation shows clockwise movement."
+    }
+  },
+  {
+    "question": "The strip bends easily without breaking. It is _________.",
+    "choices": ["rigid", "flexible", "brittle", "fixed"],
+    "answer": "flexible", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Flexible material can bend easily.",
+      "grammar": "An adjective follows 'is'.",
+      "usage": "'Rigid' describes something that resists bending.",
+      "example": "The flexible tube bends around the corner."
+    }
+  },
+  {
+    "question": "The diagram shows water flowing _________ a pipe from the inlet to the outlet.",
+    "choices": ["among", "above", "through", "beside"],
+    "answer": "through", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "An inlet admits flow and an outlet lets it leave.",
+      "grammar": "'Through' describes movement inside a passage.",
+      "usage": "Fluid flows through a pipe.",
+      "example": "Air passes through the narrow channel."
+    }
+  },
+  {
+    "question": "The demonstration frame was _________ from the supplied parts yesterday.",
+    "choices": ["assemble", "assembling", "assembles", "assembled"],
+    "answer": "assembled", "difficulty": "basic", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Assemble' means to put parts together.",
+      "grammar": "Use a past participle after 'was' in this passive sentence.",
+      "usage": "A frame can be assembled from separate parts.",
+      "example": "The model was assembled in the workshop."
+    }
+  },
+  {
+    "question": "Keep all the project files together in one _________ on the computer.",
+    "choices": ["folder", "speaker", "socket", "cable"],
+    "answer": "folder", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A folder groups files on a computer.",
+      "grammar": "The singular noun follows 'one'.",
+      "usage": "Store related files in a folder.",
+      "example": "The images are saved in the project folder."
+    }
+  },
+  {
+    "question": "The login screen asks for a username and a _________.",
+    "choices": ["printer", "password", "monitor", "battery"],
+    "answer": "password", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A password is a secret used to access an account.",
+      "grammar": "Two noun phrases are joined by 'and'.",
+      "usage": "Enter a password on a login screen.",
+      "example": "The application rejected the incorrect password."
+    }
+  },
+  {
+    "question": "Move the mouse to place the _________ over the button on the screen.",
+    "choices": ["charger", "scanner", "cursor", "router"],
+    "answer": "cursor", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A cursor marks a position on a screen.",
+      "grammar": "'Over the button' describes the cursor's position.",
+      "usage": "Move the cursor with a pointing device.",
+      "example": "Place the cursor over the blue icon."
+    }
+  },
+  {
+    "question": "Use the Save command to _________ your changes in the document.",
+    "choices": ["erase", "ignore", "cancel", "store"],
+    "answer": "store", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Store' means to keep information for later use.",
+      "grammar": "'To store' explains the command's purpose.",
+      "usage": "Saving stores changes in a file.",
+      "example": "The program stores the edited document."
+    }
+  },
+  {
+    "question": "The technician _________ installed the new drawing application on this laptop.",
+    "choices": ["has", "have", "having", "to have"],
+    "answer": "has", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Install' means to set up software for use.",
+      "grammar": "The singular subject takes 'has' in the present perfect.",
+      "usage": "'Has installed' reports a completed installation.",
+      "example": "The assistant has installed the required software."
+    }
+  },
+  {
+    "question": "The two image files _________ too large to attach to this message.",
+    "choices": ["is", "are", "was", "being"],
+    "answer": "are", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "File size describes the amount of stored data.",
+      "grammar": "The plural subject 'files' takes 'are'.",
+      "usage": "'Too large to' describes a size that prevents an action.",
+      "example": "These videos are too large to send together."
+    }
+  },
+  {
+    "question": "To open the settings window, _________ the gear icon once.",
+    "choices": ["clicking", "clicked", "click", "clicks"],
+    "answer": "click", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "An icon is a small image representing a function.",
+      "grammar": "Use a base verb for an instruction.",
+      "usage": "Click an icon to select its function.",
+      "example": "Click the folder icon to view the files."
+    }
+  },
+  {
+    "question": "How _________ storage space does the recording require?",
+    "choices": ["many", "few", "several", "much"],
+    "answer": "much", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Storage space is the capacity available for saved data.",
+      "grammar": "Use 'how much' with the uncountable noun 'space'.",
+      "usage": "Ask how much storage a file needs.",
+      "example": "How much space is available on the drive?"
+    }
+  },
+  {
+    "question": "The computers share files over the same local _________.",
+    "choices": ["network", "lens", "battery", "keyboard"],
+    "answer": "network", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A network connects devices so they can exchange data.",
+      "grammar": "The noun follows the adjective 'local'.",
+      "usage": "Computers communicate over a network.",
+      "example": "The printer is available on the office network."
+    }
+  },
+  {
+    "question": "To copy the report from your computer to the remote server, _________ it.",
+    "choices": ["download", "upload", "rename", "print"],
+    "answer": "upload", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Upload' means to send data to a remote system.",
+      "grammar": "The imperative verb gives the required action.",
+      "usage": "Upload a local file to a server.",
+      "example": "Please upload the photographs to the shared site."
+    }
+  },
+  {
+    "question": "To copy the manual from the website onto your computer, _________ it.",
+    "choices": ["upload", "delete", "download", "rename"],
+    "answer": "download", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Download' means to receive data from a remote system.",
+      "grammar": "The base verb gives an instruction.",
+      "usage": "Download a document from a website.",
+      "example": "Download the guide before leaving the network."
+    }
+  },
+  {
+    "question": "The team keeps a separate _________ so it can recover the files if the main drive fails.",
+    "choices": ["cursor", "shortcut", "preview", "backup"],
+    "answer": "backup", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A backup is an additional copy kept for recovery.",
+      "grammar": "'So' introduces the purpose of keeping the copy.",
+      "usage": "Restore lost files from a backup.",
+      "example": "The administrator recovered the folder from yesterday's backup."
+    }
+  },
+  {
+    "question": "The programmer found a _________ that made the application close unexpectedly.",
+    "choices": ["bug", "port", "plug", "screen"],
+    "answer": "bug", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A software bug is an error in a program.",
+      "grammar": "The clause beginning with 'that' describes the bug.",
+      "usage": "A programmer can find and fix a bug.",
+      "example": "The update fixes a bug in the search function."
+    }
+  },
+  {
+    "question": "Yesterday, the support assistant _________ the application after it stopped responding.",
+    "choices": ["restart", "restarted", "restarts", "restarting"],
+    "answer": "restarted", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Restart' means to start again after stopping.",
+      "grammar": "'Yesterday' requires a past tense verb here.",
+      "usage": "A user may restart an application.",
+      "example": "She restarted the drawing program."
+    }
+  },
+  {
+    "question": "Use the _________ to produce a paper copy of the circuit diagram.",
+    "choices": ["microphone", "webcam", "printer", "router"],
+    "answer": "printer", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A printer produces text or images on paper.",
+      "grammar": "'To produce' states the purpose.",
+      "usage": "Print a paper copy of a digital file.",
+      "example": "The printer produced a clear copy of the diagram."
+    }
+  },
+  {
+    "question": "The tablet has a _________ that responds when you tap it with a finger.",
+    "choices": ["power cord", "disk drive", "network cable", "touchscreen"],
+    "answer": "touchscreen", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A touchscreen accepts input through contact with its surface.",
+      "grammar": "The clause beginning with 'that' describes the screen.",
+      "usage": "Tap a touchscreen to select an item.",
+      "example": "The touchscreen displays the control menu."
+    }
+  },
+  {
+    "question": "Open the project website in a web _________.",
+    "choices": ["browser", "battery", "bracket", "bearing"],
+    "answer": "browser", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A web browser displays websites.",
+      "grammar": "'Web browser' is a noun phrase.",
+      "usage": "Open a website in a browser.",
+      "example": "The browser loaded the experiment page."
+    }
+  },
+  {
+    "question": "Version 4 was released after version 3, so it is _________ than version 3.",
+    "choices": ["new", "newer", "newest", "newly"],
+    "answer": "newer", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A version identifies a particular release of software.",
+      "grammar": "Use a comparative adjective to compare two versions.",
+      "usage": "'Newer' means more recent.",
+      "example": "The newer version includes an improved editor."
+    }
+  },
+  {
+    "question": "In the filename report.pdf, the part after the final dot is the file _________.",
+    "choices": ["owner", "size", "extension", "location"],
+    "answer": "extension", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A file extension is the ending of a filename after a dot.",
+      "grammar": "The noun completes the phrase 'file extension'.",
+      "usage": "An extension commonly indicates a file format.",
+      "example": "The image filename has the extension png."
+    }
+  },
+  {
+    "question": "The manual describes RAM as temporary working _________ for running programs.",
+    "choices": ["ink", "lighting", "packaging", "memory"],
+    "answer": "memory", "difficulty": "basic", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "RAM means random access memory.",
+      "grammar": "'Memory' is an uncountable noun here.",
+      "usage": "Working memory holds data used by active programs.",
+      "example": "The application needs more memory to open the image."
+    }
+  },
+  {
+    "question": "The research team _________ a controlled experiment to compare the two growing conditions.",
+    "choices": ["conducted", "commuted", "enclosed", "translated"],
+    "answer": "conducted", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Conduct an experiment' means to carry it out.",
+      "grammar": "The past tense describes a completed research activity.",
+      "usage": "Use 'conduct' with experiments or investigations.",
+      "example": "The laboratory conducted a test of the revised method."
+    }
+  },
+  {
+    "question": "Before taking measurements, the analyst checked the instrument's _________ against the reference standard.",
+    "choices": ["calibrate", "calibration", "calibrates", "calibrated"],
+    "answer": "calibration", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "Calibration relates instrument readings to reference values.",
+      "grammar": "The possessive 'instrument's' requires a noun here.",
+      "usage": "Check calibration against a suitable reference.",
+      "example": "The instrument's calibration was checked before use."
+    }
+  },
+  {
+    "question": "Clean containers were used to reduce the risk of sample _________ during collection.",
+    "choices": ["contaminate", "contaminated", "contamination", "contaminates"],
+    "answer": "contamination", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "Contamination occurs when unwanted material enters a sample.",
+      "grammar": "A noun completes 'the risk of sample contamination'.",
+      "usage": "Describe unwanted sample changes as contamination.",
+      "example": "The sealed lid reduced contamination during transport."
+    }
+  },
+  {
+    "question": "The salt had completely _________ in the water before the class recorded the solution's appearance.",
+    "choices": ["dissolve", "dissolving", "dissolution", "dissolved"],
+    "answer": "dissolved", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Dissolve' means to become incorporated into a solution.",
+      "grammar": "The past perfect uses 'had' with a past participle.",
+      "usage": "Use the past perfect for the earlier of two past events.",
+      "example": "The sugar had dissolved before the reading was taken."
+    }
+  },
+  {
+    "question": "The open dish gradually lost water through _________ into the surrounding air.",
+    "choices": ["evaporation", "compression", "filtration", "sedimentation"],
+    "answer": "evaporation", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "Evaporation is the change from liquid to vapor at a surface.",
+      "grammar": "A noun follows the preposition 'through'.",
+      "usage": "Water can be lost through evaporation.",
+      "example": "The lid reduced water loss through evaporation."
+    }
+  },
+  {
+    "question": "The report presents a comparison _________ the results from the indoor and outdoor trials.",
+    "choices": ["among", "between", "during", "toward"],
+    "answer": "between", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A trial is a test carried out under specified conditions.",
+      "grammar": "Use 'between' to connect the two sets being compared.",
+      "usage": "Write 'a comparison between' two identified groups.",
+      "example": "The graph supports a comparison between the two methods."
+    }
+  },
+  {
+    "question": "Light intensity was varied _________ of temperature, which remained unchanged throughout the experiment.",
+    "choices": ["independence", "depend", "independently", "dependence"],
+    "answer": "independently", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Independently of' means without being tied to a change in something else.",
+      "grammar": "The adverb modifies 'was varied'.",
+      "usage": "Describe separately controlled conditions with 'independently of'.",
+      "example": "The timing was adjusted independently of the sample size."
+    }
+  },
+  {
+    "question": "The first group received additional light, _________ the second group remained under the original lighting.",
+    "choices": ["because", "unless", "so that", "whereas"],
+    "answer": "whereas", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Whereas' introduces a contrast.",
+      "grammar": "The conjunction links two clauses describing different conditions.",
+      "usage": "Use 'whereas' to compare experimental groups.",
+      "example": "One tray was covered whereas the other remained uncovered."
+    }
+  },
+  {
+    "question": "Under the collection protocol, a sample cannot be accepted _________ its identification label is readable.",
+    "choices": ["unless", "although", "because", "whereas"],
+    "answer": "unless", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A protocol is an agreed set of procedures.",
+      "grammar": "'Unless' means 'except if' and introduces the required condition.",
+      "usage": "Use 'cannot ... unless' to express a requirement.",
+      "example": "The record cannot be approved unless its date is present."
+    }
+  },
+  {
+    "question": "After _________ all five readings, the analyst calculated their average.",
+    "choices": ["record", "recording", "recorded", "records"],
+    "answer": "recording", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "An average summarizes a set of numerical readings.",
+      "grammar": "The preposition 'after' takes an ing form here.",
+      "usage": "The opening phrase shows the order of the analyst's actions.",
+      "example": "After checking the labels, she entered the measurements."
+    }
+  },
+  {
+    "question": "The observed color change was consistent _________ the prediction made before the experiment.",
+    "choices": ["at", "by", "with", "from"],
+    "answer": "with", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Consistent with' means in agreement with something.",
+      "grammar": "The adjective 'consistent' takes 'with' in this meaning.",
+      "usage": "A result can be consistent with a prediction.",
+      "example": "The measured trend was consistent with the model."
+    }
+  },
+  {
+    "question": "The untreated sample provided a _________ point against which the treated samples could be compared.",
+    "choices": ["referring", "referred", "refer", "reference"],
+    "answer": "reference", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A reference point provides a basis for comparison.",
+      "grammar": "The noun 'reference' modifies 'point'.",
+      "usage": "Compare a treatment result with a reference point.",
+      "example": "The initial reading served as a reference point."
+    }
+  },
+  {
+    "question": "To check whether the result would occur again, the team _________ the experiment under the same conditions.",
+    "choices": ["repeated", "replaced", "rejected", "removed"],
+    "answer": "repeated", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Repeat' means to carry out the same action again.",
+      "grammar": "The purpose clause explains why the team acted.",
+      "usage": "Repeat an experiment to examine whether its result recurs.",
+      "example": "They repeated the measurement using the same apparatus."
+    }
+  },
+  {
+    "question": "This detector is sufficiently _________ to register the small changes described in the test plan.",
+    "choices": ["sensitivity", "sensitive", "sensitively", "sensitize"],
+    "answer": "sensitive", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A sensitive detector can respond to small changes.",
+      "grammar": "The adverb 'sufficiently' modifies an adjective.",
+      "usage": "'Sufficiently sensitive to' describes detection capability.",
+      "example": "The sensor is sensitive to small temperature changes."
+    }
+  },
+  {
+    "question": "The prepared solution was _________ with additional water to reduce its concentration.",
+    "choices": ["dilution", "diluting", "diluted", "dilute"],
+    "answer": "diluted", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Dilute' means to reduce concentration by adding solvent.",
+      "grammar": "The passive verb uses 'was' and 'diluted'.",
+      "usage": "A solution can be diluted with water.",
+      "example": "The sample was diluted before the next measurement."
+    }
+  },
+  {
+    "question": "Because the scale markings were coarse, the volume was reported as _________ 50 milliliters rather than an exact value.",
+    "choices": ["approximate", "approximation", "approximating", "approximately"],
+    "answer": "approximately", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Approximately' means close to the stated value.",
+      "grammar": "The adverb qualifies the numerical amount.",
+      "usage": "Use 'approximately' to mark an estimate.",
+      "example": "The sample weighed approximately twenty grams."
+    }
+  },
+  {
+    "question": "During the observation period, the room temperature remained _________ 18 and 22 degrees Celsius.",
+    "choices": ["between", "among", "during", "toward"],
+    "answer": "between", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A range gives lower and upper limits.",
+      "grammar": "Use 'between ... and' to state two limits.",
+      "usage": "Report a temperature range with its unit.",
+      "example": "The readings ranged between ten and twelve degrees."
+    }
+  },
+  {
+    "question": "The revised method produced more _________ results across the repeated trials.",
+    "choices": ["consistently", "consistent", "consistency", "consist"],
+    "answer": "consistent", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "Consistent results agree closely across repeated observations.",
+      "grammar": "An adjective modifies the noun 'results'.",
+      "usage": "'More consistent' describes reduced variation across trials.",
+      "example": "The revised procedure gave more consistent readings."
+    }
+  },
+  {
+    "question": "The bacteria in the prepared image _________ counted using the analysis software.",
+    "choices": ["was", "is", "were", "has"],
+    "answer": "were", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Bacteria' is the plural of 'bacterium'.",
+      "grammar": "The plural subject takes 'were' in the passive form.",
+      "usage": "Use a plural verb with 'bacteria'.",
+      "example": "The bacteria were visible in the microscope image."
+    }
+  },
+  {
+    "question": "The seeds had _________ by the third day, when the first small roots became visible.",
+    "choices": ["germinate", "germination", "germinating", "germinated"],
+    "answer": "germinated", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Germinate' means to begin growing from a seed.",
+      "grammar": "The past perfect uses 'had' with a past participle.",
+      "usage": "Use 'by' to indicate a completion point.",
+      "example": "Several seeds had germinated by Monday."
+    }
+  },
+  {
+    "question": "Outdoor observations were postponed _________ heavy rain that obscured the site.",
+    "choices": ["owing to", "although", "despite", "whereas"],
+    "answer": "owing to", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Owing to' means 'because of'.",
+      "grammar": "The phrase introduces the noun phrase 'heavy rain'.",
+      "usage": "Use 'owing to' to state a cause.",
+      "example": "The field visit was delayed owing to poor visibility."
+    }
+  },
+  {
+    "question": "The camera allowed researchers to observe the nest without _________ the birds.",
+    "choices": ["disturb", "disturbing", "disturbed", "disturbance"],
+    "answer": "disturbing", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Disturb' means to interrupt normal activity.",
+      "grammar": "Use an ing form after 'without'.",
+      "usage": "'Without disturbing' describes avoiding an unwanted effect.",
+      "example": "The team watched the animals without disturbing them."
+    }
+  },
+  {
+    "question": "In these observations, both variables tended to increase together, indicating a _________ correlation.",
+    "choices": ["negative", "missing", "positive", "reversed"],
+    "answer": "positive", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A positive correlation describes variables tending to increase together.",
+      "grammar": "The adjective modifies 'correlation'.",
+      "usage": "A correlation describes association without establishing cause.",
+      "example": "The plot showed a positive correlation between the measurements."
+    }
+  },
+  {
+    "question": "The chamber log includes air temperature and relative _________, which describes atmospheric moisture relative to saturation.",
+    "choices": ["voltage", "density", "altitude", "humidity"],
+    "answer": "humidity", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "Relative humidity expresses atmospheric moisture relative to saturation at the same temperature.",
+      "grammar": "'Relative humidity' is a noun phrase.",
+      "usage": "Record relative humidity as a percentage.",
+      "example": "The chamber maintained a steady relative humidity."
+    }
+  },
+  {
+    "question": "The mass of each dried sample was reported _________ grams in the results table.",
+    "choices": ["in", "on", "at", "by"],
+    "answer": "in", "difficulty": "intermediate", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A gram is a unit of mass.",
+      "grammar": "Use 'in' before the unit in which a quantity is reported.",
+      "usage": "State the measurement unit when reporting results.",
+      "example": "The distance was recorded in meters."
+    }
+  },
+  {
+    "question": "The support must be capable of _________ the load specified in the design document.",
+    "choices": ["withstand", "withstanding", "withstood", "withstands"],
+    "answer": "withstanding", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Withstand' means to resist a force without failing.",
+      "grammar": "Use an ing form after 'capable of'.",
+      "usage": "Describe a component as capable of withstanding a stated load.",
+      "example": "The frame is capable of supporting the test assembly."
+    }
+  },
+  {
+    "question": "The drawing gives an allowable variation from the nominal size. This variation is the dimensional _________.",
+    "choices": ["appearance", "sequence", "tolerance", "inventory"],
+    "answer": "tolerance", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Dimensional tolerance specifies permitted variation in size.",
+      "grammar": "The adjective 'dimensional' modifies a noun.",
+      "usage": "Compare a measured dimension with its tolerance.",
+      "example": "The hole diameter was within the specified tolerance."
+    }
+  },
+  {
+    "question": "The report expresses the turning effect applied to the shaft as _________ in newton meters.",
+    "choices": ["density", "frequency", "voltage", "torque"],
+    "answer": "torque", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Torque describes the turning effect of a force.",
+      "grammar": "The noun names the quantity expressed in the stated unit.",
+      "usage": "Torque can be reported in newton meters.",
+      "example": "The test report lists the torque applied to the shaft."
+    }
+  },
+  {
+    "question": "The protective coating reduced the visible _________ of the metal during the exposure test.",
+    "choices": ["corrosion", "corrode", "corroded", "corrosively"],
+    "answer": "corrosion", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Corrosion is deterioration caused by chemical interaction with the environment.",
+      "grammar": "The adjective 'visible' modifies the noun 'corrosion'.",
+      "usage": "A coating can provide protection against corrosion.",
+      "example": "The inspection found corrosion near the exposed edge."
+    }
+  },
+  {
+    "question": "The component developed cracks after many loading cycles, so the report discussed material _________.",
+    "choices": ["insulation", "fatigue", "ventilation", "alignment"],
+    "answer": "fatigue", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Material fatigue involves damage associated with repeated loading.",
+      "grammar": "'Material' modifies the noun 'fatigue'.",
+      "usage": "Discuss fatigue when describing repeated loading damage.",
+      "example": "The engineers examined the crack for signs of fatigue."
+    }
+  },
+  {
+    "question": "The technician checked the _________ of the two shafts to confirm that their axes matched.",
+    "choices": ["align", "aligned", "alignment", "aligns"],
+    "answer": "alignment", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Alignment describes the relative position of parts or axes.",
+      "grammar": "A noun follows 'checked the'.",
+      "usage": "Check shaft alignment before evaluating the connection.",
+      "example": "The drawing specifies the alignment of the two supports."
+    }
+  },
+  {
+    "question": "The maintenance report states that lubrication reduced _________ between the moving surfaces.",
+    "choices": ["illumination", "humidity", "voltage", "friction"],
+    "answer": "friction", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Friction is resistance associated with contacting surfaces moving relative to each other.",
+      "grammar": "'Between' identifies the surfaces involved.",
+      "usage": "Lubrication can reduce friction.",
+      "example": "The test compared friction before and after lubrication."
+    }
+  },
+  {
+    "question": "The rod became longer as its temperature increased, demonstrating thermal _________.",
+    "choices": ["expansion", "expansive", "expand", "expanded"],
+    "answer": "expansion", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Thermal expansion is an increase in size associated with heating.",
+      "grammar": "The adjective 'thermal' modifies a noun.",
+      "usage": "Describe the observed increase as thermal expansion.",
+      "example": "The experiment measured the rod's thermal expansion."
+    }
+  },
+  {
+    "question": "The circuit diagram lists the resistor's electrical _________ in ohms.",
+    "choices": ["resistant", "resistance", "resist", "resisted"],
+    "answer": "resistance", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Electrical resistance describes opposition to electric current.",
+      "grammar": "The adjective 'electrical' requires a noun here.",
+      "usage": "Express electrical resistance in ohms.",
+      "example": "The meter displayed the resistance of the component."
+    }
+  },
+  {
+    "question": "According to this component's datasheet, its _________ operating voltage is five volts.",
+    "choices": ["rating", "rate", "rated", "rates"],
+    "answer": "rated", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A rated value is a value assigned for specified operating conditions.",
+      "grammar": "'Rated' functions as an adjective before 'operating voltage'.",
+      "usage": "Consult a datasheet for a component's rated values.",
+      "example": "The label states the motor's rated speed."
+    }
+  },
+  {
+    "question": "In this assembly, the seal prevents liquid from _________ through the joint.",
+    "choices": ["leak", "leaked", "leaks", "leaking"],
+    "answer": "leaking", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A seal restricts unwanted flow through a connection.",
+      "grammar": "Use 'prevent something from' followed by an ing form.",
+      "usage": "A seal can prevent liquid from leaking.",
+      "example": "The gasket prevents water from entering the enclosure."
+    }
+  },
+  {
+    "question": "The prototype was subjected _________ repeated vibration during the qualification test.",
+    "choices": ["to", "of", "at", "by"],
+    "answer": "to", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Subject to' means to expose something to a condition or process.",
+      "grammar": "Use the passive phrase 'was subjected to'.",
+      "usage": "A prototype may be subjected to vibration testing.",
+      "example": "The sample was subjected to a controlled temperature cycle."
+    }
+  },
+  {
+    "question": "The drawing number must appear on every inspection sheet, regardless _________ the component's size.",
+    "choices": ["from", "of", "with", "at"],
+    "answer": "of", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Regardless of' means without being affected by something.",
+      "grammar": "The fixed phrase requires 'of'.",
+      "usage": "Use 'regardless of' when a requirement applies in all stated cases.",
+      "example": "Every sample is labeled regardless of its origin."
+    }
+  },
+  {
+    "question": "The purpose of the final review is to _________ that every dimension has been checked.",
+    "choices": ["assurance", "assure", "ensure", "endure"],
+    "answer": "ensure", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Ensure' means to make certain that something happens or is true.",
+      "grammar": "'Ensure that' introduces the condition to be confirmed.",
+      "usage": "'Assure' normally takes a person as its object. 'Assurance' is a noun.",
+      "example": "The checklist helps ensure that no measurement is omitted."
+    }
+  },
+  {
+    "question": "The diagram marks the point _________ the branch pipe joins the main line.",
+    "choices": ["which", "whose", "what", "where"],
+    "answer": "where", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A branch pipe connects to a main line.",
+      "grammar": "'Where' introduces a relative clause describing a location.",
+      "usage": "Use 'the point where' to identify a connection location.",
+      "example": "The sketch shows the location where the cable enters."
+    }
+  },
+  {
+    "question": "The inspection compared the actual plate thickness _________ the value stated on the drawing.",
+    "choices": ["with", "among", "during", "beneath"],
+    "answer": "with", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Actual thickness is the measured thickness of the manufactured part.",
+      "grammar": "Use 'compare something with' a reference value.",
+      "usage": "Compare measured dimensions with the drawing.",
+      "example": "The inspector compared the hole spacing with the specification."
+    }
+  },
+  {
+    "question": "The cover protects the internal parts _________ dust entering from the workshop.",
+    "choices": ["to", "against", "at", "onto"],
+    "answer": "against", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Internal parts are components inside the equipment.",
+      "grammar": "Use 'protect something against' an unwanted influence.",
+      "usage": "An enclosure can protect components against dust.",
+      "example": "The housing protects the mechanism against dirt."
+    }
+  },
+  {
+    "question": "The mounting surface was inspected prior to _________ of the replacement bracket.",
+    "choices": ["install", "installed", "installation", "installing it"],
+    "answer": "installation", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Installation is the process of placing equipment in position for use.",
+      "grammar": "The following 'of' phrase requires the noun 'installation'.",
+      "usage": "'Prior to installation' means before installation.",
+      "example": "The support was checked prior to installation of the panel."
+    }
+  },
+  {
+    "question": "The fixture was _________ attached to the test bed throughout the measurement procedure.",
+    "choices": ["secure", "security", "securing", "securely"],
+    "answer": "securely", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A fixture holds a workpiece in position. A test bed supports equipment during testing.",
+      "grammar": "The adverb 'securely' modifies the past participle 'attached'.",
+      "usage": "Describe how firmly a fixture is attached with 'securely attached'.",
+      "example": "The fixture was securely attached to the test bed."
+    }
+  },
+  {
+    "question": "After checking each connection, the technician traced the intermittent fault _________ a loose plug.",
+    "choices": ["to", "for", "among", "beside"],
+    "answer": "to", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "An intermittent fault appears and disappears rather than remaining constant.",
+      "grammar": "Use 'trace a fault to' its source.",
+      "usage": "The phrase identifies an investigated cause.",
+      "example": "The engineer traced the noise to a damaged bearing."
+    }
+  },
+  {
+    "question": "The selector connects _________ sensor A or sensor B to the display, depending on its position.",
+    "choices": ["neither", "either", "both", "whether"],
+    "answer": "either", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A selector chooses among available inputs.",
+      "grammar": "Use the paired conjunctions 'either ... or'.",
+      "usage": "The phrase presents two alternatives.",
+      "example": "The recorder can accept either signal A or signal B."
+    }
+  },
+  {
+    "question": "Neither the fan _________ the indicator light responded during the demonstration.",
+    "choices": ["or", "and", "nor", "but"],
+    "answer": "nor", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "An indicator light provides a visible status signal.",
+      "grammar": "The paired conjunctions are 'neither ... nor'.",
+      "usage": "Use the pair to state that both alternatives failed to occur.",
+      "example": "Neither the display nor the buzzer operated."
+    }
+  },
+  {
+    "question": "The redesigned assembly contains _________ components than the original version.",
+    "choices": ["less", "little", "much", "fewer"],
+    "answer": "fewer", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "An assembly is a group of connected components.",
+      "grammar": "Use 'fewer' with countable plural nouns in formal writing.",
+      "usage": "Compare component counts with 'fewer ... than'.",
+      "example": "The revised mechanism uses fewer moving parts."
+    }
+  },
+  {
+    "question": "The measured shaft diameter falls _________ the stated tolerance, so its size meets the drawing requirement.",
+    "choices": ["within", "beyond", "outside", "above"],
+    "answer": "within", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Within tolerance' means inside the permitted limits.",
+      "grammar": "The preposition describes the measurement's relation to the limits.",
+      "usage": "State whether a dimension falls within tolerance.",
+      "example": "All recorded widths were within the specified tolerance."
+    }
+  },
+  {
+    "question": "The drawing limits the panel length to 80 millimeters, meaning it must be no _________ than that value.",
+    "choices": ["less", "more", "fewer", "smaller"],
+    "answer": "more", "difficulty": "intermediate", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A limit specifies a permitted boundary.",
+      "grammar": "'No more than' expresses an upper limit.",
+      "usage": "Use 'no more than' for a maximum permitted value.",
+      "example": "The record may contain no more than ten entries."
+    }
+  },
+  {
+    "question": "Before installing the extension, confirm that it is compatible _________ your version of the application.",
+    "choices": ["by", "at", "with", "from"],
+    "answer": "with", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Compatible systems can work together as intended.",
+      "grammar": "Use the adjective phrase 'compatible with'.",
+      "usage": "Check software compatibility before installation.",
+      "example": "The extension is compatible with the current editor."
+    }
+  },
+  {
+    "question": "The specification describes the connection's available data transfer capacity as its _________.",
+    "choices": ["latency", "resolution", "brightness", "bandwidth"],
+    "answer": "bandwidth", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "In networking, bandwidth commonly describes data transfer capacity.",
+      "grammar": "The possessive 'its' introduces the name of the capacity.",
+      "usage": "Distinguish transfer capacity from transmission delay.",
+      "example": "The video service requires sufficient network bandwidth."
+    }
+  },
+  {
+    "question": "The measured delay between sending the request and receiving the response is called _________ in this report.",
+    "choices": ["latency", "capacity", "density", "resolution"],
+    "answer": "latency", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Latency describes delay in a system or communication process.",
+      "grammar": "The passive 'is called' introduces a name.",
+      "usage": "State which delay is measured when reporting latency.",
+      "example": "The test measured request and response latency."
+    }
+  },
+  {
+    "question": "The login process checks a user's identity. This step is known as _________.",
+    "choices": ["compression", "authentication", "formatting", "simulation"],
+    "answer": "authentication", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Authentication verifies a claimed identity.",
+      "grammar": "'Known as' introduces the name of a process.",
+      "usage": "Authentication answers who the user is.",
+      "example": "The service requires authentication before account access."
+    }
+  },
+  {
+    "question": "After identifying the user, the service checks which files the user may access. This permission check concerns _________.",
+    "choices": ["ventilation", "magnification", "authorization", "evaporation"],
+    "answer": "authorization", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Authorization determines whether an action is permitted.",
+      "grammar": "A noun completes the verb 'concerns'.",
+      "usage": "Authorization concerns permissions after identity is established.",
+      "example": "The authorization check denied access to the private folder."
+    }
+  },
+  {
+    "question": "The system transforms readable data into a protected form using a cryptographic key. This process is _________.",
+    "choices": ["sorting", "printing", "indexing", "encryption"],
+    "answer": "encryption", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Encryption transforms data using cryptography to protect its confidentiality.",
+      "grammar": "A noun names the process after 'is'.",
+      "usage": "Encryption protects data from being read without the appropriate key.",
+      "example": "The service uses encryption to protect stored documents."
+    }
+  },
+  {
+    "question": "The files were _________ into a smaller archive before they were transferred.",
+    "choices": ["compressed", "compression", "compress", "compressing"],
+    "answer": "compressed", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Compress' means to represent data using less storage space.",
+      "grammar": "The passive verb uses 'were' with a past participle.",
+      "usage": "Files can be compressed into an archive.",
+      "example": "The images were compressed before upload."
+    }
+  },
+  {
+    "question": "The recorder was configured _________ save a measurement every ten seconds.",
+    "choices": ["for", "to", "at", "with"],
+    "answer": "to", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Configure' means to set how a system operates.",
+      "grammar": "Use 'configured to' followed by a base verb.",
+      "usage": "Describe an assigned system behavior with 'configured to'.",
+      "example": "The program was configured to export a daily summary."
+    }
+  },
+  {
+    "question": "Once enabled, the monitoring program _________ saves a copy of each new reading.",
+    "choices": ["automatic", "automation", "automatically", "automate"],
+    "answer": "automatically", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Automatically' means without a separate manual action each time.",
+      "grammar": "The adverb modifies 'saves'.",
+      "usage": "Describe repeated software behavior with 'automatically'.",
+      "example": "The application automatically records the time."
+    }
+  },
+  {
+    "question": "The search function allows researchers to _________ stored records by sample number.",
+    "choices": ["retrieval", "retrieved", "retrieving", "retrieve"],
+    "answer": "retrieve", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Retrieve' means to obtain stored information.",
+      "grammar": "Use a base verb after 'allows researchers to'.",
+      "usage": "Retrieve a record using its identifier.",
+      "example": "The database can retrieve measurements for a selected date."
+    }
+  },
+  {
+    "question": "The importer removed _________ records so that each measurement appeared only once.",
+    "choices": ["duplicate", "distant", "portable", "transparent"],
+    "answer": "duplicate", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Duplicate records repeat information already present.",
+      "grammar": "The adjective modifies 'records'.",
+      "usage": "Remove duplicate records to avoid counting the same item twice.",
+      "example": "The review identified two duplicate entries."
+    }
+  },
+  {
+    "question": "The two device clocks were _________ so that their timestamps could be compared directly.",
+    "choices": ["synchronization", "synchronized", "synchronize", "synchronizing"],
+    "answer": "synchronized", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Synchronizing clocks brings their time readings into agreement.",
+      "grammar": "The passive form uses 'were synchronized'.",
+      "usage": "Synchronize clocks before comparing event timestamps.",
+      "example": "The instruments were synchronized before the recording began."
+    }
+  },
+  {
+    "question": "After the connection returned, the software could _________ the interrupted transfer from the saved position.",
+    "choices": ["erase", "rename", "resume", "cancel"],
+    "answer": "resume", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Resume' means to continue after an interruption.",
+      "grammar": "The modal verb 'could' takes a base verb.",
+      "usage": "Resume a transfer from a recorded position.",
+      "example": "The application resumed the download after reconnecting."
+    }
+  },
+  {
+    "question": "The extension can be installed _________ the required permissions have been granted.",
+    "choices": ["despite", "unless", "because of", "provided that"],
+    "answer": "provided that", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Provided that' means 'on the condition that'.",
+      "grammar": "The phrase introduces a complete conditional clause.",
+      "usage": "Use 'provided that' to state an installation condition.",
+      "example": "The service can run provided that the connection is available."
+    }
+  },
+  {
+    "question": "The new sensor includes a wireless module, _________ sends readings to the central computer.",
+    "choices": ["which", "whose", "where", "what"],
+    "answer": "which", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A wireless module communicates without a physical data cable.",
+      "grammar": "'Which' introduces a nonrestrictive relative clause about the module.",
+      "usage": "Use 'which' to add information about a thing after a comma.",
+      "example": "The unit has a recorder, which stores the readings locally."
+    }
+  },
+  {
+    "question": "The progress message asks users to wait _________ the export is complete.",
+    "choices": ["during", "until", "despite", "because of"],
+    "answer": "until", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "An export creates data in a form another system can use.",
+      "grammar": "'Until' introduces the endpoint of the waiting period.",
+      "usage": "Use 'wait until' with a clause naming completion.",
+      "example": "Wait until the confirmation message appears."
+    }
+  },
+  {
+    "question": "The upload failed _________ several attempts to restore the connection.",
+    "choices": ["although", "because", "despite", "unless"],
+    "answer": "despite", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Despite' means that something happened in spite of a stated circumstance.",
+      "grammar": "'Despite' introduces the noun phrase 'several attempts'.",
+      "usage": "Use 'although' with a clause rather than this noun phrase.",
+      "example": "The process failed despite the repeated checks."
+    }
+  },
+  {
+    "question": "The unprotected connector was susceptible _________ moisture damage during the trial.",
+    "choices": ["of", "with", "for", "to"],
+    "answer": "to", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Susceptible' means liable to be affected by something.",
+      "grammar": "Use the adjective phrase 'susceptible to'.",
+      "usage": "Describe vulnerability to an influence with 'susceptible to'.",
+      "example": "The exposed connection was susceptible to interference."
+    }
+  },
+  {
+    "question": "The ability of the new software to read files from an older version is called backward _________.",
+    "choices": ["compatibility", "visibility", "portability", "availability"],
+    "answer": "compatibility", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Backward compatibility allows a newer system to work with specified older interfaces or data.",
+      "grammar": "'Backward' modifies 'compatibility'.",
+      "usage": "State which older version is supported.",
+      "example": "The update maintains backward compatibility with the previous file format."
+    }
+  },
+  {
+    "question": "The deceptive email pretended to come from technical support and requested the user's password. It was a _________ attempt.",
+    "choices": ["rendering", "phishing", "formatting", "sampling"],
+    "answer": "phishing", "difficulty": "intermediate", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Phishing uses deceptive messages to obtain information or induce actions.",
+      "grammar": "'Phishing' modifies the noun 'attempt'.",
+      "usage": "A message impersonating support may be a phishing attempt.",
+      "example": "The team reported the message as a suspected phishing attempt."
+    }
+  },
+  {
+    "question": "The observed change cannot be attributed solely _________ the treatment because room temperature also varied between the groups.",
+    "choices": ["for", "with", "on", "to"],
+    "answer": "to", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Attribute an effect to' means to identify something as its cause.",
+      "grammar": "The passive phrase is 'be attributed to'.",
+      "usage": "'Solely' limits the proposed explanation to one cause.",
+      "example": "The difference cannot be attributed solely to sample age."
+    }
+  },
+  {
+    "question": "Because temperature changed along with light intensity, it became a _________ factor that prevented the effects from being separated.",
+    "choices": ["confounding", "confirming", "conforming", "confiding"],
+    "answer": "confounding", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A confounding factor complicates the interpretation of a relationship under study.",
+      "grammar": "The participle 'confounding' modifies 'factor'.",
+      "usage": "Identify other changing conditions before attributing an effect to one variable.",
+      "example": "Unequal growing conditions introduced a confounding factor."
+    }
+  },
+  {
+    "question": "The sample contained participants from just one department and was therefore unlikely to be _________ of the entire university.",
+    "choices": ["representing", "representative", "representation", "represented"],
+    "answer": "representative", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A representative sample reflects relevant features of a larger group.",
+      "grammar": "Use the adjective phrase 'representative of'.",
+      "usage": "Consider the sampled group before generalizing results.",
+      "example": "The survey sample was representative of the target population."
+    }
+  },
+  {
+    "question": "With only two preliminary trials available, the authors described their explanation as _________ pending further evidence.",
+    "choices": ["definitive", "conclusive", "tentative", "irrefutable"],
+    "answer": "tentative", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Tentative' means provisional and open to revision.",
+      "grammar": "The adjective follows 'described ... as'.",
+      "usage": "Use 'tentative' when the evidence does not support a firm conclusion.",
+      "example": "The proposed mechanism remains tentative."
+    }
+  },
+  {
+    "question": "Independent observations _________ the initial finding by showing the same pattern with a different instrument.",
+    "choices": ["contradicted", "obscured", "invalidated", "corroborated"],
+    "answer": "corroborated", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Corroborate' means to provide additional supporting evidence.",
+      "grammar": "The following phrase explains how the finding was supported.",
+      "usage": "Additional observations can corroborate an earlier result.",
+      "example": "The independent measurements corroborated the reported trend."
+    }
+  },
+  {
+    "question": "The results supported neither explanation strongly enough to distinguish between them, leaving the investigation _________.",
+    "choices": ["inconclusive", "conclusive", "exhaustive", "definitive"],
+    "answer": "inconclusive", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Inconclusive' means not supporting a definite conclusion.",
+      "grammar": "The adjective describes the investigation's outcome after 'leaving'.",
+      "usage": "A study can be inconclusive even when observations were collected.",
+      "example": "The comparison remained inconclusive after the additional trial."
+    }
+  },
+  {
+    "question": "In measurement terminology, agreement across different laboratories under specified changed conditions concerns _________.",
+    "choices": ["repeatability", "reproducibility", "readability", "solubility"],
+    "answer": "reproducibility", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "Measurement reproducibility concerns agreement when specified measurement conditions change.",
+      "grammar": "The noun names the quality being discussed.",
+      "usage": "State the changed conditions when discussing reproducibility.",
+      "example": "The comparison examined reproducibility between three laboratories."
+    }
+  },
+  {
+    "question": "Successive measurements made over a short period by the same operator using the same instrument assess _________ under those conditions.",
+    "choices": ["portability", "reproducibility", "repeatability", "durability"],
+    "answer": "repeatability", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "Repeatability concerns agreement among repeated measurements under the same specified conditions.",
+      "grammar": "The noun is the object of 'assess'.",
+      "usage": "Describe the instrument and other conditions when reporting repeatability.",
+      "example": "The short measurement series was used to assess repeatability."
+    }
+  },
+  {
+    "question": "Every reading exceeded the reference value by nearly the same amount, suggesting a _________ measurement error rather than random scatter alone.",
+    "choices": ["randomized", "sporadic", "directionless", "systematic"],
+    "answer": "systematic", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A systematic error follows a consistent or predictable pattern.",
+      "grammar": "The adjective modifies 'measurement error'.",
+      "usage": "A repeated offset suggests a systematic contribution.",
+      "example": "The investigation identified a systematic offset in the readings."
+    }
+  },
+  {
+    "question": "The report gives a parameter describing the dispersion of values attributed to the measured quantity. It labels this measurement _________.",
+    "choices": ["uncertainty", "certainty", "identity", "capacity"],
+    "answer": "uncertainty", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "Measurement uncertainty characterizes the dispersion of values attributed to a measured quantity.",
+      "grammar": "'Measurement' modifies the noun 'uncertainty'.",
+      "usage": "Uncertainty describes a measurement result and is distinct from a known error.",
+      "example": "The result was reported together with its measurement uncertainty."
+    }
+  },
+  {
+    "question": "Although the difference was _________ significant under the specified test, its practical importance still required evaluation.",
+    "choices": ["statistical", "statistically", "statistic", "statistics"],
+    "answer": "statistically", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "Statistical significance describes a test result evaluated against a stated threshold.",
+      "grammar": "The adverb 'statistically' modifies 'significant'.",
+      "usage": "Statistical significance alone does not establish practical importance.",
+      "example": "The report discussed the size of the statistically significant difference."
+    }
+  },
+  {
+    "question": "The model was tested only between 10 and 30 degrees, so predicting its behavior at 80 degrees would _________ beyond the observed range.",
+    "choices": ["interpolate", "replicate", "extrapolate", "summarize"],
+    "answer": "extrapolate", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Extrapolate' means to estimate beyond the range of available observations.",
+      "grammar": "The modal 'would' takes a base verb.",
+      "usage": "Identify the observed range before extrapolating.",
+      "example": "The authors avoided extrapolating beyond the measured temperatures."
+    }
+  },
+  {
+    "question": "Estimating the value at 15 seconds from measurements at 10 and 20 seconds is an example of _________.",
+    "choices": ["extrapolation", "evaporation", "randomization", "interpolation"],
+    "answer": "interpolation", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "Interpolation estimates a value inside the range of known observations.",
+      "grammar": "A noun follows 'an example of'.",
+      "usage": "Distinguish interpolation within a range from extrapolation beyond it.",
+      "example": "The software used interpolation between the two recorded points."
+    }
+  },
+  {
+    "question": "The conclusion remained stable when reasonable alternative assumptions were tested, indicating that it was _________ to those changes.",
+    "choices": ["robust", "fragile", "susceptible", "vulnerable"],
+    "answer": "robust", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A robust conclusion remains stable under relevant changes in assumptions or methods.",
+      "grammar": "The adjective describes the conclusion after 'was'.",
+      "usage": "Specify which changes a conclusion is robust to.",
+      "example": "The result was robust to the alternative sampling assumptions."
+    }
+  },
+  {
+    "question": "Because a possible observation could contradict the prediction, the claim was _________ rather than immune to experimental challenge.",
+    "choices": ["falsification", "falsifiable", "falsifying", "falsified"],
+    "answer": "falsifiable", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A falsifiable claim could be contradicted by possible evidence.",
+      "grammar": "The adjective describes a possibility rather than an event that already occurred.",
+      "usage": "'Falsifiable' does not mean that the claim has been shown false.",
+      "example": "The hypothesis made a falsifiable prediction about the next trial."
+    }
+  },
+  {
+    "question": "Had the temperature remained constant, the researchers _________ able to compare the treatments without that additional complication.",
+    "choices": ["will be", "would be", "would have been", "have been"],
+    "answer": "would have been", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A complication is an additional difficulty affecting interpretation.",
+      "grammar": "'Had ... remained' introduces an unreal past condition requiring 'would have been'.",
+      "usage": "This inversion is a formal alternative to 'if the temperature had remained'.",
+      "example": "Had the records survived, the team would have been able to verify the result."
+    }
+  },
+  {
+    "question": "_________ accounted for the baseline differences, the researchers compared the adjusted outcomes.",
+    "choices": ["Have", "To have", "Had", "Having"],
+    "answer": "Having", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Account for' means to consider a relevant influence.",
+      "grammar": "'Having accounted' introduces an action completed before the main action.",
+      "usage": "The opening participle phrase must refer to the researchers.",
+      "example": "Having checked the baseline values, the analysts compared the groups."
+    }
+  },
+  {
+    "question": "_________ the apparent agreement between the trials, the small sample limited the strength of the conclusion.",
+    "choices": ["Notwithstanding", "Because", "Although", "Unless"],
+    "answer": "Notwithstanding", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Notwithstanding' means 'despite'.",
+      "grammar": "As a preposition, it can introduce the noun phrase 'the apparent agreement'.",
+      "usage": "Use it to acknowledge evidence while stating a limitation.",
+      "example": "Notwithstanding the promising trend, further observations were needed."
+    }
+  },
+  {
+    "question": "The analysts kept the original records lest a later correction _________ mistaken for the original observation.",
+    "choices": ["is", "be", "was", "being"],
+    "answer": "be", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Lest' introduces an outcome someone wants to avoid.",
+      "grammar": "Formal US English uses the base form 'be' after 'lest' here.",
+      "usage": "'Be mistaken for' means to be incorrectly identified as something else.",
+      "example": "The copies were labeled lest they be mistaken for original records."
+    }
+  },
+  {
+    "question": "The preliminary report did not establish a causal mechanism, _________ did it rule out alternative explanations.",
+    "choices": ["or", "so", "nor", "yet"],
+    "answer": "nor", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A causal mechanism explains how an effect is produced.",
+      "grammar": "'Nor' adds a negative statement and triggers 'did it' inversion.",
+      "usage": "Use 'nor did' to extend a preceding negative claim.",
+      "example": "The test did not confirm the model, nor did it disprove it."
+    }
+  },
+  {
+    "question": "The specimens _________ surfaces had been damaged during transport were excluded from the imaging comparison.",
+    "choices": ["which", "whom", "where", "whose"],
+    "answer": "whose", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "A specimen's surface is its outer boundary.",
+      "grammar": "'Whose' introduces possession and can refer to things.",
+      "usage": "The relative clause identifies specimens by the condition of their surfaces.",
+      "example": "Samples whose labels were missing were kept separate."
+    }
+  },
+  {
+    "question": "The review panel recommended that the damaged specimens _________ from the quantitative analysis.",
+    "choices": ["be excluded", "are excluded", "were excluding", "have excluding"],
+    "answer": "be excluded", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "Quantitative analysis examines numerical measurements.",
+      "grammar": "After 'recommended that', the mandative subjunctive uses 'be' in this passive clause.",
+      "usage": "The sentence states a recommendation rather than a completed exclusion.",
+      "example": "The committee recommended that uncertain records be reviewed separately."
+    }
+  },
+  {
+    "question": "The observed variation was largely _________ to differences in sample preparation rather than to the detector itself.",
+    "choices": ["attribution", "attributable", "attributing", "attribute"],
+    "answer": "attributable", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Attributable to' identifies a proposed source or cause.",
+      "grammar": "The adjective follows 'was largely' and takes 'to'.",
+      "usage": "Use 'largely' when an explanation accounts for much of an effect.",
+      "example": "The difference was attributable to the preparation procedure."
+    }
+  },
+  {
+    "question": "Samples A and B were stored at 10 and 20 degrees Celsius, _________, so each temperature corresponded to the sample in the same position.",
+    "choices": ["collectively", "simultaneously", "respectively", "indefinitely"],
+    "answer": "respectively", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "'Respectively' matches two ordered lists item by item.",
+      "grammar": "The adverb links A with 10 and B with 20.",
+      "usage": "Keep both lists in the same order when using 'respectively'.",
+      "example": "The first and second trials lasted five and eight minutes respectively."
+    }
+  },
+  {
+    "question": "The observational study established an association as _________ to a demonstrated causal relationship.",
+    "choices": ["opposing", "opposition", "oppose", "opposed"],
+    "answer": "opposed", "difficulty": "advanced", "review": "eligible", "category": "science",
+    "explanation": {
+      "vocabulary": "An association is a relationship that does not itself demonstrate causation.",
+      "grammar": "The fixed phrase is 'as opposed to'.",
+      "usage": "Use the phrase to distinguish the strength of two claims.",
+      "example": "The paper reports a prediction as opposed to a verified mechanism."
+    }
+  },
+  {
+    "question": "Approval of the revised bracket design is contingent _________ successful completion of the specified load tests.",
+    "choices": ["on", "for", "with", "at"],
+    "answer": "on", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Contingent on' means dependent on a stated condition.",
+      "grammar": "The adjective 'contingent' takes 'on' in this construction.",
+      "usage": "Use the phrase when approval depends on a result.",
+      "example": "Acceptance is contingent on completion of the inspection."
+    }
+  },
+  {
+    "question": "Only after the vibration data had been reviewed _________ the engineers authorize the next test stage.",
+    "choices": ["had", "did", "were", "have"],
+    "answer": "did", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Authorize' means to give permission for an action.",
+      "grammar": "An initial 'only after' clause triggers inversion in the main clause.",
+      "usage": "'Did the engineers authorize' emphasizes that review came first.",
+      "example": "Only after the records were checked did the team release the drawing."
+    }
+  },
+  {
+    "question": "Were the test load _________ the specified limit, the comparison would no longer represent the intended operating conditions.",
+    "choices": ["exceeding", "exceeded", "to exceed", "exceeds"],
+    "answer": "to exceed", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Exceed' means to go beyond a stated limit.",
+      "grammar": "The inverted conditional uses 'were ... to' with a base verb.",
+      "usage": "This formal pattern describes a hypothetical condition.",
+      "example": "Were the pressure to increase, the model would require revision."
+    }
+  },
+  {
+    "question": "The revised fixture reduced movement during measurement, _________ improving the consistency of the readings.",
+    "choices": ["nevertheless", "otherwise", "instead", "thereby"],
+    "answer": "thereby", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Thereby' means 'by that means' or 'as a result of that action'.",
+      "grammar": "'Thereby' introduces an ing phrase describing a result.",
+      "usage": "Connect a design change directly to its stated effect.",
+      "example": "The guide limited lateral movement, thereby improving alignment."
+    }
+  },
+  {
+    "question": "The simulation supports the proposed design only _________ its assumptions accurately represent the intended loading conditions.",
+    "choices": ["insofar as", "regardless of", "even though", "in addition to"],
+    "answer": "insofar as", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Insofar as' means 'to the extent that'.",
+      "grammar": "The conjunction introduces the extent to which the statement holds.",
+      "usage": "Use it to limit a claim by its assumptions.",
+      "example": "The estimate is useful insofar as the input data are reliable."
+    }
+  },
+  {
+    "question": "The inspection documented the part's _________ with the dimensional requirements stated on the drawing.",
+    "choices": ["uniformity", "conformity", "formality", "familiarity"],
+    "answer": "conformity", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Conformity means meeting stated requirements.",
+      "grammar": "Use the noun phrase 'conformity with' requirements.",
+      "usage": "An inspection can document conformity with a drawing.",
+      "example": "The report confirms conformity with the specified dimensions."
+    }
+  },
+  {
+    "question": "The report recommends an inspection effort commensurate _________ the consequences of a component failure.",
+    "choices": ["from", "by", "with", "at"],
+    "answer": "with", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Commensurate with' means appropriately proportional to something.",
+      "grammar": "The adjective 'commensurate' takes 'with'.",
+      "usage": "Relate the extent of a review to the importance of its subject.",
+      "example": "The documentation effort should be commensurate with the design's complexity."
+    }
+  },
+  {
+    "question": "The clearance was too small to permit installation, so the interference would _________ use of that part in the assembly.",
+    "choices": ["facilitate", "permit", "enable", "preclude"],
+    "answer": "preclude", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Preclude' means to prevent or make something impossible.",
+      "grammar": "The modal 'would' takes a base verb.",
+      "usage": "Use 'preclude' for an obstacle that prevents the stated use.",
+      "example": "The dimensional mismatch precluded installation of the replacement."
+    }
+  },
+  {
+    "question": "The added supports did not eliminate vibration but did _________ its effect on the optical measurements.",
+    "choices": ["mitigate", "aggravate", "amplify", "intensify"],
+    "answer": "mitigate", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Mitigate' means to make an unwanted effect less severe.",
+      "grammar": "The emphatic auxiliary 'did' requires a base verb.",
+      "usage": "Mitigation can reduce an effect without eliminating it.",
+      "example": "The revised mounting arrangement mitigated the vibration problem."
+    }
+  },
+  {
+    "question": "The worn guide made positioning less accurate and therefore _________ the mechanism's performance.",
+    "choices": ["enhanced", "impaired", "restored", "optimized"],
+    "answer": "impaired", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "'Impair' means to weaken or reduce effectiveness.",
+      "grammar": "The coordinated past tense verbs describe related effects.",
+      "usage": "Wear can impair a mechanism's performance.",
+      "example": "The damaged support impaired positioning accuracy."
+    }
+  },
+  {
+    "question": "The design includes a second independent unit that can perform the same function if the first fails, providing functional _________.",
+    "choices": ["scarcity", "dependency", "redundancy", "obsolescence"],
+    "answer": "redundancy", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Redundancy provides additional means of performing a required function.",
+      "grammar": "The noun completes 'providing functional redundancy'.",
+      "usage": "Describe the duplicated function and its independence when discussing redundancy.",
+      "example": "The independent backup unit provides functional redundancy."
+    }
+  },
+  {
+    "question": "Either replacement insert fits and functions without modification, demonstrating the inserts' _________.",
+    "choices": ["indivisibility", "irreversibility", "incompatibility", "interchangeability"],
+    "answer": "interchangeability", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Interchangeability allows one component to replace another for the intended function.",
+      "grammar": "The possessive 'inserts'' introduces a noun naming their shared property.",
+      "usage": "Interchangeable parts can be substituted without the stated modification.",
+      "example": "The test confirmed the interchangeability of the two inserts."
+    }
+  },
+  {
+    "question": "Because its stiffness depends on the direction of measurement, the composite is described as _________.",
+    "choices": ["anisotropic", "isotropic", "directionless", "uniform in every direction"],
+    "answer": "anisotropic", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Anisotropic properties depend on direction.",
+      "grammar": "The adjective follows 'described as'.",
+      "usage": "Specify the property and direction when describing anisotropy.",
+      "example": "The composite showed anisotropic stiffness in the test."
+    }
+  },
+  {
+    "question": "In the simplified model, the material has the same elastic properties in every direction and is therefore treated as _________.",
+    "choices": ["anisotropic", "isotropic", "directionally variable", "orthotropic"],
+    "answer": "isotropic", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Isotropic properties are the same in all directions.",
+      "grammar": "An adjective follows 'treated as'.",
+      "usage": "A model can assume isotropic properties within its stated scope.",
+      "example": "The analysis treated the sample as isotropic."
+    }
+  },
+  {
+    "question": "The metal underwent substantial permanent deformation before fracture, demonstrating its _________.",
+    "choices": ["brittleness", "opacity", "ductility", "solubility"],
+    "answer": "ductility", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Ductility is the capacity for plastic deformation before fracture.",
+      "grammar": "A noun follows the possessive 'its'.",
+      "usage": "Distinguish ductility from brittle behavior with little plastic deformation.",
+      "example": "The tensile test provided evidence of the metal's ductility."
+    }
+  },
+  {
+    "question": "The specimen continued to deform gradually over time under a constant load, a behavior described as _________.",
+    "choices": ["reflection", "refraction", "condensation", "creep"],
+    "answer": "creep", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Creep is deformation that develops over time under sustained loading.",
+      "grammar": "'Described as' introduces the name of the behavior.",
+      "usage": "Discuss both time and loading conditions when reporting creep.",
+      "example": "The long duration test measured creep in the specimen."
+    }
+  },
+  {
+    "question": "The sensor gave different outputs at the same input depending on whether the input had been rising or falling, indicating _________.",
+    "choices": ["hysteresis", "homogeneity", "transparency", "equivalence"],
+    "answer": "hysteresis", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Hysteresis means that a response depends on the system's previous history.",
+      "grammar": "The final participle phrase identifies the indicated behavior.",
+      "usage": "Compare rising and falling input paths when discussing sensor hysteresis.",
+      "example": "The calibration plot showed hysteresis between the two paths."
+    }
+  },
+  {
+    "question": "In the axial test, force divided by the original cross section area was reported as engineering _________.",
+    "choices": ["strain", "stress", "displacement", "velocity"],
+    "answer": "stress", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Engineering axial stress is force divided by the original section area.",
+      "grammar": "'Engineering' modifies the noun naming the reported quantity.",
+      "usage": "Distinguish stress from the relative length change called strain.",
+      "example": "The report plotted engineering stress against engineering strain."
+    }
+  },
+  {
+    "question": "The change in specimen length divided by its original length was recorded as engineering _________.",
+    "choices": ["stress", "force", "strain", "power"],
+    "answer": "strain", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Engineering axial strain expresses length change relative to original length.",
+      "grammar": "The passive phrase introduces the name of the calculated quantity.",
+      "usage": "Strain is a ratio rather than a force.",
+      "example": "The instrument measured strain as the specimen elongated."
+    }
+  },
+  {
+    "question": "The vibration response became much larger near the system's natural frequency, a condition the report identified as _________.",
+    "choices": ["insulation", "equilibrium", "diffusion", "resonance"],
+    "answer": "resonance", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Resonance involves an enhanced response near a system's natural frequency.",
+      "grammar": "The final clause names the condition described earlier.",
+      "usage": "Use 'resonance' when discussing the frequency dependence of a response.",
+      "example": "The frequency sweep revealed a pronounced resonance."
+    }
+  },
+  {
+    "question": "The added device dissipated energy and reduced the persistence of oscillations, increasing the system's _________.",
+    "choices": ["damping", "amplification", "excitation", "magnification"],
+    "answer": "damping", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Damping dissipates energy associated with oscillatory motion.",
+      "grammar": "The possessive introduces a noun describing the system's behavior.",
+      "usage": "Damping can reduce the persistence of free oscillations.",
+      "example": "The modified support increased damping in the assembly."
+    }
+  },
+  {
+    "question": "The decrease in signal amplitude along the transmission path was described as _________ rather than amplification.",
+    "choices": ["accumulation", "attenuation", "acceleration", "activation"],
+    "answer": "attenuation", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Attenuation is a reduction in signal amplitude or power during transmission.",
+      "grammar": "The noun follows 'described as'.",
+      "usage": "Distinguish attenuation from amplification, which increases a signal.",
+      "example": "The test measured signal attenuation along the cable."
+    }
+  },
+  {
+    "question": "Before optimizing the design, the team conducted a _________ study to determine whether the proposed approach could be implemented.",
+    "choices": ["visibility", "credibility", "feasibility", "legibility"],
+    "answer": "feasibility", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "Feasibility concerns whether an approach is practicable.",
+      "grammar": "The noun 'feasibility' modifies 'study'.",
+      "usage": "A feasibility study examines whether a proposal can be carried out.",
+      "example": "The feasibility study considered available materials and manufacturing methods."
+    }
+  },
+  {
+    "question": "Increasing stiffness required additional material and increased mass, creating a design _________ between rigidity and weight.",
+    "choices": ["duplication", "equivalence", "elimination", "tradeoff"],
+    "answer": "tradeoff", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A tradeoff involves accepting a disadvantage to obtain an advantage.",
+      "grammar": "'Between' identifies the two competing design concerns.",
+      "usage": "State both sides when describing a design tradeoff.",
+      "example": "The designers evaluated the tradeoff between stiffness and mass."
+    }
+  },
+  {
+    "question": "The design was optimized subject _________ the requirement that its total mass remain below the specified limit.",
+    "choices": ["to", "of", "by", "from"],
+    "answer": "to", "difficulty": "advanced", "review": "eligible", "category": "engineering",
+    "explanation": {
+      "vocabulary": "A constraint is a condition that limits an acceptable design.",
+      "grammar": "Use 'subject to' to introduce a governing condition.",
+      "usage": "Optimization can be performed subject to stated constraints.",
+      "example": "The layout was optimized subject to the available space."
+    }
+  },
+  {
+    "question": "Repeating the same operation has the same intended effect on the resource as performing it once. The operation is _________.",
+    "choices": ["recursive", "idempotent", "concurrent", "stochastic"],
+    "answer": "idempotent", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "An idempotent operation has the same intended effect when repeated as when performed once.",
+      "grammar": "The adjective describes the operation after 'is'.",
+      "usage": "Idempotence concerns the effect rather than identical response messages.",
+      "example": "Setting a configuration value to the same value is idempotent."
+    }
+  },
+  {
+    "question": "The database transaction must apply all its changes or none of them, so it must be _________.",
+    "choices": ["approximate", "optional", "atomic", "decorative"],
+    "answer": "atomic", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "An atomic transaction applies its changes together or does not apply them.",
+      "grammar": "The adjective follows 'must be'.",
+      "usage": "Atomicity prevents a transaction from leaving only some of its changes applied.",
+      "example": "The atomic transaction updated both related records together."
+    }
+  },
+  {
+    "question": "The outcome depended incorrectly on the timing of competing accesses to shared data, revealing a _________.",
+    "choices": ["file extension", "display setting", "naming convention", "race condition"],
+    "answer": "race condition", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A race condition makes behavior depend improperly on the timing of competing operations.",
+      "grammar": "The noun phrase follows the article 'a'.",
+      "usage": "Discuss shared access and timing when describing a race condition.",
+      "example": "A race condition caused the counter to lose an update."
+    }
+  },
+  {
+    "question": "Each process held a resource while waiting indefinitely for a resource held by the other, resulting in _________.",
+    "choices": ["deadlock", "compression", "rendering", "replication"],
+    "answer": "deadlock", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Deadlock occurs when processes cannot proceed because they are waiting on each other.",
+      "grammar": "A noun follows the phrase 'resulting in'.",
+      "usage": "Describe the circular resource dependency when explaining a deadlock.",
+      "example": "The two processes remained blocked in a deadlock."
+    }
+  },
+  {
+    "question": "Although the other stages were fast, one slow processing stage limited the entire pipeline's throughput and became its _________.",
+    "choices": ["replica", "bottleneck", "checksum", "interface"],
+    "answer": "bottleneck", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A bottleneck is a stage that limits the overall rate of a process.",
+      "grammar": "The possessive 'its' refers to the pipeline.",
+      "usage": "Identify the limiting stage when describing a bottleneck.",
+      "example": "The storage device became the bottleneck during the transfer."
+    }
+  },
+  {
+    "question": "The evaluation examined whether additional computing resources would let the service handle a growing workload, assessing its _________.",
+    "choices": ["scalable", "scaling", "scalability", "scaled"],
+    "answer": "scalability", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Scalability concerns a system's ability to handle growth in workload or capacity.",
+      "grammar": "The possessive 'its' requires a noun here.",
+      "usage": "State the workload and resource changes used to assess scalability.",
+      "example": "The experiment assessed the service's scalability under increased demand."
+    }
+  },
+  {
+    "question": "For identical inputs and initial conditions, the algorithm always produces the same output, making its behavior _________.",
+    "choices": ["arbitrary", "random", "probabilistic", "deterministic"],
+    "answer": "deterministic", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Deterministic behavior is fixed by the specified inputs and initial conditions.",
+      "grammar": "The adjective describes 'behavior' after 'making'.",
+      "usage": "State the relevant initial conditions when describing determinism.",
+      "example": "The deterministic procedure returned the same result for the same input."
+    }
+  },
+  {
+    "question": "The simulation explicitly incorporates random events, so the report describes its model as _________.",
+    "choices": ["stochastic", "deterministic", "alphabetical", "grammatical"],
+    "answer": "stochastic", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A stochastic model includes randomness.",
+      "grammar": "An adjective follows 'describes ... as'.",
+      "usage": "Use 'stochastic' when random variables or events are part of a model.",
+      "example": "The stochastic simulation represents random variation in arrival times."
+    }
+  },
+  {
+    "question": "The program converts its structured data into a byte sequence for storage, a process called _________.",
+    "choices": ["ventilation", "serialization", "evaporation", "illumination"],
+    "answer": "serialization", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Serialization converts structured data into a representation for storage or transfer.",
+      "grammar": "The noun names the process after 'called'.",
+      "usage": "Specify the chosen format when discussing serialization.",
+      "example": "Serialization produced a file that another program could read."
+    }
+  },
+  {
+    "question": "Reconstructing structured data from its saved serialized representation is known as _________.",
+    "choices": ["deformation", "deposition", "deserialization", "displacement"],
+    "answer": "deserialization", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Deserialization reconstructs data from a serialized representation.",
+      "grammar": "The initial ing phrase acts as the subject of 'is known'.",
+      "usage": "Deserialization is the reverse process of serialization.",
+      "example": "The reader reconstructed the saved records through deserialization."
+    }
+  },
+  {
+    "question": "The archive records each dataset's origin and subsequent transformations so that its _________ can be traced.",
+    "choices": ["brightness", "bandwidth", "volatility", "provenance"],
+    "answer": "provenance", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Data provenance records where data came from and how it was produced or changed.",
+      "grammar": "The possessive 'its' introduces the history being traced.",
+      "usage": "Provenance helps readers examine the origin of a result.",
+      "example": "The metadata preserved the provenance of the processed dataset."
+    }
+  },
+  {
+    "question": "The review checked whether stored records remained complete and unaltered, focusing on data _________.",
+    "choices": ["integrity", "confidentiality", "availability", "portability"],
+    "answer": "integrity", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Data integrity concerns the completeness and correctness of data and protection against improper change.",
+      "grammar": "'Data' modifies the noun 'integrity'.",
+      "usage": "Distinguish integrity from confidentiality, which concerns unauthorized disclosure.",
+      "example": "The verification process checked the integrity of the transferred records."
+    }
+  },
+  {
+    "question": "The two independently developed systems can exchange data and correctly use what they receive, demonstrating _________.",
+    "choices": ["incompatibility", "interoperability", "indivisibility", "opacity"],
+    "answer": "interoperability", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Interoperability allows different systems to exchange and use information.",
+      "grammar": "The final participle phrase names the demonstrated capability.",
+      "usage": "Successful transfer alone does not show that the receiving system can use the data.",
+      "example": "The common format improved interoperability between the two applications."
+    }
+  },
+  {
+    "question": "The old interface remains supported, but its use is discouraged in favor of a replacement. The documentation marks it as _________.",
+    "choices": ["mandatory", "preferred", "deprecated", "required"],
+    "answer": "deprecated", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "A deprecated interface is discouraged even though it may still be available.",
+      "grammar": "The participle functions as an adjective after 'as'.",
+      "usage": "Deprecation does not necessarily mean immediate removal.",
+      "example": "The guide identifies the older command as deprecated."
+    }
+  },
+  {
+    "question": "The analyst _________ overwrote the configuration file while intending to save a separate copy.",
+    "choices": ["deliberately", "intentionally", "purposefully", "inadvertently"],
+    "answer": "inadvertently", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Inadvertently' means unintentionally or by mistake.",
+      "grammar": "The adverb modifies 'overwrote'.",
+      "usage": "The stated intention distinguishes an accidental action from a deliberate one.",
+      "example": "A temporary file was inadvertently included in the archive."
+    }
+  },
+  {
+    "question": "The tasks were active during overlapping periods, though not necessarily executing at the exact same instant, so they ran _________.",
+    "choices": ["concurrently", "sequentially", "consecutively", "serially"],
+    "answer": "concurrently", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Concurrent tasks make progress during overlapping periods.",
+      "grammar": "The adverb describes how the tasks ran.",
+      "usage": "Concurrency does not require execution at precisely the same instant.",
+      "example": "The application managed several concurrent transfers."
+    }
+  },
+  {
+    "question": "No sooner had the service resumed _________ the monitoring system detected another failed request.",
+    "choices": ["when", "than", "then", "that"],
+    "answer": "than", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Resume' means to begin operating again.",
+      "grammar": "The paired construction is 'no sooner ... than'.",
+      "usage": "The initial negative phrase also requires 'had the service' inversion.",
+      "example": "No sooner had the export finished than another job began."
+    }
+  },
+  {
+    "question": "The concurrency design requires that each worker _________ exclusive ownership of its assigned buffer until processing is complete.",
+    "choices": ["retains", "retained", "retain", "retaining"],
+    "answer": "retain", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "Exclusive ownership assigns control to one worker at a time.",
+      "grammar": "The mandative subjunctive after 'requires that' uses the base form despite 'each worker'.",
+      "usage": "The sentence states a requirement rather than describing a current action.",
+      "example": "The procedure requires that each process retain its own record."
+    }
+  },
+  {
+    "question": "The team introduced a mechanism _________ every configuration change could be traced to its recorded request.",
+    "choices": ["whereas", "whose", "wherever", "whereby"],
+    "answer": "whereby", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "'Whereby' means 'by which'.",
+      "grammar": "It introduces a relative clause explaining how the mechanism works.",
+      "usage": "Use 'whereby' to connect a method with what it enables.",
+      "example": "The archive provides a process whereby each revision can be reviewed."
+    }
+  },
+  {
+    "question": "The specification requires this property to hold before and after every permitted state transition, making it an _________.",
+    "choices": ["invariant", "exception", "approximation", "alternative"],
+    "answer": "invariant", "difficulty": "advanced", "review": "eligible", "category": "technology",
+    "explanation": {
+      "vocabulary": "An invariant is a property preserved across the relevant operations or state changes.",
+      "grammar": "The singular noun follows the article 'an'.",
+      "usage": "State the operations over which the property must remain true.",
+      "example": "The model preserves the invariant that every request has a unique identifier."
     }
   }
 ]
